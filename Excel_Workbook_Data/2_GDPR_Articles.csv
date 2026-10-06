@@ -1,0 +1,27 @@
+GDPR Art,Section,Requirement,ISAE Control(s),Status
+5,Principles,Principles relating to processing,All controls,FULLY COVERED
+6,Principles,Lawfulness of processing,"A.2, D.2, G.2",FULLY COVERED
+7,Principles,Conditions for consent,—,OUT OF SCOPE
+11,Principles,Processing without identification,B.10,PARTIALLY COVERED
+12,Rights,Transparent information,H.1,PARTIALLY COVERED
+15,Rights,Right of access by data subject,H.2,FULLY COVERED
+16,Rights,Right to rectification,H.2,FULLY COVERED
+17,Rights,Right to erasure (right to be forgotten),"D.3, H.2",FULLY COVERED
+18,Rights,Right to restriction of processing,H.2,FULLY COVERED
+19,Rights,Notification obligation,H.2,PARTIALLY COVERED
+20,Rights,Right to data portability,H.2,FULLY COVERED
+24,Controller & Processor,Responsibility of the controller,All controls,FULLY COVERED
+25,Controller & Processor,Data protection by design and by default,"B.2-B.14, C.1",FULLY COVERED
+28,Controller & Processor,Data processor,A.1-I.4,FULLY COVERED
+29,Controller & Processor,Processing under authority,"C.4, C.6",FULLY COVERED
+30,Controller & Processor,Records of processing activities,Multiple,FULLY COVERED
+31,Controller & Processor,Cooperation with supervisory authority,—,GAP
+32,Controller & Processor,Security of processing,"B.1-B.15, C, E, F, I",FULLY COVERED
+33,Controller & Processor,Notification of breach to authority,I.1-I.4,FULLY COVERED
+34,Controller & Processor,Communication of breach to subject,"I.1, I.4",FULLY COVERED
+35,Controller & Processor,Data protection impact assessment,B.2,FULLY COVERED
+36,Controller & Processor,Prior consultation,—,GAP
+44,Transfers,General principle for transfers,G.1-G.3,FULLY COVERED
+45,Transfers,Adequacy decision,G.3,FULLY COVERED
+46,Transfers,Appropriate safeguards,G.3,FULLY COVERED
+49,Transfers,Derogations for specific situations,G.3,FULLY COVERED

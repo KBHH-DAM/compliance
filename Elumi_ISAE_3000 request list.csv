@@ -1,0 +1,307 @@
+"Data & More request list 
+ISAE 3000 Type 1 report with reasonable assurance",,,,,
+99 documents requested,,0 uploaded,,Completion: 0%,
+Select a status for each document. Use the comments column for an upload reference or to explain 'N/A'.,,,,,
+Control no.,Control activity,Evidence objective,Document to upload,Upload status,Upload reference / comments
+A – Controller instructions,,,,,
+A.1,"Written procedures exist which include a requirement
+that personal data must only be processed when
+instructions to this effect are available.
+Assessments are made on a regular basis - and at
+least once a year - as to whether the procedures
+should be updated.","Processing starts only on documented controller instructions, and the procedure is up to date.",Current procedure for processing under controller instructions.,Pending,
+,,,"Current system description or processing overview, with changes since the last review identified where available.",Pending,
+,,,Annual compliance calendar or dated record of the latest procedure review.,Pending,
+A.2,"The data processor only processes personal data
+stated in the instructions from the data controller.",Processing activities are performed in accordance with the applicable data processing agreement and documented controller instructions.,Current register or overview of processing activities from which the sample can be selected.,Pending,
+,,,"For three selected processing activities, the applicable data processing agreements and controller instructions, together with redacted processing records or tickets showing how the instructions were followed.",Pending,
+A.3,"The data processor immediately informs the data
+controller if an instruction, in the data processor’s
+opinion, infringes the Regulation or other
+European Union or member state data protection
+provisions.",Potentially unlawful instructions are assessed and reported to the controller.,Procedure for assessing and escalating instructions that may breach data protection law.,Pending,
+,,,"Case record and dated controller notification, if any; otherwise confirmation that no such cases occurred.",Pending,
+B – Technical and physical security measures,,,,,
+B.1,"Written procedures exist which include a requirement
+that safeguards agreed are established for the
+processing of personal data in accordance with the
+agreement with the data controller.
+Assessments are made on a regular basis - and at
+least once a year.",Technical and organisational measures agreed with controllers are implemented and kept under review.,Procedure for implementing agreed measures and evidence of its latest review.,Pending,
+,,,Current register of data processing agreements from which the sample can be selected.,Pending,
+,,,"For three selected agreements, the agreed security measures and evidence of their implementation.",Pending,
+B.2,"The data processor has performed a risk
+assessment and, based on this, implemented the
+technical measures considered relevant to achieve
+an appropriate level of security, including
+establishment of the safeguards agreed with the
+data controller.","Current risks determine technical safeguards, including safeguards agreed with controllers.",Information security policy or procedure requiring risk assessment.,Pending,
+,,,"Latest dated risk assessment, including review and management approval.",Pending,
+,,,Relevant data processing agreement or security annex and evidence that the corresponding technical and organisational measures are implemented.,Pending,
+B.3,"For the systems and databases used in the
+processing of personal data, antivirus software
+has been installed that is updated on a regular
+basis.",Relevant systems have antivirus protection that receives updates.,Inventory of relevant systems and dated antivirus or endpoint protection report showing coverage and update status.,Pending,
+B.4,"External access to systems and databases used in
+the processing of personal data takes place through
+a secured firewall.",External access to relevant systems passes through a secured firewall.,Network diagram identifying external access routes and firewall placement.,Pending,
+,,,Current firewall configuration or rules export and the applicable configuration standard.,Pending,
+B.5,"Internal networks have been segmented to ensure
+restricted access to systems and databases used
+in the processing of personal data.",Network segmentation restricts connections to relevant systems.,Network segmentation diagram and overview of permitted connections.,Pending,
+,,,"Current VLAN, firewall or access-control configuration for the relevant segments.",Pending,
+B.6,"Access to personal data is isolated to users with a
+work-related need for such access.",Access to personal data is approved and limited to work-related needs.,"Access control procedure, including authorisation and periodic review.",Pending,
+,,,Current export of users and assigned rights from relevant systems.,Pending,
+,,,Sample access approval and the latest review of assigned rights.,Pending,
+B.7,"For the systems and databases used in the
+processing of personal data, system monitoring has
+been established with an alarm features.",Relevant systems generate security alerts that are investigated and escalated to controllers where appropriate.,Monitoring configuration and alert overview for relevant systems.,Pending,
+,,,"Investigation and follow-up records for three selected alerts, including dated controller notifications where applicable.",Pending,
+B.8,"Effective encryption is applied when transmitting
+confidential and sensitive personal data through
+the internet or by email.",Internet and email transfers of sensitive or confidential data use approved encryption.,Procedure or user guidance for encrypted transfers.,Pending,
+,,,Dated configuration or screenshots of the secure channels and a redacted transfer example.,Pending,
+,,,"Overview of any unencrypted transfers and controller notifications, or confirmation that none occurred.",Pending,
+B.9,"Logging of the following matters has been
+established in systems, databases and networks:
+• Activities performed by system administrators and
+others holding special rights;
+• Security incidents comprising:
+    o Changes in log setups, including disabling
+        of logging;
+     o Changes in users’ system rights;
+     o Failed attempts to log on to systems, databases
+         or networks;
+     o And other relevant logging.","Required user and security events are logged, and logs are protected.","Logging standard covering privileged activity, changes to logging and rights, and failed logins.",Pending,
+,,,Current logging configuration and representative redacted log extracts.,Pending,
+,,,Settings or documentation showing protection and retention of logs.,Pending,
+B.10,"Personal data used for development, testing or
+similar activity are always in pseudonymized or
+anonymized form. Such use only takes place to
+accomplish the data controller's purpose according to
+agreement and on the data controller’s behalf.","Personal data used in development and test environments are anonymised or pseudonymised, unless identifiable data are used under a documented controller agreement.","Procedure for use of personal data in development and testing, and an inventory of relevant development and test databases.",Pending,
+,,,"For three selected databases containing personal data in anonymised or pseudonymised form, redacted data extracts or configuration evidence showing the measure in operation.",Pending,
+,,,"If identifiable personal data are used, for three selected databases in that category, the relevant controller agreements or instructions and evidence of the approved use; otherwise confirm that no such databases exist.",Pending,
+B.11,"The technical measures established are tested on
+a regular basis in vulnerability scans and
+penetration tests.","Technical measures are tested regularly through vulnerability scanning and penetration testing, and identified weaknesses are addressed.","Testing schedule and latest vulnerability scan and penetration test reports, showing scope, date and whether testing was performed internally or by an external provider.",Pending,
+,,,"Finding tracker and one recent remediation or risk acceptance record, with controller communication if relevant.",Pending,
+B.12,"Changes to systems, databases or networks are
+made consistently with procedures established that
+ensure maintenance using relevant updates and
+patches, including security patches.",System changes and security patches are controlled and deployed.,Change and patch management procedure.,Pending,
+,,,Current patch-status report and selected approved change or deployment tickets.,Pending,
+B.13,"A formalized procedure is in place for granting and
+removing users’ access to personal data. Users’
+access is reconsidered on a regular basis,
+including the continued justification of rights by a
+work-related need.","User access is authorised, justified by business need, removed on departure and reviewed regularly.",Access management procedure and current user access listing for relevant systems.,Pending,
+,,,"For three selected employees, their access requests or approvals, assigned privileges and documented business need.",Pending,
+,,,Latest periodic access review and records of resulting changes; provide a deactivation record if a relevant departure of an employee occurred.,Pending,
+B.14,"Systems and databases processing personal data
+that involve a high risk for the data subjects are
+accessed as a minimum by using two-factor
+authentication.",Two-factor authentication is required and active for high-risk processing.,Procedure or risk assessment identifying the systems and accounts requiring two-factor authentication.,Pending,
+,,,Dated system settings or screenshots showing enforcement; VPN guidance if it is a relevant access route.,Pending,
+B.15,"Physical access safeguards have been
+established so as to only permit physical access
+by authorised persons to premises and data
+centres at which personal data are stored and
+processed.",Only authorised persons can access locations where personal data are handled.,"Physical access and badge or key procedure, including issue and deactivation.",Pending,
+,,,"Current list of authorised persons and latest access review, plus a selected access record.",Pending,
+,,,Equivalent physical access control report where a provider manages the location.,Pending,
+C – Organisational measures,,,,,
+C.1,"Management of the data processor has approved
+a written information security policy that has been
+communicated to all relevant stakeholders,
+including the data processor’s employees. The information
+security policy is based on the risk assessment
+performed.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the information security
+policy should be updated.","Management has approved and reviewed the information security policy within the past year, and relevant employees have access to it.",Current information security policy and dated management approval or review.,Pending,
+,,,Dated intranet screenshot or distribution record showing availability to relevant staff.,Pending,
+C.2,"Management of the data processor has checked
+that the information security policy does not
+conflict with data processing agreements entered
+into.",The information security policy covers security commitments made in data processing agreements.,Management’s documented assessment or mapping between the information security policy and contractual security requirements.,Pending,
+,,,"For three selected data processing agreements, the relevant security clauses or annexes and evidence that the policy addresses them, including actions taken to resolve any gaps.",Pending,
+C.3,"The employees of the data processor are
+screened as part of the employment process.
+Such screening comprises, as relevant:
+• References from former employers;
+• Certificates of criminal record;
+• Diplomas.",Pre-employment screening follows the documented procedure and any applicable screening requirements in data processing agreements.,"Employee screening procedure and an overview of data processing agreements with screening requirements; for three selected agreements, identify the requirements and where the procedure addresses them.",Pending,
+,,,"List of employees appointed and, for three selected new hires, redacted screening checklists or approvals showing the date and outcome of applicable checks, such as references, criminal record checks and qualifications. If fewer than three were appointed, provide evidence for all and state the number.",Pending,
+C.4,"Upon appointment, employees sign a
+confidentiality agreement. In addition, the
+employees are introduced to the information
+security policy and procedures for data processing
+as well as any other relevant information regarding
+the employees’ processing of personal data.",New employees sign confidentiality agreements and receive an introduction to the information security policy and relevant processing procedures.,Onboarding or induction procedure and list of employees appointed; the list supplied under C.3 may be reused.,Pending,
+,,,"For three selected new hires, signed confidentiality agreements and dated induction records covering the information security policy and relevant processing procedures. The same hires may be used for C.3; if fewer than three were appointed, provide evidence for all and state the number.",Pending,
+C.5,"For resignations or dismissals, the data processor
+has implemented a process to ensure that users’
+rights are deactivated or terminated, including that
+assets are returned.",Employees who leave lose access and return assets promptly.,Offboarding procedure and list of relevant employees who left.,Pending,
+,,,"Recent completed offboarding checklist, access deactivation ticket and asset return confirmation, if applicable.",Pending,
+C.6,"Upon resignation or dismissal, employees are
+informed that the confidentiality agreement signed
+remains valid and that they are subject to a
+general duty of confidentiality in relation to the
+processing of personal data performed by the data
+processor for the data controllers.",Departing staff are reminded that confidentiality continues after departure.,Standard departure notice or offboarding instruction on continuing confidentiality.,Pending,
+,,,"For a relevant employee who recently left the organisation, signed confidentiality agreement and dated reminder or acknowledgement, if any.",Pending,
+C.7,"Awareness training is provided to the data
+processor’s employees on a regular basis with
+respect to general IT security and security of
+processing related to personal data.",Staff handling personal data receive security awareness training.,"Latest training material and date, including protection of personal data.",Pending,
+,,,Attendance or completion overview for relevant staff and follow-up on any missing training.,Pending,
+D – Return and deletion of personal data,,,,,
+D.1,"Written procedures exist which include a
+requirement that personal data must be stored and
+deleted in accordance with the agreement with the
+data controller.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.","Storage and deletion follow controller instructions, and the procedure is reviewed.",Current storage and deletion procedure.,Pending,
+,,,Dated record of the latest procedure review and any updates.,Pending,
+D.2,"The following specific requirements have been
+agreed with respect to the data processor’s
+storage periods and deletion routines:
+• Any specific agreement",Retention periods and deletion routines are defined and followed for the relevant processing activities.,"Applicable controller instructions or data processing agreements, retention schedule and deletion procedure; where no retention period was agreed, the documented basis.",Pending,
+,,,"For two selected processing activities, records or system settings showing that personal data are retained.",Pending,
+,,,"For two selected processing activities, deletion logs, tickets or equivalent records showing that the agreed deletion routine was completed; if fewer are available, provide all and state the number.",Pending,
+D.3,"Upon termination of the processing of personal
+data for the data controller, data have, in
+accordance with the agreement with the data
+controller, been:
+• Returned to the data controller; and/or
+• Deleted if this is not in conflict with other
+legislation.",Data are returned or deleted as instructed when processing ends.,"Termination procedure covering return, deletion and any lawful retention.",Pending,
+,,,"Most recent terminated controller arrangement, related instructions and return receipt, deletion record or record of lawful retention.",Pending,
+,,,"If no arrangement ended, confirmation of this.",Pending,
+E – Storage and processing locations,,,,,
+E.1,"Written procedures exist which include a
+requirement that personal data must only be
+stored in accordance with the agreement with the
+data controller.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.",Personal data are stored and processed in accordance with the applicable data processing agreements.,"Current storage and processing procedure, evidence of its latest review and an overview of processing activities.",Pending,
+,,,"For three selected processing activities, the relevant data processing agreements and records or system configuration demonstrating that storage and processing follow the agreed terms.",Pending,
+E.2,"Data processing and storage by the data
+processor must only take place in the locations,
+countries or regions approved by the data
+controller.",Actual processing and storage locations correspond to the locations approved by the controllers.,"Current processing-activity register or location inventory identifying sites, countries, cloud regions and relevant service providers.",Pending,
+,,,"For three selected processing activities, the applicable data processing agreements or controller approvals and dated configuration or data-flow evidence showing the actual processing and storage locations.",Pending,
+F – Use of sub-processors,,,,,
+F.1,"Written procedures exist which include
+requirements for the data processor when using
+sub-data processors, including requirements for
+sub-data processing agreements and instructions.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.",Engaging and instructing sub-processors follows a current procedure.,Procedure for appointing sub-processors and concluding their data processing agreements.,Pending,
+,,,Dated record of the latest procedure review.,Pending,
+F.2,"The data processor only uses sub-data processors
+to process personal data that have been
+specifically or generally approved by the data
+controller.",Sub-processors used in practice are listed and authorised by the relevant controllers.,Current sub-processor register identifying the service provided and the affected controllers.,Pending,
+,,,"For two selected sub-processors, the relevant data processing agreements or written controller approvals evidencing authorisation for their processing.",Pending,
+F.3,"When changing the generally approved sub-data
+processors used, the data controller is informed in
+time to enable such controller to raise objections
+and/or withdraw personal data from the data
+processor. When changing the specially approved
+sub-data processors used, this has been approved
+by the data controller.",Controllers are notified or asked to approve sub-processor changes as agreed.,Procedure and log of sub-processor additions or replacements.,Pending,
+,,,"Dated controller notices, objections and resolutions, or specific approvals for selected changes; if none occurred, confirmation of this.",Pending,
+F.4,"The data processor has subjected the sub-data
+processor to the same data protection obligations
+as those provided in the data processing
+agreement or similar document with the data
+controller.",Signed sub-processor agreements pass on the relevant data protection obligations agreed with controllers.,"Current sub-processor register and, for three selected sub-processors, their signed data processing agreements.",Pending,
+,,,"For those three agreements, a comparison or mapping to the corresponding controller agreements demonstrating that applicable obligations have been passed on.",Pending,
+F.5,"The data processor has a list of approved sub-data processors disclosing:
+• Name;
+• Business Registration No.;
+• Address;
+• Description of the processing",The approved sub-processor register contains the required identifying details.,"The register supplied under F.2, including name, business registration number, address, processing description and approval status.",Pending,
+F.6,"Based on an updated risk assessment of each
+sub-data processor and the activity taking place at
+such processor, the data processor regularly
+follows up on this through meetings, inspections,
+reviews of auditor's reports or similar activity. The
+data controller is informed of the follow-up performed at the sub-data processor.","Sub-processors are risk assessed, monitored and followed up on.",Current risk assessments for the sub-processors and their processing.,Pending,
+,,,"Latest relevant ISAE, SOC 2 or equivalent assurance reports and records of your review, or evidence of other documented monitoring such as review meetings or inspections.",Pending,
+,,,"Findings and follow-up records, including information given to affected controllers where relevant.",Pending,
+G – Transfers to third countries,,,,,
+G.1,"Written procedures exist which include a
+requirement that the data processor must only
+transfer personal data to third countries or
+international organizations in accordance with the
+agreement with the data controller by using a valid
+basis of transfer.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.",Third-country transfers require controller instructions and an assessed transfer basis.,Current third-country transfer procedure and dated record of its latest review.,Pending,
+G.2,"The data processor must only transfer personal
+data to third countries or international
+organizations according to instructions by the data
+controller.",Transfers to third countries or international organisations follow documented controller instructions or approvals.,"Current register of third-country transfers identifying recipients, destinations and affected controllers; if no transfers occurred, confirm this in writing.",Pending,
+,,,"For three selected transfers, the relevant data processing agreements or subsequent controller approvals and transfer records. The same transfers and documents may be used under G.3; if fewer than three occurred, provide all and state the number.",Pending,
+G.3,"As part of the transfer of personal data to third
+countries or international organizations, the data
+processor assessed and documented the
+existence of a valid basis of transfer.",Each relevant third-country transfer has an appropriate documented transfer mechanism and agreed controller basis.,"For the three transfers selected under G.2, the applicable transfer mechanism and supporting assessment or supplementary safeguards, where required; if fewer than three occurred, provide all available cases.",Pending,
+,,,"Procedure or review record for assessing transfer mechanisms, if not already supplied under G.1.",Pending,
+H – Assistance with data subject rights,,,,,
+H.1,"Written procedures exist which include a
+requirement that the data processor must assist
+the data controller in relation to the rights of data
+subjects.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.",A current procedure governs assistance with data-subject rights.,Procedure for receiving and assisting with data-subject rights requests and its latest review.,Pending,
+H.2,"The data processor has established procedures in
+so far as this was agreed that enable timely
+assistance to the data controller in handing out,
+correcting, deleting or restricting or providing
+information about the processing of personal data
+to data subjects.",Agreed assistance can be performed in systems and provided on time.,"Work instructions covering access, rectification, deletion, restriction and information requests.",Pending,
+,,,System documentation or a redacted demonstration of relevant functions.,Pending,
+,,,"Request log and one completed controller-assistance case, if any; otherwise confirmation of no cases.",Pending,
+I – Personal data breach management,,,,,
+I.1,"Written procedures exist which include a
+requirement that the data processor must inform
+the data controllers in the event of any personal
+data breaches.
+Assessments are made on a regular basis - and
+at least once a year - as to whether the
+procedures should be updated.",Breaches are assessed and reported to affected controllers under a current procedure.,Breach-response and controller-notification procedure.,Pending,
+,,,Dated record of the latest review and approval.,Pending,
+I.2,"The data processor has established the following
+controls to identify any personal data breaches:
+• Awareness of employees;
+• Monitoring of network traffic;
+• Follow-up on logging of access to personal
+data.","Staff, network monitoring and access-log review help identify potential breaches.","Latest awareness material on breach recognition, which may be reused from C.7.",Pending,
+,,,"Network alert settings and access-log review procedure, with a recent redacted investigation example.",Pending,
+I.3,"If any personal data breach occurred, the data
+processor informed the data controller without
+undue delay and no later than 24 hours after
+having become aware of such personal data
+breach at the data processor or a sub-data
+processor.","Personal data breaches, including those identified by sub-processors, are recorded and notified to affected controllers without undue delay and no later than 24 hours after awareness.","Incident and breach register, including an explanation of the export scope or filters.",Pending,
+,,,"For an actual breach, case file showing awareness time, sub-processor notice if relevant and dated controller notification; if no breaches occurred, confirmation of this.",Pending,
+I.4,"The data processor has established procedures
+for assisting the data controller in filing reports with
+the Danish Data Protection Agency:
+• Nature of the personal data breach;
+• Probable consequences of the personal data
+breach;
+• Measures taken or proposed to be taken to
+respond to the personal data breach.",The processor can support controller notifications to the Danish Data Protection Agency.,"Breach-response procedure or reporting template covering nature, likely consequences and measures taken or proposed.",Pending,
+,,,"For a relevant breach, the information provided to the controller and response records; otherwise the procedure alone.",Pending,

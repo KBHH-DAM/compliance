@@ -1,0 +1,91 @@
+ISAE 3000 - GDPR COMPLIANCE IMPLEMENTATION WORKBOOK
+Created: 2026-10-02
+
+=== SUMMARY ===
+Total GDPR Requirements,42
+Total ISAE Controls,45
+Fully Covered,24 (57%)
+Partially Covered,6 (14%)
+Total Coverage,71%
+Critical Gaps,5 articles
+
+=== GDPR ARTICLES TO ISAE CONTROLS ===
+GDPR Article,Section,Requirement,ISAE Control(s),Status
+5,Principles,Principles relating to processing,All controls,FULLY COVERED
+6,Principles,Lawfulness of processing,"A.2, D.2, G.2",FULLY COVERED
+25,Controller,Data protection by design,"B.2-B.14, C.1",FULLY COVERED
+28,Controller,Data processor,A.1-I.4,FULLY COVERED
+30,Controller,Records of processing activities,Multiple,FULLY COVERED
+31,Controller,Cooperation with authority,—,GAP
+32,Controller,Security of processing,"B.1-B.15, C, E, F, I",FULLY COVERED
+33,Controller,Breach notification,I.1-I.4,FULLY COVERED
+35,Controller,Data protection impact assessment,B.2,FULLY COVERED
+36,Controller,Prior consultation,—,GAP
+44,Transfers,General principle,G.1-G.3,FULLY COVERED
+45,Transfers,Adequacy decision,G.3,FULLY COVERED
+15,Rights,Right of access,H.2,FULLY COVERED
+17,Rights,Right to erasure,"D.3, H.2",FULLY COVERED
+
+=== ISAE CONTROLS TO GDPR ARTICLES ===
+Control,Title,Primary GDPR Articles
+A.1,Processing Instructions Review,"Art 28, Art 5, Art 30"
+A.2,Compliance with Processing Agreements,"Art 28, Art 5, Art 6"
+A.3,Reporting Unlawful Instructions,"Art 28, Art 32, Art 33"
+B.1,Safeguards Implementation & Review,"Art 32, Art 28, Art 5"
+B.2,Risk Assessment & Technical Measures,"Art 32, Art 35"
+B.6,Access Control for Personal Data,"Art 32, Art 28, Art 5"
+B.7,System Monitoring & Alerts,"Art 32, Art 33, Art 28, Art 30"
+B.9,Logging User & Security Events,"Art 32, Art 33, Art 30"
+C.1,Info Security Policy & Approval,"Art 32, Art 25, Art 28, Art 30"
+C.3,Employee Screening,"Art 28, Art 5, Art 32"
+D.1,Storage & Deletion Procedures,"Art 5, Art 17, Art 28, Art 30"
+D.3,Return/Deletion on Termination,"Art 17, Art 28, Art 5"
+F.1,Sub-Processor Appointment,"Art 28, Art 30, Art 5"
+G.1,Third-Country Transfer Procedure,"Art 44, Art 45-49, Art 28"
+H.1,Data Subject Rights Procedure,"Art 12-23, Art 28, Art 5"
+H.2,Capability for All Rights,"Art 15-21, Art 28"
+I.1,Breach Notification Procedure,"Art 33, Art 34, Art 28, Art 30"
+I.3,24-Hour Notification,"Art 33, Art 28, Art 5"
+
+=== COVERAGE BY GDPR SECTION ===
+GDPR Section,Total,Fully Covered,Partially Covered,Coverage %
+Controller & Processor,16,9,2,69%
+Data Subject Rights,12,5,2,58%
+Principles,7,2,5,29%
+Transfers,6,4,1,83%
+Penalties,1,0,0,0%
+TOTAL,42,24,6,71%
+
+=== CRITICAL GAPS (5 Articles) ===
+GDPR Article,Requirement,Priority,Should Add To,What Is Needed
+Art 31,Cooperation with Authority,P1,I.1/I.4,Authority request response procedure
+Art 36,Prior Consultation,P1,B.2,DPIA consultation process
+Art 12,Transparent Information,P1,H.1,Accessibility and clarity requirements
+Art 19,Notification Obligation,P1,H.2,Recipient notification procedure
+Art 48,Unlawful Transfers,P1,A.3,Refuse unlawful requests procedure
+
+=== DOCUMENT UPLOAD REQUIREMENTS ===
+Control,Document,GDPR Reference
+A.1,Processing procedure,Art 28(3)(a)
+A.1,System description,Art 30
+B.1,Safeguards procedure,Art 32
+B.2,Risk assessment,Art 35
+B.7,Monitoring configuration,Art 32
+B.9,Logging policy,Art 32
+C.1,Security policy,Art 32
+D.1,Deletion procedure,Art 5
+F.1,Sub-processor procedure,Art 28
+G.1,Transfer procedure,Art 44
+H.1,Rights procedure,Art 28
+I.1,Breach procedure,Art 33
+
+=== IMPLEMENTATION CHECKLIST ===
+Action,Priority,Status,Due Date,Owner
+Add Art 31 to I.1/I.4,P1,Pending,,
+Add Art 36 to B.2,P1,Pending,,
+Enhance Art 12 in H.1,P1,Pending,,
+Enhance Art 19 in H.2,P1,Pending,,
+Add Art 48 to A.3,P1,Pending,,
+Tag controls in cyberday,P3,Pending,,
+Upload evidence,P3,Pending,,
+Prepare audit package,P3,Pending,,

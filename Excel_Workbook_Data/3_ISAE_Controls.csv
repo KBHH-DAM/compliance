@@ -1,0 +1,32 @@
+Control,Title,Primary GDPR Articles,Status
+A.1,Processing Instructions & Procedure Review,"Art 28(3)(a), Art 5, Art 30",FULLY COVERED
+A.2,Compliance with Processing Agreements,"Art 28(1), Art 5, Art 6",FULLY COVERED
+A.3,Reporting Unlawful Instructions,"Art 28, Art 32, Art 33",FULLY COVERED
+B.1,Safeguards Implementation & Review,"Art 32, Art 28(3)(c), Art 5",FULLY COVERED
+B.2,Risk Assessment & Technical Measures,"Art 32, Art 35",FULLY COVERED
+B.3,Antivirus Protection & Updates,"Art 32(1)(a), Art 28",FULLY COVERED
+B.6,Access Control for Personal Data,"Art 32(1)(b), Art 28, Art 5",FULLY COVERED
+B.7,System Monitoring & Alerts,"Art 32, Art 33, Art 28, Art 30",FULLY COVERED
+B.9,Logging User & Security Events,"Art 32(1)(g), Art 33, Art 30",FULLY COVERED
+B.11,Vulnerability Scans & Penetration Testing,"Art 32(1)(g), Art 25, Art 28",FULLY COVERED
+B.13,User Access Management & Review,"Art 32(1)(b), Art 28, Art 5",FULLY COVERED
+C.1,Information Security Policy & Approval,"Art 32(2), Art 25, Art 28, Art 30",FULLY COVERED
+C.3,Employee Screening,"Art 28(3)(c), Art 5, Art 32(1)",FULLY COVERED
+C.4,Confidentiality & Induction,"Art 28, Art 29, Art 5, Art 32",FULLY COVERED
+C.7,Security Awareness Training,"Art 32, Art 28, Art 5",FULLY COVERED
+D.1,Storage & Deletion Procedures,"Art 5(1)(e), Art 17(3), Art 28, Art 30",FULLY COVERED
+D.2,Retention & Deletion Routines,"Art 5(1)(e), Art 17(3), Art 28, Art 6",FULLY COVERED
+D.3,Return or Deletion on Termination,"Art 17, Art 28(3)(g), Art 5(1)(e)",FULLY COVERED
+E.1,Storage & Processing Procedure,"Art 28(3)(c), Art 5(1)(a), Art 30, Art 32",FULLY COVERED
+E.2,Locations Match Approvals,"Art 28(3)(c), Art 5, Art 44-49",FULLY COVERED
+F.1,Sub-Processor Appointment Procedure,"Art 28(2), Art 30, Art 5(2)(a)",FULLY COVERED
+F.2,Sub-Processor Authorization Register,"Art 28(2), Art 30, Art 5(2)(a)",FULLY COVERED
+F.4,Data Protection Obligations Pass-Through,"Art 28(4), Art 82, Art 30",FULLY COVERED
+F.6,Sub-Processor Risk Assessment,"Art 28(1), Art 5(2)(a), Art 32, Art 30",FULLY COVERED
+G.1,Third-Country Transfer Procedure,"Art 44, Art 45-49, Art 28(1), Art 5",FULLY COVERED
+G.2,Transfers Follow Instructions,"Art 44, Art 28(1), Art 5(2)(a)",FULLY COVERED
+G.3,Transfer Mechanism & Assessment,"Art 45, Art 46, Art 49, Art 32, Art 30",FULLY COVERED
+H.1,Data Subject Rights Procedure,"Art 12-23, Art 28(3)(e), Art 5",FULLY COVERED
+H.2,Capability for All Agreed Rights,"Art 15-21, Art 28(3)(e)",FULLY COVERED
+I.1,Breach Notification Procedure,"Art 33, Art 34, Art 28(3)(f), Art 30",FULLY COVERED
+I.3,24-Hour Notification,"Art 33, Art 28(3)(f), Art 5(2)(a)",FULLY COVERED

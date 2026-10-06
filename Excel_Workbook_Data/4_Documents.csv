@@ -1,0 +1,16 @@
+Control,Control Name,Document to Upload,GDPR Reference,Type
+A.1,Processing Instructions,Current procedure for processing,Art 28(3)(a),Procedure
+A.1,Processing Instructions,System description with changes,Art 30,Documentation
+B.1,Safeguards,Implementation procedure & review evidence,Art 32,Procedure
+B.2,Risk Assessment,Latest dated risk assessment,Art 35,Report
+B.7,Monitoring,Monitoring configuration & alert overview,Art 32,Configuration
+B.9,Logging,Logging standard and configuration,Art 32,Policy
+B.11,Testing,Vulnerability scan & penetration test reports,Art 32,Report
+C.1,Policy,Current information security policy with approval,Art 32,Policy
+C.3,Screening,Screening procedure and employee records,Art 28,Procedure
+D.1,Deletion,Storage and deletion procedure,Art 5,Procedure
+F.1,Sub-Processor,Sub-processor appointment procedure,Art 28,Procedure
+F.2,Sub-Processor,Current sub-processor register,Art 28,Register
+G.1,Transfer,Third-country transfer procedure,Art 44,Procedure
+H.1,Rights,Data subject rights assistance procedure,Art 28,Procedure
+I.1,Breach,Breach notification procedure,Art 33,Procedure
