@@ -390,7 +390,8 @@ entry, so clause 6.1.3(d) is satisfied for the *mapping* basis.
 | Alignment | Count | Controls |
 |---|---|---|
 | **HIGH** | 9 | A.5.14 Information transfer; A.5.37 Documented operating procedures; A.6.8 Information security event reporting; A.8.2 Privileged access rights; A.8.3 Information access restriction; A.8.11 Data masking; A.8.15 Logging; A.8.29 Security testing in development and acceptance; A.8.33 Test information |
-| **MEDIUM** | 11 | A.5.8 Information security in project management; A.5.28 Collection of evidence; A.5.35 Independent review of information security; A.5.36 Compliance with policies, rules and standards; A.7.8 Equipment siting and protection; A.7.9 Security of assets off-premises; A.8.4 Access to source code; A.8.12 Data leakage prevention; A.8.13 Information backup; A.8.30 Outsourced development; A.8.34 Protection of information systems during audit testing |
+| **MEDIUM** | 10 | A.5.8 Information security in project management; A.5.28 Collection of evidence; A.5.35 Independent review of information security; A.5.36 Compliance with policies, rules and standards; A.7.8 Equipment siting and protection; A.7.9 Security of assets off-premises; A.8.4 Access to source code; A.8.12 Data leakage prevention; A.8.13 Information backup; A.8.34 Protection of information systems during audit testing |
+| **EXCLUDED** | 1 | A.8.30 Outsourced development — see §12 |
 | **LOW / NOT COVERED** | 2 | A.7.7 Clear desk and clear screen; A.8.17 Clock synchronisation |
 
 ### Revised coverage (all 93 assessed)
@@ -400,11 +401,15 @@ entry, so clause 6.1.3(d) is satisfied for the *mapping* basis.
 | A.5 — Organisational | 37 | 22 | 10 | 5 |
 | A.6 — People | 8 | 6 | 1 | 1 |
 | A.7 — Physical | 14 | 4 | 8 | 2 |
-| A.8 — Technological | 34 | 17 | 14 | 3 |
-| **TOTAL** | **93** | **49** | **33** | **11** |
+| A.8 — Technological | 34 | 17 | 13 | 3 |
+| **TOTAL** | **93** | **49** | **32** | **11** |
 
-**82 of 93 (88%) mapped**, up from 62 of 93 (67%). The rise is entirely the newly assessed
-controls — no existing verdict was changed. Re-derived programmatically from the document.
+A.8's fourth control is **A.8.30, excluded** (§12), so 33 of its 34 are applicable and 92 of the
+93 overall.
+
+**81 of the 92 applicable controls (88%) mapped**, up from 62 of 93 (67%). The rise is entirely
+the newly assessed controls — no existing verdict was changed. Re-derived programmatically from
+the document.
 
 ### Three substantive gaps found in the ISAE control set itself
 
@@ -424,9 +429,8 @@ Not mapping problems — gaps in what the 45-control engagement actually tests:
 - **"No ISAE coverage" is not a justification for exclusion.** The 11 controls with no ISAE
   mapping are still applicable to the ISMS; ISAE and Annex A have different scopes. Exclusion
   under clause 6.1.3(d) needs a risk-based justification.
-- **A.8.30 Outsourced development** is the one control whose applicability cannot be determined
-  from these documents: excludable if all development is in-house, included if any is contracted
-  out. **Needs confirming.**
+- **A.8.30 Outsourced development** was the one control whose applicability could not be
+  determined from these documents. **Resolved — see §12.**
 
 ### What is still outstanding for the SoA
 
@@ -548,3 +552,43 @@ The headers of `ISAE_3000_GDPR_Mapping.md` and `ISO_27001_2022_ISAE_3000_Mapping
 aligned to state "Type 1 with reasonable assurance", matching the request list and the
 Cyberday mapping.
 
+---
+
+## 12. A.8.30 Outsourced development — excluded (2026-10-12)
+
+The one applicability question left open by §10 is answered.
+
+**Decision: A.8.30 Outsourced development is excluded from the Statement of Applicability.
+All development is in-house.** There is no outsourced system development and no contracted
+developers, so the control has no subject matter within the ISMS scope. That is the clause
+6.1.3(d) justification.
+
+### What this changes
+
+| | Before | After |
+|---|---|---|
+| Annex A controls | 93 | 93 (unchanged — the standard's count) |
+| Applicable controls | 93 | 92 |
+| Mapped to an ISAE control | 82 of 93 (88%) | 81 of 92 (88%) |
+| Fully aligned (HIGH) | 49 | 49 |
+| Partially aligned (MEDIUM) | 33 | 32 |
+| No ISAE coverage | 11 | 11 |
+| Excluded | 0 | 1 |
+
+The headline percentage does not move: 81 of 92 is 88.0%, as 82 of 93 was. A.8.30 had been
+assessed MEDIUM, mapped to the F-series sub-processor controls on the assumption that those
+would evidence it *if* development were outsourced. With the exclusion it leaves the applicable
+population rather than becoming a gap.
+
+### Conditions on the exclusion
+
+An exclusion is only as good as the fact it rests on. This one holds while development stays
+in-house. **If development is ever contracted out, or contractors join the development team,
+A.8.30 becomes applicable** and the SoA needs revisiting — the F-series mapping recorded in
+Category 15 of `ISO_27001_2022_ISAE_3000_Mapping.md` is how it would then be evidenced.
+
+Worth noting that two neighbouring controls stay applicable and are unaffected: **A.8.4 Access
+to source code** and **A.8.25 Secure development life cycle** apply to in-house development just
+as much as to outsourced, as do A.8.28 Secure coding, A.8.29 Security testing in development and
+acceptance, A.8.31 Separation of development, test and production environments, and A.8.33 Test
+information.

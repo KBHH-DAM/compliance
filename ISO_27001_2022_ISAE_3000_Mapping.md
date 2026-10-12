@@ -965,16 +965,18 @@ keep the completion pass auditable as one block.
 
 ### ISO 27001 A.8.30 - Outsourced Development
 **ISAE Control:** F.1, F.2, F.4, F.6
-**Alignment:** MEDIUM — **or excludable; see note**
+**Alignment:** n/a — **EXCLUDED from the Statement of Applicability**
 **Requirement:**
 - Direction, monitoring and review of outsourced system development activities
-- ISAE requires: sub-processor appointment procedure (F.1), authorisation (F.2), obligations
-  passed down (F.4) and risk assessment and monitoring (F.6) — these apply if development is
-  outsourced
-- **Decision needed:** if Elumi develops entirely in-house with no outsourced development or
-  contracted developers, A.8.30 may legitimately be **excluded** from the SoA with that
-  justification. If any development is contracted out, it is included and the F-series applies.
-  This is the one control of the 22 whose applicability cannot be determined from the documents
+- **Exclusion decision (2026-10-12): excluded. All development is in-house.** There is no
+  outsourced system development and no contracted developers, so the control has no subject
+  matter in scope. This is the SoA justification.
+- Had development been contracted out, the control would be included and evidenced through the
+  ISAE sub-processor controls: appointment procedure (F.1), authorisation (F.2), obligations
+  passed down (F.4) and risk assessment and monitoring (F.6)
+- Note for review: this exclusion depends on development staying in-house. If development is
+  ever outsourced, or contractors join the development team, A.8.30 becomes applicable and the
+  SoA needs revisiting
 
 ### ISO 27001 A.8.33 - Test Information
 **ISAE Control:** B.10
@@ -1004,22 +1006,27 @@ keep the completion pass auditable as one block.
 
 ### By theme
 
-| Theme | Annex A controls | Assessed | Fully aligned (HIGH) | Partially aligned (MEDIUM) | Not covered by ISAE |
-|---|---|---|---|---|---|
-| A.5 — Organisational | 37 | 37 | 22 | 10 | 5 |
-| A.6 — People | 8 | 8 | 6 | 1 | 1 |
-| A.7 — Physical | 14 | 14 | 4 | 8 | 2 |
-| A.8 — Technological | 34 | 34 | 17 | 14 | 3 |
-| **TOTAL** | **93** | **93** | **49** | **33** | **11** |
+| Theme | Annex A controls | Applicable | Fully aligned (HIGH) | Partially aligned (MEDIUM) | Not covered by ISAE | Excluded |
+|---|---|---|---|---|---|---|
+| A.5 — Organisational | 37 | 37 | 22 | 10 | 5 | 0 |
+| A.6 — People | 8 | 8 | 6 | 1 | 1 | 0 |
+| A.7 — Physical | 14 | 14 | 4 | 8 | 2 | 0 |
+| A.8 — Technological | 34 | 33 | 17 | 13 | 3 | 1 |
+| **TOTAL** | **93** | **92** | **49** | **32** | **11** | **1** |
+
+All 93 controls are assessed. One, **A.8.30 Outsourced development**, is excluded from the SoA
+because all development is in-house (decision of 2026-10-12), so 92 are applicable.
 
 ### Headline figures
 
-- **82 of 93 Annex A controls (88%)** have an identified ISAE 3000 mapping (HIGH or MEDIUM).
+- **81 of the 92 applicable Annex A controls (88%)** have an identified ISAE 3000 mapping
+  (HIGH or MEDIUM).
 - **49 controls (53%)** map directly to an ISAE control.
-- **33 controls (35%)** are partially covered — an ISAE control addresses part of the
+- **32 controls (35%)** are partially covered — an ISAE control addresses part of the
   requirement, and the residual element is named in each entry.
 - **11 controls (12%)** have no ISAE coverage. These are **not** automatically excludable from
   the Statement of Applicability — see below.
+- **1 control is excluded:** A.8.30 Outsourced development, all development being in-house.
 
 ### The 11 controls with no ISAE coverage
 
@@ -1063,15 +1070,17 @@ Three findings are about the **ISAE control set itself**, not about the mapping:
 These entries map Annex A controls to the ISAE controls that address them. They do **not**
 assert that any control is implemented at Elumi. Clause 6.1.3(d) requires the SoA to record,
 per control: the inclusion or exclusion decision, the justification, implementation status and
-an owner. **That remains outstanding and is management's to supply.** One applicability
-question cannot be answered from these documents: **A.8.30 Outsourced development** is
-excludable if all development is in-house, and included if any is contracted out.
+an owner. **That remains outstanding and is management's to supply.**
+
+The one applicability question has been answered: **A.8.30 Outsourced development is excluded**,
+all development being in-house (2026-10-12). Every other control is applicable and needs its
+status and owner recorded.
 
 ---
 
 ## Key Findings
 
-### Coverage: 88% of Annex A mapped to an ISAE control
+### Coverage: 88% of the applicable Annex A controls mapped to an ISAE control
 
 **Fully aligned (49 controls — 53%)**
 - Core processor obligations map directly: documented procedures, access control, supplier
@@ -1079,7 +1088,7 @@ excludable if all development is in-house, and included if any is contracted out
 - A.5.37 Documented operating procedures is the most densely covered control in Annex A —
   nine ISAE controls require written procedures
 
-**Partially aligned (33 controls — 35%)**
+**Partially aligned (32 controls — 35%)**
 - An ISAE control addresses part of the requirement; each entry names what is left over
 - Examples: A.5.28 (evidence collection — no chain-of-custody requirement), A.8.12 (no DLP
   tooling requirement), A.5.36 (procedure review is not compliance monitoring)
@@ -1087,6 +1096,10 @@ excludable if all development is in-house, and included if any is contracted out
 **Not covered by ISAE (11 controls — 12%)**
 - Listed above with SoA treatment. Mostly business continuity, general working practices and
   organisational policy — applicable controls that this engagement simply does not test
+
+**Excluded (1 control)**
+- A.8.30 Outsourced development: no outsourced development and no contracted developers, so the
+  control has no subject matter in scope
 
 ### Notable mapping outcomes
 
@@ -1132,7 +1145,7 @@ excludable if all development is in-house, and included if any is contracted out
    - Evidence of ISO compliance supports ISAE audit
 
 2. **Map ISO controls to ISAE controls**
-   - 82 of 93 Annex A controls (88%) have an identified ISAE mapping
+   - 81 of the 92 applicable Annex A controls (88%) have an identified ISAE mapping
    - 11 controls have no ISAE coverage but remain applicable to the ISMS
 
 3. **Evidence cross-referencing**
@@ -1146,7 +1159,8 @@ excludable if all development is in-house, and included if any is contracted out
    - Three substantive gaps in the ISAE control set itself: no backup/restore control, no
      off-premises asset control, and thin availability coverage overall (see Coverage Summary)
    - **Outstanding:** per-control inclusion/exclusion decision, justification, implementation
-     status and owner — management's to supply. A.8.30 applicability needs confirming
+     status and owner — management's to supply
+   - A.8.30 Outsourced development is **excluded**, all development being in-house (2026-10-12)
 
 ---
 
@@ -1154,5 +1168,6 @@ excludable if all development is in-house, and included if any is contracted out
 **Last Updated:** 2026-10-12  
 **Change in v1.1:** Annex A references restated against ISO/IEC 27001:2022 (2013 numbering removed); control-set facts and coverage figures recomputed on the 93-control / 4-theme basis.  
 **Change in v1.2:** The 22 previously unassessed Annex A controls assessed (Category 15); all 93 controls now covered; coverage recomputed at 82 of 93 (88%) mapped.  
+**Change in v1.3:** A.8.30 Outsourced development excluded from the SoA, all development being in-house; coverage restated as 81 of the 92 applicable controls (88%).  
 **Next Review:** 2027-10-02
 
