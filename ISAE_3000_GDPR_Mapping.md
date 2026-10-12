@@ -1593,7 +1593,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC2.3, CC7.3 (external communication, event documentation)
-- ISO 27001:2022: A.5.26 (response to information security incidents), A.5.27 (learning from information security incidents)
+- ISO 27001:2022: A.5.5 (contact with authorities), A.5.26 (response to information security incidents), A.5.27 (learning from information security incidents)
 - ISO 27701: Breach reporting to authorities
 
 **Evidence to Gather:**

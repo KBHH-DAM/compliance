@@ -33,6 +33,7 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 | `ISAE_3000_GDPR_Mapping.md` | 32 | 41 | — | Year was unlabelled throughout; now `ISO 27001:2022` |
 | — *data-residency re-map (§5.1)* | 3 | — | — | Applied after review decision |
 | — *data-residency addition to E.2 (§5.2)* | 2 added | — | — | New mapping, not a correction |
+| — *A.5.5 added to I.4 (§5.3)* | 2 added | — | — | Closes an inconsistency between documents |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs and a 116-control/15-category taxonomy |
 | `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 14 (+7 Cyberday tags) | — | 3 coverage claims | |
 | `B3_AUDIT_EVIDENCE_SUMMARY.md` | 6 | — | — | |
@@ -82,7 +83,7 @@ section heading is the stable reference.*
 | 766 | A.17.1 — Incident management procedure | **A.5.24** — Information security incident management planning and preparation | 2013 A.16.1.1; A.17 was business continuity |
 | 783 | A.12.4 — Event logging & monitoring | **A.8.16** — Monitoring activities (with A.8.15) | |
 | 802 | A.17.1 — Incident response timelines | **A.5.26** — Response to information security incidents | 2013 A.16.1.5 |
-| 819 | A.17.1 — Incident response and post-incident activities | **A.5.26 / A.5.27** — Response to, and learning from, incidents | 2013 A.16.1.5–6 |
+| 820 | A.17.1 — Incident response and post-incident activities | **A.5.26 / A.5.27** — Response to, and learning from, incidents (plus **A.5.5** at line 819, see §5.3) | 2013 A.16.1.5–6 |
 
 ### 3.2 `ISAE_3000_GDPR_Mapping.md`
 
@@ -120,7 +121,7 @@ Revision year was **unlabelled** throughout (`ISO 27001: A.x.y`); all 41 bullets
 | 1446 | A.17.1 (incident management procedure) | **A.5.24** |
 | 1487 | A.12.4 (event logging), A.6.2 (awareness training) | **A.8.15**, **A.8.16**, **A.6.3** |
 | 1535 | A.17.1 (incident response timelines) | **A.5.26** |
-| 1596 | A.17.1 (incident documentation and reporting) | **A.5.26**, **A.5.27** — see §5.3 |
+| 1596 | A.17.1 (incident documentation and reporting) | **A.5.5** (contact with authorities), **A.5.26**, **A.5.27** — see §5.3 |
 
 ---
 
@@ -219,13 +220,25 @@ here; this was a mapping that was missing, not a wrong one.
 documents — see the E.2 rows in the §5.1 table. Note this is an *addition* to the control
 mapping rather than a reference correction: it widens ISAE E.2's ISO 27001 coverage.
 
-### 5.3 ISAE I.4 — assistance with reports to the Danish DPA
+### 5.3 RESOLVED — ISAE I.4 given A.5.5 Contact with authorities
 
-Mapped to **A.5.26 / A.5.27** (response to, and learning from, incidents), preserving the
-original "incident response and post-incident activities" wording. But the control is
-specifically about **filing reports with a supervisory authority**, for which
-**A.5.5 (Contact with authorities)** is the closest 2022 control. **Recommend adding A.5.5**
-— not added unilaterally because it changes the mapping rather than correcting a number.
+The `A.17.1` reference under ISAE **I.4** ("Assistance with Reports to Danish Data Protection
+Authority") was restated as **A.5.26 / A.5.27**, preserving its original "incident response and
+post-incident activities" wording — but the control is specifically about **filing reports with
+a supervisory authority**, for which **A.5.5 (Contact with authorities)** is the closest 2022
+control.
+
+**Decision taken (2026-10-12): add A.5.5 to I.4.** Applied at:
+
+| File | Line | Now |
+|---|---|---|
+| `ISAE_3000_Cyberday_Mapping.md` | 819–820 | **A.5.5** Contact with authorities; **A.5.26 / A.5.27** Response to, and learning from, incidents |
+| `ISAE_3000_GDPR_Mapping.md` | 1596 | **A.5.5** (contact with authorities), **A.5.26**, **A.5.27** |
+
+This closes an inconsistency rather than inventing a mapping: `ISO_27001_2022_ISAE_3000_Mapping.md`
+already mapped **A.5.5 → ISAE I.1, I.4** (MEDIUM alignment), so the link was asserted in one
+document and missing from the other two. A.5.5 was already counted as assessed, so the coverage
+figures in §6 are unchanged.
 
 ### 5.4 A.7.7 "Delivery and Loading Areas" — no 2022 equivalent exists
 
@@ -339,6 +352,6 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 | 3 | Assess the 22 outstanding Annex A controls — required for the SoA | Compliance |
 | 4 | Re-tag the changed `ISO#...` tags in Cyberday (§4) | Cyberday admin |
 | 5 | Consolidate the duplicate A.7.2 sections (§5.4) | Doc owner |
-| 6 | Review the weak mappings in §5.3, §5.5, §5.6 | Compliance |
+| 6 | Review the weak mappings in §5.5 and §5.6 (§5.3 resolved 2026-10-12: A.5.5 added to I.4) | Compliance |
 | 7 | Separate check of the ISO 27701 / ISO 27017 references (§5.7) | Compliance |
 | 8 | Apply the same corrections to the Google Docs versions of these documents | Doc owner |

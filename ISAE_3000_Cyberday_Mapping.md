@@ -816,6 +816,7 @@
 - **SOC 2 - CC7.3:** Evaluation of security events (documentation of incident details)
 - **GDPR (Cyberday):** Article 33 - Content of notification to supervisory authority
 - **GDPR (Cyberday):** Denmark-specific guidance on DPA reporting
+- **ISO 27001 (2022) - A.5.5:** Contact with authorities
 - **ISO 27001 (2022) - A.5.26 / A.5.27:** Response to, and learning from, information security incidents
 
 **Evidence to Gather:**
