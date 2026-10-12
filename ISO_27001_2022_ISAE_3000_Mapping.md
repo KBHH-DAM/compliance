@@ -319,12 +319,20 @@ covered by A.6.7 Remote working (Category 7).*
 - Access control at perimeter
 
 ### ISO 27001 A.7.2 - Physical Entry
+*Consolidation note: the 2022 revision merged 2013 A.11.1.6 "Delivery and loading areas"
+into A.7.2 Physical entry, so the delivery and loading requirements below were previously
+carried as a separate section numbered A.7.7. A.7.7 in the 2022 revision is "Clear desk and
+clear screen", which this document does not yet assess — see the gap list in the coverage
+summary.*
+
 **ISAE Control:** B.15  
 **Alignment:** HIGH  
 **Requirement:**
 - Authorization required for physical access
 - Visitor management procedures
 - Badge and key control
+- Segregation of delivery and loading areas from secure areas
+- Control and inspection of incoming and outgoing materials
 
 ### ISO 27001 A.7.3 - Securing Offices, Rooms and Facilities
 **ISAE Control:** B.15  
@@ -357,20 +365,6 @@ covered by A.6.7 Remote working (Category 7).*
 - Clean desk policy
 - Visitor escort requirements
 - ISAE scope: General practice, not specific control
-
-### ISO 27001 A.7.2 - Physical Entry (delivery and loading areas)
-*Previously listed as "A.7.7 - Delivery and Loading Areas". The 2013 control A.11.1.6
-was merged into A.7.2 Physical entry in the 2022 revision; there is no standalone 2022
-control for delivery and loading areas. A.7.7 in the 2022 revision is "Clear desk and
-clear screen". This section therefore duplicates A.7.2 above and should be consolidated
-into it.*
-
-**ISAE Control:** B.15  
-**Alignment:** MEDIUM  
-**Requirement:**
-- Segregation of delivery areas from secure areas
-- Control of incoming/outgoing materials
-- Inspection procedures
 
 ### ISO 27001 A.7.10 - Storage Media
 **ISAE Control:** B.8, B.9  

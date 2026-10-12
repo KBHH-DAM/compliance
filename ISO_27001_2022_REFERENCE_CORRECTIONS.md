@@ -34,7 +34,7 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 | — *data-residency re-map (§5.1)* | 3 | — | — | Applied after review decision |
 | — *data-residency addition to E.2 (§5.2)* | 2 added | — | — | New mapping, not a correction |
 | — *A.5.5 added to I.4 (§5.3)* | 2 added | — | — | Closes an inconsistency between documents |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs and a 116-control/15-category taxonomy |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs, a 116-control/15-category taxonomy, and a duplicate A.7.2 section (consolidated, §5.4) |
 | `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 14 (+7 Cyberday tags) | — | 3 coverage claims | |
 | `B3_AUDIT_EVIDENCE_SUMMARY.md` | 6 | — | — | |
 | `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 6 | 7 | 8 coverage claims | |
@@ -135,12 +135,12 @@ reference was judged on intent.
 |---|---|---|---|---|
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | 113 | A.5.8 — Use of Cryptography | A.5.8 = Information security in project management | **A.8.24** — Use of cryptography |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | 297 | A.8.2 — User Authentication for External Connections | A.8.2 = Privileged access rights | **A.8.5** — Secure authentication |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 361 | A.7.7 — Delivery and Loading Areas | A.7.7 = Clear desk and clear screen | **A.7.2** — Physical entry (merged; see §5.4) |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 375 | A.8.3 — Managing Removable Media | A.8.3 = Information access restriction | **A.7.10** — Storage media |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 383 | A.8.4 — Utility Supply | A.8.4 = Access to source code | **A.7.11** — Supporting utilities |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 391 | A.8.5 — Cabling Security | A.8.5 = Secure authentication | **A.7.12** — Cabling security |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 399 | A.8.6 — Acquisition, Installation, Replacement and Removal of Equipment | A.8.6 = Capacity management | **A.7.13 / A.7.14** — Equipment maintenance; secure disposal or re-use |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 543 | A.8.29 — Information Systems Resilience and Redundancy | A.8.29 = Security testing in development and acceptance | **A.8.14** — Redundancy of information processing facilities |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 321 | A.7.7 — Delivery and Loading Areas | A.7.7 = Clear desk and clear screen | **A.7.2** — Physical entry; section merged into the canonical A.7.2 (see §5.4) |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 369 | A.8.3 — Managing Removable Media | A.8.3 = Information access restriction | **A.7.10** — Storage media |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 377 | A.8.4 — Utility Supply | A.8.4 = Access to source code | **A.7.11** — Supporting utilities |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 385 | A.8.5 — Cabling Security | A.8.5 = Secure authentication | **A.7.12** — Cabling security |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 393 | A.8.6 — Acquisition, Installation, Replacement and Removal of Equipment | A.8.6 = Capacity management | **A.7.13 / A.7.14** — Equipment maintenance; secure disposal or re-use |
+| `ISO_27001_2022_ISAE_3000_Mapping.md` | 537 | A.8.29 — Information Systems Resilience and Redundancy | A.8.29 = Security testing in development and acceptance | **A.8.14** — Redundancy of information processing facilities |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.30 — Development, Testing and Production Environments | A.8.30 = Outsourced development | **A.8.31** — Separation of development, test and production environments |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.31 — Change of Platform | A.8.31 = Separation of dev/test/prod | **A.8.32** — Change management |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.32 — Monitoring and Reviewing | A.8.32 = Change management | **A.8.16** — Monitoring activities |
@@ -240,12 +240,28 @@ already mapped **A.5.5 → ISAE I.1, I.4** (MEDIUM alignment), so the link was a
 document and missing from the other two. A.5.5 was already counted as assessed, so the coverage
 figures in §6 are unchanged.
 
-### 5.4 A.7.7 "Delivery and Loading Areas" — no 2022 equivalent exists
+### 5.4 RESOLVED — A.7.7 "Delivery and Loading Areas" consolidated into A.7.2
 
 2013 A.11.1.6 was **merged into A.7.2 Physical entry** in the 2022 revision; there is no
-standalone control. The section was retitled A.7.2, which now makes **two A.7.2 sections**
-in `ISO_27001_2022_ISAE_3000_Mapping.md` (lines 321 and 361). An inline note flags this.
-**These two sections should be consolidated** — a structural edit, not a reference fix.
+standalone 2022 control for delivery and loading areas (A.7.7 in 2022 is "Clear desk and
+clear screen"). Retitling the old A.7.7 section therefore produced two A.7.2 sections in
+`ISO_27001_2022_ISAE_3000_Mapping.md`.
+
+**Resolved (2026-10-12):** the two sections are merged into the single A.7.2 section at
+line 321. Its requirement list now carries the delivery and loading items — "Segregation of
+delivery and loading areas from secure areas" and "Control and inspection of incoming and
+outgoing materials" — alongside the original physical-entry requirements, and an inline
+consolidation note records where they came from. The duplicate section is deleted.
+
+The merged section keeps **HIGH** alignment (the verdict of the canonical A.7.2 section); the
+duplicate's MEDIUM verdict is dropped. This does not move any coverage figure, because A.7.2
+was already counted once as a distinct control: A.7 remains 11 of 14 assessed with HIGH 4,
+MEDIUM 6, not covered 1, and the totals stay at 71 assessed / 40 / 22 / 9 and 62 of 93 (67%).
+Re-verified programmatically after the merge.
+
+**A.7.7 Clear desk and clear screen** stays on the not-yet-assessed gap list in §6, which is
+correct — no section assesses it. Note the A.7.6 "Working in Secure Areas" section mentions
+a clean-desk policy in passing, so some of that content exists but is not mapped to A.7.7.
 
 ### 5.5 ISAE B.11 (vulnerability scans / pen testing) → A.5.7 Threat Intelligence
 
@@ -351,7 +367,7 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 | 2 | Sign off or restate the 67% coverage figure (§6) | Compliance |
 | 3 | Assess the 22 outstanding Annex A controls — required for the SoA | Compliance |
 | 4 | Re-tag the changed `ISO#...` tags in Cyberday (§4) | Cyberday admin |
-| 5 | Consolidate the duplicate A.7.2 sections (§5.4) | Doc owner |
+| 5 | ~~Consolidate the duplicate A.7.2 sections~~ — **resolved 2026-10-12** (§5.4) | Done |
 | 6 | Review the weak mappings in §5.5 and §5.6 (§5.3 resolved 2026-10-12: A.5.5 added to I.4) | Compliance |
 | 7 | Separate check of the ISO 27701 / ISO 27017 references (§5.7) | Compliance |
 | 8 | Apply the same corrections to the Google Docs versions of these documents | Doc owner |
