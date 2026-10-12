@@ -87,7 +87,7 @@
 - **SOC 2 - CC5.2:** Control activities for achievement of objectives
 - **DORA (Active):** Risk assessment and management framework
 - **NIST CSF 2.0 (Active):** Identify & Protect functions
-- **ISO 27001 (2022) - A.12:** Operational Controls (security measures)
+- **ISO 27001 (2022) - A.8:** Technological Controls (security measures)
 
 **Evidence to Gather:**
 - Latest dated risk assessment
@@ -104,7 +104,7 @@
 - **SOC 2 - CC6.1c:** Technical security for protected information assets (malware protection)
 - **SOC 2 - CC7.2:** Monitoring of system components for anomalies
 - **CIS 18 Controls (Active):** Control 10 - Malware Defenses
-- **ISO 27001 (2022) - A.12.2:** Malware protection
+- **ISO 27001 (2022) - A.8.7:** Protection against malware
 - **NIST CSF 2.0:** Detect function
 
 **Evidence to Gather:**
@@ -121,7 +121,7 @@
 - **SOC 2 - CC6.2:** Prior to issuing system credentials (logical access control)
 - **SOC 2 - CC7.1:** Procedures for monitoring changes to configurations
 - **CIS 18 Controls (Active):** Control 1 - Inventory and Control of Enterprise Assets
-- **ISO 27001 (2022) - A.13.1:** Network security boundary
+- **ISO 27001 (2022) - A.8.20:** Networks security (boundary protection)
 - **NIST CSF 2.0:** Protect function (access control)
 
 **Evidence to Gather:**
@@ -138,7 +138,7 @@
 - **SOC 2 - CC6.1a:** Identification and listing of assets (define protected assets)
 - **SOC 2 - CC6.2b:** Logical access control for protected information (network-level controls)
 - **CIS 18 Controls (Active):** Control 1 & 3 - Network architecture
-- **ISO 27001 (2022) - A.13.1:** Network segregation
+- **ISO 27001 (2022) - A.8.22:** Segregation of networks
 - **NIST CSF 2.0:** Protect function (segmentation)
 
 **Evidence to Gather:**
@@ -155,7 +155,7 @@
 - **SOC 2 - CC6.2:** Prior to issuing system credentials; logical access must be approved
 - **SOC 2 - CC4.1:** Evaluation of internal controls (periodic access review)
 - **SOC 2 - CC6.1b:** Logical access control for protected information assets
-- **ISO 27001 (2022) - A.9:** Access Control
+- **ISO 27001 (2022) - A.5.15:** Access control
 - **GDPR (Cyberday):** Article 32(1)(b) - Restricting access to personal data
 - **CIS 18 Controls (Active):** Control 2 - Access Control
 
@@ -177,7 +177,7 @@
 - **SOC 2 - C1.2:** Disposal procedures for confidential information (incident response)
 - **CIS 18 Controls (Active):** Control 8 - Audit Logging
 - **NIST CSF 2.0:** Detect function
-- **ISO 27001 (2022) - A.12.4:** Event logging and monitoring
+- **ISO 27001 (2022) - A.8.16:** Monitoring activities (with A.8.15 Logging)
 
 **Evidence to Gather:**
 - Monitoring configuration for relevant systems
@@ -193,7 +193,7 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC6.1c:** Technical security for protected information assets (encryption in transit)
 - **SOC 2 - C1.2:** Measures to prevent unauthorized access to confidential information
-- **ISO 27001 (2022) - A.10.1:** Cryptography
+- **ISO 27001 (2022) - A.8.24:** Use of cryptography
 - **ISO 27017 (Active):** Cloud cryptographic controls
 - **NIST CSF 2.0:** Protect function (encryption)
 
@@ -213,7 +213,7 @@
 - **SOC 2 - CC7.3:** Evaluation of security events
 - **SOC 2 - CC6.2c:** Monitoring and evaluating logical access (privileged user tracking)
 - **CIS 18 Controls (Active):** Control 8 - Audit Logging & Response
-- **ISO 27001 (2022) - A.12.4:** Event logging & monitoring
+- **ISO 27001 (2022) - A.8.15:** Logging
 - **ISO 27017 (Active):** Cloud logging controls
 - **NIST CSF 2.0:** Detect function
 
@@ -251,7 +251,7 @@
 - **SOC 2 - CC7.2:** Monitoring of system components for anomalies
 - **CIS 18 Controls (Active):** Control 5 - Vulnerability Management
 - **NIST CSF 2.0:** Identify & Detect functions
-- **ISO 27001 (2022) - A.14.2:** Vulnerability management
+- **ISO 27001 (2022) - A.8.8:** Management of technical vulnerabilities
 - **DORA (Active):** Internal testing and monitoring
 
 **Evidence to Gather:**
@@ -269,7 +269,7 @@
 - **SOC 2 - CC8.1:** Change management procedures (formal change control)
 - **SOC 2 - CC7.1:** Procedures for monitoring changes to configurations
 - **CIS 18 Controls (Active):** Control 6 - Access Control & Asset Management
-- **ISO 27001 (2022) - A.14.1:** Information security change management
+- **ISO 27001 (2022) - A.8.32:** Change management
 - **NIST CSF 2.0:** Protect function
 
 **Evidence to Gather:**
@@ -286,7 +286,7 @@
 - **SOC 2 - CC6.2:** Prior to issuing system credentials; periodic review of access
 - **SOC 2 - CC4.1:** Evaluation of internal controls (periodic access review)
 - **SOC 2 - CC7.3:** Evaluation of security events (removal on departure)
-- **ISO 27001 (2022) - A.9.2:** User access management (onboarding, review, offboarding)
+- **ISO 27001 (2022) - A.5.18:** Access rights (provisioning, review, revocation)
 - **GDPR (Cyberday):** Article 32(1)(b) - Restricting access
 - **CIS 18 Controls (Active):** Control 2 - Access Control
 
@@ -306,7 +306,7 @@
 - **SOC 2 - CC6.2:** Prior to issuing system credentials (multi-factor authentication for sensitive access)
 - **SOC 2 - CC6.1c:** Technical security for protected information assets (access controls)
 - **CIS 18 Controls (Active):** Control 2 - Access Control (MFA requirement)
-- **ISO 27001 (2022) - A.9.4:** Access management for privileged rights
+- **ISO 27001 (2022) - A.8.5 / A.8.2:** Secure authentication (multi-factor) and privileged access rights
 - **NIST CSF 2.0:** Protect function
 - **DORA (Active):** MFA for critical systems
 
@@ -324,7 +324,7 @@
 - **SOC 2 - CC6.1a:** Identification and listing of assets (physical locations)
 - **SOC 2 - CC6.3:** Physical access to facilities, equipment, and assets
 - **CIS 18 Controls (Active):** Control 1 - Physical Asset Management
-- **ISO 27001 (2022) - A.11.1:** Physical security perimeter
+- **ISO 27001 (2022) - A.7.1:** Physical security perimeters (with A.7.2 Physical entry)
 - **NIST CSF 2.0:** Protect function (physical access)
 
 **Evidence to Gather:**
@@ -378,7 +378,7 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC1.2:** Board of directors oversight (establishment of hiring standards)
 - **SOC 2 - CC1.3:** Established responsibilities (HR procedures)
-- **ISO 27001 (2022) - A.6.1:** Personnel screening
+- **ISO 27001 (2022) - A.6.1:** Screening
 - **GDPR (Cyberday):** Article 28 Recital 81 - Personnel selection criteria
 - **DORA (Active):** Staff qualification requirements
 
@@ -397,7 +397,7 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC1.1:** Management commitment (communication of security culture)
 - **SOC 2 - CC2.2:** Internal communication of information (staff awareness)
-- **ISO 27001 (2022) - A.6.2:** Information security awareness, education and training
+- **ISO 27001 (2022) - A.6.3:** Information security awareness, education and training
 - **GDPR (Cyberday):** Article 28 - Processor obligations
 - **ISO 27017 (Active):** Cloud-specific training requirements
 
@@ -416,7 +416,7 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC6.2:** Prior to issuing credentials (removal upon termination)
 - **SOC 2 - CC6.2c:** Monitoring and evaluating logical access (access removal)
-- **ISO 27001 (2022) - A.6.3:** Return of assets
+- **ISO 27001 (2022) - A.5.11:** Return of assets
 - **GDPR (Cyberday):** Article 32(1) - Security measures apply until data deletion
 
 **Evidence to Gather:**
@@ -434,7 +434,7 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC1.1:** Management commitment (reinforcement of ethical standards)
 - **SOC 2 - CC2.3:** Communication with external parties (confidentiality requirements)
-- **ISO 27001 (2022) - A.6.2:** Information security awareness
+- **ISO 27001 (2022) - A.6.5:** Responsibilities after termination or change of employment
 - **GDPR (Cyberday):** General confidentiality principles
 
 **Evidence to Gather:**
@@ -451,7 +451,7 @@
 - **SOC 2 - CC1.1:** Management commitment (tone at the top)
 - **SOC 2 - CC2.2:** Internal communication of information (staff education)
 - **SOC 2 - PI2.2:** Education of personnel regarding privacy (privacy-specific training)
-- **ISO 27001 (2022) - A.6.2:** Information security awareness, education and training
+- **ISO 27001 (2022) - A.6.3:** Information security awareness, education and training
 - **CIS 18 Controls (Active):** Control 17 - Security Awareness & Training
 - **NIST CSF 2.0:** Govern function (awareness & training)
 
@@ -472,7 +472,7 @@
 - **SOC 2 - D2.2:** Ensuring personal data processing is consistent with objectives (retention alignment)
 - **GDPR (Cyberday):** Article 17 - Right to erasure ("right to be forgotten")
 - **ISO 27701 (Active):** Privacy-specific data retention controls
-- **ISO 27001 (2022) - A.8.3:** Retention of information
+- **ISO 27001 (2022) - A.5.33:** Protection of records (retention)
 
 **Evidence to Gather:**
 - Current storage and deletion procedure
@@ -507,7 +507,7 @@
 - **SOC 2 - D2.3:** Depending on the nature of processing relationships, removal of personal data
 - **GDPR (Cyberday):** Article 17 - Right to erasure
 - **ISO 27701 (Active):** Data return and destruction procedures
-- **ISO 27001 (2022) - A.8.3:** Retention of information (removal of data)
+- **ISO 27001 (2022) - A.8.10:** Information deletion
 
 **Evidence to Gather:**
 - Termination procedure covering return, deletion, and lawful retention
@@ -527,7 +527,8 @@
 - **SOC 2 - CC2.1:** Quality information to support internal controls (location transparency)
 - **GDPR (Cyberday):** Article 28(3)(c) - Processor location obligations
 - **ISO 27017 (Active):** Cloud processing location controls
-- **ISO 27001 (2022) - A.8.1:** Onsite and offsite equipment
+- **ISO 27001 (2022) - A.5.23:** Information security for use of cloud services
+- **ISO 27001 (2022) - A.5.14:** Information transfer
 
 **Evidence to Gather:**
 - Current storage and processing procedure
@@ -545,6 +546,8 @@
 - **SOC 2 - CC7.1:** Procedures for monitoring changes to configurations (geo-compliance)
 - **GDPR (Cyberday):** Article 28(3)(c) & Chapter V - Location of processing
 - **ISO 27017 (Active):** Cloud region and jurisdiction controls
+- **ISO 27001 (2022) - A.5.23:** Information security for use of cloud services
+- **ISO 27001 (2022) - A.5.14:** Information transfer
 - **DORA (Active):** Geographical concentration of resources
 
 **Evidence to Gather:**
@@ -563,7 +566,7 @@
 - **SOC 2 - CC5.3:** Establishment of policies (sub-processor governance)
 - **SOC 2 - CC9.2:** Partner risk management (sub-processor selection)
 - **GDPR (Cyberday):** Article 28(2) & (4) - Sub-processor authorization and instruction
-- **ISO 27001 (2022) - A.14.2:** Supplier relationships & governance
+- **ISO 27001 (2022) - A.5.19:** Information security in supplier relationships
 - **DORA (Active):** Critical third-party risk management
 
 **Evidence to Gather:**
@@ -580,7 +583,7 @@
 - **SOC 2 - CC9.2:** Partner risk management (approved vendor management)
 - **SOC 2 - CC5.2:** Control activities for achievement of objectives (authorization)
 - **GDPR (Cyberday):** Article 28(2) - Specific or general authorization
-- **ISO 27001 (2022) - A.14.2:** Supplier relationships
+- **ISO 27001 (2022) - A.5.19:** Information security in supplier relationships
 
 **Evidence to Gather:**
 - Current sub-processor register identifying service and affected controllers
@@ -595,7 +598,7 @@
 - **SOC 2 - CC2.3:** Communication with external parties (notification of changes)
 - **SOC 2 - CC9.2:** Partner risk management (change management)
 - **GDPR (Cyberday):** Article 28(2)(h) - Notification and objection rights
-- **ISO 27001 (2022) - A.14.2:** Changes in supplier relationships
+- **ISO 27001 (2022) - A.5.22:** Monitoring, review and change management of supplier services
 
 **Evidence to Gather:**
 - Sub-processor change procedure and log
@@ -612,7 +615,7 @@
 - **SOC 2 - CC5.2:** Control activities for achievement of objectives (contractual requirements)
 - **SOC 2 - CC9.2:** Partner risk management (obligation cascade)
 - **GDPR (Cyberday):** Article 28(4) - Equivalent obligations for sub-processors
-- **ISO 27001 (2022) - A.14.2:** Supplier security requirements
+- **ISO 27001 (2022) - A.5.20:** Addressing information security within supplier agreements
 
 **Evidence to Gather:**
 - Sub-processor register
@@ -628,7 +631,7 @@
 - **SOC 2 - CC2.1:** Quality information to support internal controls (data accuracy)
 - **SOC 2 - CC9.2:** Partner risk management (vendor inventory)
 - **GDPR (Cyberday):** Article 28(2) - Information about sub-processors
-- **ISO 27001 (2022) - A.14.2:** Supplier information management
+- **ISO 27001 (2022) - A.5.19:** Information security in supplier relationships (supplier register)
 
 **Evidence to Gather:**
 - Sub-processor register from F.2, including:
@@ -649,7 +652,7 @@
 - **SOC 2 - CC9.2:** Partner risk management (periodic review of third parties)
 - **DORA (Active):** Critical third-party risk assessment and monitoring
 - **NIST CSF 2.0:** Identify & Assess functions (third-party risk)
-- **ISO 27001 (2022) - A.14.2:** Monitoring of supplier performance
+- **ISO 27001 (2022) - A.5.22:** Monitoring, review and change management of supplier services
 
 **Evidence to Gather:**
 - Current risk assessments for sub-processors
@@ -760,7 +763,7 @@
 - **GDPR (Cyberday):** Article 28(3)(f) - Processor notification to controller
 - **NIS2 Directive (Cyberday):** Incident notification timelines
 - **ISO 27701 (Active):** Personal data breach management
-- **ISO 27001 (2022) - A.17.1:** Incident management procedure
+- **ISO 27001 (2022) - A.5.24:** Information security incident management planning and preparation
 
 **Evidence to Gather:**
 - Breach-response and controller-notification procedure
@@ -777,7 +780,7 @@
 - **SOC 2 - CC2.2:** Internal communication of information (breach awareness)
 - **CIS 18 Controls (Active):** Control 8 - Audit Logging; Control 17 - Awareness & Training
 - **NIST CSF 2.0:** Detect function (anomaly detection)
-- **ISO 27001 (2022) - A.12.4:** Event logging & monitoring
+- **ISO 27001 (2022) - A.8.16:** Monitoring activities (with A.8.15 Logging)
 
 **Evidence to Gather:**
 - Latest breach awareness material (can reuse from C.7)
@@ -796,7 +799,7 @@
 - **GDPR (Cyberday):** Article 28(3)(f) - Processor notification to controller
 - **NIS2 Directive (Cyberday):** Incident notification timeline (within 24 hours to authority)
 - **ISO 27701 (Active):** Timely breach notification
-- **ISO 27001 (2022) - A.17.1:** Incident response timelines
+- **ISO 27001 (2022) - A.5.26:** Response to information security incidents
 
 **Evidence to Gather:**
 - Incident and breach register (with scope/filter documentation)
@@ -813,7 +816,8 @@
 - **SOC 2 - CC7.3:** Evaluation of security events (documentation of incident details)
 - **GDPR (Cyberday):** Article 33 - Content of notification to supervisory authority
 - **GDPR (Cyberday):** Denmark-specific guidance on DPA reporting
-- **ISO 27001 (2022) - A.17.1:** Incident response and post-incident activities
+- **ISO 27001 (2022) - A.5.5:** Contact with authorities
+- **ISO 27001 (2022) - A.5.26 / A.5.27:** Response to, and learning from, information security incidents
 
 **Evidence to Gather:**
 - Breach-response procedure or reporting template covering:

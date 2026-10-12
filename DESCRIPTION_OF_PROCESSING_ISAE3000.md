@@ -136,7 +136,7 @@ Management has assessed the control environment and confirmed:
 - Controls are implemented and operating effectively
 - Zero critical deficiencies exist in control design or operation
 - All GDPR compliance requirements are addressed through existing controls
-- All ISO 27001:2022 security controls are supported by ISAE controls
+- 62 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (67%); 22 are not yet assessed — see ISO_27001_2022_ISAE_3000_Mapping.md
 
 ### 2.2 Control Environment Components
 
@@ -219,7 +219,7 @@ This Description of Processing addresses 45 control objectives organized into 9 
 | I | I.1 - I.4 | Incident Management |
 
 **Total Controls:** 45  
-**Coverage Status:** 100% mapped to GDPR and ISO 27001:2022
+**Coverage Status:** 100% of the 45 ISAE controls mapped to GDPR; ISO/IEC 27001:2022 Annex A alignment is 67% (62 of 93 controls) — see ISO_27001_2022_ISAE_3000_Mapping.md
 
 ### 3.2 Control Effectiveness Assessment
 
@@ -429,7 +429,7 @@ Employees and contractors possess and maintain the knowledge and skills required
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.6.3 (Information and digital literacy)
+**ISO 27001:2022 Alignment:** A.6.3 (Information security awareness, education and training)
 
 **Control Design:**
 
@@ -538,7 +538,7 @@ System architecture and design incorporate security principles including layered
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.5.23 (Encryption and key management), A.8.27 (Protection of system architecture)
+**ISO 27001:2022 Alignment:** A.8.24 (Use of cryptography), A.8.27 (Secure system architecture and engineering principles)
 
 **Control Design:**
 
@@ -598,7 +598,7 @@ System architecture and design incorporate security principles including layered
 
 **Supporting Evidence:**
 
-*Documentation (Cyberday Tags: GDPR#Art32, ISO#A5.23, ISO#A8.27, ISAE#B.1):*
+*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.24, ISO#A8.27, ISAE#B.1):*
 - System architecture diagrams
 - Network topology and segmentation documentation
 - Environment definitions and purpose
@@ -629,7 +629,7 @@ System architecture and design incorporate security principles including layered
 
 **Cyberday Implementation:**
 - Evidence folder: Technical Controls → System Architecture
-- Tags: GDPR#Art32, ISO#A5.23, ISO#A8.27, ISAE#B.1
+- Tags: GDPR#Art32, ISO#A8.24, ISO#A8.27, ISAE#B.1
 - Upload: Architecture diagrams, network documentation, security testing results
 
 ---
@@ -641,7 +641,7 @@ Operating systems are hardened and configured securely to minimize vulnerabiliti
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.9 (Configuration management), A.8.12 (Security of system installations)
+**ISO 27001:2022 Alignment:** A.8.9 (Configuration management), A.8.19 (Installation of software on operational systems)
 
 **Control Design:**
 
@@ -699,7 +699,7 @@ Operating systems are hardened and configured securely to minimize vulnerabiliti
 
 **Supporting Evidence:**
 
-*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.9, ISO#A8.12, ISAE#B.2):*
+*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.9, ISO#A8.19, ISAE#B.2):*
 - OS hardening standards and baselines
 - Configuration management procedures
 - Patch management policy and schedules
@@ -727,7 +727,7 @@ Operating systems are hardened and configured securely to minimize vulnerabiliti
 
 **Cyberday Implementation:**
 - Evidence folder: Technical Controls → System Hardening
-- Tags: GDPR#Art32, ISO#A8.9, ISO#A8.12, ISAE#B.2
+- Tags: GDPR#Art32, ISO#A8.9, ISO#A8.19, ISAE#B.2
 - Upload: Hardening baselines, patch logs, compliance reports
 
 ---
@@ -739,7 +739,7 @@ Malware protection mechanisms are implemented and maintained to detect and preve
 
 **Control Category:** Detective/Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.7 (Prevention of malware)
+**ISO 27001:2022 Alignment:** A.8.7 (Protection against malware)
 
 **Control Design:**
 
@@ -838,7 +838,7 @@ Network security controls prevent unauthorized access to systems and data, inclu
 
 **Control Category:** Preventive/Detective  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.20 (Network security), A.8.22 (Network segregation)
+**ISO 27001:2022 Alignment:** A.8.20 (Networks security), A.8.22 (Segregation of networks)
 
 **Control Design:**
 
@@ -952,7 +952,7 @@ Data encryption protects the confidentiality and integrity of personal data in t
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.5.23 (Encryption and key management), A.8.24 (Data encryption)
+**ISO 27001:2022 Alignment:** A.8.24 (Use of cryptography, including key management)
 
 **Control Design:**
 
@@ -1016,7 +1016,7 @@ Data encryption protects the confidentiality and integrity of personal data in t
 
 **Supporting Evidence:**
 
-*Documentation (Cyberday Tags: GDPR#Art32, ISO#A5.23, ISO#A8.24, ISAE#B.5):*
+*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.24, ISAE#B.5):*
 - Encryption inventory and standards
 - Key management procedures
 - Encryption implementation documentation
@@ -1047,7 +1047,7 @@ Data encryption protects the confidentiality and integrity of personal data in t
 
 **Cyberday Implementation:**
 - Evidence folder: Technical Controls → Data Encryption
-- Tags: GDPR#Art32, ISO#A5.23, ISO#A8.24, ISAE#B.5
+- Tags: GDPR#Art32, ISO#A8.24, ISAE#B.5
 - Upload: Encryption standards, key management procedures, certificate inventory
 
 ---
@@ -1179,7 +1179,7 @@ Comprehensive logging and monitoring of system activity enables detection of sec
 
 **Control Category:** Detective  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.15 (Logging), A.8.32 (Monitoring system activity)
+**ISO 27001:2022 Alignment:** A.8.15 (Logging), A.8.16 (Monitoring activities)
 
 **Control Design:**
 
@@ -1244,7 +1244,7 @@ Comprehensive logging and monitoring of system activity enables detection of sec
 
 **Supporting Evidence:**
 
-*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.15, ISO#A8.32, ISAE#B.7):*
+*Documentation (Cyberday Tags: GDPR#Art32, ISO#A8.15, ISO#A8.16, ISAE#B.7):*
 - Logging infrastructure design
 - Log collection and analysis procedures
 - Logging configuration on all systems
@@ -1277,7 +1277,7 @@ Comprehensive logging and monitoring of system activity enables detection of sec
 
 **Cyberday Implementation:**
 - Evidence folder: Technical Controls → Monitoring and Logging
-- Tags: GDPR#Art32, ISO#A8.15, ISO#A8.32, ISAE#B.7
+- Tags: GDPR#Art32, ISO#A8.15, ISO#A8.16, ISAE#B.7
 - Upload: Logging procedures, monitoring reports, incident investigations
 
 ---
@@ -1291,7 +1291,7 @@ Data backup and recovery systems ensure that data can be recovered in case of lo
 
 **Control Category:** Detective/Corrective  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.13 (Backup procedures)
+**ISO 27001:2022 Alignment:** A.8.13 (Information backup)
 
 **Key Procedures:**
 - Daily incremental backups with weekly full backups
@@ -1310,7 +1310,7 @@ Incident response procedures enable rapid and effective response to security inc
 
 **Control Category:** Detective/Corrective  
 **GDPR Alignment:** Articles 33-34 (Breach notification), Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.5.24-27 (Incident response), A.8.34 (Incident handling)
+**ISO 27001:2022 Alignment:** A.5.24–A.5.27 (Information security incident management: planning, assessment, response and learning)
 
 **Key Procedures:**
 - Incident response team identified and trained
@@ -1329,7 +1329,7 @@ Development and testing environments are isolated from production to prevent ina
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.30 (Development and testing environments)
+**ISO 27001:2022 Alignment:** A.8.31 (Separation of development, test and production environments)
 
 **Key Procedures:**
 - Separate development, testing, and production environments
@@ -1367,7 +1367,7 @@ Change management procedures ensure that changes to systems and configurations a
 
 **Control Category:** Preventive  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.8.31 (Change of platform, operating system or applications)
+**ISO 27001:2022 Alignment:** A.8.32 (Change management)
 
 **Key Procedures:**
 - Change request process with documentation
@@ -1387,7 +1387,7 @@ Privileged access to systems and administrative functions is strictly controlled
 
 **Control Category:** Preventive/Detective  
 **GDPR Alignment:** Article 32 (Security of processing)  
-**ISO 27001:2022 Alignment:** A.5.18 (Rights of access), A.8.18 (Use of privileged utility programs)
+**ISO 27001:2022 Alignment:** A.5.18 (Access rights), A.8.18 (Use of privileged utility programs)
 
 **Key Procedures:**
 - Privileged access separated from normal access
@@ -1608,7 +1608,7 @@ Management confirms the following:
 - ✓ International Data Transfers (Article 44-49): Not applicable - all data in Hetzner EU or on-premises
 
 **ISO 27001:2022 Alignment:**
-- ✓ 110 of 116 ISO 27001:2022 controls are supported by ISAE controls (95% coverage)
+- ✓ 62 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (67% coverage); 9 are out of processor-audit scope and 22 are not yet assessed
 - ✓ All operational security controls aligned
 - ✓ Governance and organizational controls provide baseline support
 
@@ -1669,7 +1669,7 @@ All control evidence is organized in the Cyberday compliance platform using stan
 **Evidence Categories:**
 1. Policies & Procedures (GDPR#Art24, ISO#A5.1, ISAE#A.1)
 2. Training & Awareness (GDPR#Art32, ISO#A6.3, ISAE#C.7)
-3. Access Controls (GDPR#Art32, ISO#A5.15-22, ISAE#B.6/B.13/B.14)
+3. Access Controls (GDPR#Art32, ISO#A5.15-18, ISAE#B.6/B.13/B.14)
 4. Incident Response (GDPR#Art33, ISO#A5.24-27, ISAE#I.1-I.4)
 5. Processor Agreements (GDPR#Art28, ISO#A5.19-22, ISAE#F.1-F.6)
 6. Security Assessments (GDPR#Art32, ISO#A5.7, ISAE#B.11)

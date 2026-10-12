@@ -12,7 +12,7 @@
 
 The ISAE 3000 declaration has been significantly strengthened by:
 
-1. **Framework Alignment** - All 45 ISAE controls now mapped to GDPR (71% coverage) and ISO 27001:2022 (95% coverage)
+1. **Framework Alignment** - All 45 ISAE controls now mapped to GDPR (71% coverage) and ISO/IEC 27001:2022 (67% Annex A coverage)
 2. **Control Coverage Transparency** - Explicit alignment percentages and gap identification
 3. **Evidence Organization** - Cyberday implementation framework for documentation
 4. **Gap Remediation** - 5 critical GDPR gaps identified with actionable remediation plans
@@ -27,7 +27,7 @@ The ISAE 3000 declaration has been significantly strengthened by:
 **Location**: After "Data & More ApS confirms..." statement in Introduction
 
 **Content Added**:
-- Overview of ISAE 3000 (45 control objectives), GDPR (71% coverage), ISO 27001:2022 (95% coverage)
+- Overview of ISAE 3000 (45 control objectives), GDPR (71% coverage), ISO/IEC 27001:2022 (67% Annex A coverage)
 - Coverage statistics and framework alignment rationale
 - Statement of comprehensive processor operational security coverage
 
@@ -111,7 +111,7 @@ GDPR#Art32+ISO#A5.1 - Dual framework (evidence supports both)
 **Evidence Categories**:
 1. Policies & Procedures → GDPR#Art24, ISO#A5.1, ISAE#A.1
 2. Training & Awareness → GDPR#Art32, ISO#A6.3, ISAE#C.7
-3. Access Controls → GDPR#Art32, ISO#A5.15-22, ISAE#B.6/13/14
+3. Access Controls → GDPR#Art32, ISO#A5.15-18, ISAE#B.6/13/14
 4. Incident Response → GDPR#Art33, ISO#A5.24-27, ISAE#I.1-I.4
 5. Processor Agreements → GDPR#Art28, ISO#A5.19-22, ISAE#F.1-F.6
 6. Security Assessments → GDPR#Art32, ISO#A5.7, ISAE#B.11
@@ -138,19 +138,19 @@ GDPR#Art32+ISO#A5.1 - Dual framework (evidence supports both)
 
 **Content Added** for each section:
 
-**Section A**: Information security policies → GDPR Art 5, 24, 32 / ISO A.5.1-2
+**Section A**: Information security policies → GDPR Art 5, 24, 32 / ISO/IEC 27001:2022 A.5.1–A.5.2
 
-**Section B**: Technical and cryptographic controls → GDPR Art 32 / ISO A.5.23, A.8.x
+**Section B**: Technical and cryptographic controls → GDPR Art 32 / ISO/IEC 27001:2022 A.8.24, A.8.x
 
-**Section C**: Personnel security controls → GDPR Art 32 / ISO A.6.x
+**Section C**: Personnel security controls → GDPR Art 32 / ISO/IEC 27001:2022 A.6.x
 
-**Section D**: Data retention, deletion, data subject requests → GDPR Art 12-13, 17, 20 / ISO A.5.10
+**Section D**: Data retention, deletion, data subject requests → GDPR Art 12-13, 17, 20 / ISO/IEC 27001:2022 A.5.33, A.8.10
 
-**Section E**: Secure data access and transfer → GDPR Art 32 / ISO A.5.23
+**Section E**: Secure data access and transfer → GDPR Art 32 / ISO/IEC 27001:2022 A.5.14, A.8.24
 
-**Section F**: Processor and sub-processor agreements → GDPR Art 28 / ISO A.5.19-22
+**Section F**: Processor and sub-processor agreements → GDPR Art 28 / ISO/IEC 27001:2022 A.5.19–A.5.22
 
-**Section I**: Incident response and notification → GDPR Art 33-34 / ISO A.5.24-27
+**Section I**: Incident response and notification → GDPR Art 33-34 / ISO/IEC 27001:2022 A.5.24–A.5.27
 
 **Benefit**: Creates explicit control-to-framework linkage throughout document
 
@@ -166,11 +166,12 @@ GDPR#Art32+ISO#A5.1 - Dual framework (evidence supports both)
 - **Total Coverage**: 71%
 
 ### ISO 27001:2022 Coverage
-- **Total Controls**: 116
-- **Fully Covered**: 74 (64%)
-- **Partially Covered**: 36 (31%)
-- **Out-of-Scope**: 6 (5%)
-- **Total Coverage**: 95%
+- **Total Annex A Controls**: 93 (4 themes: A.5 Organisational 37, A.6 People 8, A.7 Physical 14, A.8 Technological 34)
+- **Fully Covered**: 40 (43%)
+- **Partially Covered**: 22 (24%)
+- **Out-of-Scope**: 9 (10%)
+- **Not Yet Assessed**: 22 (24%)
+- **Total Coverage**: 67% (62 of 93)
 
 ### ISAE 3000 Coverage
 - **Total Controls**: 45
@@ -209,7 +210,7 @@ Evidence is organized in 6 categories, each with specific framework references:
 - Documents: Training Records, Employee Handbook
 
 **Category 3: Access Controls**
-- Tags: GDPR#Art32 | ISO#A5.15-22 | ISAE#B.6/B.13/B.14
+- Tags: GDPR#Art32 | ISO#A5.15-18 | ISAE#B.6/B.13/B.14
 - Documents: Access Control Policies, Role Definitions
 
 **Category 4: Incident Response**
@@ -312,7 +313,7 @@ All areas are fully covered. No conditional items remain pending review.
 ## AUDITOR-READY ELEMENTS
 
 ✓ Multiple framework alignment documented  
-✓ Coverage percentages clearly stated (71% GDPR, 95% ISO)  
+✓ Coverage percentages clearly stated (71% GDPR, 67% ISO/IEC 27001:2022 Annex A)  
 ✓ 5 critical gaps identified with concrete remediation plans  
 ✓ Evidence organization methodology explained  
 ✓ Framework compliance explicitly confirmed at management level  
@@ -329,7 +330,7 @@ All areas are fully covered. No conditional items remain pending review.
 | Framework coverage transparency | Low | High | ✓ Enhanced |
 | Gap identification | Implicit | Explicit | ✓ Identified |
 | Cyberday integration | Not mentioned | Integrated | ✓ Operationalized |
-| ISO 27001 alignment | Not addressed | Mapped (95%) | ✓ Added |
+| ISO 27001 alignment | Not addressed | Mapped (67% of 93 Annex A controls) | ✓ Added |
 | Audit readiness | Moderate | High | ✓ Improved |
 
 ---
@@ -339,7 +340,7 @@ All areas are fully covered. No conditional items remain pending review.
 These updates are informed by:
 
 - `ISAE_3000_GDPR_Mapping.md` - Detailed control-by-control GDPR mapping
-- `ISO_27001_2022_ISAE_3000_Mapping.md` - ISO framework alignment (95% coverage)
+- `ISO_27001_2022_ISAE_3000_Mapping.md` - ISO framework alignment (67% Annex A coverage)
 - `GDPR_to_ISAE_Coverage_Checklist.md` - Complete gap analysis and remediation
 - `FRAMEWORK_COMPARISON_Summary.txt` - Strategic framework comparison
 - `ISAE_3000_Document_GDPR_References.md` - Document requirement mapping
@@ -351,14 +352,14 @@ These updates are informed by:
 
 The ISAE 3000 Management Declaration has been successfully enhanced with:
 
-✓ Comprehensive framework alignment (GDPR 71%, ISO 95%, ISAE 100%)  
+✓ Framework alignment (GDPR 71%, ISO/IEC 27001:2022 Annex A 67%, ISAE 100%)  
 ✓ Zero critical gaps identified (5 major areas fully confirmed covered or not applicable)
 ✓ Transparent coverage confirmation for DSRs, DPAs, Breach Notification, DPIA, and international transfers
 ✓ Cyberday evidence organization framework  
 ✓ Multi-layer compliance confirmations  
 ✓ Audit-ready documentation structure with SCC DPA folder reference
 
-The document is now positioned to support a successful ISAE 3000 Type 1 audit with ZERO REMEDIATION REQUIRED. All GDPR compliance areas are confirmed covered through existing controls, processes, and agreements. International data transfers are confirmed not applicable (Hetzner EU + on-premises only). Cyberday implementation can proceed immediately with existing evidence organization, and ISO 27001:2022 certification planning can leverage the 95% framework alignment.
+The document is now positioned to support a successful ISAE 3000 Type 1 audit with ZERO REMEDIATION REQUIRED. All GDPR compliance areas are confirmed covered through existing controls, processes, and agreements. International data transfers are confirmed not applicable (Hetzner EU + on-premises only). Cyberday implementation can proceed immediately with existing evidence organization, and ISO 27001:2022 certification planning can leverage the 67% Annex A framework alignment (22 Annex A controls still require assessment).
 
 ---
 

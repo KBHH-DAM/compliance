@@ -3,7 +3,7 @@
 **Prepared for:** Elumi  
 **Framework:** ISAE 3000 Type 1 Audit for GDPR Compliance  
 **Primary Reference:** General Data Protection Regulation (GDPR)  
-**Supporting Framework:** SOC 2, ISO 27001, ISO 27701  
+**Supporting Framework:** SOC 2, ISO/IEC 27001:2022, ISO/IEC 27701  
 **Date:** 2026-10-02
 
 ---
@@ -37,7 +37,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC3.1, CC5.3, CC7.1 (objectives, policies, configuration changes)
-- ISO 27001: A.5.1 (policies for information security)
+- ISO 27001:2022: A.5.1 (policies for information security)
 - ISO 27701: A.2.2 (controller-processor relationship)
 
 **Evidence to Gather:**
@@ -63,7 +63,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: P5.1 (consistency of processing with objectives), CC2.1 (quality of information)
-- ISO 27001: A.5.1 (policy documentation)
+- ISO 27001:2022: A.5.1 (policy documentation)
 
 **Evidence to Gather:**
 - Processing activities register (mapped to DPA instructions)
@@ -114,7 +114,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC5.1, CC6.1c, CC4.1 (control activities, asset security, monitoring)
-- ISO 27001: A.5, A.12 (organizational and operational controls)
+- ISO 27001:2022: A.5, A.8 (organisational and technological controls)
 - ISO 27017: A.2.1 (cloud-specific safeguards)
 
 **Evidence to Gather:**
@@ -140,7 +140,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: CC3.2, CC5.1, CC5.2 (risk identification, control activities)
 - DORA: Risk assessment framework
 - NIST CSF 2.0: Identify & Protect functions
-- ISO 27001: A.12 (operational controls based on risk)
+- ISO 27001:2022: A.8 (technological controls based on risk)
 
 **Evidence to Gather:**
 - Latest dated risk assessment (per Art 32)
@@ -165,7 +165,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC6.1c, CC7.2 (technical security, system monitoring)
 - CIS 18 Controls: Control 10 (malware defenses)
-- ISO 27001: A.12.2 (malware protection)
+- ISO 27001:2022: A.8.7 (protection against malware)
 - NIST CSF 2.0: Detect function
 
 **Evidence to Gather:**
@@ -190,7 +190,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC6.2, CC7.1 (logical access, configuration management)
 - CIS 18 Controls: Control 1 (asset inventory)
-- ISO 27001: A.13.1 (network security)
+- ISO 27001:2022: A.8.20 (networks security)
 - NIST CSF 2.0: Protect function
 
 **Evidence to Gather:**
@@ -214,7 +214,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC6.1a, CC6.2b (asset identification, logical access)
 - CIS 18 Controls: Control 1, 3 (asset management, network architecture)
-- ISO 27001: A.13.1 (network segregation)
+- ISO 27001:2022: A.8.22 (segregation of networks)
 - NIST CSF 2.0: Protect function
 
 **Evidence to Gather:**
@@ -240,7 +240,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC6.2 (prior to issuing credentials, periodic review)
-- ISO 27001: A.9 (access control)
+- ISO 27001:2022: A.5.15 (access control)
 - ISO 27701: A.3.1 (data processing limitation)
 
 **Evidence to Gather:**
@@ -271,7 +271,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC7.2, CC7.3, CC7.4 (monitoring, security events evaluation)
 - CIS 18 Controls: Control 8 (audit logging)
-- ISO 27001: A.12.4 (event logging and monitoring)
+- ISO 27001:2022: A.8.15 (logging), A.8.16 (monitoring activities)
 - NIST CSF 2.0: Detect function
 
 **Evidence to Gather:**
@@ -296,7 +296,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC6.1c, C1.2 (technical security, confidentiality protection)
-- ISO 27001: A.10.1 (cryptography)
+- ISO 27001:2022: A.8.24 (use of cryptography)
 - ISO 27017: Cloud-specific encryption controls
 
 **Evidence to Gather:**
@@ -325,7 +325,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC7.2, CC7.3, CC6.2c (monitoring, event evaluation, privileged access)
 - CIS 18 Controls: Control 8 (audit logging)
-- ISO 27001: A.12.4 (event logging, monitoring, protected logs)
+- ISO 27001:2022: A.8.15 (logging, including protection of log information), A.8.16 (monitoring activities)
 - NIST CSF 2.0: Detect function
 
 **Evidence to Gather:**
@@ -359,7 +359,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: PI1.2 (system inputs)
 - ISO 27701: Data minimization, pseudonymization
-- ISO 27001: A.5 (organizational controls on data handling)
+- ISO 27001:2022: A.5 (organisational controls on data handling)
 
 **Evidence to Gather:**
 - Procedure for using personal data in development/testing environments
@@ -387,7 +387,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC4.1, CC7.2 (control evaluation, system monitoring)
 - CIS 18 Controls: Control 5 (vulnerability management)
-- ISO 27001: A.14.2 (vulnerability management)
+- ISO 27001:2022: A.8.8 (management of technical vulnerabilities)
 - NIST CSF 2.0: Identify, Detect functions
 
 **Evidence to Gather:**
@@ -421,7 +421,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC8.1, CC7.1 (change management, configuration changes)
 - CIS 18 Controls: Control 6 (asset management)
-- ISO 27001: A.14.1 (information security change management)
+- ISO 27001:2022: A.8.32 (change management)
 - NIST CSF 2.0: Protect function
 
 **Evidence to Gather:**
@@ -452,7 +452,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC6.2, CC4.1, CC7.3 (access credentials, control evaluation, event removal)
-- ISO 27001: A.9.2 (user access management)
+- ISO 27001:2022: A.5.18 (access rights), A.5.16 (identity management)
 - ISO 27701: A.3.1 (data processing limitation)
 
 **Evidence to Gather:**
@@ -488,7 +488,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC6.2, CC6.1c (multi-factor authentication for sensitive access)
 - CIS 18 Controls: Control 2 (access control, MFA)
-- ISO 27001: A.9.4 (privileged access rights)
+- ISO 27001:2022: A.8.5 (secure authentication), A.8.2 (privileged access rights)
 - NIST CSF 2.0: Protect function
 
 **Evidence to Gather:**
@@ -516,7 +516,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC6.1a, CC6.3 (asset identification, physical access)
 - CIS 18 Controls: Control 1 (physical asset management)
-- ISO 27001: A.11.1 (physical security perimeter)
+- ISO 27001:2022: A.7.1 (physical security perimeters), A.7.2 (physical entry)
 - NIST CSF 2.0: Protect function
 
 **Evidence to Gather:**
@@ -550,7 +550,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC1.1, CC2.2, CC3.2 (management commitment, communication, risk-based)
-- ISO 27001: A.5.1 (information security policies)
+- ISO 27001:2022: A.5.1 (policies for information security)
 - ISO 27701: Policy development for privacy controls
 
 **Evidence to Gather:**
@@ -581,7 +581,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC2.1, CC5.2 (quality of information, control activities)
-- ISO 27001: A.5.1 (policy integration)
+- ISO 27001:2022: A.5.1 (policy integration)
 - ISO 27701: A.2.2 (controller-processor agreement alignment)
 
 **Evidence to Gather:**
@@ -612,7 +612,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC1.2, CC1.3 (board oversight, established responsibilities)
-- ISO 27001: A.6.1 (personnel screening)
+- ISO 27001:2022: A.6.1 (screening)
 - ISO 27701: A.2.1 (employee selection and confidentiality)
 
 **Evidence to Gather:**
@@ -647,7 +647,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC1.1, CC2.2 (management commitment, staff communication)
-- ISO 27001: A.6.2 (information security awareness and training)
+- ISO 27001:2022: A.6.3 (information security awareness, education and training)
 - ISO 27701: A.2.1 (employee confidentiality and awareness)
 
 **Evidence to Gather:**
@@ -682,7 +682,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC6.2, CC6.2c (access removal upon termination)
-- ISO 27001: A.6.3 (return of assets)
+- ISO 27001:2022: A.5.11 (return of assets)
 - ISO 27701: A.2.1 (termination procedures)
 
 **Evidence to Gather:**
@@ -714,7 +714,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC1.1, CC2.3 (commitment, external communication)
-- ISO 27001: A.6.2 (ongoing awareness)
+- ISO 27001:2022: A.6.5 (responsibilities after termination or change of employment)
 - ISO 27701: A.2.1 (continuing confidentiality)
 
 **Evidence to Gather:**
@@ -743,7 +743,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC1.1, CC2.2, PI2.2 (management commitment, staff communication, privacy training)
-- ISO 27001: A.6.2 (information security awareness and training)
+- ISO 27001:2022: A.6.3 (information security awareness, education and training)
 - CIS 18 Controls: Control 17 (security awareness and training)
 - NIST CSF 2.0: Govern function
 
@@ -784,7 +784,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D1.1, D2.2 (data objectives, retention)
 - ISO 27701: Data retention and deletion controls
-- ISO 27001: A.8.3 (retention of information)
+- ISO 27001:2022: A.5.33 (protection of records – retention)
 
 **Evidence to Gather:**
 - Current storage and deletion procedure covering:
@@ -856,7 +856,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.3 (removal of personal data)
 - ISO 27701: Data return and destruction
-- ISO 27001: A.8.3 (retention and disposal)
+- ISO 27001:2022: A.5.33 (protection of records), A.8.10 (information deletion)
 
 **Evidence to Gather:**
 - Termination procedure covering:
@@ -895,7 +895,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.2, CC2.1 (processing consistency, information quality)
 - ISO 27017: Cloud region and jurisdiction controls
-- ISO 27001: A.8.1 (on-site and off-site storage)
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 
 **Evidence to Gather:**
 - Storage and processing procedure covering:
@@ -932,6 +932,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.1, CC7.1 (retention per objectives, configuration monitoring)
 - ISO 27017: Cloud region controls and compliance
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 - DORA: Geographical concentration of resources
 - ISO 27701: Cross-border transfer controls
 
@@ -975,7 +976,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC5.3, CC9.2 (policy establishment, partner risk management)
-- ISO 27001: A.14.2 (supplier relationships)
+- ISO 27001:2022: A.5.19 (information security in supplier relationships)
 - ISO 27701: A.2.2 (sub-processor agreements)
 - DORA: Third-party risk management
 
@@ -1007,7 +1008,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC9.2, CC5.2 (partner management, authorized activities)
-- ISO 27001: A.14.2 (supplier information management)
+- ISO 27001:2022: A.5.19 (information security in supplier relationships – supplier register)
 
 **Evidence to Gather:**
 - Current sub-processor register containing:
@@ -1041,7 +1042,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC2.3, CC9.2 (external communication, partner management)
-- ISO 27001: A.14.2 (supplier relationship changes)
+- ISO 27001:2022: A.5.22 (monitoring, review and change management of supplier services)
 - ISO 27701: A.2.2 (sub-processor change notification)
 
 **Evidence to Gather:**
@@ -1082,7 +1083,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC5.2, CC9.2 (control activities, partner obligations)
-- ISO 27001: A.14.2 (supplier security requirements)
+- ISO 27001:2022: A.5.20 (addressing information security within supplier agreements)
 - ISO 27701: A.2.2 (sub-processor obligations)
 
 **Evidence to Gather:**
@@ -1113,7 +1114,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC2.1, CC9.2 (information quality, vendor inventory)
-- ISO 27001: A.14.2 (supplier inventory)
+- ISO 27001:2022: A.5.19 (information security in supplier relationships – supplier inventory)
 
 **Evidence to Gather:**
 - Sub-processor register (from F.2) containing:
@@ -1148,7 +1149,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC3.2, CC4.1, CC9.2 (risk identification, monitoring, partner management)
 - DORA: Third-party risk assessment and monitoring
-- ISO 27001: A.14.2 (monitoring supplier performance)
+- ISO 27001:2022: A.5.22 (monitoring, review and change management of supplier services)
 - NIST CSF 2.0: Identify, Assess functions
 
 **Evidence to Gather:**
@@ -1200,7 +1201,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.1 (data retention per objectives, including location)
 - ISO 27701: International data transfer controls
-- ISO 27001: A.8.1 (storage in different locations)
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 - ISO 27017: Cross-border data transfer controls
 
 **Evidence to Gather:**
@@ -1345,7 +1346,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: P2.1, P3.1 (choice communication, scope consistency)
 - ISO 27701: Data subject rights support processes
-- ISO 27001: A.5.1 (information security policies)
+- ISO 27001:2022: A.5.1 (policies for information security)
 
 **Evidence to Gather:**
 - Procedure for data subject rights assistance covering:
@@ -1388,7 +1389,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: P2.1, P3.1, P4.1, P4.2 (choice, scope, requests, data deletion)
 - ISO 27701: Individual rights management
-- ISO 27001: A.5.1 (policies for fulfilling rights)
+- ISO 27001:2022: A.5.1 (policies for fulfilling rights)
 
 **Evidence to Gather:**
 - Work instructions/procedures for each right:
@@ -1442,7 +1443,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: C1.2, CC7.3, CC2.3 (confidentiality disposal, security events, external communication)
-- ISO 27001: A.17.1 (incident management procedure)
+- ISO 27001:2022: A.5.24 (information security incident management planning and preparation)
 - ISO 27701: Breach notification procedure
 - NIS2 Directive: Incident notification timelines
 
@@ -1483,7 +1484,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC7.2, CC7.3, CC2.2 (monitoring, event evaluation, staff communication)
 - CIS 18 Controls: Control 8 (audit logging), Control 17 (awareness)
-- ISO 27001: A.12.4 (event logging), A.6.2 (awareness training)
+- ISO 27001:2022: A.8.15 (logging), A.8.16 (monitoring activities), A.6.3 (awareness training)
 - NIST CSF 2.0: Detect function
 
 **Evidence to Gather:**
@@ -1531,7 +1532,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC7.3, CC2.3 (security events, external communication)
-- ISO 27001: A.17.1 (incident response timelines)
+- ISO 27001:2022: A.5.26 (response to information security incidents)
 - ISO 27701: Timely breach notification
 - NIS2 Directive: 24-hour notification to authority
 
@@ -1592,7 +1593,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC2.3, CC7.3 (external communication, event documentation)
-- ISO 27001: A.17.1 (incident documentation and reporting)
+- ISO 27001:2022: A.5.5 (contact with authorities), A.5.26 (response to information security incidents), A.5.27 (learning from information security incidents)
 - ISO 27701: Breach reporting to authorities
 
 **Evidence to Gather:**

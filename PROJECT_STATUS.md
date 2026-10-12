@@ -13,7 +13,7 @@
 
 All comprehensive audit documentation has been prepared, reviewed, and pushed to GitHub. The organization is positioned for successful ISAE 3000 Type 1 audit execution with zero critical gaps identified.
 
-**Key Milestone:** 45 ISAE controls fully documented with 71% GDPR and 95% ISO 27001:2022 alignment.
+**Key Milestone:** 45 ISAE controls fully documented with 71% GDPR and 67% ISO/IEC 27001:2022 Annex A alignment (62 of 93 controls; 22 not yet assessed).
 
 ---
 
@@ -24,7 +24,7 @@ All comprehensive audit documentation has been prepared, reviewed, and pushed to
 | Document | Status | Files | Notes |
 |----------|--------|-------|-------|
 | GDPR Mapping | ✅ Complete | ISAE_3000_GDPR_Mapping.md | 42 GDPR requirements → 45 ISAE controls |
-| ISO 27001:2022 Mapping | ✅ Complete | ISO_27001_2022_ISAE_3000_Mapping.md | 116 ISO controls → 95% alignment |
+| ISO 27001:2022 Mapping | ⚠️ Partial | ISO_27001_2022_ISAE_3000_Mapping.md | 93 Annex A controls → 67% alignment; 22 controls not yet assessed |
 | Gap Analysis | ✅ Complete | GDPR_to_ISAE_Coverage_Checklist.md | 5 gaps identified → corrected to 0 |
 | Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 95% coverage |
 | Coverage Summaries | ✅ Complete | *_Coverage_Summary.txt (3 files) | Visual metrics and breakdowns |
@@ -108,7 +108,7 @@ Status: All changes pushed ✅
 ### ✅ Completed
 
 - [x] GDPR compliance analysis (71% coverage)
-- [x] ISO 27001:2022 alignment (95% coverage)
+- [x] ISO 27001:2022 alignment (67% coverage — 62 of 93 Annex A controls; 22 not yet assessed)
 - [x] All 45 ISAE controls documented
 - [x] Management Declaration updated
 - [x] Google Docs finalized with corrections
@@ -378,7 +378,7 @@ Status: All changes pushed ✅
 
 ### Framework Coverage
 - **GDPR Coverage:** 71% (30 of 42 requirements)
-- **ISO 27001:2022 Coverage:** 95% (110 of 116 controls)
+- **ISO 27001:2022 Coverage:** 67% (62 of 93 Annex A controls; 22 not yet assessed)
 - **ISAE 3000 Coverage:** 100% (45 of 45 controls)
 - **Status:** EXCELLENT ✅
 
