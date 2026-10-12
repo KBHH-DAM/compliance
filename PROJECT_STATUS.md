@@ -26,7 +26,7 @@ All comprehensive audit documentation has been prepared, reviewed, and pushed to
 | GDPR Mapping | ✅ Complete | ISAE_3000_GDPR_Mapping.md | 42 GDPR requirements → 45 ISAE controls |
 | ISO 27001:2022 Mapping | ✅ Complete | ISO_27001_2022_ISAE_3000_Mapping.md | All 93 Annex A controls assessed → 88% mapped (82); SoA still needs status + owner per control |
 | Gap Analysis | ✅ Complete | GDPR_to_ISAE_Coverage_Checklist.md | 5 gaps identified → corrected to 0 |
-| Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 95% coverage |
+| Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 88% Annex A coverage |
 | Coverage Summaries | ✅ Complete | *_Coverage_Summary.txt (3 files) | Visual metrics and breakdowns |
 | Quick References | ✅ Complete | *_Quick_Reference.txt (2 files) | Auditor lookup tables |
 
