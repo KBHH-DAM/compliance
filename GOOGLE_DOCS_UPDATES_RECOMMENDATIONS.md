@@ -288,7 +288,7 @@ All areas are fully covered. No conditional items remain pending review.
 **POST-AUDIT (Optional)**
 - Plan ISO 27001:2022 certification
 - Extend controls to governance areas
-- Leverage 95% alignment for certification support
+- Leverage 88% Annex A alignment for certification support
 
 ---
 
