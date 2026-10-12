@@ -164,11 +164,16 @@ reference was judged on intent.
 | `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 149 | ISO A.5.23 (secure data access and transfer) | A.5.23 = cloud services | **A.5.14**, **A.8.24** |
 | `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 114, 213 | ISO#A5.15-22 (Access Controls) | A.5.19–A.5.22 are supplier controls | **ISO#A5.15-18** |
 | `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1672 | ISO#A5.15-22 (Access Controls) | as above | **ISO#A5.15-18** |
+| `PROJECT_STATUS.md` | 240 | ISO#A5.15-22 (Access Controls) | as above; found 2026-10-12 during the Cyberday pass (§13) | **ISO#A5.15-18** |
 
 **Cyberday tags updated to match** (`DESCRIPTION_OF_PROCESSING_ISAE3000.md`): lines 601/632
 `ISO#A5.23` → `ISO#A8.24`; 702/730 `ISO#A8.12` → `ISO#A8.19`; 1019/1050 `ISO#A5.23, ISO#A8.24`
-→ `ISO#A8.24`; 1247/1280 `ISO#A8.32` → `ISO#A8.16`. **These tags exist in Cyberday and must be
-re-tagged there to stay consistent with the documents.**
+→ `ISO#A8.24`; 1247/1280 `ISO#A8.32` → `ISO#A8.16`. These four tag values, and every other
+`ISO#` tag in the repository, were subsequently verified directly against the Cyberday account's
+own ISO 27001:2022 requirement list — see §13. **The tags do not yet exist in Cyberday**: the
+`GDPR#`/`ISO#`/`ISAE#` scheme is a convention these documents define for evidence uploads that
+have not been made. The corrected values are therefore what to apply on first upload, not an
+edit to existing tags.
 
 ### 4.1 A.8.1 — the ambiguous number, resolved by intent
 
@@ -370,7 +375,9 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 | 1 | ~~Decide A.7.9 vs A.5.23/A.5.14 for data-residency controls~~ — **resolved 2026-10-12: A.5.23 + A.5.14 applied to E.1, E.2 and G.1** (§5.1, §5.2) | Done |
 | 2 | Sign off or restate the coverage figure (§6) — now **88% (82 of 93)** after the completion pass, see §10 | Compliance |
 | 3 | ~~Assess the 22 outstanding Annex A controls~~ — **done 2026-10-12** (§10); SoA still needs status + owner per control | Partly done |
-| 4 | Re-tag the changed `ISO#...` tags in Cyberday (§4) | Cyberday admin |
+| 4 | ~~Re-tag the changed `ISO#...` tags in Cyberday (§4)~~ — **closed 2026-10-12 as not applicable**: the tags do not yet exist in Cyberday (§13.1). Replaced by 4a and 4b | Done |
+| 4a | Apply the verified `ISO#` tag values (§13.2) when evidence is first uploaded to Cyberday | Cyberday admin |
+| 4b | Set A.8.30 to not applicable in Cyberday to match the SoA exclusion, and close or re-point its "outsourced development" task (§13.4) | Cyberday admin |
 | 5 | ~~Consolidate the duplicate A.7.2 sections~~ — **resolved 2026-10-12** (§5.4) | Done |
 | 6 | Review the weak mappings in §5.5 and §5.6 (§5.3 resolved 2026-10-12: A.5.5 added to I.4) | Compliance |
 | 7 | Separate check of the ISO 27701 / ISO 27017 references (§5.7) | Compliance |
@@ -592,3 +599,105 @@ to source code** and **A.8.25 Secure development life cycle** apply to in-house 
 as much as to outsourced, as do A.8.28 Secure coding, A.8.29 Security testing in development and
 acceptance, A.8.31 Separation of development, test and production environments, and A.8.33 Test
 information.
+
+---
+
+## 13. Cyberday verification pass — the `ISO#` tags
+
+The re-tagging follow-up recorded in §9 and §4 assumed the `ISO#` tags were already applied in
+Cyberday and needed changing. With the Cyberday account reachable, that assumption was tested
+and is wrong, and the opportunity was taken to verify every tag value against the account's own
+copy of the standard rather than against this audit's reading of it.
+
+### 13.1 There are no existing tags to re-tag
+
+The account holds the expected ISMS inventory — 15 data stores (Microsoft, AWS, Hetzner, IONOS,
+Google Workspace, Slack, HubSpot, OpenAI, Trello, E-conomic, Sproom, Postmark, Visma, Amazon
+Ireland, DMCS Toolbox), 14 data sets, 2 other assets — and **ISO 27001 (2022): Full** (`iso27k1-3`)
+is active, alongside GDPR, ISO 27701, ISO 27017, ISO 27018, SOC 2, NIS2, DORA, CRA, NIST CSF 2.0,
+Cyber Essentials, CIS 18 and the AI Act profiles. The 2013 framework variants are **not** active,
+which is correct for a 2022-basis certification.
+
+What the account does not contain is the tags. A free-text search of all tasks returns nothing for
+`ISO#`, `GDPR#`, `ISAE` or `A8.32`, and every data store, data set and other asset carries a null
+description. The `GDPR#…` / `ISO#A…` / `ISAE#…` scheme is a convention *these documents* define
+for naming and tagging evidence on upload; it is consistent with `PROJECT_STATUS.md` recording
+Cyberday setup as pending and with the auditor's tracker showing 0 of 99 documents uploaded.
+
+So the four changes are not corrections to live tags. They are the values to use when the evidence
+is first uploaded, and the documents now carry the right ones.
+
+### 13.2 Every tag value verified against Cyberday's own control titles
+
+Cyberday returns the ISO 27001:2022 requirement set with official titles, which makes it an
+independent check on the tag values rather than a restatement of them. All 20 distinct `ISO#`
+tags used across the repository match the control whose evidence they label:
+
+| Tag | Cyberday's title for that requirement | Labels evidence for |
+|---|---|---|
+| `ISO#A5.1` | Policies for information security | ISAE A.1 — policies and procedures |
+| `ISO#A5.2` | Information security roles and responsibilities | ISAE A.2 — roles |
+| `ISO#A5.7` | Threat intelligence | ISAE B.11 — security assessments |
+| `ISO#A5.15` | Access control | ISAE B.6 — access management |
+| `ISO#A5.16` | Identity management | ISAE B.6 — access management |
+| `ISO#A5.17` | Authentication information | Access Controls category |
+| `ISO#A5.18` | Access rights | Access Controls category |
+| `ISO#A5.24`–`A5.27` | Incident management planning and preparation; Assessment and decision on information security events; Response to information security incidents; Learning from information security incidents | ISAE I.1–I.4 — incident response |
+| `ISO#A5.19`–`A5.22` | Information security in supplier relationships; Addressing information security within supplier agreements; Managing information security in the ICT supply chain; Monitoring, review and change management of supplier services | ISAE F.1–F.6 — processor agreements |
+| `ISO#A6.3` | Information security awareness, education and training | ISAE A.3 / C.7 — training |
+| `ISO#A8.7` | Protection against malware | ISAE B.3 |
+| `ISO#A8.9` | Configuration management | ISAE B.2 |
+| `ISO#A8.15` | Logging | ISAE B.9 |
+| `ISO#A8.16` | Monitoring activities | ISAE B.7 |
+| `ISO#A8.19` | Installation of software on operational systems | ISAE B.2 |
+| `ISO#A8.20` | Networks security | ISAE B.4 |
+| `ISO#A8.22` | Segregation of networks | ISAE B.4 |
+| `ISO#A8.24` | Use of cryptography | ISAE B.1, B.5 |
+| `ISO#A8.27` | Secure system architecture and engineering principles | ISAE B.1 |
+
+The four changed values are confirmed by the same source: Cyberday titles **8.12 as Data leakage
+prevention** (so the software-installation evidence belongs on A.8.19), **8.32 as Change
+management** (so the monitoring evidence belongs on A.8.16), and **5.23 as Information security
+for use of cloud services** (so the cryptography evidence belongs on A.8.24). The narrowing of
+`ISO#A5.15-22` to `ISO#A5.15-18` is confirmed too: 5.19 through 5.22 are, in Cyberday's own
+wording, the four supplier-relationship controls.
+
+### 13.3 Why the `A` prefix in the tag matters
+
+Cyberday returns clauses and Annex A controls in one list, and three numbers collide:
+
+| Number | As a management-system clause | As an Annex A control |
+|---|---|---|
+| 5.1 | Leadership and commitment | Policies for information security |
+| 5.2 | Policy | Information security roles and responsibilities |
+| 6.3 | Planning of changes | Information security awareness, education and training |
+
+A bare `ISO#5.1` would be ambiguous between a leadership requirement and a policy control. The
+`ISO#A5.1` form resolves it, so the convention should be kept exactly as written — the `A` is
+load-bearing, not decoration.
+
+### 13.4 Open discrepancy: A.8.30 is still applicable in Cyberday
+
+§12 records A.8.30 Outsourced development as excluded from the Statement of Applicability
+because all development is in-house. Cyberday still reports it as **applicable** with assurance
+Medium and two linked tasks:
+
+- Listing authorized users for publishing code changes
+- Process for monitoring and tracking outsourced development work
+
+The SoA and the ISMS tool therefore disagree on the one control the organisation has formally
+excluded, which is precisely the kind of inconsistency an auditor samples for. A.8.30 needs
+setting to not applicable in Cyberday with the in-house-development justification, and the
+second task above either closed or re-pointed — the first task is worth keeping, since
+authorising who can publish code changes is evidence for A.8.4 Access to source code, which
+stays applicable.
+
+This cannot be done through the Cyberday integration available here: it exposes read operations
+and creation of new records, but no way to amend an existing requirement's applicability or a
+task. It is a short manual change in the Cyberday UI.
+
+### 13.5 Status of the §9 follow-up
+
+Follow-up 4 ("Re-tag the changed `ISO#` tags in Cyberday") is **closed as not applicable** — there
+were no tags to change. It is replaced by two items: apply the §13.2 tag values when evidence is
+first uploaded, and reconcile A.8.30's applicability per §13.4.

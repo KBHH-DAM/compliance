@@ -237,7 +237,7 @@ Status: All changes pushed ✅
    - B.4-B.7: Other technical controls
    - Scan reports, update logs, test results
 
-3. **Access Controls** (GDPR#Art32, ISO#A5.15-22, ISAE#B.6)
+3. **Access Controls** (GDPR#Art32, ISO#A5.15-18, ISAE#B.6)
    - User access policies
    - Role definitions
    - Access logs (samples)
