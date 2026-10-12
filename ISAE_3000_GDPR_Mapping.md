@@ -1,7 +1,7 @@
 # ISAE 3000 Type 1 Controls → GDPR Cyberday Mapping
 
 **Prepared for:** Elumi  
-**Framework:** ISAE 3000 Type 1 Audit for GDPR Compliance  
+**Framework:** ISAE 3000 Type 1 with reasonable assurance — GDPR compliance  
 **Primary Reference:** General Data Protection Regulation (GDPR)  
 **Supporting Framework:** SOC 2, ISO/IEC 27001:2022, ISO/IEC 27701  
 **Date:** 2026-10-02
@@ -88,6 +88,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: CC3.3 (fraud consideration), CC2.3 (external communication)
 - ISO 27701: A.2.2 (processor obligations)
+- ISO 27001:2022: A.5.31 (legal, statutory, regulatory and contractual requirements), A.5.34 (privacy and protection of PII)
 - NIS2 Directive: Incident escalation procedures
 
 **Evidence to Gather:**
@@ -114,7 +115,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 
 **Secondary References:**
 - SOC 2: CC5.1, CC6.1c, CC4.1 (control activities, asset security, monitoring)
-- ISO 27001:2022: A.5, A.8 (organisational and technological controls)
+- ISO 27001:2022: A.5, A.8 (organisational and technological controls); A.5.37 (documented operating procedures), A.5.31 (contractual requirements), A.5.36 (compliance with policies and standards)
 - ISO 27017: A.2.1 (cloud-specific safeguards)
 
 **Evidence to Gather:**
@@ -140,7 +141,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: CC3.2, CC5.1, CC5.2 (risk identification, control activities)
 - DORA: Risk assessment framework
 - NIST CSF 2.0: Identify & Protect functions
-- ISO 27001:2022: A.8 (technological controls based on risk)
+- ISO 27001:2022: A.8 (technological controls based on risk); Clause 6.1.2 / 6.1.3 (risk assessment and treatment — a management-system requirement, not an Annex A control), A.5.4 (management responsibilities)
 
 **Evidence to Gather:**
 - Latest dated risk assessment (per Art 32)
@@ -359,7 +360,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: PI1.2 (system inputs)
 - ISO 27701: Data minimization, pseudonymization
-- ISO 27001:2022: A.5 (organisational controls on data handling)
+- ISO 27001:2022: A.8.11 (data masking), A.8.33 (test information); A.5 (organisational controls on data handling)
 
 **Evidence to Gather:**
 - Procedure for using personal data in development/testing environments
@@ -649,6 +650,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: CC1.1, CC2.2 (management commitment, staff communication)
 - ISO 27001:2022: A.6.3 (information security awareness, education and training)
 - ISO 27701: A.2.1 (employee confidentiality and awareness)
+- ISO 27001:2022: A.6.6 (confidentiality or non-disclosure agreements), A.6.2 (terms and conditions of employment)
 
 **Evidence to Gather:**
 - Onboarding/induction procedure covering:
@@ -818,6 +820,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: D2.1, D2.2 (retention per objectives)
 - ISO 27701: Retention and deletion controls
 - NIST CSF 2.0: Govern function (data lifecycle)
+- ISO 27001:2022: A.5.33 (protection of records – retention periods), A.8.10 (information deletion)
 
 **Evidence to Gather:**
 - Controller instructions or DPA specifying:
@@ -1234,6 +1237,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: D2.2 (processing consistency with objectives)
 - ISO 27701: Transfer authorization
 - ISO 27017: Cross-border transfer approval
+- ISO 27001:2022: A.5.14 (information transfer), A.5.31 (legal, statutory, regulatory and contractual requirements)
 
 **Evidence to Gather:**
 - Third-country transfer register containing:
@@ -1288,6 +1292,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 - SOC 2: CC3.2 (risk identification, including transfer risk)
 - ISO 27701: Assessment of adequacy of safeguards
 - ISO 27017: Transfer mechanism documentation
+- ISO 27001:2022: A.5.14 (information transfer), A.5.31 (legal, statutory, regulatory and contractual requirements)
 - DORA: Third-country operational resilience
 
 **Evidence to Gather:**

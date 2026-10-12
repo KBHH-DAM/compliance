@@ -1,7 +1,7 @@
 # ISO 27001:2022 to ISAE 3000 Control Mapping
 
 **Prepared for:** Elumi  
-**Framework:** ISAE 3000 Type 1 Audit for ISO 27001:2022 Compliance  
+**Framework:** ISAE 3000 Type 1 with reasonable assurance — ISO/IEC 27001:2022 alignment  
 **Primary Reference:** ISO/IEC 27001:2022 — 93 Annex A controls in 4 themes (A.5 Organisational, A.6 People, A.7 Physical, A.8 Technological)  
 **Secondary Framework:** SOC 2, GDPR, NIST CSF  
 **Date:** 2026-10-02
@@ -166,12 +166,16 @@ theme). Retained in this category for continuity with the existing ISAE mapping.
 - ISAE scope: Not specific procedural requirement
 
 ### ISO 27001 A.5.34 - Privacy and Protection of PII
-**ISAE Control:** All controls (privacy principle)  
+**ISAE Control:** H.1, H.2, A.2, A.3 (and the privacy principle across all controls)  
 **Alignment:** HIGH  
 **Requirement:**
-- Privacy requirements met
-- Data subject rights supported
-- ISAE requires: All controls aligned with privacy
+- Identification and compliance with requirements for the preservation of privacy and
+  protection of PII
+- ISAE requires: procedures for assisting the controller with data subject rights (H.1) and
+  the capability to action access, rectification, erasure, restriction and information
+  requests (H.2); processing only per controller instructions (A.2); and escalation of
+  instructions that may infringe data protection law (A.3)
+- This is the control that carries data subject rights, not A.5.18
 
 ---
 
@@ -203,15 +207,20 @@ theme). Retained in this category for continuity with the existing ISAE mapping.
 - Password management
 
 ### ISO 27001 A.5.18 - Access Rights
-**ISAE Control:** H.2  
+**ISAE Control:** B.6, B.13  
 **Alignment:** HIGH  
 **Requirement:**
-- User rights defined and documented
-- Access rights appropriate to role
-- Support for data subject access rights
+- Provisioning, review and revocation of users' access rights
+- Access rights appropriate to role, justified by work-related need
+- ISAE requires: access limited to work-related need (B.6) and a formalised grant/removal
+  procedure with periodic reconsideration of rights (B.13)
+- *Corrected in the re-match against the request list: this control was previously mapped to
+  ISAE H.2. H.2 is assistance with **data subject** rights (GDPR Art. 15–22); A.5.18 is
+  users' **system access** rights. The two were conflated by the shared phrase "rights of
+  access". Data subject rights map to A.5.34 below.*
 
 ### ISO 27001 A.5.19 - Information Security in Supplier Relationships
-**ISAE Control:** F.1, F.2, F.6  
+**ISAE Control:** F.1, F.2, F.5, F.6  
 **Alignment:** HIGH  
 **Requirement:**
 - Security requirements in supplier contracts

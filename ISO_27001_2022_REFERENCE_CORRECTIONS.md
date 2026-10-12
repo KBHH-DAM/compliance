@@ -434,3 +434,114 @@ This pass establishes which ISAE control addresses which Annex A control. It doe
 assert that any control is implemented. The SoA additionally requires, per control: the
 inclusion/exclusion decision, the justification, implementation status and an owner. That
 remains management's to supply.
+
+---
+
+## 11. Re-match against the auditor's request list (2026-10-12)
+
+Source of truth: **"Elumi_ISAE_3000 request list"**, tab *Documentation tracker* — the
+auditor's own request list for the ISAE 3000 Type 1 engagement, 99 requested documents across
+45 control activities. Earlier passes mapped against the paraphrased control text in this
+repository; this pass re-matched every mapping against the auditor's verbatim control-activity
+wording and evidence objectives.
+
+**Control IDs reconcile exactly.** The request list uses A.1–A.3, B.1–B.15, C.1–C.7,
+D.1–D.3, E.1–E.2, F.1–F.6, G.1–G.3, H.1–H.2, I.1–I.4 = 45 controls, identical to the set
+in these documents. No control drift.
+
+### 11.1 One genuine mis-mapping, found only by reading the auditor's wording
+
+**A.5.18 Access Rights was mapped to ISAE H.2.** The request list's H.2 reads: *"procedures
+… that enable timely assistance to the data controller in handing out, correcting, deleting
+or restricting or providing information about the processing of personal data **to data
+subjects**."* That is **data subject** rights (GDPR Art. 15–22). A.5.18 is users' **system
+access** rights — provisioning, review, revocation. The two were conflated by the shared
+phrase "rights of access".
+
+| | Was | Now |
+|---|---|---|
+| A.5.18 Access rights | ISAE H.2 | **ISAE B.6, B.13** |
+| ISAE H.1 / H.2 | *(no ISO control claimed them)* | **A.5.34** Privacy and protection of PII |
+
+This is the same ambiguity class as A.8.1, and it survived the earlier correction pass because
+the number and title were a valid 2022 pair — only the authoritative control text exposed it.
+
+### 11.2 Request-list controls that had no specific ISO 27001 mapping
+
+| ISAE control | Was | Now |
+|---|---|---|
+| A.2 Processing per instructions | — (Cyberday) | A.5.31, A.5.34 |
+| A.3 Reporting unlawful instructions | — (both) | A.5.31, A.5.34 |
+| D.2 Retention periods and deletion routines | — (both) | A.5.33, A.8.10 |
+| G.1 Third-country transfer procedure | — (Cyberday) | A.5.23, A.5.14 |
+| G.2 Transfers per controller instructions | — (both) | A.5.14, A.5.31 |
+| G.3 Transfer mechanism and assessment | — (both) | A.5.14, A.5.31 |
+| H.1 Data subject rights procedure | — (Cyberday) | A.5.34, A.5.37 |
+| H.2 Capability to assist with rights | — (Cyberday) | A.5.34, A.8.10 |
+
+### 11.3 Theme-level references tightened to specific controls
+
+The request list's wording is specific enough to replace three vague theme-level references —
+and leaving them vague would have contradicted the Category 15 entries, which map A.8.11 and
+A.8.33 *to* B.10.
+
+| ISAE control | Was | Now |
+|---|---|---|
+| B.1 Safeguards implementation and review | "A.5 — Organisational Controls" | + A.5.37, A.5.31, A.5.36 |
+| B.2 Risk assessment and technical measures | "A.8 — Technological Controls" | + **Clause 6.1.2 / 6.1.3** (risk assessment and treatment — a management-system requirement, not an Annex A control), A.5.4 |
+| B.10 Pseudonymisation in dev/test | "A.5 — Organisational controls" | + A.8.11 Data masking, A.8.33 Test information |
+
+This closes the item left open as a weak mapping in §5.6.
+
+### 11.4 C.4 refined
+
+The request list's C.4 **leads with** *"Upon appointment, employees sign a confidentiality
+agreement"*, then adds the induction. It previously cited only A.6.3 (awareness and training).
+Now cites **A.6.6** (confidentiality or non-disclosure agreements) and **A.6.2** (terms and
+conditions of employment) alongside A.6.3.
+
+### 11.5 A.5.5 decision validated
+
+The request list's I.4 is explicitly *"procedures for assisting the data controller in filing
+reports with the **Danish Data Protection Agency**"*. This confirms the earlier decision
+(§5.3) to add **A.5.5 Contact with authorities** to I.4 — the authoritative wording makes it
+the natural fit, not just a defensible one.
+
+### 11.6 Coverage after the re-match
+
+| Direction | Result |
+|---|---|
+| Request-list controls with a specific Annex A mapping | **45 of 45** in both mapping documents |
+| Annex A controls assessed | **93 of 93** |
+| ISAE controls cited from the ISO side | **45 of 45** (F.5 was previously never cited; A.5.19 now names it) |
+| Invalid 2022 references | **none** |
+
+Annex A coverage figures are unchanged by this pass — it corrected and completed *which* ISAE
+control maps to which Annex A control, without changing any alignment verdict.
+
+### 11.7 Flagged — scope of the assertion does not match a Type 1 engagement
+
+Not a mapping issue, but it surfaced from the request list's header and needs a decision:
+
+The request list is for an **"ISAE 3000 Type 1 report with reasonable assurance"**. A Type 1
+report covers the **suitability of design and the implementation** of controls **as at a
+point in time**. Operating effectiveness over a period is a **Type 2** matter.
+
+Two documents assert more than a Type 1 can support:
+
+- `DESCRIPTION_OF_PROCESSING_ISAE3000.md`: *"All 45 ISAE 3000 Type 1 control objectives have
+  been designed appropriately **and are operating effectively** to achieve their stated
+  objectives."*
+- `B3_AUDIT_EVIDENCE_SUMMARY.md`: *"designed appropriately and operating effectively to
+  provide reasonable assurance…"*
+
+For a Type 1, management's assertion should address suitability of design and implementation as
+at the report date, and not claim operating effectiveness. As written, the assertion invites
+either a qualification or a request for the period testing a Type 2 would require.
+**Left unchanged — this is management's assertion to make, not ours to rewrite.** Recommend
+rewording before the report date, or confirming the engagement is in fact Type 2.
+
+The headers of `ISAE_3000_GDPR_Mapping.md` and `ISO_27001_2022_ISAE_3000_Mapping.md` have been
+aligned to state "Type 1 with reasonable assurance", matching the request list and the
+Cyberday mapping.
+
