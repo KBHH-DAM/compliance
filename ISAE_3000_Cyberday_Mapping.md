@@ -34,6 +34,8 @@
 - **SOC 2 - CC2.1:** Quality information to support internal controls (ensure clarity of DPA terms)
 - **GDPR (Cyberday):** Article 5(1)(a) - Processing lawfulness principle
 - **ISO 27017:** Control A.2.1 - Cloud-specific data processing requirements
+- **ISO 27001 (2022) - A.5.31:** Legal, statutory, regulatory and contractual requirements
+- **ISO 27001 (2022) - A.5.34:** Privacy and protection of PII
 
 **Evidence to Gather:**
 - Processing activities register (mapped to DPAs)
@@ -50,6 +52,8 @@
 - **SOC 2 - CC2.3:** Communication with external parties (escalation to controllers)
 - **GDPR (Cyberday):** Article 36 - Data Protection Impact Assessment triggers
 - **NIS2 Directive (Cyberday):** Incident reporting and escalation procedures
+- **ISO 27001 (2022) - A.5.31:** Legal, statutory, regulatory and contractual requirements
+- **ISO 27001 (2022) - A.5.34:** Privacy and protection of PII
 
 **Evidence to Gather:**
 - Procedure for assessing instruction lawfulness
@@ -68,6 +72,9 @@
 - **SOC 2 - CC6.1c:** Technical security for protected information assets
 - **SOC 2 - CC4.1:** Evaluation of internal controls
 - **ISO 27001 (2022) - Full (Active):** A.5 - Organizational Controls
+- **ISO 27001 (2022) - A.5.37:** Documented operating procedures
+- **ISO 27001 (2022) - A.5.31:** Legal, statutory, regulatory and contractual requirements
+- **ISO 27001 (2022) - A.5.36:** Compliance with policies, rules and standards for information security
 - **ISO 27017 (Active):** Cloud-specific technical and organizational measures
 
 **Evidence to Gather:**
@@ -88,6 +95,8 @@
 - **DORA (Active):** Risk assessment and management framework
 - **NIST CSF 2.0 (Active):** Identify & Protect functions
 - **ISO 27001 (2022) - A.8:** Technological Controls (security measures)
+- **ISO 27001 (2022) - Clause 6.1.2 / 6.1.3:** Information security risk assessment and risk treatment (a management-system requirement, not an Annex A control)
+- **ISO 27001 (2022) - A.5.4:** Management responsibilities (approval of the risk assessment)
 
 **Evidence to Gather:**
 - Latest dated risk assessment
@@ -232,6 +241,8 @@
 - **SOC 2 - PI1.2:** Implementation of policies and procedures for system inputs (data quality control)
 - **GDPR (Cyberday):** Article 32(1)(d) - Pseudonymization and encryption
 - **ISO 27701 (Active):** Privacy-specific controls for data minimization
+- **ISO 27001 (2022) - A.8.11:** Data masking
+- **ISO 27001 (2022) - A.8.33:** Test information
 - **ISO 27001 (2022) - A.5:** Organizational controls (data handling)
 - **DORA (Active):** Data security in operational environments
 
@@ -397,7 +408,9 @@
 **Recommended Cyberday References:**
 - **SOC 2 - CC1.1:** Management commitment (communication of security culture)
 - **SOC 2 - CC2.2:** Internal communication of information (staff awareness)
-- **ISO 27001 (2022) - A.6.3:** Information security awareness, education and training
+- **ISO 27001 (2022) - A.6.6:** Confidentiality or non-disclosure agreements
+- **ISO 27001 (2022) - A.6.2:** Terms and conditions of employment
+- **ISO 27001 (2022) - A.6.3:** Information security awareness, education and training (induction)
 - **GDPR (Cyberday):** Article 28 - Processor obligations
 - **ISO 27017 (Active):** Cloud-specific training requirements
 
@@ -489,6 +502,8 @@
 - **GDPR (Cyberday):** Article 5(1)(e) - Storage limitation principle
 - **ISO 27701 (Active):** Data minimization & retention
 - **NIST CSF 2.0:** Govern function (data lifecycle)
+- **ISO 27001 (2022) - A.5.33:** Protection of records (retention periods)
+- **ISO 27001 (2022) - A.8.10:** Information deletion
 
 **Evidence to Gather:**
 - Controller instructions or DPA specifying retention periods
@@ -673,6 +688,8 @@
 - **GDPR (Cyberday):** Articles 45-49 - Adequacy decisions and transfer mechanisms
 - **ISO 27701 (Active):** International data transfer controls
 - **DORA (Active):** Geographical limitations on data processing
+- **ISO 27001 (2022) - A.5.23:** Information security for use of cloud services
+- **ISO 27001 (2022) - A.5.14:** Information transfer
 
 **Evidence to Gather:**
 - Third-country transfer procedure
@@ -688,6 +705,8 @@
 - **GDPR (Cyberday):** Article 28(3)(c) - Controller authorization for transfers
 - **ISO 27701 (Active):** Data transfer authorization
 - **ISO 27017 (Active):** Cross-border data transfer controls
+- **ISO 27001 (2022) - A.5.14:** Information transfer
+- **ISO 27001 (2022) - A.5.31:** Legal, statutory, regulatory and contractual requirements
 
 **Evidence to Gather:**
 - Third-country transfer register identifying recipients, destinations, affected controllers
@@ -707,6 +726,8 @@
 - **SOC 2 - CC3.2:** Identification of risks related to objectives (transfer risk assessment)
 - **ISO 27701 (Active):** Assessment of adequacy of safeguards
 - **DORA (Active):** Third-country operational resilience
+- **ISO 27001 (2022) - A.5.14:** Information transfer
+- **ISO 27001 (2022) - A.5.31:** Legal, statutory, regulatory and contractual requirements
 
 **Evidence to Gather:**
 - For 3 transfers: transfer mechanism documentation (SCC, adequacy decision, etc.)
@@ -726,6 +747,8 @@
 - **GDPR (Cyberday):** Articles 15-22 - Data subject rights
 - **GDPR (Cyberday):** Article 28(3)(e) - Processor assistance obligations
 - **ISO 27701 (Active):** Data subject rights support processes
+- **ISO 27001 (2022) - A.5.34:** Privacy and protection of PII
+- **ISO 27001 (2022) - A.5.37:** Documented operating procedures
 
 **Evidence to Gather:**
 - Procedure for receiving and assisting with data-subject rights requests
@@ -742,6 +765,8 @@
 - **SOC 2 - P4.1 & P4.2:** Requests from data subjects (correction/deletion assistance)
 - **GDPR (Cyberday):** Articles 15-22 - Specific rights and processor obligations
 - **ISO 27701 (Active):** Assistance with individual rights
+- **ISO 27001 (2022) - A.5.34:** Privacy and protection of PII
+- **ISO 27001 (2022) - A.8.10:** Information deletion (erasure requests)
 
 **Evidence to Gather:**
 - Work instructions for access, rectification, deletion, restriction, information requests
