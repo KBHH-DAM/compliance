@@ -136,7 +136,7 @@ Management has assessed the control environment and confirmed:
 - Controls are implemented and operating effectively
 - Zero critical deficiencies exist in control design or operation
 - All GDPR compliance requirements are addressed through existing controls
-- 62 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (67%); 22 are not yet assessed — see ISO_27001_2022_ISAE_3000_Mapping.md
+- 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88%); all 93 are assessed — see ISO_27001_2022_ISAE_3000_Mapping.md
 
 ### 2.2 Control Environment Components
 
@@ -219,7 +219,7 @@ This Description of Processing addresses 45 control objectives organized into 9 
 | I | I.1 - I.4 | Incident Management |
 
 **Total Controls:** 45  
-**Coverage Status:** 100% of the 45 ISAE controls mapped to GDPR; ISO/IEC 27001:2022 Annex A alignment is 67% (62 of 93 controls) — see ISO_27001_2022_ISAE_3000_Mapping.md
+**Coverage Status:** 100% of the 45 ISAE controls mapped to GDPR; ISO/IEC 27001:2022 Annex A alignment is 88% (82 of 93 controls) — see ISO_27001_2022_ISAE_3000_Mapping.md
 
 ### 3.2 Control Effectiveness Assessment
 
@@ -1608,7 +1608,7 @@ Management confirms the following:
 - ✓ International Data Transfers (Article 44-49): Not applicable - all data in Hetzner EU or on-premises
 
 **ISO 27001:2022 Alignment:**
-- ✓ 62 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (67% coverage); 9 are out of processor-audit scope and 22 are not yet assessed
+- ✓ 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88% coverage); all 93 are assessed, and 11 are applicable to the ISMS but not tested by this engagement
 - ✓ All operational security controls aligned
 - ✓ Governance and organizational controls provide baseline support
 

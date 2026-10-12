@@ -307,6 +307,10 @@ removed, or changed:
 | A.8 — Technological | 34 | 22 | 11 | 9 | 2 | 12 |
 | **TOTAL** | **93** | **71** | **40** | **22** | **9** | **22** |
 
+> **Superseded by §10.** The 22 unassessed controls have since been assessed, taking coverage
+> to **82 of 93 (88%)**. The account below is the record of what this correction pass found at
+> the time, and is kept as-is for traceability.
+
 **Restated headline: 62 of 93 Annex A controls (67%) have an identified ISAE mapping**, down
 from the claimed 95%. The drop is **not** a loss of controls — it is that 22 Annex A controls
 were never assessed and the old denominator was inflated. Of the 71 controls actually
@@ -364,10 +368,69 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 | # | Action | Owner |
 |---|---|---|
 | 1 | ~~Decide A.7.9 vs A.5.23/A.5.14 for data-residency controls~~ — **resolved 2026-10-12: A.5.23 + A.5.14 applied to E.1, E.2 and G.1** (§5.1, §5.2) | Done |
-| 2 | Sign off or restate the 67% coverage figure (§6) | Compliance |
-| 3 | Assess the 22 outstanding Annex A controls — required for the SoA | Compliance |
+| 2 | Sign off or restate the coverage figure (§6) — now **88% (82 of 93)** after the completion pass, see §10 | Compliance |
+| 3 | ~~Assess the 22 outstanding Annex A controls~~ — **done 2026-10-12** (§10); SoA still needs status + owner per control | Partly done |
 | 4 | Re-tag the changed `ISO#...` tags in Cyberday (§4) | Cyberday admin |
 | 5 | ~~Consolidate the duplicate A.7.2 sections~~ — **resolved 2026-10-12** (§5.4) | Done |
 | 6 | Review the weak mappings in §5.5 and §5.6 (§5.3 resolved 2026-10-12: A.5.5 added to I.4) | Compliance |
 | 7 | Separate check of the ISO 27701 / ISO 27017 references (§5.7) | Compliance |
 | 8 | Apply the same corrections to the Google Docs versions of these documents | Doc owner |
+
+---
+
+## 10. SoA completion pass — the 22 unassessed controls (2026-10-12)
+
+The 22 controls listed in §6 as not yet assessed have been assessed against the same
+45-control ISAE 3000 set and the same alignment scale, and added to
+`ISO_27001_2022_ISAE_3000_Mapping.md` as **Category 15**. All 93 Annex A controls now have an
+entry, so clause 6.1.3(d) is satisfied for the *mapping* basis.
+
+### Verdicts assigned
+
+| Alignment | Count | Controls |
+|---|---|---|
+| **HIGH** | 9 | A.5.14 Information transfer; A.5.37 Documented operating procedures; A.6.8 Information security event reporting; A.8.2 Privileged access rights; A.8.3 Information access restriction; A.8.11 Data masking; A.8.15 Logging; A.8.29 Security testing in development and acceptance; A.8.33 Test information |
+| **MEDIUM** | 11 | A.5.8 Information security in project management; A.5.28 Collection of evidence; A.5.35 Independent review of information security; A.5.36 Compliance with policies, rules and standards; A.7.8 Equipment siting and protection; A.7.9 Security of assets off-premises; A.8.4 Access to source code; A.8.12 Data leakage prevention; A.8.13 Information backup; A.8.30 Outsourced development; A.8.34 Protection of information systems during audit testing |
+| **LOW / NOT COVERED** | 2 | A.7.7 Clear desk and clear screen; A.8.17 Clock synchronisation |
+
+### Revised coverage (all 93 assessed)
+
+| Theme | Controls | HIGH | MEDIUM | No ISAE coverage |
+|---|---|---|---|---|
+| A.5 — Organisational | 37 | 22 | 10 | 5 |
+| A.6 — People | 8 | 6 | 1 | 1 |
+| A.7 — Physical | 14 | 4 | 8 | 2 |
+| A.8 — Technological | 34 | 17 | 14 | 3 |
+| **TOTAL** | **93** | **49** | **33** | **11** |
+
+**82 of 93 (88%) mapped**, up from 62 of 93 (67%). The rise is entirely the newly assessed
+controls — no existing verdict was changed. Re-derived programmatically from the document.
+
+### Three substantive gaps found in the ISAE control set itself
+
+Not mapping problems — gaps in what the 45-control engagement actually tests:
+
+1. **No backup or restore control.** Nothing in the ISAE set names backup, yet GDPR
+   Art. 32(1)(c) requires the ability to restore availability and access to personal data in a
+   timely manner. A.8.13 maps only to the generic B.1/B.2 safeguards. **Recommend adding
+   backup and restore-testing evidence to the engagement.**
+2. **No off-premises asset control.** A.7.9 has no ISAE counterpart while remote working
+   (A.6.7) is in scope, so devices outside the premises are untested.
+3. **Availability coverage is thin overall.** A.5.29, A.5.30, A.8.6 and A.8.13 all fall outside
+   ISAE coverage, leaving GDPR Art. 32(1)(b)–(c) resilience obligations largely unevidenced.
+
+### Two points requiring management input
+
+- **"No ISAE coverage" is not a justification for exclusion.** The 11 controls with no ISAE
+  mapping are still applicable to the ISMS; ISAE and Annex A have different scopes. Exclusion
+  under clause 6.1.3(d) needs a risk-based justification.
+- **A.8.30 Outsourced development** is the one control whose applicability cannot be determined
+  from these documents: excludable if all development is in-house, included if any is contracted
+  out. **Needs confirming.**
+
+### What is still outstanding for the SoA
+
+This pass establishes which ISAE control addresses which Annex A control. It does **not**
+assert that any control is implemented. The SoA additionally requires, per control: the
+inclusion/exclusion decision, the justification, implementation status and an owner. That
+remains management's to supply.
