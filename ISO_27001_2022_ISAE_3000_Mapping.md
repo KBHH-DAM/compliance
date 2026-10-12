@@ -774,7 +774,7 @@ These are requirements of ISO/IEC 27001:2022 **Clause 4**, not Annex A controls.
 | A.8 — Technological | A.8.2 Privileged access rights; A.8.3 Information access restriction; A.8.4 Access to source code; A.8.11 Data masking; A.8.12 Data leakage prevention; A.8.13 Information backup; A.8.15 Logging; A.8.17 Clock synchronisation; A.8.29 Security testing in development and acceptance; A.8.30 Outsourced development; A.8.33 Test information; A.8.34 Protection of information systems during audit testing |
 
 Several of these controls *are* covered by ISAE controls elsewhere in this documentation
-set — for example A.5.14 and A.7.9 under ISAE E.1/G.1, A.8.13 under the B-series backup
+set — for example A.5.14 under ISAE E.1/G.1, A.8.13 under the B-series backup
 control, A.8.15 under B.7/B.9, A.8.2 under B.14, and A.8.33 under B.10 — but they have no
 dedicated entry in this mapping. **These 22 entries must be completed before the coverage
 figure above is treated as final.**

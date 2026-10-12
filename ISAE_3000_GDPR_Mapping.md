@@ -895,7 +895,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.2, CC2.1 (processing consistency, information quality)
 - ISO 27017: Cloud region and jurisdiction controls
-- ISO 27001:2022: A.7.9 (security of assets off-premises)
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 
 **Evidence to Gather:**
 - Storage and processing procedure covering:
@@ -1200,7 +1200,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.1 (data retention per objectives, including location)
 - ISO 27701: International data transfer controls
-- ISO 27001:2022: A.5.14 (information transfer)
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 - ISO 27017: Cross-border data transfer controls
 
 **Evidence to Gather:**

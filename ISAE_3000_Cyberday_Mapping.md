@@ -527,7 +527,8 @@
 - **SOC 2 - CC2.1:** Quality information to support internal controls (location transparency)
 - **GDPR (Cyberday):** Article 28(3)(c) - Processor location obligations
 - **ISO 27017 (Active):** Cloud processing location controls
-- **ISO 27001 (2022) - A.7.9:** Security of assets off-premises
+- **ISO 27001 (2022) - A.5.23:** Information security for use of cloud services
+- **ISO 27001 (2022) - A.5.14:** Information transfer
 
 **Evidence to Gather:**
 - Current storage and processing procedure

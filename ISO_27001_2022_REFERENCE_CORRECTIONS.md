@@ -31,6 +31,7 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 |---|---|---|---|---|
 | `ISAE_3000_Cyberday_Mapping.md` | 29 | — | — | Was systematically 2013-numbered while labelled "(2022)" |
 | `ISAE_3000_GDPR_Mapping.md` | 32 | 41 | — | Year was unlabelled throughout; now `ISO 27001:2022` |
+| — *data-residency re-map (§5.1)* | 3 | — | — | Applied after review decision |
 | `ISO_27001_2022_ISAE_3000_Mapping.md` | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs and a 116-control/15-category taxonomy |
 | `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 14 (+7 Cyberday tags) | — | 3 coverage claims | |
 | `B3_AUDIT_EVIDENCE_SUMMARY.md` | 6 | — | — | |
@@ -67,17 +68,17 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 | 454 | A.6.2 — Information security awareness, education and training | **A.6.3** — same title | As line 400 |
 | 475 | A.8.3 — Retention of information | **A.5.33** — Protection of records (retention) | A.8.3 (2022) is "Information access restriction" |
 | 510 | A.8.3 — Retention of information (removal of data) | **A.8.10** — Information deletion | As above; intent is deletion |
-| 530 | A.8.1 — Onsite and offsite equipment | **A.7.9** — Security of assets off-premises | 2013 A.11.2.6 — see §5.1 |
-| 566 | A.14.2 — Supplier relationships & governance | **A.5.19** — Information security in supplier relationships | 2013 A.15 |
-| 583 | A.14.2 — Supplier relationships | **A.5.19** — same | |
-| 598 | A.14.2 — Changes in supplier relationships | **A.5.22** — Monitoring, review and change management of supplier services | |
-| 615 | A.14.2 — Supplier security requirements | **A.5.20** — Addressing information security within supplier agreements | |
-| 631 | A.14.2 — Supplier information management | **A.5.19** — ... (supplier register) | |
-| 652 | A.14.2 — Monitoring of supplier performance | **A.5.22** — Monitoring, review and change management of supplier services | |
-| 763 | A.17.1 — Incident management procedure | **A.5.24** — Information security incident management planning and preparation | 2013 A.16.1.1; A.17 was business continuity |
-| 780 | A.12.4 — Event logging & monitoring | **A.8.16** — Monitoring activities (with A.8.15) | |
-| 799 | A.17.1 — Incident response timelines | **A.5.26** — Response to information security incidents | 2013 A.16.1.5 |
-| 816 | A.17.1 — Incident response and post-incident activities | **A.5.26 / A.5.27** — Response to, and learning from, incidents | 2013 A.16.1.5–6 |
+| 530 | A.8.1 — Onsite and offsite equipment | **A.5.23** — Information security for use of cloud services + **A.5.14** — Information transfer | Data residency — see §5.1 |
+| 567 | A.14.2 — Supplier relationships & governance | **A.5.19** — Information security in supplier relationships | 2013 A.15 |
+| 584 | A.14.2 — Supplier relationships | **A.5.19** — same | |
+| 599 | A.14.2 — Changes in supplier relationships | **A.5.22** — Monitoring, review and change management of supplier services | |
+| 616 | A.14.2 — Supplier security requirements | **A.5.20** — Addressing information security within supplier agreements | |
+| 632 | A.14.2 — Supplier information management | **A.5.19** — ... (supplier register) | |
+| 653 | A.14.2 — Monitoring of supplier performance | **A.5.22** — Monitoring, review and change management of supplier services | |
+| 764 | A.17.1 — Incident management procedure | **A.5.24** — Information security incident management planning and preparation | 2013 A.16.1.1; A.17 was business continuity |
+| 781 | A.12.4 — Event logging & monitoring | **A.8.16** — Monitoring activities (with A.8.15) | |
+| 800 | A.17.1 — Incident response timelines | **A.5.26** — Response to information security incidents | 2013 A.16.1.5 |
+| 817 | A.17.1 — Incident response and post-incident activities | **A.5.26 / A.5.27** — Response to, and learning from, incidents | 2013 A.16.1.5–6 |
 
 ### 3.2 `ISAE_3000_GDPR_Mapping.md`
 
@@ -107,11 +108,11 @@ Revision year was **unlabelled** throughout (`ISO 27001: A.x.y`); all 41 bullets
 | 717 | A.6.2 (ongoing awareness) | **A.6.5** (responsibilities after termination or change of employment) |
 | 787 | A.8.3 (retention of information) | **A.5.33** (protection of records – retention) |
 | 859 | A.8.3 (retention and disposal) | **A.5.33**, **A.8.10** (information deletion) |
-| 898 | A.8.1 (on-site and off-site storage) | **A.7.9** (security of assets off-premises) — see §5.1 |
+| 898 | A.8.1 (on-site and off-site storage) | **A.5.23** (information security for use of cloud services), **A.5.14** (information transfer) — see §5.1 |
 | 978, 1010, 1116 | A.14.2 (supplier relationships / information management / inventory) | **A.5.19** (information security in supplier relationships) |
 | 1044, 1151 | A.14.2 (supplier relationship changes / monitoring supplier performance) | **A.5.22** (monitoring, review and change management of supplier services) |
 | 1085 | A.14.2 (supplier security requirements) | **A.5.20** (addressing information security within supplier agreements) |
-| 1203 | A.8.1 (storage in different locations) | **A.5.14** (information transfer) — see §5.2 |
+| 1203 | A.8.1 (storage in different locations) | **A.5.23** (information security for use of cloud services), **A.5.14** (information transfer) — see §5.1 |
 | 1445 | A.17.1 (incident management procedure) | **A.5.24** |
 | 1486 | A.12.4 (event logging), A.6.2 (awareness training) | **A.8.15**, **A.8.16**, **A.6.3** |
 | 1534 | A.17.1 (incident response timelines) | **A.5.26** |
@@ -171,30 +172,43 @@ A.8.1 appears in both revisions with different meanings (2013 "Responsibility fo
 
 | Location | Described intent | Resolution |
 |---|---|---|
-| `ISAE_3000_Cyberday_Mapping.md:530` | "Onsite and offsite equipment" (storage/processing locations) | 2013 A.11.2.6 → **A.7.9** |
-| `ISAE_3000_GDPR_Mapping.md:898` | "on-site and off-site storage" | 2013 A.11.2.6 → **A.7.9** |
-| `ISAE_3000_GDPR_Mapping.md:1203` | "storage in different locations" (third-country transfers) | → **A.5.14** (see §5.2) |
+| `ISAE_3000_Cyberday_Mapping.md:530` | "Onsite and offsite equipment" (storage/processing locations) | → **A.5.23 + A.5.14** (see §5.1) |
+| `ISAE_3000_GDPR_Mapping.md:898` | "on-site and off-site storage" | → **A.5.23 + A.5.14** (see §5.1) |
+| `ISAE_3000_GDPR_Mapping.md:1203` | "storage in different locations" (third-country transfers) | → **A.5.23 + A.5.14** (see §5.1) |
 | `ISO_27001_2022_ISAE_3000_Mapping.md:289` | "User Endpoint Devices" — endpoint protection, malware, inventory | **Already correct 2022 usage — left unchanged** |
 
 ---
 
 ## 5. Flagged — genuinely ambiguous, not silently guessed
 
-### 5.1 A.8.1 "onsite and offsite equipment" → A.7.9 (ISAE E.1, Cyberday 530 / GDPR 898)
+### 5.1 RESOLVED — data residency controls mapped to A.5.23 + A.5.14
 
-Applied as instructed, as the direct renumber of the 2013 A.11.2.6 intent.
-**However**, the ISAE control these sit under (E.1 "Storage & Processing Procedure Aligned
-with DPA") is about **data residency** — which cloud region/jurisdiction data is stored in —
-not about physical assets leaving the premises. On intent, the better 2022 mapping would be
-**A.5.23 (Information security for use of cloud services)** plus **A.5.14 (Information
-transfer)**. A.7.9 is retained because it is the faithful renumbering, but
-**this needs a decision**: keep the literal renumber, or re-map to A.5.23/A.5.14?
+The original `A.8.1` references under ISAE **E.1** ("Storage & Processing Procedure Aligned
+with DPA") and **G.1** (third-country transfer procedure) were first restated as the literal
+renumber of their 2013 intent — A.7.9 Security of assets off-premises (2013 A.11.2.6) — and
+flagged, because these ISAE controls are really about **data residency**: which cloud region
+and jurisdiction personal data is stored and processed in, not physical assets leaving the
+premises.
 
-### 5.2 A.8.1 "storage in different locations" → A.5.14 (ISAE G.1, GDPR 1203)
+**Decision taken (2026-10-12): use A.5.23 and A.5.14 for the data residency controls.**
+Applied at:
 
-ISAE G.1 is the third-country **transfer** procedure, so A.5.14 (Information transfer) was
-chosen over A.7.9. If the original author meant storage location rather than transfer, this
-should be **A.5.23** instead. **Confirm the intent.**
+| File | Line | Was (original) | Interim | Final |
+|---|---|---|---|---|
+| `ISAE_3000_Cyberday_Mapping.md` | 530–531 | A.8.1 "Onsite and offsite equipment" | A.7.9 | **A.5.23** Information security for use of cloud services + **A.5.14** Information transfer |
+| `ISAE_3000_GDPR_Mapping.md` | 898 | A.8.1 "on-site and off-site storage" | A.7.9 | **A.5.23** + **A.5.14** |
+| `ISAE_3000_GDPR_Mapping.md` | 1203 | A.8.1 "storage in different locations" | A.5.14 | **A.5.23** + **A.5.14** |
+
+A.7.9 is no longer referenced anywhere and remains on the "not yet assessed" list in
+`ISO_27001_2022_ISAE_3000_Mapping.md`, which is correct — that document does not assess it.
+
+### 5.2 Open — ISAE E.2 has no ISO 27001 reference at all
+
+`ISAE_3000_Cyberday_Mapping.md` E.2 ("Actual Processing/Storage Locations Match Approved
+Locations") is the sibling data-residency control and carries SOC 2, GDPR, ISO 27017 and DORA
+references but **no ISO 27001 reference**. By the decision in §5.1 it would take
+**A.5.23 + A.5.14** as well. Not added, because that creates a mapping where none existed
+rather than correcting an existing reference. **Say the word and it goes in.**
 
 ### 5.3 ISAE I.4 — assistance with reports to the Danish DPA
 
@@ -311,7 +325,7 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 
 | # | Action | Owner |
 |---|---|---|
-| 1 | Decide §5.1 and §5.2 (A.7.9 vs A.5.23/A.5.14 for data-residency controls) | Compliance |
+| 1 | ~~Decide A.7.9 vs A.5.23/A.5.14 for data-residency controls~~ — **resolved 2026-10-12: A.5.23 + A.5.14 applied** (§5.1) | Done |
 | 2 | Sign off or restate the 67% coverage figure (§6) | Compliance |
 | 3 | Assess the 22 outstanding Annex A controls — required for the SoA | Compliance |
 | 4 | Re-tag the changed `ISO#...` tags in Cyberday (§4) | Cyberday admin |
