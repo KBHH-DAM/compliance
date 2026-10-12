@@ -932,6 +932,7 @@ ISAE 3000 is the assurance standard used to audit **GDPR compliance** for data p
 **Secondary References:**
 - SOC 2: D2.1, CC7.1 (retention per objectives, configuration monitoring)
 - ISO 27017: Cloud region controls and compliance
+- ISO 27001:2022: A.5.23 (information security for use of cloud services), A.5.14 (information transfer)
 - DORA: Geographical concentration of resources
 - ISO 27701: Cross-border transfer controls
 

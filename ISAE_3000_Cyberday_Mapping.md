@@ -546,6 +546,8 @@
 - **SOC 2 - CC7.1:** Procedures for monitoring changes to configurations (geo-compliance)
 - **GDPR (Cyberday):** Article 28(3)(c) & Chapter V - Location of processing
 - **ISO 27017 (Active):** Cloud region and jurisdiction controls
+- **ISO 27001 (2022) - A.5.23:** Information security for use of cloud services
+- **ISO 27001 (2022) - A.5.14:** Information transfer
 - **DORA (Active):** Geographical concentration of resources
 
 **Evidence to Gather:**
