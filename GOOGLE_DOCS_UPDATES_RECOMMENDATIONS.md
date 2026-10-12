@@ -146,7 +146,7 @@ GDPR#Art32+ISO#A5.1 - Dual framework (evidence supports both)
 
 **Section D**: Data retention, deletion, data subject requests → GDPR Art 12-13, 17, 20 / ISO/IEC 27001:2022 A.5.33, A.8.10
 
-**Section E**: Secure data access and transfer → GDPR Art 32 / ISO/IEC 27001:2022 A.5.14, A.8.24
+**Section E**: Secure data access and transfer → GDPR Art 32 / ISO/IEC 27001:2022 A.5.23, A.5.14
 
 **Section F**: Processor and sub-processor agreements → GDPR Art 28 / ISO/IEC 27001:2022 A.5.19–A.5.22
 
