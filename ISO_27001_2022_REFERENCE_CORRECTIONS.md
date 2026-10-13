@@ -377,7 +377,7 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 | 3 | ~~Assess the 22 outstanding Annex A controls~~ — **done 2026-10-12** (§10); SoA still needs status + owner per control | Partly done |
 | 4 | ~~Re-tag the changed `ISO#...` tags in Cyberday (§4)~~ — **closed 2026-10-12 as not applicable**: the tags do not yet exist in Cyberday (§13.1). Replaced by 4a and 4b | Done |
 | 4a | Apply the verified `ISO#` tag values (§13.2) when evidence is first uploaded to Cyberday | Cyberday admin |
-| 4b | Set A.8.30 to not applicable in Cyberday to match the SoA exclusion, and close or re-point its "outsourced development" task (§13.4) | Cyberday admin |
+| 4b | Decide whether to override A.8.30 to not applicable in Cyberday so the requirement matches the SoA exactly. No justification needs adding: its outsourced-development task is already marked Not relevant with the in-house reason (§13.4) | Compliance |
 | 5 | ~~Consolidate the duplicate A.7.2 sections~~ — **resolved 2026-10-12** (§5.4) | Done |
 | 6 | Review the weak mappings in §5.5 and §5.6 (§5.3 resolved 2026-10-12: A.5.5 added to I.4) | Compliance |
 | 7 | Separate check of the ISO 27701 / ISO 27017 references (§5.7) | Compliance |
@@ -676,28 +676,48 @@ A bare `ISO#5.1` would be ambiguous between a leadership requirement and a polic
 `ISO#A5.1` form resolves it, so the convention should be kept exactly as written — the `A` is
 load-bearing, not decoration.
 
-### 13.4 Open discrepancy: A.8.30 is still applicable in Cyberday
+### 13.4 A.8.30 in Cyberday: the decision is already recorded at task level
 
 §12 records A.8.30 Outsourced development as excluded from the Statement of Applicability
-because all development is in-house. Cyberday still reports it as **applicable** with assurance
-Medium and two linked tasks:
+because all development is in-house. Cyberday reports the requirement itself as
+`applicable_auto` with assurance Medium, which at first reading looks like the ISMS tool
+contradicting the SoA. Reading the two tasks underneath it shows otherwise.
 
-- Listing authorized users for publishing code changes
-- Process for monitoring and tracking outsourced development work
+| Task | Workflow status | Its own justification |
+|---|---|---|
+| Listing authorized users for publishing code changes (id 5796367) | **Fully done** | "Only pre-defined, authorized users are allowed to post changes to the code." |
+| Process for monitoring and tracking outsourced development work (id 9952961) | **Not relevant** | "We don't outsource development work" |
 
-The SoA and the ISMS tool therefore disagree on the one control the organisation has formally
-excluded, which is precisely the kind of inconsistency an auditor samples for. A.8.30 needs
-setting to not applicable in Cyberday with the in-house-development justification, and the
-second task above either closed or re-pointed — the first task is worth keeping, since
-authorising who can publish code changes is evidence for A.8.4 Access to source code, which
-stays applicable.
+Both are assigned to David Junge. The outsourced-development task is already marked not
+relevant, with the in-house justification already written into it. So the decision the SoA
+records is not missing from Cyberday — it is recorded in the place Cyberday keeps it.
 
-This cannot be done through the Cyberday integration available here: it exposes read operations
-and creation of new records, but no way to amend an existing requirement's applicability or a
-task. It is a short manual change in the Cyberday UI.
+The `_auto` suffix explains the requirement-level reading: Cyberday derives applicability
+automatically from the tasks beneath a requirement, and one of A.8.30's two tasks is live and
+Fully done. The requirement therefore continues to read applicable, and will keep doing so
+while that task sits under it.
+
+That is defensible rather than wrong, but it is worth a deliberate decision, because the live
+task is a poor fit for the control it is filed under. A.8.30's scope is strictly the oversight
+of development carried out by *external* parties. Authorising who may publish code changes is
+in-house source-code control, which is **A.8.4 Access to source code** — a control that stays
+applicable. Two defensible readings follow:
+
+1. **Leave it.** Cyberday's own content model links that task to 8.30, the exclusion is
+   justified where it matters, and an auditor who opens the requirement sees the reasoning.
+2. **Override the requirement to not applicable** in Cyberday so it matches the SoA exactly,
+   and rely on A.8.4 to carry the authorised-publishers task.
+
+The second is tidier for an auditor comparing the SoA against the tool side by side; the first
+is less work and loses nothing substantive. Either way, **nothing needs adding to Cyberday**:
+the justification is already there.
+
+This could not be done through the Cyberday integration available here in any case — it exposes
+read operations and creation of new records, with no way to amend an existing requirement's
+applicability or an existing task. Any override is a manual change in the Cyberday UI.
 
 ### 13.5 Status of the §9 follow-up
 
 Follow-up 4 ("Re-tag the changed `ISO#` tags in Cyberday") is **closed as not applicable** — there
 were no tags to change. It is replaced by two items: apply the §13.2 tag values when evidence is
-first uploaded, and reconcile A.8.30's applicability per §13.4.
+first uploaded, and decide whether to override A.8.30's requirement-level applicability per §13.4.
