@@ -23,7 +23,8 @@ reports in this repository. Anything not evidenced by those sources is listed in
 
 ### 1.1 Short form
 
-> The Information Security Management System (ISMS) of **Data & More ApS** covers the
+> The Information Security Management System (ISMS) of **Data & More ApS** (CVR no. 38185659,
+> registered at Flæsketorvet 68, DK-1711 København V, Denmark) covers the
 > development, delivery, operation and support of the company's **automated data compliance
 > platform** — the identification, classification, reporting and remediation-tracking of
 > personal data in customer systems — in both delivery models: the **SaaS service hosted on
@@ -32,9 +33,9 @@ reports in this repository. Anything not evidenced by those sources is listed in
 >
 > The ISMS covers all Data & More organisational functions (Sales, Customer Success,
 > IT Services, Business Services), all personnel including contractors, the company's
-> headquarters in Denmark together with remote working, and the corporate and production IT
-> used to deliver the service. It covers customer personal data processed by Data & More as
-> **data processor and as sub-processor**, the compliance metadata and audit records the
+> registered office in Copenhagen and its further offices (§1.2 c) together with remote and
+> mobile working, and the corporate and production IT used to deliver the service. It covers
+> customer personal data processed by Data & More as **data processor and as sub-processor**, the compliance metadata and audit records the
 > platform generates, platform source code, and the company's own business information.
 >
 > The ISMS is established to meet the GDPR, the Danish Data Protection Act and the obligations
@@ -47,9 +48,10 @@ reports in this repository. Anything not evidenced by those sources is listed in
 
 ### 1.2 Boundaries and applicability
 
-**a) Organisational boundary.** Data & More ApS as a single legal entity (founded October 2016,
-headquartered in Denmark, 27 employees as of June 2025). All four organisational areas are in
-scope, with no function excluded:
+**a) Organisational boundary.** Data & More ApS as a single legal entity — CVR no. 38185659,
+registered at Flæsketorvet 68, DK-1711 København V, Denmark, founded October 2016, 29 employees
+(as-of date to be confirmed, §4.1). All four organisational areas are in scope, with no function
+excluded:
 
 | Function | In scope because |
 |---|---|
@@ -73,7 +75,8 @@ acceptance.
 4. **Remediation management** — tracking and reporting of the handling of identified illegal
    or unnecessary personal data.
 5. **Integrations** with customer data platforms, including **Microsoft Purview**, and the
-   **AI/LLM-assisted classification capabilities** of the platform.
+   **AI/LLM-assisted classification capabilities** of the platform. Both are generally available
+   to customers and in production; neither is in scope as roadmap only.
 6. **Delivery, support and consultancy** wrapped around the above: onboarding, configuration,
    customer support, and the secure development lifecycle that produces releases.
 
@@ -83,14 +86,23 @@ responsibility split).
 
 **c) Physical and location boundary.**
 
-- Data & More headquarters in Denmark, and **remote and mobile working** by Data & More
-  personnel (covered by the Remote work and mobile devices theme).
+- **Registered office and headquarters:** Flæsketorvet 68, DK-1711 København V, Denmark.
+- **Further offices**, as published on dataandmore.com: Hamburg (Elbchaussee 438, 22609 Hamburg,
+  Germany), Hässleholm (Okvägen 101, 28151 Hässleholm, Sweden) and Calgary
+  (500 – 4th Avenue SW, Calgary, Alberta, Canada). Every site from which personnel act under
+  Data & More's direction falls inside the organisational boundary in §1.2 a. **This list needs
+  confirmation before publishing** — the website's contact and about pages do not agree, and the
+  Calgary office sits outside the EU/EEA (§4.2).
+- **Remote and mobile working** by Data & More personnel (covered by the Remote work and mobile
+  devices theme).
 - The **Hetzner EU datacentre facilities (Germany)** that host the SaaS service — in scope as a
   managed dependency through supplier management and the DPA, not as premises Data & More
   physically controls (see 1.3).
 - Customer premises and customer datacentres hosting on-premises deployments — an **interface**,
   not a Data & More location (see 1.4).
-- **No storage or processing of customer personal data outside the EU/EEA.**
+- **No storage or processing of customer personal data outside the EU/EEA.** Access to customer
+  personal data by personnel working from a location outside the EU/EEA would be a transfer in
+  its own right, so the office footprint above has to be reconciled with this statement (§4.2).
 
 **d) Information and assets in scope.**
 
@@ -138,12 +150,16 @@ applies to the services — see §1.4(4).
 |---|---|---|
 | **Customer data sources and connectors** (on-premises and cloud, including Microsoft Purview) | secure connection, least-privilege scan credentials, scanning and classification, reporting back | lawfulness of processing as controller, source-system security, access decisions, remediation decisions |
 | **On-premises deployments** | software security, hardening requirements, documented installation and update guidance, support | hosting infrastructure, physical security, network controls, backup, patching of the host environment, local operations |
-| **Hetzner (SaaS hosting, EU/Germany)** | tenant configuration, encryption, access control, monitoring, backup verification, supplier oversight | datacentre physical security, facility and hardware availability |
+| **Hetzner Online GmbH** (SaaS hosting, EU/Germany; named in DPA Appendix B) | tenant configuration, encryption, access control, monitoring, backup verification, supplier oversight | datacentre physical security, facility and hardware availability |
 | **Microsoft (365 / Teams / Purview-side services)** | configuration, identity and access control, data minimisation | platform security and availability of the service |
 | **Cyberday (ISMS system of record)** | ISMS content, ownership, review cycles, access control | ISMS platform security, change logging, availability |
 | **Partners / resellers where Data & More is sub-processor** | sub-processor obligations, security requirements, breach notification up the chain | controller or processor duties toward the data subject |
 | **Other sub-processors and suppliers** | selection, DPA execution before access, security verification and monitoring (ISAE controls F.1–F.6) | their own internal security management |
 | **Customers' own auditors and supervisory authorities** | evidence provision, audit cooperation, breach notification within contractual and GDPR deadlines | audit scope and findings |
+
+The authoritative register of authorised sub-processors is **Appendix B of the Data Processing
+Agreement**, which names Hetzner Online GmbH (Gunzenhausen, Germany). The table above is not a
+substitute for it and must not drift from it (§4.3).
 
 ### 1.4 Exclusions from scope
 
@@ -189,10 +205,12 @@ Stated explicitly so that no reader has to infer them:
 
 ## 3. Consistency with the rest of the ISMS
 
-- **ISAE 3000 description of processing** — same entity facts (27 employees, Denmark HQ, founded
-  2016), same delivery models, same hosting (Hetzner EU/Germany), same processor and
-  sub-processor roles, same "no transfers outside EU/EEA" statement, and the same supplier
-  oversight controls (F.1–F.6) referenced in §1.3.
+- **ISAE 3000 description of processing** — same entity, same delivery models, same hosting
+  (Hetzner EU/Germany), same processor and sub-processor roles, same "no transfers outside
+  EU/EEA" statement, and the same supplier oversight controls (F.1–F.6) referenced in §1.3. Two
+  facts have moved on since that description was written and are carried here in their current
+  form: headcount (27 as of June 2025 → 29, §4.1) and the office footprint, which the ISAE
+  description gives only as "Denmark" (§4.2).
 - **Statement of Applicability** — §1.4(6) defers all Annex A applicability decisions to the SoA,
   so the two documents cannot contradict each other.
 - **Cyberday ISMS themes** — the twelve active themes all map onto something inside the boundary:
@@ -207,20 +225,31 @@ Stated explicitly so that no reader has to infer them:
 
 ## 4. Confirm before publishing
 
-Each item is a factual question only Data & More can answer. Publishing v6 with a guess here
-is worse than publishing with the question resolved.
+Six of the original items are answered and folded in above: legal entity details, the office
+list, headcount, the production status of the Purview and AI capabilities, the hosting
+description, and the removal of the non-applicable privacy regimes. Four questions remain, and
+the first two are the ones that change what the scope says.
 
-1. **Legal entity details.** CVR number and registered address, for §1.1.
-2. **Locations.** Is Denmark HQ the only Data & More site? Any other office, or
-   co-working/satellite location used for customer work?
-3. **Headcount.** "27 employees as of June 2025" is now 16 months old. Update the figure and its
-   as-of date, or drop the number from §1.2 a and keep only the function list.
-4. **Purview and AI capabilities.** Are both generally available to customers today, or partly
-   roadmap? Scope should describe what is in production.
-5. **Sub-processor list.** §1.3 names Hetzner, Microsoft and Cyberday. Confirm the full current
-   list so §1.3 matches the sub-processor register.
-6. **Hosting detail.** Confirm whether the specific Hetzner region/site should be named, or kept
-   at "EU (Germany)" as in the ISAE description.
+1. **Headcount as-of date.** The figure given was "29 employees as of June 2029", which is a
+   future date — today is October 2026. §1.2 a carries 29 with the date withheld. Confirm the
+   correct as-of date (June 2026 would be the obvious reading), or drop the number and keep only
+   the function list.
+2. **Office footprint, and access from outside the EU/EEA.** Two things to settle:
+   (a) the website's contact page lists Copenhagen, Hamburg, Hässleholm and Calgary, while its
+   about page lists Copenhagen, Calgary, Düsseldorf, Zagreb and Stockholm — which set is current,
+   and which are Data & More ApS sites rather than partner or representative presence;
+   (b) the **Calgary (Canada) office is outside the EU/EEA**, so if personnel there can access
+   customer personal data, the "no processing outside the EU/EEA" statement in §1.2 c and
+   exclusion §1.4(4) are both wrong as written, and a GDPR Chapter V transfer basis is needed.
+   If Calgary personnel have no access to customer personal data, say so explicitly in the scope
+   — an auditor will ask.
+3. **Sub-processor register.** No list was supplied, so §1.3 still names only Hetzner Online
+   GmbH, Microsoft and Cyberday, with DPA Appendix B cited as the register. Confirm the full
+   current list so the two agree.
+4. **Hosting locations.** §1.1 and §1.2 c say "EU (Germany)", as instructed and as the ISAE
+   description has it. The company's own FAQ, however, describes the hosted service as running
+   in ISO-certified datacentres in **Germany and Finland**. If Finland is in use for customer
+   data, the scope understates the hosting footprint and needs both named.
 
 ---
 
