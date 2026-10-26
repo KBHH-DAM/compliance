@@ -50,7 +50,7 @@ reports in this repository. Anything not evidenced by those sources is listed in
 
 **a) Organisational boundary.** Data & More ApS as a single legal entity — CVR no. 38185659,
 registered at Flæsketorvet 68, DK-1711 København V, Denmark, founded October 2016, 29 employees
-(as-of date to be confirmed, §4.1). **One legal entity covers all operations**, including the
+(as of June 2026). **One legal entity covers all operations**, including the
 Calgary office and the North American client work run from it: there is no separate company, so
 every office in §1.2 c is a Data & More ApS site and all personnel at them are inside this
 boundary. All four organisational areas are in scope, with no function excluded:
@@ -92,15 +92,21 @@ responsibility split).
 - **Further offices**, as published on dataandmore.com: Hamburg (Elbchaussee 438, 22609 Hamburg,
   Germany) and Hässleholm (Okvägen 101, 28151 Hässleholm, Sweden). The published office list
   needs confirmation before publishing — the website's contact and about pages do not agree
-  (§4.2).
+  (§4.1).
 - The **Calgary office** (500 – 4th Avenue SW, Calgary, Alberta, Canada), from which the
   company's North American client work is run. It is a Data & More ApS site and therefore **an
   ISMS location**, and the only one outside the EU/EEA: personnel security, access control,
-  endpoint and remote-working controls apply to its personnel as they do everywhere else.
-  Calgary personnel have **no access to the customer personal data covered by this scope**.
-  Because the company runs **one shared Microsoft tenant across all offices**, that separation
-  is enforced by access controls inside the shared tenant, not by separate tenancy — so those
-  controls are the whole evidence for the statement, and an auditor will test them (§4.3).
+  endpoint and remote-working controls apply to its personnel as they do everywhere else. The
+  company runs **one shared Microsoft tenant across all offices**, so separation between client
+  populations is logical, not structural.
+- **What Calgary personnel can and cannot reach.** They can reach customer data **of their own
+  North American clients, in that region**, over **VPN user access scoped to those clients**.
+  They cannot reach the customer personal data of the European service described in §1.2 b. The
+  VPN user access model is therefore the control that keeps the two apart, and it is what an
+  auditor will test (§4.2). It also means there is customer data in a **region outside the
+  EU/EEA**, processed by the same legal entity — whether that processing is inside this ISMS is
+  the open question in §4.3, and until it is answered this scope describes the European service
+  only.
 - **Remote and mobile working** by Data & More personnel (covered by the Remote work and mobile
   devices theme).
 - The **Hetzner EU datacentre facilities (Germany)** that host the SaaS service — in scope as a
@@ -108,11 +114,11 @@ responsibility split).
   physically controls (see 1.3).
 - Customer premises and customer datacentres hosting on-premises deployments — an **interface**,
   not a Data & More location (see 1.4).
-- **No storage, processing or access from outside the EU/EEA** of the customer personal data
-  covered by this scope. With personnel working from Calgary inside the same tenant, this is an
-  access-control statement rather than a structural one: it holds exactly as long as those
-  controls hold, and any access that is in fact possible from Calgary requires a transfer basis
-  under GDPR Chapter V (§4.3).
+- **No storage, processing or access from outside the EU/EEA of the European service's customer
+  personal data** — the data covered by §1.2 b. It stays in the EU/EEA and is not reachable from
+  Calgary. This statement speaks for that data only: the North American region holds its own
+  customer data outside the EU/EEA (§4.3), and the statement holds only as long as the VPN
+  access model above keeps the two populations apart.
 
 **d) Information and assets in scope.**
 
@@ -133,7 +139,8 @@ responsibility split).
 - The **production SaaS platform** at Hetzner, and the separated **development, staging and
   security-testing environments**.
 - The **network zones** operated by Data & More: DMZ, internal processing network, database
-  network, management network, and the VPN used for administrative remote access.
+  network, management network, and the VPN used for administrative and remote user access. VPN
+  user access is also what scopes personnel to a region and to a client population (§1.2 c).
 - **Corporate IT**: identity and access management, Microsoft 365 / Teams (including the
   Cyberday Guidebook and Taskbook apps), endpoints and mobile devices, endpoint protection
   and EDR, logging and monitoring, and backup.
@@ -151,10 +158,11 @@ responsibility split).
 - **ISAE 3000 (Revised)**, under which the control environment is described and reported
   (45 control objectives across categories A–I).
 
-These are the only regulatory drivers in scope for the service described in §1.2 b — see
-§1.4(4). Because one legal entity also serves North American clients from Calgary, whether any
-regime outside the EU/EEA applies to that work, and whether that work is in this scope at all,
-is still open (§4.4).
+These are the only regulatory drivers in scope for the European service described in §1.2 b —
+see §1.4(4). The same legal entity also processes customer data for North American clients in a
+region outside the EU/EEA (§1.2 c). If that processing is brought inside this ISMS, the regimes
+governing those clients — Canadian federal and provincial privacy law, and US state law where
+applicable — belong in this list for that work. That decision is open (§4.3).
 
 ### 1.3 Interfaces and dependencies
 
@@ -171,7 +179,7 @@ is still open (§4.4).
 
 The authoritative register of authorised sub-processors is **Appendix B of the Data Processing
 Agreement**, which names Hetzner Online GmbH (Gunzenhausen, Germany). The table above is not a
-substitute for it and must not drift from it (§4.3).
+substitute for it and must not drift from it (§4.4).
 
 ### 1.4 Exclusions from scope
 
@@ -187,21 +195,25 @@ Stated explicitly so that no reader has to infer them:
 3. **The internal management systems of sub-processors and suppliers.** Excluded as outside the
    organisational boundary; managed through supplier security requirements, DPAs and monitoring
    rather than by direct control.
-4. **Processing or storage of customer personal data outside the EU/EEA** — not performed, so no
-   transfer controls under GDPR Articles 44–49 are in scope for it. No privacy regime outside
-   the EU/EEA applies to that service. This says nothing about the North American client work
-   (§4.4), and it depends on the Calgary access controls in §1.2 c holding. Should a future
-   customer contract make another regime applicable, the scope and the controls supporting it
-   are reviewed before that contract is signed.
+4. **Processing or storage of the European service's customer personal data outside the
+   EU/EEA** — not performed, so no transfer controls under GDPR Articles 44–49 arise for it, and
+   no privacy regime outside the EU/EEA applies to it. This is bounded in two ways that must not
+   be read away: it speaks only for the data covered by §1.2 b, not for the North American
+   region's own customer data (§4.3), and it holds only while the VPN access model in §1.2 c
+   keeps Calgary personnel out of the European data. Should a future customer contract make
+   another regime applicable, the scope and the controls supporting it are reviewed before that
+   contract is signed.
 5. **Industry-specific ISMS themes** — not excluded by choice of industry. Data & More supports
    customers in all industries and applies the twelve active ISMS themes without
    industry-specific narrowing.
 6. **ISO/IEC 27001:2022 Annex A controls assessed as not applicable** — each is justified
    individually in the Statement of Applicability, not excluded at scope level.
 
-Note: no exclusion is claimed for the **North American client work run from Calgary**. It is
-the same legal entity's work, so it cannot be excluded on entity grounds, and whether it falls
-inside the service described in §1.2 b or needs an exclusion of its own is open (§4.4).
+Note: no exclusion is claimed for the **North American region and the client work run from
+Calgary**. The same legal entity processes customer data there, so it cannot be excluded on
+entity grounds; it is either inside this ISMS or carries an exclusion of its own, with a
+justification that is not "different company". That decision is open (§4.3) and this document
+describes the European service until it is made.
 
 ---
 
@@ -225,12 +237,14 @@ inside the service described in §1.2 b or needs an exclusion of its own is open
 
 - **ISAE 3000 description of processing** — same entity, same delivery models, same hosting
   (Hetzner EU/Germany), same processor and sub-processor roles, same "no transfers outside
-  EU/EEA" statement, and the same supplier oversight controls (F.1–F.6) referenced in §1.3. Two
-  facts have moved on since that description was written and are carried here in their current
-  form: headcount (27 as of June 2025 → 29, §4.1) and the office footprint, which the ISAE
-  description gives only as "Denmark" while this scope names four offices, one of them outside
-  the EU/EEA (§4.2). The ISAE description's own "no transfers outside EU/EEA" wording should be
-  re-read against the Calgary position in §1.2 c before the next report.
+  EU/EEA" statement, and the same supplier oversight controls (F.1–F.6) referenced in §1.3.
+  Three things have moved on since that description was written and are carried here in their
+  current form: headcount (27 as of June 2025 → 29 as of June 2026); the office footprint, which
+  the ISAE description gives only as "Denmark" while this scope names four offices, one of them
+  outside the EU/EEA (§4.1); and the North American region, which that description does not
+  mention at all. Its "no transfers outside EU/EEA" wording holds only for the European service,
+  as §1.4(4) now says, so it should be re-read against §1.2 c — and against whatever §4.3
+  decides — before the next report is issued.
 - **Statement of Applicability** — §1.4(6) defers all Annex A applicability decisions to the SoA,
   so the two documents cannot contradict each other.
 - **Cyberday ISMS themes** — the twelve active themes all map onto something inside the boundary:
@@ -245,42 +259,46 @@ inside the service described in §1.2 b or needs an exclusion of its own is open
 
 ## 4. Confirm before publishing
 
-Answered and folded in above: legal entity details, headcount, the office footprint, the
-production status of the Purview and AI capabilities, the hosting description, the removal of
-the non-applicable privacy regimes, and the organisational boundary — one legal entity covering
-all operations including the Calgary office, with one shared Microsoft tenant across them. Six
-questions remain; items 3 and 4 are the ones that decide what the scope may claim.
+Answered and folded in above: legal entity details, headcount (29 as of June 2026), the office
+footprint, the production status of the Purview and AI capabilities, the hosting description for
+the European service, the removal of the privacy regimes that do not apply to it, the
+organisational boundary — one legal entity covering all operations including Calgary, on one
+shared Microsoft tenant — and how Calgary access works: VPN user access scoped to that region's
+own clients, with no reach into the European service's customer data.
 
-1. **Headcount as-of date.** The figure given was "29 employees as of June 2029", which is a
-   future date — today is October 2026. §1.2 a carries 29 with the date withheld. Confirm the
-   correct as-of date (June 2026 being the obvious reading), and that 29 includes the Calgary
-   personnel now that one entity covers everything.
-2. **Office list.** The website's contact page lists Copenhagen, Hamburg, Hässleholm and
+Five questions remain. The third is the one that decides what this document is a scope **of**.
+
+1. **Office list.** The website's contact page lists Copenhagen, Hamburg, Hässleholm and
    Calgary, while its about page lists Copenhagen, Calgary, Düsseldorf, Zagreb and Stockholm.
    Confirm which set is current and which are Data & More ApS sites rather than partner or
    representative presence — every one of them is now an ISMS location.
-3. **Calgary: the controls, and the Chapter V position.** One tenant spans all offices, so
-   "no access from outside the EU/EEA" rests entirely on access controls inside that tenant.
-   Needed before publishing: (a) what enforces it — conditional access by location, group
-   membership, separate data stores, or something else; (b) evidence that no Calgary account can
-   reach in-scope customer personal data, including through administrative or support paths;
-   (c) if any access is possible, even standing or break-glass administrative access, the GDPR
-   Chapter V transfer basis for it. If (c) applies, §1.2 c and §1.4(4) must both be reworded —
-   the current text says no such access exists.
-4. **Are the North American client engagements in scope?** They are the same legal entity's
-   work, so they cannot be excluded on entity grounds, and the scope currently claims no
-   exclusion for them. Either they are the service described in §1.2 b delivered to another
-   market — in which case the regimes governing those clients belong in §1.2 f, which is where
-   the regimes removed earlier would return for that work only — or they are different work that
-   needs an explicit exclusion in §1.4 with its own justification. Silence is the one option
-   that will not survive an audit.
-5. **Sub-processor register.** No list was supplied, so §1.3 still names only Hetzner Online
+2. **Evidence for the VPN access model.** §1.2 c and §1.4(4) both rest on it, so an auditor will
+   ask for: the VPN user-access configuration showing which client populations each group can
+   reach; evidence that no Calgary user or administrator can route into the European region,
+   including through platform administration, support tooling or backups; and the review cycle
+   that keeps it that way. If any such path does exist, both sections need rewording and the
+   access needs a GDPR Chapter V basis.
+3. **Is the North American region inside this ISMS?** This is now a question about real customer
+   data in a real region, not a hypothetical. Three things follow from the answer, and none of
+   them can be left implicit:
+   (a) **In scope** — then §1.1 and §1.2 c must name that region and its hosting, §1.2 f must
+   carry the privacy regimes governing those clients (Canadian federal and provincial law, and
+   US state law where applicable), and the ISAE and ISO mapping documents need the same
+   treatment. Note this partly reverses the earlier removal of non-EU regimes: that removal was
+   correct for the European service and stays, but it cannot cover processing this ISMS claims.
+   (b) **Out of scope** — then §1.4 needs an explicit exclusion with a justification that holds
+   without "different company": most likely a separate service, client population and
+   environment, with the VPN segregation in §1.2 c as its control.
+   (c) Either way, the certificate or report wording has to match. A scope that reads
+   "Data & More ApS" while covering only the European service will be read as covering both.
+4. **Sub-processor register.** No list was supplied, so §1.3 still names only Hetzner Online
    GmbH, Microsoft and Cyberday, with DPA Appendix B cited as the register. Confirm the full
-   current list so the two agree.
-6. **Hosting locations.** §1.1 and §1.2 c say "EU (Germany)", as instructed and as the ISAE
-   description has it. The company's own FAQ, however, describes the hosted service as running
-   in ISO-certified datacentres in **Germany and Finland**. If Finland is in use for customer
-   data, the scope understates the hosting footprint and needs both named.
+   current list so the two agree — and whether the North American region adds any.
+5. **Hosting locations.** §1.1 and §1.2 c say "EU (Germany)" for the European service, as
+   instructed and as the ISAE description has it. The company's own FAQ describes the hosted
+   service as running in ISO-certified datacentres in **Germany and Finland**. If Finland is in
+   use for customer data, both belong in the text. The North American region's hosting location
+   is a separate gap, pending item 3.
 
 ---
 
