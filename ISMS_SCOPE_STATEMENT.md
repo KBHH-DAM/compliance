@@ -128,10 +128,9 @@ responsibility split).
   Statement of Applicability.
 - **ISAE 3000 (Revised)**, under which the control environment is described and reported
   (45 control objectives across categories A–I).
-- Where a customer contract makes a **non-EU privacy regime** applicable (for example CCPA or
-  PIPEDA), the obligations of that contract are in scope through supplier and contract
-  management. See Section 4, item 1 — the v5 claim that CCPA and PIPEDA are ISMS-wide drivers
-  should not be published unless such customers and the associated controls exist.
+
+These are the only regulatory drivers in scope. No other national or regional privacy regime
+applies to the services — see §1.4(4).
 
 ### 1.3 Interfaces and dependencies
 
@@ -161,7 +160,9 @@ Stated explicitly so that no reader has to infer them:
    organisational boundary; managed through supplier security requirements, DPAs and monitoring
    rather than by direct control.
 4. **Processing or storage of customer personal data outside the EU/EEA** — not performed, so no
-   transfer controls under GDPR Articles 44–49 are in scope.
+   transfer controls under GDPR Articles 44–49 are in scope. No privacy regime outside the
+   EU/EEA applies to the services. Should a future customer contract make one applicable, the
+   scope and the controls supporting it are reviewed before that contract is signed.
 5. **Industry-specific ISMS themes** — not excluded by choice of industry. Data & More supports
    customers in all industries and applies the twelve active ISMS themes without
    industry-specific narrowing.
@@ -175,7 +176,7 @@ Stated explicitly so that no reader has to infer them:
 | v5 text | Problem | Replaced by |
 |---|---|---|
 | "focused on: 1. Data Compliance and Privacy Management … 5. Custom Solutions" | lists control topics, not boundaries; nothing is excluded, so nothing is bounded | §1.2 a–f (organisation, services, locations, information, technology, requirements) + §1.4 exclusions |
-| "regulations like GDPR, CCPA, and PIPEDA" | "like" is open-ended; CCPA/PIPEDA asserted without evidenced customers or controls, while the ISAE description states EU customers and no non-EEA transfers | §1.2 f — GDPR and Danish law named as the drivers; non-EU regimes in scope only through actual contracts; flagged in §4.1 |
+| "regulations like GDPR, CCPA, and PIPEDA" | "like" is open-ended, and two of the three named regimes had no evidenced customers or controls behind them, while the ISAE description states European customers and no non-EEA transfers | §1.2 f — GDPR and Danish law named as the only regulatory drivers, with contractual obligations alongside them; §1.4(4) records that no regime outside the EU/EEA applies |
 | "monitoring and scanning of data sources, both on-premise and in the cloud" | does not say whose data sources, nor who is responsible for the on-premises environment | §1.2 b(1) + the responsibility split in §1.3 |
 | "Utilizing solutions for privacy monitoring, AI enterprise platforms, and Microsoft Purview" | mixes Data & More *product capabilities* with how Data & More *governs itself*; "AI enterprise platforms" is undefined | §1.2 b(3), b(5) — stated as in-scope product capabilities, with Purview named as a customer-side integration in §1.3 |
 | "custom dictionaries and taxonomies … specific to different organizations" | reads as a sales feature; does not identify the configuration data as an in-scope asset | §1.2 b(2) + §1.2 d (configuration data as a protected asset class) |
@@ -209,19 +210,16 @@ Stated explicitly so that no reader has to infer them:
 Each item is a factual question only Data & More can answer. Publishing v6 with a guess here
 is worse than publishing with the question resolved.
 
-1. **CCPA / PIPEDA.** Are there customers whose contracts make these applicable? If yes, name
-   the regimes in §1.2 f and point to the controls that address them. If no, leave §1.2 f as
-   written — claiming a regulatory scope without controls is a finding waiting to happen.
-2. **Legal entity details.** CVR number and registered address, for §1.1.
-3. **Locations.** Is Denmark HQ the only Data & More site? Any other office, or
+1. **Legal entity details.** CVR number and registered address, for §1.1.
+2. **Locations.** Is Denmark HQ the only Data & More site? Any other office, or
    co-working/satellite location used for customer work?
-4. **Headcount.** "27 employees as of June 2025" is now 16 months old. Update the figure and its
+3. **Headcount.** "27 employees as of June 2025" is now 16 months old. Update the figure and its
    as-of date, or drop the number from §1.2 a and keep only the function list.
-5. **Purview and AI capabilities.** Are both generally available to customers today, or partly
+4. **Purview and AI capabilities.** Are both generally available to customers today, or partly
    roadmap? Scope should describe what is in production.
-6. **Sub-processor list.** §1.3 names Hetzner, Microsoft and Cyberday. Confirm the full current
+5. **Sub-processor list.** §1.3 names Hetzner, Microsoft and Cyberday. Confirm the full current
    list so §1.3 matches the sub-processor register.
-7. **Hosting detail.** Confirm whether the specific Hetzner region/site should be named, or kept
+6. **Hosting detail.** Confirm whether the specific Hetzner region/site should be named, or kept
    at "EU (Germany)" as in the ISAE description.
 
 ---
@@ -232,8 +230,8 @@ is worse than publishing with the question resolved.
 2. Replace the **Scope of the ISMS** section with §1.1–§1.4 above, once Section 4 is resolved.
 3. Change description for the version history: *"Scope restated against ISO/IEC 27001:2022
    clause 4.3: boundaries (organisation, services, locations, information, technology,
-   requirements), interfaces and dependencies, and explicit exclusions. Removed the unevidenced
-   CCPA/PIPEDA claim."*
+   requirements), interfaces and dependencies, and explicit exclusions. Narrowed the stated
+   regulatory drivers to those that actually apply."*
 4. Publish, and re-share the read-only report with top management and the auditor — the scope is
    the first thing read at the opening meeting.
 5. Keep the published PDF in this repository so the ISAE and ISO mapping documents stay in step
