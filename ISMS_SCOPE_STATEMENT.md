@@ -88,11 +88,16 @@ responsibility split).
 
 - **Registered office and headquarters:** Flæsketorvet 68, DK-1711 København V, Denmark.
 - **Further offices**, as published on dataandmore.com: Hamburg (Elbchaussee 438, 22609 Hamburg,
-  Germany), Hässleholm (Okvägen 101, 28151 Hässleholm, Sweden) and Calgary
-  (500 – 4th Avenue SW, Calgary, Alberta, Canada). Every site from which personnel act under
-  Data & More's direction falls inside the organisational boundary in §1.2 a. **This list needs
-  confirmation before publishing** — the website's contact and about pages do not agree, and the
-  Calgary office sits outside the EU/EEA (§4.2).
+  Germany) and Hässleholm (Okvägen 101, 28151 Hässleholm, Sweden). Personnel at these offices
+  act under Data & More's direction and fall inside the organisational boundary in §1.2 a. The
+  published office list needs confirmation before publishing — the website's contact and about
+  pages do not agree (§4.2).
+- The **Calgary office** (500 – 4th Avenue SW, Calgary, Alberta, Canada) serves Data & More's
+  own North American clients. **Its personnel have no access to the customer personal data
+  processed by the service in scope**, so no personal data covered by this ISMS is reachable
+  from outside the EU/EEA. The access controls that keep the two separate are the evidence for
+  that statement and an auditor will test them. The North American client business itself is
+  outside this scope — see exclusion §1.4(7).
 - **Remote and mobile working** by Data & More personnel (covered by the Remote work and mobile
   devices theme).
 - The **Hetzner EU datacentre facilities (Germany)** that host the SaaS service — in scope as a
@@ -100,9 +105,8 @@ responsibility split).
   physically controls (see 1.3).
 - Customer premises and customer datacentres hosting on-premises deployments — an **interface**,
   not a Data & More location (see 1.4).
-- **No storage or processing of customer personal data outside the EU/EEA.** Access to customer
-  personal data by personnel working from a location outside the EU/EEA would be a transfer in
-  its own right, so the office footprint above has to be reconciled with this statement (§4.2).
+- **No storage, processing or access from outside the EU/EEA** of the customer personal data
+  covered by this scope — including no access from the Calgary office, as stated above.
 
 **d) Information and assets in scope.**
 
@@ -142,7 +146,8 @@ responsibility split).
   (45 control objectives across categories A–I).
 
 These are the only regulatory drivers in scope. No other national or regional privacy regime
-applies to the services — see §1.4(4).
+applies to the service described in §1.2 b — see §1.4(4), and §1.4(7) for the separately
+operated North American client business.
 
 ### 1.3 Interfaces and dependencies
 
@@ -177,13 +182,19 @@ Stated explicitly so that no reader has to infer them:
    rather than by direct control.
 4. **Processing or storage of customer personal data outside the EU/EEA** — not performed, so no
    transfer controls under GDPR Articles 44–49 are in scope. No privacy regime outside the
-   EU/EEA applies to the services. Should a future customer contract make one applicable, the
-   scope and the controls supporting it are reviewed before that contract is signed.
+   EU/EEA applies to the service described in §1.2 b. Should a future customer contract make one
+   applicable, the scope and the controls supporting it are reviewed before that contract is
+   signed.
 5. **Industry-specific ISMS themes** — not excluded by choice of industry. Data & More supports
    customers in all industries and applies the twelve active ISMS themes without
    industry-specific narrowing.
 6. **ISO/IEC 27001:2022 Annex A controls assessed as not applicable** — each is justified
    individually in the Statement of Applicability, not excluded at scope level.
+7. **The North American client business served from the Calgary office.** Excluded because it
+   operates separately from the service described in §1.2 b and its personnel have no access to
+   the customer personal data covered by this scope. Whether that business sits inside
+   Data & More ApS or in a separate legal entity decides how this exclusion has to be worded and
+   evidenced — see §4.2.
 
 ---
 
@@ -234,15 +245,19 @@ the first two are the ones that change what the scope says.
    future date — today is October 2026. §1.2 a carries 29 with the date withheld. Confirm the
    correct as-of date (June 2026 would be the obvious reading), or drop the number and keep only
    the function list.
-2. **Office footprint, and access from outside the EU/EEA.** Two things to settle:
+2. **Office footprint, and the status of the North American business.** The transfer question
+   is answered: Calgary has no access to the customer personal data covered by this scope, which
+   §1.2 c now states and §1.4(7) excludes. Two things are still open:
    (a) the website's contact page lists Copenhagen, Hamburg, Hässleholm and Calgary, while its
    about page lists Copenhagen, Calgary, Düsseldorf, Zagreb and Stockholm — which set is current,
    and which are Data & More ApS sites rather than partner or representative presence;
-   (b) the **Calgary (Canada) office is outside the EU/EEA**, so if personnel there can access
-   customer personal data, the "no processing outside the EU/EEA" statement in §1.2 c and
-   exclusion §1.4(4) are both wrong as written, and a GDPR Chapter V transfer basis is needed.
-   If Calgary personnel have no access to customer personal data, say so explicitly in the scope
-   — an auditor will ask.
+   (b) whether the North American client business is run by **Data & More ApS itself or by a
+   separate legal entity**. If it is a separate entity, it is outside the organisational
+   boundary and §1.4(7) can say so plainly. If it is the same entity, the ISMS covers only part
+   of that entity, which ISO/IEC 27001 permits but requires to be stated — and the access
+   controls separating the two client populations become evidence an auditor will ask for.
+   Note that a North American client base is also where privacy regimes outside the EU/EEA would
+   come into play; §1.2 f and §1.4(4) speak only for the service in scope.
 3. **Sub-processor register.** No list was supplied, so §1.3 still names only Hetzner Online
    GmbH, Microsoft and Cyberday, with DPA Appendix B cited as the register. Confirm the full
    current list so the two agree.
