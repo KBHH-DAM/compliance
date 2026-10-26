@@ -114,8 +114,10 @@ CATEGORY 7: HUMAN RESOURCE SECURITY (7 controls)
    A.6.6  - Confidentiality agreements (C.4, C.6)
    A.6.7  - Remote working (B.4, B.8, B.14)
 
-⚠️  PARTIALLY COVERED (1):
-   A.6.4  - Disciplinary process              [General organizational]
+⚠️  NO ISAE COUNTERPART (1):
+   A.6.4  - Disciplinary process              [No ISAE row; covered by the D&M
+                                               Employee sanctions and disciplinary
+                                               procedure, required by the Danish DPA]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

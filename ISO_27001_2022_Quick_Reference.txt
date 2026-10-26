@@ -76,7 +76,7 @@ HUMAN RESOURCE SECURITY (A.6.1-A.6.7)
 A.6.1  Screening                                → C.3
 A.6.2  Terms and conditions of employment       → C.4
 A.6.3  Training and awareness                   → C.7
-A.6.4  Disciplinary process                     → —
+A.6.4  Disciplinary process                     → —  (D&M sanctions procedure)
 A.6.5  Termination responsibilities             → C.5, C.6
 A.6.6  Confidentiality agreements               → C.4, C.6
 A.6.7  Remote working                           → B.4, B.8, B.14

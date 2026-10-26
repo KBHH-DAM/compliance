@@ -1419,16 +1419,28 @@ Segregation of duties prevents any single individual from controlling both the a
 
 ### CATEGORY C: PERSONNEL AND ORGANIZATION (7 Controls)
 
-[Structure continues with C.1-C.7 following similar format]
+[Full C.1-C.7 write-ups still to be drafted in the format used above. The summary below is the
+authoritative list of what each control actually asks, taken from the Elumi request list.]
 
 #### **CONTROL C.1-C.7 Summary:**
-- C.1: Background screening and verification
-- C.2: Confidentiality and security agreements
-- C.3: Training and awareness (separate from A.3 - role-specific)
-- C.4: Disciplinary procedures
-- C.5: Termination procedures
-- C.6: Security incident reporting procedures
-- C.7: Post-employment responsibilities
+- C.1: Information security policy approved and reviewed by management, at least annually, and available to relevant employees
+- C.2: Management has checked that the information security policy does not conflict with the data processing agreements entered into
+- C.3: Employees screened as part of the employment process — references, criminal record certificates, diplomas, as relevant
+- C.4: On appointment, employees sign a confidentiality agreement and are introduced to the information security policy and the data processing procedures
+- C.5: On resignation or dismissal, users' rights are deactivated or terminated and assets are returned
+- C.6: On resignation or dismissal, employees are informed that the confidentiality agreement remains valid and that the general duty of confidentiality continues
+- C.7: Awareness training provided regularly on general IT security and on the security of processing personal data
+
+**Supporting documents:** `C5 C6 Offboarding and departure procedure` (C.5, C.6) ·
+`C3 Privacy_policy_for_job_applications_and_recruitment` (C.3) ·
+`C7 Trainings and exercises` (C.7) · `DAM__Staff_Handbook v5` (C.4, C.7)
+
+**No disciplinary control exists in the ISAE 3000 request list.** An earlier version of this
+summary listed "C.4: Disciplinary procedures", which was wrong — C.4 is confidentiality
+agreements and induction. Employee sanctions are a requirement of the Danish Data Processing
+Agreement and of ISO 27001:2022 A.6.4, not of any ISAE row, and are answered by
+`EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`. It is relevant to C.1 and C.2 as part of
+the approved policy set, and to C.4 as part of the induction.
 
 ---
 

@@ -432,11 +432,20 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Record of training completion
 
 ### ISO 27001 A.6.4 - Disciplinary Process
-**ISAE Control:** —  
-**Alignment:** LOW/NOT COVERED  
+**ISAE Control:** — (no ISAE 3000 control maps to this; the Elumi request list has no disciplinary row)  
+**Alignment:** NO ISAE COUNTERPART — COVERED BY D&M DOCUMENT  
+**D&M document:** `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md` — pending management approval  
 **Requirement:**
-- Procedures for security violations
-- ISAE scope: Organizational policy, not operational control
+- A defined and communicated process for acting on a breach of information security by personnel
+- Proportionate, consistently applied, with a record
+- ISAE scope: organizational policy, not an operational control the auditor tests
+
+**Note on this row.** "Not covered" here describes the *mapping*, not D&M. No ISAE 3000 control
+asks for a disciplinary process, so there is no row for an auditor to test. A.6.4 nonetheless has
+to be satisfied, because the Danish Data Processing Agreement commits under *Organisatoriske
+sikkerhedsforanstaltninger* item 1 to policies defining "ansvar og sanktioner i tilfælde af
+overtrædelser". It is therefore answered by a D&M document rather than by an ISAE control, and
+should not be read as an open gap once that document is approved.
 
 ### ISO 27001 A.6.5 - Responsibilities after Termination or Change of Employment
 **ISAE Control:** C.5, C.6  
@@ -742,6 +751,8 @@ These controls are foundational to the ISMS but are primarily organizational gov
 - Primarily organizational governance and infrastructure planning
 - Examples: Continuity planning, IP rights, interested parties, disciplinary process
 - These are out of ISAE processor audit scope
+- Out of ISAE scope does not mean absent at D&M: A.6.4 is answered by
+  `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`, which the Danish DPA requires
 
 ---
 
