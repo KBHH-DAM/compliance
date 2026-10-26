@@ -142,7 +142,7 @@ Management has assessed the control environment and confirmed:
 - Controls are implemented and operating effectively
 - Zero critical deficiencies exist in control design or operation
 - All GDPR compliance requirements are addressed through existing controls
-- 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88%); all 93 are assessed — see ISO_27001_2022_ISAE_3000_Mapping.md
+- 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88%); all 93 are assessed — see [[ISO_27001_2022_ISAE_3000_Mapping]]
 
 ### 2.2 Control Environment Components
 
@@ -225,7 +225,7 @@ This Description of Processing addresses 45 control objectives organized into 9 
 | I | I.1 - I.4 | Incident Management |
 
 **Total Controls:** 45  
-**Coverage Status:** 100% of the 45 ISAE controls mapped to GDPR; ISO/IEC 27001:2022 Annex A alignment is 88% (82 of 93 controls) — see ISO_27001_2022_ISAE_3000_Mapping.md
+**Coverage Status:** 100% of the 45 ISAE controls mapped to GDPR; ISO/IEC 27001:2022 Annex A alignment is 88% (82 of 93 controls) — see [[ISO_27001_2022_ISAE_3000_Mapping]]
 
 ### 3.2 Control Effectiveness Assessment
 
@@ -1445,7 +1445,7 @@ authoritative list of what each control actually asks, taken from the Elumi requ
 summary listed "C.4: Disciplinary procedures", which was wrong — C.4 is confidentiality
 agreements and induction. Employee sanctions are a requirement of the Danish Data Processing
 Agreement and of ISO 27001:2022 A.6.4, not of any ISAE row, and are answered by
-`EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`. It is relevant to C.1 and C.2 as part of
+[[EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE]]. It is relevant to C.1 and C.2 as part of
 the approved policy set, and to C.4 as part of the induction.
 
 ---
@@ -1665,11 +1665,11 @@ We, the management of Data & More ApS, attest that:
 
 ### Appendix A: GDPR to ISAE Control Mapping
 
-[Reference: ISAE_3000_GDPR_Mapping.md - detailed mapping document]
+[Reference: [[ISAE_3000_GDPR_Mapping]] - detailed mapping document]
 
 ### Appendix B: ISO 27001:2022 to ISAE Control Mapping
 
-[Reference: ISO_27001_2022_ISAE_3000_Mapping.md - detailed mapping document]
+[Reference: [[ISO_27001_2022_ISAE_3000_Mapping]] - detailed mapping document]
 
 ### Appendix C: Evidence Reference and Cyberday Integration
 

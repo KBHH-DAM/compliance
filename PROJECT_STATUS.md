@@ -23,12 +23,12 @@ All comprehensive audit documentation has been prepared, reviewed, and pushed to
 
 | Document | Status | Files | Notes |
 |----------|--------|-------|-------|
-| GDPR Mapping | ✅ Complete | ISAE_3000_GDPR_Mapping.md | 42 GDPR requirements → 45 ISAE controls |
-| ISO 27001:2022 Mapping | ✅ Complete | ISO_27001_2022_ISAE_3000_Mapping.md | All 93 Annex A controls assessed → 88% mapped (82); SoA still needs status + owner per control |
-| Gap Analysis | ✅ Complete | GDPR_to_ISAE_Coverage_Checklist.md | 5 gaps identified → corrected to 0 |
-| Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 88% Annex A coverage |
-| Coverage Summaries | ✅ Complete | *_Coverage_Summary.txt (3 files) | Visual metrics and breakdowns |
-| Quick References | ✅ Complete | *_Quick_Reference.txt (2 files) | Auditor lookup tables |
+| GDPR Mapping | ✅ Complete | [[ISAE_3000_GDPR_Mapping]] | 42 GDPR requirements → 45 ISAE controls |
+| ISO 27001:2022 Mapping | ✅ Complete | [[ISO_27001_2022_ISAE_3000_Mapping]] | All 93 Annex A controls assessed → 88% mapped (82); SoA still needs status + owner per control |
+| Gap Analysis | ✅ Complete | [[GDPR_to_ISAE_Coverage_Checklist]] | 5 gaps identified → corrected to 0 |
+| Framework Comparison | ✅ Complete | [[FRAMEWORK_COMPARISON_Summary]] | GDPR 71% vs ISO 88% Annex A coverage |
+| Coverage Summaries | ✅ Complete | *_Coverage_Summary.md (3 files) | Visual metrics and breakdowns |
+| Quick References | ✅ Complete | *_Quick_Reference.md (2 files) | Auditor lookup tables |
 
 ### Gap Correction Summary
 
@@ -92,8 +92,8 @@ Status: All changes pushed ✅
 ### Files in Repository
 
 **Documentation:**
-- ✅ DESCRIPTION_OF_PROCESSING_ISAE3000.md (Main audit document)
-- ✅ B3_AUDIT_EVIDENCE_SUMMARY.md (Control evidence)
+- ✅ [[DESCRIPTION_OF_PROCESSING_ISAE3000]] (Main audit document)
+- ✅ [[B3_AUDIT_EVIDENCE_SUMMARY]] (Control evidence)
 - ✅ All mapping and analysis documents
 
 **Evidence:**
@@ -158,7 +158,7 @@ Status: All changes pushed ✅
 **Owner:** Compliance Officer  
 **Timeline:** By October 10, 2025  
 **Details:**
-- [ ] Review B3_AUDIT_EVIDENCE_SUMMARY.md (malware protection evidence)
+- [ ] Review [[B3_AUDIT_EVIDENCE_SUMMARY]] (malware protection evidence)
 - [ ] Confirm all referenced documents are current
 - [ ] Verify evidence completeness
 - [ ] Note any missing documentation
@@ -169,7 +169,7 @@ Status: All changes pushed ✅
 - ✅ All documents accessible
 
 **Resources:**
-- B3_AUDIT_EVIDENCE_SUMMARY.md
+- [[B3_AUDIT_EVIDENCE_SUMMARY]]
 - B3_audit/ folder (existing evidence)
 - Cyberday folder structure
 
@@ -191,8 +191,8 @@ Status: All changes pushed ✅
 - ✅ Meeting scheduled (pre-audit kickoff)
 
 **Resources:**
-- DESCRIPTION_OF_PROCESSING_ISAE3000.md
-- B3_AUDIT_EVIDENCE_SUMMARY.md
+- [[DESCRIPTION_OF_PROCESSING_ISAE3000]]
+- [[B3_AUDIT_EVIDENCE_SUMMARY]]
 - Contact list for Baker Tilly
 
 ---
@@ -218,7 +218,7 @@ Status: All changes pushed ✅
 - ✅ 50% of total evidence uploaded
 
 **Resources:**
-- B3_AUDIT_EVIDENCE_SUMMARY.md (detailed checklist)
+- [[B3_AUDIT_EVIDENCE_SUMMARY]] (detailed checklist)
 - Evidence tagging convention (defined in documents)
 - Excel workbooks for evidence tracking
 
@@ -279,7 +279,7 @@ Status: All changes pushed ✅
 - ✅ Ready for Cyberday upload
 
 **Resources:**
-- B3_AUDIT_EVIDENCE_SUMMARY.md (checklist)
+- [[B3_AUDIT_EVIDENCE_SUMMARY]] (checklist)
 - Excel_Workbook_Data/ (tracking templates)
 - Evidence collection folder structure
 
@@ -304,7 +304,7 @@ Status: All changes pushed ✅
 - ✅ Auditor package prepared
 
 **Resources:**
-- DESCRIPTION_OF_PROCESSING_ISAE3000.md
+- [[DESCRIPTION_OF_PROCESSING_ISAE3000]]
 - All audit evidence documents
 - Cyberday compliance reports
 
@@ -407,7 +407,7 @@ Status: All changes pushed ✅
 **Probability:** Low  
 **Mitigation:**
 - [ ] Complete evidence inventory review (ACTION 2)
-- [ ] Use B3_AUDIT_EVIDENCE_SUMMARY.md as checklist
+- [ ] Use [[B3_AUDIT_EVIDENCE_SUMMARY]] as checklist
 - [ ] Gather evidence before Cyberday upload
 
 ---
@@ -508,9 +508,9 @@ JANUARY 2026:
 ## APPENDICES
 
 ### A. Key Documents Reference
-- `DESCRIPTION_OF_PROCESSING_ISAE3000.md` - Main audit deliverable
-- `B3_AUDIT_EVIDENCE_SUMMARY.md` - Evidence package example
-- `PROJECT_STATUS.md` - This file
+- [[DESCRIPTION_OF_PROCESSING_ISAE3000]] - Main audit deliverable
+- [[B3_AUDIT_EVIDENCE_SUMMARY]] - Evidence package example
+- [[PROJECT_STATUS]] - This file
 
 ### B. Contact Information
 - **Compliance Officer:** [Name, Email, Phone]

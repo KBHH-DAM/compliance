@@ -1,17 +1,22 @@
 ================================================================================
 ISAE 3000 Type 1 → GDPR Cyberday Quick Reference
 ================================================================================
+```
 Control | Title                                  | Primary GDPR Articles
+```
 ================================================================================
 
 A – CONTROLLER INSTRUCTIONS
 ────────────────────────────────────────────────────────────────────────────
+```
 A.1     | Processing Instructions Review        | Art 28, Art 5
 A.2     | Compliance with Processing Agreements | Art 28(1), Art 5
 A.3     | Reporting Unlawful Instructions       | Art 28, Art 32, Art 33
+```
 
 B – TECHNICAL & PHYSICAL SECURITY
 ────────────────────────────────────────────────────────────────────────────
+```
 B.1     | Safeguards Implementation & Review    | Art 32, Art 28(3)(c), Art 5
 B.2     | Risk Assessment & Technical Measures  | Art 32, Art 35
 B.3     | Antivirus Protection & Updates        | Art 32(1)(a), Art 28
@@ -27,9 +32,11 @@ B.12    | Change & Patch Management             | Art 32, Art 25, Art 28
 B.13    | User Access Management & Review       | Art 32(1)(b), Art 28, Art 5(1)(f)
 B.14    | Two-Factor Authentication             | Art 32, Art 5(1)(f), Art 25
 B.15    | Physical Access Safeguards            | Art 32, Art 5(1)(f), Art 28
+```
 
 C – ORGANISATIONAL MEASURES
 ────────────────────────────────────────────────────────────────────────────
+```
 C.1     | Info Security Policy & Approval       | Art 32(2), Art 25, Art 28, Art 30
 C.2     | Policy-DPA Compliance                 | Art 28(3)(c), Art 32, Art 5(2)(a)
 C.3     | Employee Screening                    | Art 28(3)(c), Art 5, Art 32(1)
@@ -37,49 +44,63 @@ C.4     | Confidentiality & Induction           | Art 28, Art 29, Art 5, Art 32(
 C.5     | Employee Offboarding                  | Art 28(3)(g), Art 32(1)(b), Art 5(1)(f)
 C.6     | Post-Departure Confidentiality        | Art 28(3)(g), Art 29, Art 5(1)(f)
 C.7     | Security Awareness Training           | Art 32, Art 28, Art 5(1)(f)
+```
 
 D – DATA RETURN & DELETION
 ────────────────────────────────────────────────────────────────────────────
+```
 D.1     | Storage & Deletion Procedures         | Art 5(1)(e), Art 17(3), Art 28, Art 30
 D.2     | Retention & Deletion Routines         | Art 5(1)(e), Art 17(3), Art 28, Art 6
 D.3     | Return/Deletion on Termination        | Art 17, Art 28(3)(g), Art 5(1)(e)
+```
 
 E – STORAGE & PROCESSING LOCATIONS
 ────────────────────────────────────────────────────────────────────────────
+```
 E.1     | Storage & Processing Procedure        | Art 28(3)(c), Art 5(1)(a), Art 30, Art 32
 E.2     | Locations Match Approvals             | Art 28(3)(c), Chapter V (Art 44-49)
+```
 
 F – SUB-PROCESSORS
 ────────────────────────────────────────────────────────────────────────────
+```
 F.1     | Sub-Processor Appointment Procedure   | Art 28(2), Art 30, Art 5(2)(a)
 F.2     | Sub-Processor Authorization Register  | Art 28(2), Art 30, Art 5(2)(a)
 F.3     | Sub-Processor Change Notification     | Art 28(2)(h), Art 5(2)(a)
 F.4     | Data Protection Obligations Pass-Through | Art 28(4), Art 82, Art 30
 F.5     | Sub-Processor Register Details        | Art 28(2), Art 30, Art 5(2)(a)
 F.6     | Sub-Processor Risk Assessment         | Art 28(1), Art 5(2)(a), Art 32, Art 30
+```
 
 G – THIRD-COUNTRY TRANSFERS
 ────────────────────────────────────────────────────────────────────────────
+```
 G.1     | Transfer Procedure                    | Art 44, Art 45-49, Art 28(1), Art 5
 G.2     | Transfers Follow Instructions         | Art 44, Art 28(1), Art 5(2)(a)
 G.3     | Transfer Mechanism & Assessment       | Art 45, Art 46, Art 49, Art 32, Art 30
+```
 
 H – DATA SUBJECT RIGHTS
 ────────────────────────────────────────────────────────────────────────────
+```
 H.1     | Data Subject Rights Procedure         | Art 12-23, Art 28(3)(e), Art 5
 H.2     | Capability for All Rights             | Art 15-21, Art 28(3)(e)
+```
 
 I – BREACH MANAGEMENT
 ────────────────────────────────────────────────────────────────────────────
+```
 I.1     | Breach Notification Procedure         | Art 33, Art 34, Art 28(3)(f), Art 30
 I.2     | Breach Identification Controls        | Art 33, Art 32(1)(c), Art 5(2)(a)
 I.3     | 24-Hour Notification to Controller    | Art 33, Art 28(3)(f), Art 5(2)(a)
 I.4     | Assist DPA Reporting (Danish)         | Art 33, Art 34, Art 28(3)(f), Art 30
+```
 
 ================================================================================
 GDPR ARTICLE INDEX BY CONTROL
 ================================================================================
 
+```
 Art 5 (Principles)                    → A.1, A.2, A.3, B.6, B.8, B.13, B.14, 
                                        C.1, C.2, D.1, D.2, D.3, E.1, E.2, 
                                        F.1, F.2, F.3, F.6, G.1, G.2, G.3, H.1, I.1, I.2, I.3
@@ -110,6 +131,7 @@ Art 34 (Communication to Subject)     → I.1, I.4
 Art 35 (DPIA)                          → B.2
 
 Art 44-49 (Third-Country Transfers)   → E.2, G.1, G.2, G.3
+```
 
 ================================================================================
 SUPPORTING CYBERDAY FRAMEWORKS

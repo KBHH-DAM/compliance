@@ -29,18 +29,18 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 
 | File | Control refs corrected | Year labels added | Factual/count corrections | Notes |
 |---|---|---|---|---|
-| `ISAE_3000_Cyberday_Mapping.md` | 29 | — | — | Was systematically 2013-numbered while labelled "(2022)" |
-| `ISAE_3000_GDPR_Mapping.md` | 32 | 41 | — | Year was unlabelled throughout; now `ISO 27001:2022` |
+| [[ISAE_3000_Cyberday_Mapping]] | 29 | — | — | Was systematically 2013-numbered while labelled "(2022)" |
+| [[ISAE_3000_GDPR_Mapping]] | 32 | 41 | — | Year was unlabelled throughout; now `ISO 27001:2022` |
 | — *data-residency re-map (§5.1)* | 3 | — | — | Applied after review decision |
 | — *data-residency addition to E.2 (§5.2)* | 2 added | — | — | New mapping, not a correction |
 | — *A.5.5 added to I.4 (§5.3)* | 2 added | — | — | Closes an inconsistency between documents |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs, a 116-control/15-category taxonomy, and a duplicate A.7.2 section (consolidated, §5.4) |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 14 (+7 Cyberday tags) | — | 3 coverage claims | |
-| `B3_AUDIT_EVIDENCE_SUMMARY.md` | 6 | — | — | |
-| `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 6 | 7 | 8 coverage claims | |
-| `PROJECT_STATUS.md` | — | — | 4 coverage claims | |
-| `GDPR_to_ISAE_Coverage_Checklist.md` | 0 | 0 | 0 | No ISO references |
-| `ISAE_3000_Document_GDPR_References.md` | 0 | 0 | 0 | No ISO references |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 13 | 1 | Control set + coverage table rebuilt | Also had 3 non-existent `A.4.x` refs, a 116-control/15-category taxonomy, and a duplicate A.7.2 section (consolidated, §5.4) |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 14 (+7 Cyberday tags) | — | 3 coverage claims | |
+| [[B3_AUDIT_EVIDENCE_SUMMARY]] | 6 | — | — | |
+| [[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]] | 6 | 7 | 8 coverage claims | |
+| [[PROJECT_STATUS]] | — | — | 4 coverage claims | |
+| [[GDPR_to_ISAE_Coverage_Checklist]] | 0 | 0 | 0 | No ISO references |
+| [[ISAE_3000_Document_GDPR_References]] | 0 | 0 | 0 | No ISO references |
 
 ---
 
@@ -49,7 +49,7 @@ confirms no remaining reference falls outside the valid 2022 ranges.
 *Line numbers are those of the corrected files on this branch. The ISAE control ID in each
 section heading is the stable reference.*
 
-### 3.1 `ISAE_3000_Cyberday_Mapping.md` (all labelled "ISO 27001 (2022)")
+### 3.1 [[ISAE_3000_Cyberday_Mapping]] (all labelled "ISO 27001 (2022)")
 
 | Line | Was | Now | Reason |
 |---|---|---|---|
@@ -85,7 +85,7 @@ section heading is the stable reference.*
 | 802 | A.17.1 — Incident response timelines | **A.5.26** — Response to information security incidents | 2013 A.16.1.5 |
 | 820 | A.17.1 — Incident response and post-incident activities | **A.5.26 / A.5.27** — Response to, and learning from, incidents (plus **A.5.5** at line 819, see §5.3) | 2013 A.16.1.5–6 |
 
-### 3.2 `ISAE_3000_GDPR_Mapping.md`
+### 3.2 [[ISAE_3000_GDPR_Mapping]]
 
 Revision year was **unlabelled** throughout (`ISO 27001: A.x.y`); all 41 bullets now read
 `ISO 27001:2022:`. The header's "Supporting Framework" line now reads
@@ -133,40 +133,40 @@ reference was judged on intent.
 
 | File | Line | Was | Actually means in 2022 | Now |
 |---|---|---|---|---|
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 113 | A.5.8 — Use of Cryptography | A.5.8 = Information security in project management | **A.8.24** — Use of cryptography |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 297 | A.8.2 — User Authentication for External Connections | A.8.2 = Privileged access rights | **A.8.5** — Secure authentication |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 321 | A.7.7 — Delivery and Loading Areas | A.7.7 = Clear desk and clear screen | **A.7.2** — Physical entry; section merged into the canonical A.7.2 (see §5.4) |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 369 | A.8.3 — Managing Removable Media | A.8.3 = Information access restriction | **A.7.10** — Storage media |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 377 | A.8.4 — Utility Supply | A.8.4 = Access to source code | **A.7.11** — Supporting utilities |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 385 | A.8.5 — Cabling Security | A.8.5 = Secure authentication | **A.7.12** — Cabling security |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 393 | A.8.6 — Acquisition, Installation, Replacement and Removal of Equipment | A.8.6 = Capacity management | **A.7.13 / A.7.14** — Equipment maintenance; secure disposal or re-use |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | 537 | A.8.29 — Information Systems Resilience and Redundancy | A.8.29 = Security testing in development and acceptance | **A.8.14** — Redundancy of information processing facilities |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.30 — Development, Testing and Production Environments | A.8.30 = Outsourced development | **A.8.31** — Separation of development, test and production environments |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.31 — Change of Platform | A.8.31 = Separation of dev/test/prod | **A.8.32** — Change management |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.8.32 — Monitoring and Reviewing | A.8.32 = Change management | **A.8.16** — Monitoring activities |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.5.18 — Rights of Access | — | **A.5.18** — Access rights (official title) |
-| `ISO_27001_2022_ISAE_3000_Mapping.md` | — | A.5.24 — Planning and Preparing for Information Security Incident Handling | — | **A.5.24** — Information security incident management planning and preparation (official title) |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 541 | A.5.23 (Encryption and key management) | A.5.23 = Information security for use of cloud services | **A.8.24** — Use of cryptography |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 541 | A.8.27 (Protection of system architecture) | — | **A.8.27** — Secure system architecture and engineering principles (title) |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 644 | A.8.12 (Security of system installations) | A.8.12 = Data leakage prevention | **A.8.19** — Installation of software on operational systems |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 955 | A.5.23 (Encryption and key management), A.8.24 (Data encryption) | as above | **A.8.24** — Use of cryptography, including key management |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1182 | A.8.32 (Monitoring system activity) | A.8.32 = Change management | **A.8.16** — Monitoring activities |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1313 | A.8.34 (Incident handling) | A.8.34 = Protection of information systems during audit testing | **removed** — A.5.24–A.5.27 already cover it |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1332 | A.8.30 (Development and testing environments) | A.8.30 = Outsourced development | **A.8.31** — Separation of development, test and production environments |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1370 | A.8.31 (Change of platform, operating system or applications) | A.8.31 = Separation of dev/test/prod | **A.8.32** — Change management |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 432 | A.6.3 (Information and digital literacy) | — | **A.6.3** — Information security awareness, education and training (title) |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 742, 841, 1294, 1390 | A.8.7 "Prevention of malware"; A.8.20 "Network security"; A.8.22 "Network segregation"; A.8.13 "Backup procedures"; A.5.18 "Rights of access" | — | Official titles: Protection against malware; Networks security; Segregation of networks; Information backup; Access rights |
-| `B3_AUDIT_EVIDENCE_SUMMARY.md` | 611, 819 | A.8.12 (Configuration Management) | A.8.12 = Data leakage prevention | **A.8.9** — Configuration management |
-| `B3_AUDIT_EVIDENCE_SUMMARY.md` | 820 | A.6.3 — Information and digital literacy | — | **A.6.3** — Information security awareness, education and training |
-| `B3_AUDIT_EVIDENCE_SUMMARY.md` | 389, 601, 817 | A.8.7 — Prevention of malware | — | **A.8.7** — Protection against malware |
-| `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 143 | ISO A.5.23 (technical and cryptographic controls) | A.5.23 = cloud services | **A.8.24**, A.8.x |
-| `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 147 | ISO A.5.10 (retention, deletion, DSR) | A.5.10 = Acceptable use of information and other associated assets | **A.5.33**, **A.8.10** |
-| `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 149 | ISO A.5.23 (secure data access and transfer) | A.5.23 = cloud services | **A.5.14**, **A.8.24** |
-| `GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md` | 114, 213 | ISO#A5.15-22 (Access Controls) | A.5.19–A.5.22 are supplier controls | **ISO#A5.15-18** |
-| `DESCRIPTION_OF_PROCESSING_ISAE3000.md` | 1672 | ISO#A5.15-22 (Access Controls) | as above | **ISO#A5.15-18** |
-| `PROJECT_STATUS.md` | 240 | ISO#A5.15-22 (Access Controls) | as above; found 2026-10-12 during the Cyberday pass (§13) | **ISO#A5.15-18** |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 113 | A.5.8 — Use of Cryptography | A.5.8 = Information security in project management | **A.8.24** — Use of cryptography |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 297 | A.8.2 — User Authentication for External Connections | A.8.2 = Privileged access rights | **A.8.5** — Secure authentication |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 321 | A.7.7 — Delivery and Loading Areas | A.7.7 = Clear desk and clear screen | **A.7.2** — Physical entry; section merged into the canonical A.7.2 (see §5.4) |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 369 | A.8.3 — Managing Removable Media | A.8.3 = Information access restriction | **A.7.10** — Storage media |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 377 | A.8.4 — Utility Supply | A.8.4 = Access to source code | **A.7.11** — Supporting utilities |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 385 | A.8.5 — Cabling Security | A.8.5 = Secure authentication | **A.7.12** — Cabling security |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 393 | A.8.6 — Acquisition, Installation, Replacement and Removal of Equipment | A.8.6 = Capacity management | **A.7.13 / A.7.14** — Equipment maintenance; secure disposal or re-use |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | 537 | A.8.29 — Information Systems Resilience and Redundancy | A.8.29 = Security testing in development and acceptance | **A.8.14** — Redundancy of information processing facilities |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | — | A.8.30 — Development, Testing and Production Environments | A.8.30 = Outsourced development | **A.8.31** — Separation of development, test and production environments |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | — | A.8.31 — Change of Platform | A.8.31 = Separation of dev/test/prod | **A.8.32** — Change management |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | — | A.8.32 — Monitoring and Reviewing | A.8.32 = Change management | **A.8.16** — Monitoring activities |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | — | A.5.18 — Rights of Access | — | **A.5.18** — Access rights (official title) |
+| [[ISO_27001_2022_ISAE_3000_Mapping]] | — | A.5.24 — Planning and Preparing for Information Security Incident Handling | — | **A.5.24** — Information security incident management planning and preparation (official title) |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 541 | A.5.23 (Encryption and key management) | A.5.23 = Information security for use of cloud services | **A.8.24** — Use of cryptography |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 541 | A.8.27 (Protection of system architecture) | — | **A.8.27** — Secure system architecture and engineering principles (title) |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 644 | A.8.12 (Security of system installations) | A.8.12 = Data leakage prevention | **A.8.19** — Installation of software on operational systems |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 955 | A.5.23 (Encryption and key management), A.8.24 (Data encryption) | as above | **A.8.24** — Use of cryptography, including key management |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 1182 | A.8.32 (Monitoring system activity) | A.8.32 = Change management | **A.8.16** — Monitoring activities |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 1313 | A.8.34 (Incident handling) | A.8.34 = Protection of information systems during audit testing | **removed** — A.5.24–A.5.27 already cover it |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 1332 | A.8.30 (Development and testing environments) | A.8.30 = Outsourced development | **A.8.31** — Separation of development, test and production environments |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 1370 | A.8.31 (Change of platform, operating system or applications) | A.8.31 = Separation of dev/test/prod | **A.8.32** — Change management |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 432 | A.6.3 (Information and digital literacy) | — | **A.6.3** — Information security awareness, education and training (title) |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 742, 841, 1294, 1390 | A.8.7 "Prevention of malware"; A.8.20 "Network security"; A.8.22 "Network segregation"; A.8.13 "Backup procedures"; A.5.18 "Rights of access" | — | Official titles: Protection against malware; Networks security; Segregation of networks; Information backup; Access rights |
+| [[B3_AUDIT_EVIDENCE_SUMMARY]] | 611, 819 | A.8.12 (Configuration Management) | A.8.12 = Data leakage prevention | **A.8.9** — Configuration management |
+| [[B3_AUDIT_EVIDENCE_SUMMARY]] | 820 | A.6.3 — Information and digital literacy | — | **A.6.3** — Information security awareness, education and training |
+| [[B3_AUDIT_EVIDENCE_SUMMARY]] | 389, 601, 817 | A.8.7 — Prevention of malware | — | **A.8.7** — Protection against malware |
+| [[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]] | 143 | ISO A.5.23 (technical and cryptographic controls) | A.5.23 = cloud services | **A.8.24**, A.8.x |
+| [[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]] | 147 | ISO A.5.10 (retention, deletion, DSR) | A.5.10 = Acceptable use of information and other associated assets | **A.5.33**, **A.8.10** |
+| [[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]] | 149 | ISO A.5.23 (secure data access and transfer) | A.5.23 = cloud services | **A.5.14**, **A.8.24** |
+| [[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]] | 114, 213 | ISO#A5.15-22 (Access Controls) | A.5.19–A.5.22 are supplier controls | **ISO#A5.15-18** |
+| [[DESCRIPTION_OF_PROCESSING_ISAE3000]] | 1672 | ISO#A5.15-22 (Access Controls) | as above | **ISO#A5.15-18** |
+| [[PROJECT_STATUS]] | 240 | ISO#A5.15-22 (Access Controls) | as above; found 2026-10-12 during the Cyberday pass (§13) | **ISO#A5.15-18** |
 
-**Cyberday tags updated to match** (`DESCRIPTION_OF_PROCESSING_ISAE3000.md`): lines 601/632
+**Cyberday tags updated to match** ([[DESCRIPTION_OF_PROCESSING_ISAE3000]]): lines 601/632
 `ISO#A5.23` → `ISO#A8.24`; 702/730 `ISO#A8.12` → `ISO#A8.19`; 1019/1050 `ISO#A5.23, ISO#A8.24`
 → `ISO#A8.24`; 1247/1280 `ISO#A8.32` → `ISO#A8.16`. These four tag values, and every other
 `ISO#` tag in the repository, were subsequently verified directly against the Cyberday account's
@@ -182,10 +182,10 @@ A.8.1 appears in both revisions with different meanings (2013 "Responsibility fo
 
 | Location | Described intent | Resolution |
 |---|---|---|
-| `ISAE_3000_Cyberday_Mapping.md:530` | "Onsite and offsite equipment" (storage/processing locations) | → **A.5.23 + A.5.14** (see §5.1) |
-| `ISAE_3000_GDPR_Mapping.md:898` | "on-site and off-site storage" | → **A.5.23 + A.5.14** (see §5.1) |
-| `ISAE_3000_GDPR_Mapping.md:1204` | "storage in different locations" (third-country transfers) | → **A.5.23 + A.5.14** (see §5.1) |
-| `ISO_27001_2022_ISAE_3000_Mapping.md:289` | "User Endpoint Devices" — endpoint protection, malware, inventory | **Already correct 2022 usage — left unchanged** |
+| [[ISAE_3000_Cyberday_Mapping]]:530 | "Onsite and offsite equipment" (storage/processing locations) | → **A.5.23 + A.5.14** (see §5.1) |
+| [[ISAE_3000_GDPR_Mapping]]:898 | "on-site and off-site storage" | → **A.5.23 + A.5.14** (see §5.1) |
+| [[ISAE_3000_GDPR_Mapping]]:1204 | "storage in different locations" (third-country transfers) | → **A.5.23 + A.5.14** (see §5.1) |
+| [[ISO_27001_2022_ISAE_3000_Mapping]]:289 | "User Endpoint Devices" — endpoint protection, malware, inventory | **Already correct 2022 usage — left unchanged** |
 
 ---
 
@@ -205,14 +205,14 @@ Applied at:
 
 | File | Line | ISAE control | Was (original) | Interim | Final |
 |---|---|---|---|---|---|
-| `ISAE_3000_Cyberday_Mapping.md` | 530–531 | E.1 | A.8.1 "Onsite and offsite equipment" | A.7.9 | **A.5.23** Information security for use of cloud services + **A.5.14** Information transfer |
-| `ISAE_3000_Cyberday_Mapping.md` | 549–550 | E.2 | *(no ISO 27001 reference)* | — | **A.5.23** + **A.5.14** (added) |
-| `ISAE_3000_GDPR_Mapping.md` | 898 | E.1 | A.8.1 "on-site and off-site storage" | A.7.9 | **A.5.23** + **A.5.14** |
-| `ISAE_3000_GDPR_Mapping.md` | 935 | E.2 | *(no ISO 27001 reference)* | — | **A.5.23** + **A.5.14** (added) |
-| `ISAE_3000_GDPR_Mapping.md` | 1204 | G.1 | A.8.1 "storage in different locations" | A.5.14 | **A.5.23** + **A.5.14** |
+| [[ISAE_3000_Cyberday_Mapping]] | 530–531 | E.1 | A.8.1 "Onsite and offsite equipment" | A.7.9 | **A.5.23** Information security for use of cloud services + **A.5.14** Information transfer |
+| [[ISAE_3000_Cyberday_Mapping]] | 549–550 | E.2 | *(no ISO 27001 reference)* | — | **A.5.23** + **A.5.14** (added) |
+| [[ISAE_3000_GDPR_Mapping]] | 898 | E.1 | A.8.1 "on-site and off-site storage" | A.7.9 | **A.5.23** + **A.5.14** |
+| [[ISAE_3000_GDPR_Mapping]] | 935 | E.2 | *(no ISO 27001 reference)* | — | **A.5.23** + **A.5.14** (added) |
+| [[ISAE_3000_GDPR_Mapping]] | 1204 | G.1 | A.8.1 "storage in different locations" | A.5.14 | **A.5.23** + **A.5.14** |
 
 A.7.9 is no longer referenced anywhere and remains on the "not yet assessed" list in
-`ISO_27001_2022_ISAE_3000_Mapping.md`, which is correct — that document does not assess it.
+[[ISO_27001_2022_ISAE_3000_Mapping]], which is correct — that document does not assess it.
 
 ### 5.2 RESOLVED — ISAE E.2 given the same mapping
 
@@ -237,10 +237,10 @@ control.
 
 | File | Line | Now |
 |---|---|---|
-| `ISAE_3000_Cyberday_Mapping.md` | 819–820 | **A.5.5** Contact with authorities; **A.5.26 / A.5.27** Response to, and learning from, incidents |
-| `ISAE_3000_GDPR_Mapping.md` | 1596 | **A.5.5** (contact with authorities), **A.5.26**, **A.5.27** |
+| [[ISAE_3000_Cyberday_Mapping]] | 819–820 | **A.5.5** Contact with authorities; **A.5.26 / A.5.27** Response to, and learning from, incidents |
+| [[ISAE_3000_GDPR_Mapping]] | 1596 | **A.5.5** (contact with authorities), **A.5.26**, **A.5.27** |
 
-This closes an inconsistency rather than inventing a mapping: `ISO_27001_2022_ISAE_3000_Mapping.md`
+This closes an inconsistency rather than inventing a mapping: [[ISO_27001_2022_ISAE_3000_Mapping]]
 already mapped **A.5.5 → ISAE I.1, I.4** (MEDIUM alignment), so the link was asserted in one
 document and missing from the other two. A.5.5 was already counted as assessed, so the coverage
 figures in §6 are unchanged.
@@ -250,7 +250,7 @@ figures in §6 are unchanged.
 2013 A.11.1.6 was **merged into A.7.2 Physical entry** in the 2022 revision; there is no
 standalone 2022 control for delivery and loading areas (A.7.7 in 2022 is "Clear desk and
 clear screen"). Retitling the old A.7.7 section therefore produced two A.7.2 sections in
-`ISO_27001_2022_ISAE_3000_Mapping.md`.
+[[ISO_27001_2022_ISAE_3000_Mapping]].
 
 **Resolved (2026-10-12):** the two sections are merged into the single A.7.2 section at
 line 321. Its requirement list now carries the delivery and loading items — "Segregation of
@@ -273,8 +273,8 @@ a clean-desk policy in passing, so some of that content exists but is not mapped
 Left unchanged: A.5.7 is a **valid 2022 control** with a correct title, so this is not a
 numbering error. It is, however, a weak mapping — scanning and pen testing are
 **A.8.8 (Management of technical vulnerabilities)** and **A.8.29 (Security testing in
-development and acceptance)**. Affects `ISO_27001_2022_ISAE_3000_Mapping.md:105`,
-`GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md:117/225`, `DESCRIPTION_OF_PROCESSING_ISAE3000.md:1675`.
+development and acceptance)**. Affects [[ISO_27001_2022_ISAE_3000_Mapping]]:105,
+[[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]]:117/225, [[DESCRIPTION_OF_PROCESSING_ISAE3000]]:1675.
 **Mapping-quality issue for review, deliberately not changed.**
 
 ### 5.6 ISAE B.10 (pseudonymisation in dev/test) → A.5 (theme-level)
@@ -300,7 +300,7 @@ The documents described ISO 27001:2022 as **"116 controls across 15 categories"*
 the 116/15 taxonomy does not exist in either revision (2013 had 114 controls in 14 groups).
 The percentage was therefore computed against a denominator that does not exist.
 
-`ISO_27001_2022_ISAE_3000_Mapping.md` was recounted on the real 93-control basis, using the
+[[ISO_27001_2022_ISAE_3000_Mapping]] was recounted on the real 93-control basis, using the
 **per-control `Alignment` verdicts already recorded in that document** — no verdict was added,
 removed, or changed:
 
@@ -332,22 +332,22 @@ Annex A controls** with an inclusion/exclusion justification, so these 22 are ma
 not optional.
 
 The 67% figure was propagated to the four documents that quoted the old number
-(`PROJECT_STATUS.md`, `DESCRIPTION_OF_PROCESSING_ISAE3000.md`,
-`GOOGLE_DOCS_UPDATES_RECOMMENDATIONS.md`, and the mapping document itself), because leaving
+([[PROJECT_STATUS]], [[DESCRIPTION_OF_PROCESSING_ISAE3000]],
+[[GOOGLE_DOCS_UPDATES_RECOMMENDATIONS]], and the mapping document itself), because leaving
 "110 of 116" would have left a false statement about the standard in place.
 **If you would rather restate these differently, this is the change to revisit.**
 
 Two related overclaims were also corrected:
 - "All ISO 27001:2022 security controls are supported by ISAE controls"
-  (`DESCRIPTION_OF_PROCESSING_ISAE3000.md:139`)
+  ([[DESCRIPTION_OF_PROCESSING_ISAE3000]]:139)
 - "Coverage Status: 100% mapped to GDPR and ISO 27001:2022"
-  (`DESCRIPTION_OF_PROCESSING_ISAE3000.md:222`)
+  ([[DESCRIPTION_OF_PROCESSING_ISAE3000]]:222)
 
 ---
 
 ## 7. Also corrected: non-existent A.4 references
 
-`ISO_27001_2022_ISAE_3000_Mapping.md` listed `A.4.1`, `A.4.2`, `A.4.3` as Annex A controls
+[[ISO_27001_2022_ISAE_3000_Mapping]] listed `A.4.1`, `A.4.2`, `A.4.3` as Annex A controls
 under "FOUNDATION (Section 4: 23 Controls)". **There is no Annex A.4.** These are
 management-system requirements from **Clause 4** of the main standard and are now cited as
 `Clause 4.1 / 4.2 / 4.3`, with a note that they are excluded from the 93-control Annex A counts.
@@ -389,7 +389,7 @@ A.8.9, A.8.10, A.8.18, A.8.19, A.8.20, A.8.21, A.8.22, A.8.23, A.8.25, A.8.26, A
 
 The 22 controls listed in §6 as not yet assessed have been assessed against the same
 45-control ISAE 3000 set and the same alignment scale, and added to
-`ISO_27001_2022_ISAE_3000_Mapping.md` as **Category 15**. All 93 Annex A controls now have an
+[[ISO_27001_2022_ISAE_3000_Mapping]] as **Category 15**. All 93 Annex A controls now have an
 entry, so clause 6.1.3(d) is satisfied for the *mapping* basis.
 
 ### Verdicts assigned
@@ -540,10 +540,10 @@ point in time**. Operating effectiveness over a period is a **Type 2** matter.
 
 Two documents assert more than a Type 1 can support:
 
-- `DESCRIPTION_OF_PROCESSING_ISAE3000.md`: *"All 45 ISAE 3000 Type 1 control objectives have
+- [[DESCRIPTION_OF_PROCESSING_ISAE3000]]: *"All 45 ISAE 3000 Type 1 control objectives have
   been designed appropriately **and are operating effectively** to achieve their stated
   objectives."*
-- `B3_AUDIT_EVIDENCE_SUMMARY.md`: *"designed appropriately and operating effectively to
+- [[B3_AUDIT_EVIDENCE_SUMMARY]]: *"designed appropriately and operating effectively to
   provide reasonable assurance…"*
 
 **Resolved (2026-10-12): no change — this wording comes from the auditor's own Excel sheet.**
@@ -555,7 +555,7 @@ of design and implementation at a point in time, and operating effectiveness ove
 Type 2 matter. If the engagement ever needs the assertion to match a Type 1 scope strictly, that
 is a conversation with the auditor about their template, not a documentation fix.
 
-The headers of `ISAE_3000_GDPR_Mapping.md` and `ISO_27001_2022_ISAE_3000_Mapping.md` have been
+The headers of [[ISAE_3000_GDPR_Mapping]] and [[ISO_27001_2022_ISAE_3000_Mapping]] have been
 aligned to state "Type 1 with reasonable assurance", matching the request list and the
 Cyberday mapping.
 
@@ -592,7 +592,7 @@ population rather than becoming a gap.
 An exclusion is only as good as the fact it rests on. This one holds while development stays
 in-house. **If development is ever contracted out, or contractors join the development team,
 A.8.30 becomes applicable** and the SoA needs revisiting — the F-series mapping recorded in
-Category 15 of `ISO_27001_2022_ISAE_3000_Mapping.md` is how it would then be evidenced.
+Category 15 of [[ISO_27001_2022_ISAE_3000_Mapping]] is how it would then be evidenced.
 
 Worth noting that two neighbouring controls stay applicable and are unaffected: **A.8.4 Access
 to source code** and **A.8.25 Secure development life cycle** apply to in-house development just
@@ -621,7 +621,7 @@ which is correct for a 2022-basis certification.
 What the account does not contain is the tags. A free-text search of all tasks returns nothing for
 `ISO#`, `GDPR#`, `ISAE` or `A8.32`, and every data store, data set and other asset carries a null
 description. The `GDPR#…` / `ISO#A…` / `ISAE#…` scheme is a convention *these documents* define
-for naming and tagging evidence on upload; it is consistent with `PROJECT_STATUS.md` recording
+for naming and tagging evidence on upload; it is consistent with [[PROJECT_STATUS]] recording
 Cyberday setup as pending and with the auditor's tracker showing 0 of 99 documents uploaded.
 
 So the four changes are not corrections to live tags. They are the values to use when the evidence

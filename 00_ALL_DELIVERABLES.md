@@ -18,12 +18,12 @@ COMPLETE FILE LIST
 📂 PRIMARY DOCUMENTS (Start Here)
 ─────────────────────────────────
 
-1. 00_START_HERE.txt
+1. [[00_START_HERE]]
    └─ Navigation guide and quick start instructions
    └─ Recommended reading order
    └─ Common questions answered
 
-2. FRAMEWORK_COMPARISON_Summary.txt
+2. [[FRAMEWORK_COMPARISON_Summary]]
    └─ GDPR vs ISO 27001:2022 detailed comparison
    └─ Coverage analysis (71% vs 95%)
    └─ Implementation recommendations
@@ -34,37 +34,37 @@ COMPLETE FILE LIST
 📚 GDPR ANALYSIS (Regulatory Framework)
 ──────────────────────────────────────────
 
-3. ISAE_3000_GDPR_Mapping.md
+3. [[ISAE_3000_GDPR_Mapping]]
    └─ Detailed control-by-control mapping
    └─ 42 GDPR requirements → ISAE controls
    └─ Evidence requirements for each
    └─ Complete reference guide (400+ pages)
 
-4. ISAE_3000_GDPR_Quick_Reference.txt
+4. [[ISAE_3000_GDPR_Quick_Reference]]
    └─ Quick lookup tables
    └─ GDPR articles at a glance
    └─ ISAE controls with GDPR references
    └─ Perfect for meetings and quick lookups
 
-5. ISAE_3000_Document_GDPR_References.md
+5. [[ISAE_3000_Document_GDPR_References]]
    └─ Document upload requirements
    └─ Column D → GDPR article mapping
    └─ Evidence tagging guidance
    └─ For cyberday implementation
 
-6. GDPR_to_ISAE_Coverage_Checklist.md
+6. [[GDPR_to_ISAE_Coverage_Checklist]]
    └─ Complete gap analysis
    └─ All 42 GDPR requirements mapped
    └─ 5 critical gaps identified
    └─ 7 out-of-scope articles explained
 
-7. GDPR_Coverage_Summary.txt
+7. [[GDPR_Coverage_Summary]]
    └─ Visual coverage analysis
    └─ 71% total coverage
    └─ Gap details with recommendations
    └─ Quick checklist format
 
-8. IMPLEMENTATION_SUMMARY.txt
+8. [[IMPLEMENTATION_SUMMARY]]
    └─ Project overview
    └─ 5-phase implementation roadmap
    └─ How to use the mappings
@@ -75,19 +75,19 @@ COMPLETE FILE LIST
 🔒 ISO 27001:2022 ANALYSIS (International Standard)
 ────────────────────────────────────────────────────
 
-9. ISO_27001_2022_ISAE_3000_Mapping.md
+9. [[ISO_27001_2022_ISAE_3000_Mapping]]
    └─ Detailed control-by-control mapping
    └─ 116 ISO controls organized by category
    └─ Alignment with 45 ISAE controls
    └─ 95% coverage analysis (excellent!)
 
-10. ISO_27001_2022_Coverage_Summary.txt
+10. [[ISO_27001_2022_Coverage_Summary]]
     └─ Visual coverage by ISO category
     └─ 95% total coverage (74 full + 36 partial)
     └─ No critical gaps
     └─ Recommendations for Elumi
 
-11. ISO_27001_2022_Quick_Reference.txt
+11. [[ISO_27001_2022_Quick_Reference]]
     └─ ISO 27001:2022 → ISAE lookup
     └─ ISAE → ISO 27001:2022 lookup
     └─ Coverage by control category
@@ -98,13 +98,13 @@ COMPLETE FILE LIST
 📊 EXCEL WORKBOOK
 ──────────────────
 
-12. ISAE_3000_Implementation_Workbook.xlsx
+12. [[ISAE_3000_Implementation_Workbook.xlsx]]
     └─ Proper Excel format file
     └─ Can be opened in Excel/Sheets
     └─ Summary data table
     └─ Ready for tracking and data entry
 
-13. ISAE_3000_GDPR_Workbook.csv
+13. [[ISAE_3000_GDPR_Workbook.csv]]
     └─ Excel-compatible CSV file
     └─ Contains all mapping tables
     └─ Import into Excel for tracking
@@ -117,14 +117,14 @@ COMPLETE FILE LIST
 
 14. Excel_Workbook_Data/ (Folder)
     └─ Individual CSV sheets for import
-    └─ 1_INDEX.csv
-    └─ 2_GDPR_Articles.csv
-    └─ 3_ISAE_Controls.csv
-    └─ 4_Documents.csv
-    └─ 5_Coverage.csv
-    └─ 6_Gaps.csv
-    └─ 7_Quick_Reference.csv
-    └─ 8_Checklist.csv
+    └─ [[1_INDEX.csv]]
+    └─ [[2_GDPR_Articles.csv]]
+    └─ [[3_ISAE_Controls.csv]]
+    └─ [[4_Documents.csv]]
+    └─ [[5_Coverage.csv]]
+    └─ [[6_Gaps.csv]]
+    └─ [[7_Quick_Reference.csv]]
+    └─ [[8_Checklist.csv]]
 
 ================================================================================
 KEY STATISTICS
@@ -157,25 +157,25 @@ RECOMMENDED READING ORDER
 ================================================================================
 
 For Quick Overview (15 minutes):
-  1. 00_START_HERE.txt
-  2. FRAMEWORK_COMPARISON_Summary.txt
-  3. GDPR_Coverage_Summary.txt + ISO_27001_2022_Coverage_Summary.txt
+  1. [[00_START_HERE]]
+  2. [[FRAMEWORK_COMPARISON_Summary]]
+  3. [[GDPR_Coverage_Summary]] + [[ISO_27001_2022_Coverage_Summary]]
 
 For Detailed Understanding (2-3 hours):
-  1. FRAMEWORK_COMPARISON_Summary.txt
-  2. ISAE_3000_GDPR_Mapping.md (sections A-I)
-  3. ISO_27001_2022_ISAE_3000_Mapping.md (key categories)
+  1. [[FRAMEWORK_COMPARISON_Summary]]
+  2. [[ISAE_3000_GDPR_Mapping]] (sections A-I)
+  3. [[ISO_27001_2022_ISAE_3000_Mapping]] (key categories)
   4. Gap analysis documents
 
 For Implementation (ongoing):
-  1. ISAE_3000_Document_GDPR_References.md
-  2. ISAE_3000_GDPR_Quick_Reference.txt
-  3. ISO_27001_2022_Quick_Reference.txt
+  1. [[ISAE_3000_Document_GDPR_References]]
+  2. [[ISAE_3000_GDPR_Quick_Reference]]
+  3. [[ISO_27001_2022_Quick_Reference]]
   4. Excel workbook for tracking
 
 For Cyberday Setup:
-  1. ISAE_3000_Document_GDPR_References.md
-  2. IMPLEMENTATION_SUMMARY.txt (Phase 3-4)
+  1. [[ISAE_3000_Document_GDPR_References]]
+  2. [[IMPLEMENTATION_SUMMARY]] (Phase 3-4)
   3. Excel workbook for evidence mapping
 
 ================================================================================
@@ -185,9 +185,9 @@ HOW TO USE THESE DOCUMENTS
 SCENARIO 1: GDPR-Primary Audit Preparation
 ─────────────────────────────────────────
 Files to Use:
-  • ISAE_3000_GDPR_Mapping.md (primary reference)
-  • GDPR_to_ISAE_Coverage_Checklist.md (understand gaps)
-  • ISAE_3000_Document_GDPR_References.md (document mapping)
+  • [[ISAE_3000_GDPR_Mapping]] (primary reference)
+  • [[GDPR_to_ISAE_Coverage_Checklist]] (understand gaps)
+  • [[ISAE_3000_Document_GDPR_References]] (document mapping)
   
 Action Items:
   ✓ Address 5 critical gaps before audit
@@ -197,8 +197,8 @@ Action Items:
 SCENARIO 2: ISO-Supplemented Audit Preparation (Recommended)
 ────────────────────────────────────────────────────────────
 Files to Use:
-  • ISO_27001_2022_ISAE_3000_Mapping.md (primary reference)
-  • FRAMEWORK_COMPARISON_Summary.txt (strategy)
+  • [[ISO_27001_2022_ISAE_3000_Mapping]] (primary reference)
+  • [[FRAMEWORK_COMPARISON_Summary]] (strategy)
   • Both GDPR + ISO quick references
   
 Action Items:
@@ -209,8 +209,8 @@ Action Items:
 SCENARIO 3: ISO 27001:2022 Certification Path
 ──────────────────────────────────────────────
 Files to Use:
-  • ISO_27001_2022_ISAE_3000_Mapping.md (governance)
-  • ISO_27001_2022_Coverage_Summary.txt (roadmap)
+  • [[ISO_27001_2022_ISAE_3000_Mapping]] (governance)
+  • [[ISO_27001_2022_Coverage_Summary]] (roadmap)
   • Excel workbook for certification tracking
   
 Action Items:
@@ -222,6 +222,7 @@ Action Items:
 COVERAGE COMPARISON AT A GLANCE
 ================================================================================
 
+```
                     GDPR    ISO 27001:2022   Recommendation
                     ────    ──────────────   ───────────────
 Coverage:           71%     95%              Use ISO-supplemented
@@ -229,6 +230,7 @@ Gaps:               5       0                ISO has no gaps
 Ready for ISAE:     Mostly  Fully            ISO better positioned
 Future-proof:       No      Yes              ISO enables certification
 Global relevance:   EU only Global           ISO more portable
+```
 
 RECOMMENDATION: Use ISO 27001:2022 supplemented with GDPR for maximum coverage
 
@@ -237,7 +239,7 @@ NEXT STEPS FOR ELUMI
 ================================================================================
 
 IMMEDIATE (This Week):
-  ☐ Review FRAMEWORK_COMPARISON_Summary.txt
+  ☐ Review [[FRAMEWORK_COMPARISON_Summary]]
   ☐ Choose audit approach (GDPR-only or ISO-supplemented)
   ☐ Review relevant mapping document(s)
 
@@ -261,23 +263,23 @@ DOCUMENT PURPOSES
 ================================================================================
 
 Type: Navigation & Overview
-Files: 00_START_HERE.txt, FRAMEWORK_COMPARISON_Summary.txt
+Files: [[00_START_HERE]], [[FRAMEWORK_COMPARISON_Summary]]
 Use: Understand structure, choose approach, plan work
 
 Type: Detailed Reference
-Files: ISAE_3000_GDPR_Mapping.md, ISO_27001_2022_ISAE_3000_Mapping.md
+Files: [[ISAE_3000_GDPR_Mapping]], [[ISO_27001_2022_ISAE_3000_Mapping]]
 Use: In-depth understanding, control details, evidence requirements
 
 Type: Quick Lookup
-Files: ISAE_3000_GDPR_Quick_Reference.txt, ISO_27001_2022_Quick_Reference.txt
+Files: [[ISAE_3000_GDPR_Quick_Reference]], [[ISO_27001_2022_Quick_Reference]]
 Use: Fast reference during meetings, quick control lookup
 
 Type: Gap Analysis
-Files: GDPR_to_ISAE_Coverage_Checklist.md, GDPR_Coverage_Summary.txt
+Files: [[GDPR_to_ISAE_Coverage_Checklist]], [[GDPR_Coverage_Summary]]
 Use: Understand what's not covered, plan remediation
 
 Type: Practical Implementation
-Files: ISAE_3000_Document_GDPR_References.md, IMPLEMENTATION_SUMMARY.txt
+Files: [[ISAE_3000_Document_GDPR_References]], [[IMPLEMENTATION_SUMMARY]]
 Use: Cyberday setup, evidence mapping, audit execution
 
 Type: Data Entry & Tracking
@@ -288,6 +290,7 @@ Use: Track implementation progress, organize evidence
 DELIVERABLE SUMMARY
 ================================================================================
 
+```
 Documents Created:         14 total
   • Markdown files:        4 (detailed mappings)
   • Text files:            7 (summaries, quick references)
@@ -302,16 +305,19 @@ Coverage Analysis:
   • GDPR → ISAE:          71% (with 5 critical gaps identified)
   • ISO 27001:2022 → ISAE: 95% (no critical gaps)
   • Recommendation:        Use ISO-supplemented approach
+```
 
 ================================================================================
 QUALITY METRICS
 ================================================================================
 
+```
 Documentation Completeness:  100%
 Control Mapping Coverage:    95% (ISO framework)
 Gap Analysis Thoroughness:   100% (all gaps documented)
 Practical Usability:         100% (ready for implementation)
 Audit Readiness:             95% (one recommended approach)
+```
 
 Ready for:
   ✅ ISAE 3000 Type 1 audit preparation
@@ -325,9 +331,9 @@ QUESTIONS?
 
 For specific questions, see:
   • How do I use these documents? → See "HOW TO USE" section above
-  • Which framework should I use? → See "FRAMEWORK_COMPARISON_Summary.txt"
+  • Which framework should I use? → See [[FRAMEWORK_COMPARISON_Summary]]
   • What are the gaps? → See gap analysis documents
-  • How do I implement in cyberday? → See "IMPLEMENTATION_SUMMARY.txt"
+  • How do I implement in cyberday? → See [[IMPLEMENTATION_SUMMARY]]
   • Quick control lookup? → See quick reference files
 
 ================================================================================
@@ -337,8 +343,8 @@ FILES READY IN YOUR FOLDER
 Location: /home/kbhh/Documents/D&M/01-Work-Data-and-More/Compliance-GDPR/Sjeni/
 
 All files are ready to use. Start with:
-  1. 00_START_HERE.txt (orientation)
-  2. FRAMEWORK_COMPARISON_Summary.txt (strategy)
+  1. [[00_START_HERE]] (orientation)
+  2. [[FRAMEWORK_COMPARISON_Summary]] (strategy)
   3. Your chosen detailed mapping document
 
 Good luck with your ISAE 3000 Type 1 audit!

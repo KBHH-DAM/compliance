@@ -472,7 +472,7 @@ element below relates to A.8.19 Installation of software on operational systems
 ### ISO 27001 A.6.4 - Disciplinary Process
 **ISAE Control:** — (no ISAE 3000 control maps to this; the Elumi request list has no disciplinary row)  
 **Alignment:** NO ISAE COUNTERPART — COVERED BY D&M DOCUMENT  
-**D&M document:** `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md` — pending management approval  
+**D&M document:** [[EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE]] — pending management approval  
 **Requirement:**
 - A defined and communicated process for acting on a breach of information security by personnel
 - Proportionate, consistently applied, with a record
@@ -483,9 +483,9 @@ and untested, which is the correct treatment — see the reasoning there rather 
 list does not say is *what* satisfies it: the Danish Data Processing Agreement commits, under
 *Organisatoriske sikkerhedsforanstaltninger* item 1, to policies defining "ansvar og sanktioner i
 tilfælde af overtrædelser", so A.6.4 has to be met by a D&M document even though no auditor row
-asks for one. `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md` is that document, and the clause
+asks for one. [[EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE]] is that document, and the clause
 referencing it from the information security policy is what makes the DPA commitment true — see
-`INFOSEC_POLICY_SANCTIONS_CLAUSE.md`.
+[[INFOSEC_POLICY_SANCTIONS_CLAUSE]].
 
 ### ISO 27001 A.6.5 - Responsibilities after Termination or Change of Employment
 **ISAE Control:** C.5, C.6  

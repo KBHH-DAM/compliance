@@ -96,6 +96,7 @@ CRITICAL GAPS: 5 ARTICLES NEED CONTROL DESCRIPTIONS
 
 Priority 1 - OPERATIONAL CONTROLS NEEDED:
 
+```
   1. Art 31 - Cooperation with Supervisory Authority
      └─ Current Status: Not covered
      └─ Should be added to: Control I.1 or I.4 (Breach Management)
@@ -125,6 +126,7 @@ Priority 1 - OPERATIONAL CONTROLS NEEDED:
      └─ Should be added to: Control A.3 (Unlawful Instructions)
      └─ What's needed: Procedure for refusing unlawful requests from
                        authorities or third parties
+```
 
 ================================================================================
 SCOPE GAPS: 12 ARTICLES NOT IN ISAE PROCESSOR SCOPE
@@ -177,6 +179,7 @@ DATA CLASSIFICATION (Create Policy):
 COVERAGE SUMMARY
 ================================================================================
 
+```
 Total GDPR Requirements:       42
 Fully Covered:                 24 (57%)
 Partially Covered:             6  (14%)
@@ -184,6 +187,7 @@ Total Coverage:                30 (71%) ✅
 
 Not Covered (Gaps to Fill):    5  (12%) ⚠️ 
 Not Covered (Out of Scope):    7  (17%) ℹ️ 
+```
 
 For ISAE 3000 Processor Audit:
   • 71% coverage is GOOD (includes all processor operational controls)

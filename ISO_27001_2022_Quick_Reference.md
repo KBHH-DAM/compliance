@@ -10,6 +10,7 @@ Coverage: 95% (110 controls covered)
 QUICK LOOKUP: ISO 27001:2022 CONTROLS → ISAE EQUIVALENTS
 ================================================================================
 
+```
 GOVERNANCE (A.5.1-A.5.8)
 ────────────────────────
 A.5.1  Policies for information security         → C.1
@@ -130,11 +131,13 @@ A.4.1  Organization and its context             → A.1
 A.4.2  Interested parties                       → —
 A.4.3  Scope of ISMS                            → A.1, E.1
 A.4.4-A.4.7 Governance and planning             → —
+```
 
 ================================================================================
 QUICK REFERENCE: ISAE CONTROLS → ISO 27001:2022 SUPPORT
 ================================================================================
 
+```
 A.1    Processing Instructions          ← A.4.1, A.5.31
 A.2    Compliance with Agreements       ← A.5.31
 A.3    Reporting Unlawful Instructions  ← A.5.5
@@ -186,11 +189,13 @@ I.1    Breach Notification Procedure    ← A.5.24, A.5.26
 I.2    Breach Identification Controls   ← A.5.25, A.8.1
 I.3    24-Hour Notification             ← A.5.26
 I.4    Assist DPA Reports               ← A.5.27
+```
 
 ================================================================================
 COVERAGE SUMMARY BY ISAE CONTROL CATEGORY
 ================================================================================
 
+```
 A Controls (Instructions)        3/3     100% (All supported by ISO)
 B Controls (Technical)           15/15   100% (All supported by ISO)
 C Controls (Organization)        7/7     100% (All supported by ISO)
@@ -202,6 +207,7 @@ H Controls (Rights)              2/2     100% (All supported by ISO)
 I Controls (Incidents)           4/4     100% (All supported by ISO)
 ────────────────────────────────────────────────
 TOTAL                            45/45   100%
+```
 
 All 45 ISAE controls have ISO 27001:2022 support!
 

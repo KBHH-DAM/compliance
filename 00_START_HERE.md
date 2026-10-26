@@ -1,22 +1,27 @@
+```
 ╔════════════════════════════════════════════════════════════════════════════╗
 ║                    ISAE 3000 - GDPR COMPLIANCE PACKAGE                    ║
 ║                        START HERE - Quick Navigation                       ║
 ╚════════════════════════════════════════════════════════════════════════════╝
+```
 
 🎯 MAIN DELIVERABLE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 📊 ISAE_3000_GDPR_Implementation_Workbook.xlsx
    └─ 8-sheet Excel workbook with all mappings
    └─ Ready for import into Excel for tracking
    └─ Contains: INDEX, GDPR Articles, ISAE Controls, Documents, 
       Coverage, Gaps, Quick Ref, Checklist
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📚 DETAILED MAPPING DOCUMENTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 1. ISAE_3000_GDPR_Mapping.md
    └─ PRIMARY: Start here for control details
    └─ 45 ISAE controls × 42 GDPR articles
@@ -26,25 +31,31 @@
       • Secondary supporting frameworks
       • Evidence gathering checklist
    └─ Best for: Understanding specific control requirements
+```
 
+```
 2. ISAE_3000_GDPR_Quick_Reference.txt
    └─ QUICK LOOKUP: 2-3 minute overview
    └─ All 45 controls at a glance
    └─ Primary GDPR articles for each
    └─ GDPR article index (which controls need which article)
    └─ Best for: Quick reference during meetings
+```
 
+```
 3. ISAE_3000_Document_GDPR_References.md
    └─ DOCUMENT GUIDE: For Column D of ISAE request list
    └─ Every document requirement → GDPR article reference
    └─ When uploading to cyberday, which GDPR article to cite
    └─ Best for: Evidence upload and tagging
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔍 GAP ANALYSIS DOCUMENTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 4. GDPR_to_ISAE_Coverage_Checklist.md
    └─ DETAILED GAP ANALYSIS
    └─ All 42 GDPR requirements with coverage status
@@ -52,14 +63,18 @@
    └─ 5 critical gaps identified with recommendations
    └─ 7 out-of-scope articles explained
    └─ Best for: Understanding what's covered and what's missing
+```
 
+```
 5. GDPR_Coverage_Summary.txt
    └─ VISUAL SUMMARY: 71% coverage at a glance
    └─ Coverage by GDPR section
    └─ 5 critical gaps listed
    └─ Quick checklist for implementation
    └─ Best for: Executive summary
+```
 
+```
 6. IMPLEMENTATION_SUMMARY.txt
    └─ PROJECT OVERVIEW
    └─ All deliverables listed
@@ -68,12 +83,14 @@
    └─ Implementation roadmap (5 phases)
    └─ How to use the mappings
    └─ Best for: Overall project planning
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🗂️ SUPPORTING FILES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 Excel_Workbook_Data/ (Folder)
 └─ Individual CSV sheets for Excel import:
    • 1_INDEX.csv
@@ -84,6 +101,7 @@ Excel_Workbook_Data/ (Folder)
    • 6_Gaps.csv
    • 7_Quick_Reference.csv
    • 8_Checklist.csv
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -93,15 +111,15 @@ Excel_Workbook_Data/ (Folder)
 FOR AUDIT PREPARATION:
 
 Step 1: Understand Coverage (5 min)
-  → Read: GDPR_Coverage_Summary.txt
+  → Read: [[GDPR_Coverage_Summary]]
   → Know: 71% coverage, 5 critical gaps
 
 Step 2: Review Mappings (30 min)
-  → Read: ISAE_3000_GDPR_Mapping.md (selected controls)
+  → Read: [[ISAE_3000_GDPR_Mapping]] (selected controls)
   → Understand: How GDPR articles map to ISAE controls
 
 Step 3: Prepare for Cyberday Implementation (1 hour)
-  → Use: ISAE_3000_Document_GDPR_References.md
+  → Use: [[ISAE_3000_Document_GDPR_References]]
   → For each document: Note which GDPR article to reference
   → Tag all evidence in cyberday with GDPR articles
 
@@ -111,7 +129,7 @@ Step 4: Track Implementation (Ongoing)
   → Track completion by control
 
 Step 5: Address Critical Gaps (1-2 weeks)
-  → Read: GDPR_to_ISAE_Coverage_Checklist.md (Gaps section)
+  → Read: [[GDPR_to_ISAE_Coverage_Checklist]] (Gaps section)
   → Add 5 missing control descriptions to cyberday
   → Document scope explanations for out-of-scope articles
 
@@ -120,6 +138,7 @@ Step 5: Address Critical Gaps (1-2 weeks)
 📊 KEY STATISTICS AT A GLANCE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 Total GDPR Requirements Analyzed:    42
 Total ISAE Controls:                 45
 
@@ -131,6 +150,7 @@ Coverage:
 Not Covered (By Category):
   • Critical Gaps (Need to Add):      5 articles
   • Out of Scope:                     7 articles
+```
 
 Critical Gaps Requiring Action:
   1. Art 31: Cooperation with Authority → Add to I.1/I.4
@@ -151,28 +171,29 @@ Primary Cyberday Frameworks Used:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Q: Where do I find the main mapping?
-A: ISAE_3000_GDPR_Mapping.md - Complete control-by-control guide
+A: [[ISAE_3000_GDPR_Mapping]] - Complete control-by-control guide
 
 Q: How do I know which GDPR article for each document?
-A: ISAE_3000_Document_GDPR_References.md - Lists every document → GDPR article
+A: [[ISAE_3000_Document_GDPR_References]] - Lists every document → GDPR article
 
 Q: What about the gaps?
-A: GDPR_to_ISAE_Coverage_Checklist.md - Detailed gap analysis with fixes
+A: [[GDPR_to_ISAE_Coverage_Checklist]] - Detailed gap analysis with fixes
 
 Q: How do I track progress?
 A: Use the Excel workbook "Checklist" sheet to check off tasks
 
 Q: Why are some GDPR articles not covered?
-A: GDPR_Coverage_Summary.txt explains out-of-scope articles (controller role)
+A: [[GDPR_Coverage_Summary]] explains out-of-scope articles (controller role)
 
 Q: How do I use this in cyberday?
-A: IMPLEMENTATION_SUMMARY.txt has 5-phase roadmap with cyberday tasks
+A: [[IMPLEMENTATION_SUMMARY]] has 5-phase roadmap with cyberday tasks
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📋 DOCUMENT ORGANIZATION IN THIS FOLDER
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+```
 00_START_HERE.txt (This file)
 ├─ Quick navigation and overview
 
@@ -189,6 +210,7 @@ DETAILED ANALYSIS:
 WORKBOOKS (For data tracking):
 ├─ ISAE_3000_GDPR_Implementation_Workbook.xlsx ← MAIN EXCEL FILE
 └─ Excel_Workbook_Data/ ← Individual CSV sheets
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

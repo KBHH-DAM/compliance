@@ -339,12 +339,12 @@ All areas are fully covered. No conditional items remain pending review.
 
 These updates are informed by:
 
-- `ISAE_3000_GDPR_Mapping.md` - Detailed control-by-control GDPR mapping
-- `ISO_27001_2022_ISAE_3000_Mapping.md` - ISO framework alignment (88% Annex A coverage; all 93 controls assessed)
-- `GDPR_to_ISAE_Coverage_Checklist.md` - Complete gap analysis and remediation
-- `FRAMEWORK_COMPARISON_Summary.txt` - Strategic framework comparison
-- `ISAE_3000_Document_GDPR_References.md` - Document requirement mapping
-- `00_ALL_DELIVERABLES.txt` - Complete project index
+- [[ISAE_3000_GDPR_Mapping]] - Detailed control-by-control GDPR mapping
+- [[ISO_27001_2022_ISAE_3000_Mapping]] - ISO framework alignment (88% Annex A coverage; all 93 controls assessed)
+- [[GDPR_to_ISAE_Coverage_Checklist]] - Complete gap analysis and remediation
+- [[FRAMEWORK_COMPARISON_Summary]] - Strategic framework comparison
+- [[ISAE_3000_Document_GDPR_References]] - Document requirement mapping
+- [[00_ALL_DELIVERABLES]] - Complete project index
 
 ---
 

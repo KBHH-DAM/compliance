@@ -14,6 +14,7 @@ Analysis Frameworks: GDPR + ISO 27001:2022 + SOC 2
 QUICK COMPARISON
 ================================================================================
 
+```
                       GDPR            ISO 27001:2022
                       ────────────    ──────────────
 Total Requirements:   42              116
@@ -28,6 +29,7 @@ Primary Focus:        Privacy/Data    Information Security
 Scope:                EU Regulation   International Standard
 Processor Relevance:  HIGH            HIGH
 Audit Complexity:     MODERATE        MODERATE
+```
 
 ================================================================================
 FRAMEWORK CHARACTERISTICS
@@ -35,6 +37,7 @@ FRAMEWORK CHARACTERISTICS
 
 GDPR (42 Requirements)
 ──────────────────────
+```
 Structure:      Legal regulation (EU law)
 Focus Areas:    • Data protection principles
                 • Processor responsibilities (Art 28)
@@ -47,9 +50,11 @@ Mandatory:      YES - EU processor obligation
 Certification:  No - regulatory requirement
 Audit Type:     Compliance audit
 Coverage:       71% of ISAE 3000 controls
+```
 
 ISO 27001:2022 (116 Controls)
 ──────────────────────────────
+```
 Structure:      International security standard
 Focus Areas:    • Information security management
                 • Technical controls
@@ -64,6 +69,7 @@ Mandatory:      NO - voluntary standard
 Certification:  YES - ISO certification available
 Audit Type:     Management system audit
 Coverage:       95% of ISAE 3000 controls
+```
 
 ================================================================================
 ALIGNMENT TO ISAE 3000 CONTROLS
@@ -71,6 +77,7 @@ ALIGNMENT TO ISAE 3000 CONTROLS
 
 GDPR vs ISO 27001:2022 Coverage:
 
+```
 ┌─────────────────┬──────────┬──────────┐
 │ Control Area    │ GDPR     │ ISO      │
 ├─────────────────┼──────────┼──────────┤
@@ -86,6 +93,7 @@ GDPR vs ISO 27001:2022 Coverage:
 ├─────────────────┼──────────┼──────────┤
 │ TOTAL COVERAGE  │ 71%      │ 95%      │
 └─────────────────┴──────────┴──────────┘
+```
 
 GDPR Gaps (12 not covered):
   • 7 Out-of-scope (controller responsibility, optional, regulatory)
@@ -101,28 +109,38 @@ KEY DIFFERENCES
 
 APPROACH
 ────────
+```
 GDPR:      Legal compliance → Regulatory obligation
 ISO:       Management system → Risk-based approach
+```
 
 EVIDENCE
 ────────
+```
 GDPR:      Policy, procedure, incident records
 ISO:       Configuration, audit logs, management records
+```
 
 AUDIT SCOPE
 ───────────
+```
 GDPR:      Data protection compliance only
 ISO:       Comprehensive information security
+```
 
 CERTIFICATION
 ──────────────
+```
 GDPR:      No certification available
 ISO:       Can pursue ISO 27001:2022 certification
+```
 
 INTERNATIONAL
 ──────────────
+```
 GDPR:       EU-specific
 ISO:        Global standard (used worldwide)
+```
 
 ================================================================================
 COMPLEMENTARY STRENGTHS
@@ -209,11 +227,13 @@ Rationale:
   7. Better positioned for future audits/certifications
 
 Implementation Plan:
+```
   Phase 1 (Weeks 1-2):   Use both GDPR + ISO frameworks in parallel
   Phase 2 (Weeks 2-4):   Map evidence to both GDPR + ISO controls
   Phase 3 (Weeks 4-6):   Prepare ISAE 3000 audit package (both frameworks)
   Phase 4 (Weeks 6-8):   Execute ISAE 3000 Type 1 audit
   Phase 5 (Future):      Consider ISO 27001:2022 certification
+```
 
 ================================================================================
 EVIDENCE ORGANIZATION
@@ -221,6 +241,7 @@ EVIDENCE ORGANIZATION
 
 Evidence Can Support Both Frameworks:
 
+```
 GDPR Evidence                 ← → ISO 27001:2022 Evidence
 ────────────────────────────────────────────────────
 Policy document              ← → Security policy (A.5.1)
@@ -231,6 +252,7 @@ DPA audit (SoC 2/ISAE)      ← → Supplier monitoring (A.5.22)
 Deletion logs                ← → Data disposal (A.8.10)
 Employee screening           ← → Recruitment verification (A.6.1)
 Incident records             ← → Event management (A.5.25-27)
+```
 
 Organization Strategy:
   PRIMARY: By GDPR Article (Art 28, Art 32, Art 33, etc.)
@@ -243,17 +265,21 @@ AUDIT READINESS COMPARISON
 
 GDPR-ONLY APPROACH (71% Coverage)
 ──────────────────────────────────
+```
 Ready for ISAE:             Mostly ready
 Critical Gaps:              5 areas need enhancement
 Out-of-Scope Documentation: 7 areas need explanation
 Evidence Strength:          Moderate (71% direct match)
+```
 
 ISO-SUPPLEMENTED APPROACH (95% Coverage)
 ─────────────────────────────────────────
+```
 Ready for ISAE:             Fully ready
 Critical Gaps:              None
 Out-of-Scope Documentation: Only governance items (correct scope)
 Evidence Strength:          Strong (95% direct match)
+```
 
 ================================================================================
 NEXT STEPS FOR ELUMI
@@ -271,14 +297,14 @@ NEXT STEPS FOR ELUMI
 
 3. USE PROVIDED DOCUMENTS
    GDPR Focus:
-   • ISAE_3000_GDPR_Mapping.md
-   • GDPR_to_ISAE_Coverage_Checklist.md
-   • GDPR_Coverage_Summary.txt
+   • [[ISAE_3000_GDPR_Mapping]]
+   • [[GDPR_to_ISAE_Coverage_Checklist]]
+   • [[GDPR_Coverage_Summary]]
    
    ISO Focus:
-   • ISO_27001_2022_ISAE_3000_Mapping.md
-   • ISO_27001_2022_Coverage_Summary.txt
-   • ISO_27001_2022_Quick_Reference.txt
+   • [[ISO_27001_2022_ISAE_3000_Mapping]]
+   • [[ISO_27001_2022_Coverage_Summary]]
+   • [[ISO_27001_2022_Quick_Reference]]
 
 4. IMPLEMENT AUDIT APPROACH
    □ Map evidence to selected framework(s)
@@ -296,10 +322,12 @@ KEY TAKEAWAY
 
 Both frameworks are valuable for Elumi's ISAE 3000 audit:
 
+```
 GDPR: Essential regulatory requirement (71% coverage, EU compliance)
 ISO:  Comprehensive security framework (95% coverage, global standard)
 
 RECOMMENDED: Use both frameworks in parallel to maximize audit readiness
              and demonstrate commitment to comprehensive security governance.
+```
 
 ================================================================================

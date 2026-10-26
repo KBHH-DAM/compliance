@@ -12,8 +12,8 @@ itself and what is done by other parties. An auditor reading the v5 text cannot 
 which legal entity, which services, which locations, which systems, which data, what is
 *outside* the ISMS, and who else is involved. Sections 1–3 below answer each of those.
 
-**Source of facts:** `DESCRIPTION_OF_PROCESSING_ISAE3000.md` (ISAE 3000 Type 1 description of
-processing), `ISO 27001_27002_2022 _ Report _ Cyberday_SoA_is_included.pdf`, and the Cyberday
+**Source of facts:** [[DESCRIPTION_OF_PROCESSING_ISAE3000]] (ISAE 3000 Type 1 description of
+processing), [[ISO 27001_27002_2022 _ Report _ Cyberday_SoA_is_included.pdf]], and the Cyberday
 reports in this repository. Anything not evidenced by those sources is listed in
 **Section 4 — Confirm before publishing** rather than asserted.
 

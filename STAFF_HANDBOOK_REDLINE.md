@@ -3,9 +3,9 @@
 **Prepared:** 13 October 2026
 **Target document:** `DAM__Staff_Handbook v5` (Google Doc ID `1fcMm0QNAHIGK8QoWXDnFLgGGX-wvXKoiJzSOY9k-1d0`, single tab titled `DAM__Staff_Handbook v4`)
 **Status:** Draft for review — **Items 3, 6 and 12 require factual confirmation before drafting is final**  
-**Updated 26 October 2026:** Item 20 added — three cross-references to a disciplinary procedure that did not exist until [`EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`](EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md) was drafted. **Part (a) is now in the document as pending suggestions**; parts (b), (c) and (d) are not applied.
-**Why this document matters for the audit:** [`DESCRIPTION_OF_PROCESSING_ISAE3000.md:307`](DESCRIPTION_OF_PROCESSING_ISAE3000.md) lists the employee handbook as evidence for Control A.1 (Policies), and `:170` lists it again under training. Baker Tilly will read it.
-**Companions:** [BYOD controls](BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md) · [BYOD gap remediation](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) · [B.3 extension](B3_CONTROLS_EXTENSION_FOR_BYOD_REMOTE_WORK.md)
+**Updated 26 October 2026:** Item 20 added — three cross-references to a disciplinary procedure that did not exist until [[EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE]] was drafted. **Part (a) is now in the document as pending suggestions**; parts (b), (c) and (d) are not applied.
+**Why this document matters for the audit:** [[DESCRIPTION_OF_PROCESSING_ISAE3000]]:307 lists the employee handbook as evidence for Control A.1 (Policies), and `:170` lists it again under training. Baker Tilly will read it.
+**Companions:** [[BYOD_REMOTE_WORK_ISAE3000_CONTROLS|BYOD controls]] · [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED|BYOD gap remediation]] · [[B3_CONTROLS_EXTENSION_FOR_BYOD_REMOTE_WORK|B.3 extension]]
 
 ---
 
@@ -47,7 +47,7 @@ The accepted bad deletion had also welded two paragraphs together across a bound
 | Item | Held because |
 |---|---|
 | 3 — Probation | Contract term. I guessed "6 weeks"; needs checking against the written statement of particulars. |
-| 6 — Staff outside the EU | Factual determination, and may reopen the Art 44–49 gap closed in `PROJECT_STATUS.md`. |
+| 6 — Staff outside the EU | Factual determination, and may reopen the Art 44–49 gap closed in [[PROJECT_STATUS]]. |
 | 7 — Email monitoring | Needs DK legal review. |
 | 8 — Criminal records | Needs DK legal review. |
 | 11 — Erasure policy | Verify the policy exists under that name before the Handbook cites it; no such file is in this repository. |
@@ -80,7 +80,7 @@ All further writes to this document use `writeControl.requiredRevisionId`, so a 
 1. **Effective date** and **approver name/title** — four approval-dependent fields remain in Item 1 and the change log. These are *correctly* blank until management approves: an unapproved policy with a filled-in approval line is worse than one with a visible gap.
 2. **The approver should not be the document owner.** Kristian owns the Handbook as Compliance Manager, so someone else in management must approve it — the existing `Signed: ___ Chief Executive` block suggests the CEO. Owner/approver separation is what makes the approval record meaningful to an auditor.
 3. **v4 date** — not recoverable from Drive metadata (`createdTime` is 15 April 2024, and `modifiedTime` was overwritten by this work). Recorded as "date not recorded"; replace if known.
-4. **Incident channel.** Item 2's incident block points to *"Notify management immediately, by phone"* — the route that exists today. It deliberately does **not** name an incident email or on-call number, because [`BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md:34`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) records BYOD incident response as a CRITICAL open gap. Upgrade this text when the channel exists — see Item 4.
+4. **Incident channel.** Item 2's incident block points to *"Notify management immediately, by phone"* — the route that exists today. It deliberately does **not** name an incident email or on-call number, because [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:34 records BYOD incident response as a CRITICAL open gap. Upgrade this text when the channel exists — see Item 4.
 
 ### 🚨 Data loss — the two bad deletions were accepted, not rejected
 
@@ -103,25 +103,25 @@ The Confidentiality section had been reduced to a single orphaned sentence — *
 
 ### Two role questions — resolved 14 October 2026
 
-**Decision 1: the role name and the job title are both "Compliance Manager".** Applied as pending suggestions in the Handbook (7 replacements: `Compliance Officer` ×3, `compliance officer` ×2, `Compliance team` ×1, and the old job title in the contact block). Applied directly in [`DESCRIPTION_OF_PROCESSING_ISAE3000.md`](DESCRIPTION_OF_PROCESSING_ISAE3000.md) and [`PROJECT_STATUS.md`](PROJECT_STATUS.md), with the mapping made explicit under *Key Compliance Roles*:
+**Decision 1: the role name and the job title are both "Compliance Manager".** Applied as pending suggestions in the Handbook (7 replacements: `Compliance Officer` ×3, `compliance officer` ×2, `Compliance team` ×1, and the old job title in the contact block). Applied directly in [[DESCRIPTION_OF_PROCESSING_ISAE3000]] and [[PROJECT_STATUS]], with the mapping made explicit under *Key Compliance Roles*:
 
 > *"Compliance Manager" is both the role name used throughout this document and the post-holder's job title; the two are deliberately identical, so that this document, the policies, the Staff Handbook and the evidence set all refer to the role by a single name.*
 
 ⚠️ **One tidy-up:** the Handbook contact block now reads `Compliance Manager:` / `Kristian Boe Helweg Hansen,` / `Compliance Manager,` — the old job-title line became a duplicate of the label. Delete the second one while reviewing the suggestions. I left it rather than stacking a suggestion on a suggestion.
 
-**Decision 2: no DPO is required under Art 37(1).** Recorded in the Description of Processing as a positive statement rather than an omission, and the `Data Protection Officer` row is removed from the `PROJECT_STATUS.md` team table (its duties folded into the Compliance Manager row). Existing DPO/CEP/FAS certifications are retained in the text, explicitly framed as professional qualifications rather than designation.
+**Decision 2: no DPO is required under Art 37(1).** Recorded in the Description of Processing as a positive statement rather than an omission, and the `Data Protection Officer` row is removed from the [[PROJECT_STATUS]] team table (its duties folded into the Compliance Manager row). Existing DPO/CEP/FAS certifications are retained in the text, explicitly framed as professional qualifications rather than designation.
 
 **One action remains on this:** write down the *basis*. An auditor will ask why none of the three Art 37(1) conditions is met, and condition (c) — large-scale processing of special categories — needs an explicit answer given that DMCS scans unstructured client data where special categories may be present. The argument is the processor/controller split: D&M does not determine the purposes or means. A one-page memo approved by management closes it, and is cheaper to write now than to improvise during fieldwork.
 
-**The role name and the job title differ.** The audit documentation refers throughout to a *"Compliance Manager"* ([`DESCRIPTION_OF_PROCESSING_ISAE3000.md:176`](DESCRIPTION_OF_PROCESSING_ISAE3000.md), [`PROJECT_STATUS.md:430`](PROJECT_STATUS.md)), while the actual job title is *Customer Success & Data Protection Manager*. The Handbook text now carries both, so an auditor can map them. Worth making that mapping explicit in the Description of Processing too, rather than leaving two names for one role across the evidence set.
+**The role name and the job title differ.** The audit documentation refers throughout to a *"Compliance Manager"* ([[DESCRIPTION_OF_PROCESSING_ISAE3000]]:176, [[PROJECT_STATUS]]:430), while the actual job title is *Customer Success & Data Protection Manager*. The Handbook text now carries both, so an auditor can map them. Worth making that mapping explicit in the Description of Processing too, rather than leaving two names for one role across the evidence set.
 
-**Is D&M claiming a formal Art 37 DPO?** [`PROJECT_STATUS.md:432`](PROJECT_STATUS.md) lists a *"Data Protection Officer"* as a distinct team role with an unfilled `[Name]`. I have deliberately **not** used the term "DPO" anywhere in the Handbook text, because:
+**Is D&M claiming a formal Art 37 DPO?** [[PROJECT_STATUS]]:432 lists a *"Data Protection Officer"* as a distinct team role with an unfilled `[Name]`. I have deliberately **not** used the term "DPO" anywhere in the Handbook text, because:
 
 - a statutory DPO under Art 37 carries independence requirements, and Art 38(6) prohibits tasks that create a conflict of interest;
 - a role combining *Customer Success* with data protection oversight would invite exactly that question, since customer-facing commercial duties can involve determining purposes and means of processing;
 - as a processor D&M may well not be required to appoint one under Art 37(1) at all.
 
-If the intention is that this role *is* the DPO, that needs deliberate consideration and probably the DK legal review already flagged for Items 7 and 8. If there is no formal DPO, remove the row from `PROJECT_STATUS.md` so the evidence set does not imply a role that does not exist.
+If the intention is that this role *is* the DPO, that needs deliberate consideration and probably the DK legal review already flagged for Items 7 and 8. If there is no formal DPO, remove the row from [[PROJECT_STATUS]] so the evidence set does not imply a role that does not exist.
 
 **Not applied, by scope:** Items 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 18.
 
@@ -165,7 +165,7 @@ Run against the live text with Items 1/2/10/14/19 accepted. Split into inconsist
 
 ## ⚠️ Read before applying
 
-**1. Do not paste the BYOD section as-is.** Item 12 contains two variants of the new BYOD text: **Variant A (current state)** and **Variant B (post-remediation)**. [`BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md:27-37`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) records VPN-only access, device health verification, real-time monitoring, BYOD incident response and the revocation SLA as **not yet implemented**. A handbook that promises those controls today would create a control-description mismatch — an auditor who tests the claim finds a deviation, which is a worse outcome than the current silence. Apply Variant A now; hold Variant B until the remediation actions land.
+**1. Do not paste the BYOD section as-is.** Item 12 contains two variants of the new BYOD text: **Variant A (current state)** and **Variant B (post-remediation)**. [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:27-37 records VPN-only access, device health verification, real-time monitoring, BYOD incident response and the revocation SLA as **not yet implemented**. A handbook that promises those controls today would create a control-description mismatch — an auditor who tests the claim finds a deviation, which is a worse outcome than the current silence. Apply Variant A now; hold Variant B until the remediation actions land.
 
 **2. Three items are factual questions I cannot answer from the documents.** Items 3 (probation review interval), 6 (staff outside the EU) and 12 (which laptops are company-owned vs. employee-owned) need your confirmation. Proposed wording for those is marked `[CONFIRM]`.
 
@@ -236,7 +236,7 @@ So the document promises version control, does not implement it, and the two ver
 
 ### Why
 
-ISO 27001:2022 A.5.1 expects policies to be defined, approved, published, communicated and reviewed at planned intervals. [`ISO_27001_2022_ISAE_3000_Mapping.md`](ISO_27001_2022_ISAE_3000_Mapping.md) carries that through to the ISAE control set. A policy document with no approval record cannot evidence any of those five verbs. Also rename the tab to match the file so the two version numbers agree.
+ISO 27001:2022 A.5.1 expects policies to be defined, approved, published, communicated and reviewed at planned intervals. [[ISO_27001_2022_ISAE_3000_Mapping]] carries that through to the ISAE control set. A policy document with no approval record cannot evidence any of those five verbs. Also rename the tab to match the file so the two version numbers agree.
 
 ---
 
@@ -328,7 +328,7 @@ Elsewhere: *"contact your manager immediately"* (viruses), *"report… immediate
 
 Every reporting route in the Handbook is a person — "management", "your line manager" — with no named role, no contact method, no out-of-hours channel and no deadline. "Immediately" and "as soon as possible" are not testable.
 
-[`BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md:147-180`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) rates absent BYOD incident response as **CRITICAL** and sets out the failure case explicitly: infection Friday 17:00, exfiltration over the weekend, noticed Monday morning — *"~16 hours of undetected compromise"* against a target of *"Detection within 1 hour (not 16 hours)"*. A reporting chain that depends on a line manager reading a message cannot deliver one-hour detection on a Friday evening.
+[[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:147-180 rates absent BYOD incident response as **CRITICAL** and sets out the failure case explicitly: infection Friday 17:00, exfiltration over the weekend, noticed Monday morning — *"~16 hours of undetected compromise"* against a target of *"Detection within 1 hour (not 16 hours)"*. A reporting chain that depends on a line manager reading a message cannot deliver one-hour detection on a Friday evening.
 
 GDPR Art 33's 72-hour clock also starts when the **controller** becomes aware. As a processor you owe notification to the client "without undue delay" — so the internal lag between an employee noticing and the Compliance Manager knowing is pure deduction from the time available to the client.
 
@@ -395,16 +395,16 @@ Plus, under *Working from home*, in full:
 
 Three defects, compounding:
 
-**The BYOD permission is scoped to "mobile devices" only.** [`BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) describes a **25-developer BYOD environment** — laptops, with SSH keys on them. The Handbook's BYOD sentence does not reach laptops at all.
+**The BYOD permission is scoped to "mobile devices" only.** [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]] describes a **25-developer BYOD environment** — laptops, with SSH keys on them. The Handbook's BYOD sentence does not reach laptops at all.
 
 **The laptop sentence is ambiguous about ownership.** *"All employees' laptops must be encrypted"* — company-issued laptops, or the employees' own? If BYOD laptops are in scope, this is an unenforced requirement on personal property; if they are not, the 25 developers are working on devices the Handbook never addresses. "Must comply with company guidelines" does not say which guidelines or where to find them.
 
-**"Comply and can document that security measures are maintained" puts the burden on the employee and defines nothing.** [`BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md:109-143`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md) anticipates exactly this exchange:
+**"Comply and can document that security measures are maintained" puts the burden on the employee and defines nothing.** [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:109-143 anticipates exactly this exchange:
 
 > **Your Current Answer:** "They signed an agreement to maintain antivirus."
 > **Auditor:** "That's a policy statement, not proof. Show me technical evidence."
 
-Measured against the Control A.1 requirements at [`BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md:132-157`](BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md), the Handbook omits: allowed devices and minimum OS versions; what data may be accessed from a personal device; the auto-lock interval (specified as 5 minutes there, the Handbook says "screen lock" with no number); authorised locations and the public-WiFi restriction; what to do if a device is lost or stolen; and employee acknowledgement of device health verification. It also never mentions SSH key handling, which is the lead finding of the gap analysis.
+Measured against the Control A.1 requirements at [[BYOD_REMOTE_WORK_ISAE3000_CONTROLS]]:132-157, the Handbook omits: allowed devices and minimum OS versions; what data may be accessed from a personal device; the auto-lock interval (specified as 5 minutes there, the Handbook says "screen lock" with no number); authorised locations and the public-WiFi restriction; what to do if a device is lost or stolen; and employee acknowledgement of device health verification. It also never mentions SSH key handling, which is the lead finding of the gap analysis.
 
 Finally, *Working from home* is three lines, one of which repeats its own heading. Remote work is not a perk here — it is the **primary control context** for the entire ISAE engagement, and it gets less space than online meeting etiquette.
 
@@ -424,7 +424,7 @@ Replace the *Working from home* section and the three BYOD sentences with the ne
 
 ### Problem
 
-[`PROJECT_STATUS.md:41`](PROJECT_STATUS.md) closes the international transfers gap as:
+[[PROJECT_STATUS]]:41 closes the international transfers gap as:
 
 > | International Transfers (Art 44-49) | ✅ Closed | **Not applicable** - Hetzner EU + on-prem | No action needed |
 
@@ -440,7 +440,7 @@ Do not redraft the sentence until the underlying position is settled. Two possib
 
 > We have a workforce of dedicated staff members based in and outside the EU. Access to systems containing client personal data is restricted to personnel located within the EU/EEA; roles based outside the EU/EEA do not have such access, and the access rights table in *Data Protection and Access to Information* reflects this.
 
-**If they do access it** — the `PROJECT_STATUS.md` gap closure is wrong and needs reopening, with a transfer basis (SCCs plus a transfer impact assessment) documented per country. That is a materially larger piece of work than a handbook edit, which is why this item is flagged rather than drafted.
+**If they do access it** — the [[PROJECT_STATUS]] gap closure is wrong and needs reopening, with a transfer basis (SCCs plus a transfer impact assessment) documented per country. That is a materially larger piece of work than a handbook edit, which is why this item is flagged rather than drafted.
 
 ### Why
 
@@ -545,7 +545,7 @@ Makes the inspect-but-do-not-retain position explicit, which is the defensible r
 
 ### Problem
 
-The form proves that an employee signed *a* handbook, not *which* handbook. With no version field, and with the document itself carrying no version (Item 1), you cannot demonstrate which text any employee actually accepted. [`BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md:159-164`](BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md) lists *"Employees acknowledge (signatures)"* as a thing the auditor will check — and the check is only meaningful if the signature ties to a version.
+The form proves that an employee signed *a* handbook, not *which* handbook. With no version field, and with the document itself carrying no version (Item 1), you cannot demonstrate which text any employee actually accepted. [[BYOD_REMOTE_WORK_ISAE3000_CONTROLS]]:159-164 lists *"Employees acknowledge (signatures)"* as a thing the auditor will check — and the check is only meaningful if the signature ties to a version.
 
 It also does not acknowledge the BYOD and remote-work terms, which is the acknowledgement that actually matters: device health verification against personal property needs a documented, signed basis.
 
@@ -577,7 +577,7 @@ It also does not acknowledge the BYOD and remote-work terms, which is the acknow
 
 ### Why
 
-Point 4 is the operative addition. You cannot run pre-connect antivirus and patch checks on someone's personal laptop on the strength of a sentence saying they "can document that security measures are maintained". Signed acknowledgement of the specific intrusion is what makes Option C at [`BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md:212-230`](BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md) — your recommended approach — enforceable rather than aspirational.
+Point 4 is the operative addition. You cannot run pre-connect antivirus and patch checks on someone's personal laptop on the strength of a sentence saying they "can document that security measures are maintained". Signed acknowledgement of the specific intrusion is what makes Option C at [[BYOD_REMOTE_WORK_ISAE3000_CONTROLS]]:212-230 — your recommended approach — enforceable rather than aspirational.
 
 Re-acknowledgement will be needed from all staff on publication of v5. That is also the cleanest way to produce a complete, dated evidence set for Control A.1 in one pass.
 
@@ -764,15 +764,15 @@ The gap analysis records the following as **not yet in place**: VPN-only access,
 
 Fold these in as each control goes live. Each is tied to the gap it closes.
 
-**Add to section 1** *(closes the VPN-only gap,* [`:76-105`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md)*)*
+**Add to section 1** *(closes the VPN-only gap,* [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:76-105*)*
 
 > **All access to D&M and client systems, including source code repositories, goes through the D&M VPN.** Connect to the VPN first; access from outside it is blocked rather than discouraged. This is why the public Wi-Fi restriction above is enforceable rather than advisory: on the VPN, your traffic is encrypted regardless of the network you are on.
 
-**Add to section 3** *(closes device health verification,* [`:109-143`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md)*)*
+**Add to section 3** *(closes device health verification,* [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:109-143*)*
 
 > **These requirements are verified automatically, not self-declared.** When you connect, D&M checks that your antivirus is running, your OS patches are current, your firewall is enabled and your disk is encrypted. If a check fails you are not locked out — you get read-only access with no download, and a message telling you what to fix. Access is restored once the check passes. The check records the device, the time and the result; it does not inspect your files.
 
-**Add to section 7** *(closes revocation SLA,* [`:846-882`](BYOD_REMOTE_WORK_ISAE3000_CONTROLS.md)*)*
+**Add to section 7** *(closes revocation SLA,* [[BYOD_REMOTE_WORK_ISAE3000_CONTROLS]]:846-882*)*
 
 > **What happens when you report.** We act on these timescales:
 >
@@ -784,7 +784,7 @@ Fold these in as each control goes live. Each is tied to the gap it closes.
 >
 > You may be without access for a period while this runs. That is the intended behaviour, not an overreaction.
 
-**Add to section 4** *(closes monitoring,* [`:173-180`](BYOD_AUDIT_GAP_REMEDIATION_UPDATED.md)*)*
+**Add to section 4** *(closes monitoring,* [[BYOD_AUDIT_GAP_REMEDIATION_UPDATED]]:173-180*)*
 
 > Access to D&M systems is monitored for unusual patterns — access from an unexpected location, impossible travel, unusually large downloads, access at unusual hours. You may be contacted to confirm that an access was genuinely yours. If so, answer promptly; a quick "yes, that was me" closes an alert that would otherwise be treated as a possible compromise.
 
@@ -851,7 +851,7 @@ Delete the second paragraph. The device requirements now live in the table at It
 
 ### Problem
 
-No frequency, no completion requirement, no record-keeping. The password section separately promises *"Ongoing employee security awareness training"* on phishing and social engineering — but "ongoing" is not a schedule. [`PROJECT_STATUS.md:246-250`](PROJECT_STATUS.md) expects "Training records / Training materials / Competence verification / Employee acknowledgments" as evidence; records can only be tested against a stated expectation.
+No frequency, no completion requirement, no record-keeping. The password section separately promises *"Ongoing employee security awareness training"* on phishing and social engineering — but "ongoing" is not a schedule. [[PROJECT_STATUS]]:246-250 expects "Training records / Training materials / Competence verification / Employee acknowledgments" as evidence; records can only be tested against a stated expectation.
 
 ### Proposed replacement
 
@@ -884,7 +884,7 @@ Turns an aspiration into something the auditor can sample. The phishing-simulati
 
 ### Problem
 
-Two very different requests are collapsed into one route. A request from an employee about their own employment data is for D&M to answer as controller. A request from a **client's** data subject is one D&M must not answer at all — it has to be passed to the client, who is the controller. [`PROJECT_STATUS.md:37`](PROJECT_STATUS.md) relies on exactly this distinction to close the Art 12-13 gap: *"Processor model - DSRs via clients"*.
+Two very different requests are collapsed into one route. A request from an employee about their own employment data is for D&M to answer as controller. A request from a **client's** data subject is one D&M must not answer at all — it has to be passed to the client, who is the controller. [[PROJECT_STATUS]]:37 relies on exactly this distinction to close the Art 12-13 gap: *"Processor model - DSRs via clients"*.
 
 Routing both to a line manager risks the worst outcome: a well-meaning employee answering a data subject directly on behalf of a client, which is a breach of the DPA and potentially of Art 28(3)(e).
 
@@ -980,7 +980,7 @@ Keep the pandemic section but generalise it: replace the test and "red country" 
 
 **Severity: high — the Handbook threatens a procedure the company has never written, and the DPA promises one to clients**
 
-**Added:** 26 October 2026, alongside [`EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`](EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md).
+**Added:** 26 October 2026, alongside [[EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE]].
 
 ### Current text (verbatim, three separate places)
 

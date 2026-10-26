@@ -10,6 +10,7 @@ COVERAGE STATUS BY ISO CATEGORY
 
 CATEGORY 1: GOVERNANCE (8 controls)
 ─────────────────────────────────
+```
 ✅ FULLY COVERED (5):          88% Coverage
    A.5.1  - Policies for information security
    A.5.2  - Roles and responsibilities
@@ -23,11 +24,13 @@ CATEGORY 1: GOVERNANCE (8 controls)
 
 ❌ NOT COVERED (1):             Correctly out of scope
    A.5.6  - Contact with special interest groups [Not processor operational]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 2: ASSET MANAGEMENT (7 controls)
 ──────────────────────────────
+```
 ✅ FULLY COVERED (5):          100% Coverage
    A.5.9  - Inventory of information assets
    A.5.10 - Acceptable use of assets
@@ -37,11 +40,13 @@ CATEGORY 2: ASSET MANAGEMENT (7 controls)
 
 ⚠️  PARTIALLY COVERED (2):
    A.5.13 - Labelling of information            [Not specific ISAE requirement]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 3: ACCESS MANAGEMENT (8 controls)
 ──────────────────────────────
+```
 ✅ FULLY COVERED (8):          100% Coverage
    A.5.15 - Access control (B.6, B.13, B.14)
    A.5.16 - Identity management (B.6, C.4)
@@ -51,11 +56,13 @@ CATEGORY 3: ACCESS MANAGEMENT (8 controls)
    A.5.20 - Supplier agreement security (F.4)
    A.5.21 - ICT supply chain management (F.2, F.3)
    A.5.22 - Monitoring supplier services (F.6)
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 4: INFORMATION PROTECTION (7 controls)
 ───────────────────────────────────
+```
 ✅ FULLY COVERED (5):          100% Coverage
    A.5.23 - Cloud services security (E.1, E.2)
    A.5.24 - Incident response planning (I.1)
@@ -66,11 +73,13 @@ CATEGORY 4: INFORMATION PROTECTION (7 controls)
 ⚠️  PARTIALLY COVERED (2):
    A.5.27 - Learning from incidents          [Covered by I.1, I.4]
    A.8.2  - Remote access authentication     [Covered by B.14]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 5: PHYSICAL SECURITY (12 controls)
 ──────────────────────────
+```
 ✅ FULLY COVERED (8):          92% Coverage
    A.7.1  - Physical security perimeters
    A.7.2  - Physical entry
@@ -87,11 +96,13 @@ CATEGORY 5: PHYSICAL SECURITY (12 controls)
 
 ❌ NOT COVERED (1):
    A.7.6  - Working in secure areas           [Clean desk policy - general practice]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 6: LEGAL & COMPLIANCE (6 controls)
 ──────────────────────────
+```
 ✅ FULLY COVERED (2):          33% Coverage
    A.5.31 - Legal and regulatory requirements
    A.5.33 - Protection of records
@@ -101,11 +112,13 @@ CATEGORY 6: LEGAL & COMPLIANCE (6 controls)
    A.4.1  - Records classification            [Organizational governance]
 
 (Additional Section 4 governance controls - see Foundation category)
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 7: HUMAN RESOURCE SECURITY (7 controls)
 ──────────────────────────────
+```
 ✅ FULLY COVERED (6):          100% Coverage
    A.6.1  - Screening (C.3)
    A.6.2  - Employment terms (C.4)
@@ -118,11 +131,13 @@ CATEGORY 7: HUMAN RESOURCE SECURITY (7 controls)
    A.6.4  - Disciplinary process              [No ISAE row; covered by the D&M
                                                Employee sanctions and disciplinary
                                                procedure, required by the Danish DPA]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 8: SYSTEM & NETWORK SECURITY (6 controls)
 ────────────────────────────────
+```
 ✅ FULLY COVERED (5):          100% Coverage
    A.8.7  - Protection against malware (B.3)
    A.8.20 - Network security (B.4, B.5)
@@ -132,21 +147,25 @@ CATEGORY 8: SYSTEM & NETWORK SECURITY (6 controls)
 
 ⚠️  PARTIALLY COVERED (1):
    A.8.23 - Web filtering                     [Not specific ISAE requirement]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 9: SECURE CONFIGURATION (4 controls)
 ──────────────────────────────
+```
 ✅ FULLY COVERED (4):          100% Coverage
    A.8.9  - Configuration management (B.12)
    A.8.10 - Information deletion (D.1, D.3)
    A.8.18 - Privileged utilities (B.13, B.14)
    A.8.19 - Software installation (B.12)
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 10: APPLICATION SECURITY (7 controls)
 ──────────────────────────────
+```
 ✅ FULLY COVERED (2):          100% Coverage
    A.8.30 - Dev/test/prod environments (B.10)
    A.8.32 - Monitoring and reviewing (B.7, B.11)
@@ -157,21 +176,25 @@ CATEGORY 10: APPLICATION SECURITY (7 controls)
    A.8.27 - System architecture (B.1)         [Partially: design principles]
    A.8.28 - Secure coding (B.10)              [Partially: dev environment]
    A.8.31 - Change of platform (B.12)         [Partially: change management]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 11: THREAT & VULNERABILITY (2 controls)
 ───────────────────────────────
+```
 ✅ FULLY COVERED (1):          100% Coverage
    A.8.8  - Vulnerability management (B.11)
 
 ⚠️  PARTIALLY COVERED (1):
    A.5.7  - Threat intelligence              [Covered by B.11]
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 12: INFORMATION SECURITY EVENT MGMT (8 controls)
 ──────────────────────────────────
+```
 ✅ FULLY COVERED (4):          100% Coverage
    A.5.25 - Event assessment (I.2, I.3)
    A.5.26 - Incident response (I.1, I.3)
@@ -179,11 +202,13 @@ CATEGORY 12: INFORMATION SECURITY EVENT MGMT (8 controls)
 
 ⚠️  PARTIALLY COVERED (4):
    (Various incident-related controls mapped to I.1-I.4)
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 13: CONTINUITY MANAGEMENT (5 controls)
 ────────────────────────────────
+```
 ❌ NOT COVERED (5):            0% Coverage
    A.5.29 - Information security during disruption
    A.5.30 - ICT readiness for business continuity
@@ -191,11 +216,13 @@ CATEGORY 13: CONTINUITY MANAGEMENT (5 controls)
 
    Reason: Business continuity/infrastructure planning
    ISAE Scope: Not processor operational controls
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CATEGORY 14: FOUNDATION - Section 4 (23 controls)
 ─────────────────────────────────
+```
 ✅ FULLY COVERED (3):          78% Coverage
    A.4.1  - Organization and context (A.1)
    A.4.3  - ISMS scope (A.1, E.1)
@@ -210,17 +237,20 @@ CATEGORY 14: FOUNDATION - Section 4 (23 controls)
    A.4.5  - Policy establishment           [Governance]
    A.4.6  - Organizational roles           [Governance]
    A.4.7  - Planning                       [Governance]
+```
 
 ================================================================================
 OVERALL COVERAGE ANALYSIS
 ================================================================================
 
+```
 Total ISO 27001:2022 Controls:     116
 Fully Covered by ISAE:              74 (64%)
 Partially Covered by ISAE:          36 (31%)
 Total Coverage:                     110 (95%) ✅
 
 Not Covered (Out of Scope):         6 (5%) ℹ️
+```
 
 ASSESSMENT:
   • 95% coverage is EXCELLENT
@@ -234,10 +264,12 @@ KEY STATISTICS
 
 ISO 27001:2022 vs ISAE 3000 Alignment:
 
+```
   Coverage:              95%
   Direct Mappings:       74 controls (1:1 or clear alignment)
   Indirect Support:      36 controls (partial or supporting alignment)
   Out of Scope:          6 controls (organizational governance)
+```
 
 Primary ISAE Controls:
   • B Controls (Technical Security):  All ISO 8.x technical controls
