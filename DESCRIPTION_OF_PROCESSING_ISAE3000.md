@@ -113,9 +113,15 @@ Client Access / Export
 - Employee GDPR training and certifications (ongoing)
 
 **Key Compliance Roles:**
-- Compliance Officer: Responsible for regulatory oversight (GDPR, ISAE, ISO)
-- Data Protection Officer equivalent: Internal compliance review
-- Certifications: DPO, CEP (Certified European Privacy), FAS certifications
+
+- **Compliance Manager** — responsible for regulatory oversight (GDPR, ISAE, ISO). *"Compliance Manager" is both the role name used throughout this document and the post-holder's job title; the two are deliberately identical, so that this document, the policies, the Staff Handbook and the evidence set all refer to the role by a single name.* Held by Kristian Boe Helweg Hansen — kbhh@dataandmore.com, +45 60 84 34 18.
+- Certifications held by the Compliance Manager: DPO, CEP (Certified European Privacy) and FAS certifications. These are professional qualifications; they do not constitute appointment as a Data Protection Officer — see immediately below.
+
+**Data Protection Officer — not appointed**
+
+Data & More ApS has determined that it is **not required to designate a Data Protection Officer** under Article 37(1) GDPR. No DPO is appointed, and no role described in this document performs the statutory DPO function. Internal data protection oversight is carried out by the Compliance Manager as an ordinary management responsibility, not as a designated DPO.
+
+> **Audit note.** Record the *basis* for this determination in writing before fieldwork — specifically, why none of the three Article 37(1) conditions is met. Condition (c), large-scale processing of special categories, is the one that warrants an explicit answer, since DMCS scans unstructured client data in which special categories may be present; the relevant argument is that D&M acts as processor and does not determine the purposes or means of that processing. A one-page memo approved by management closes this.
 
 ---
 
@@ -173,7 +179,7 @@ Management has assessed the control environment and confirmed:
 
 **Executive Level:**
 - Owner/Management: Overall responsibility for control environment
-- Compliance Officer: Regulatory compliance and GDPR oversight
+- Compliance Manager: Regulatory compliance and GDPR oversight
 
 **Functional Areas:**
 
@@ -272,7 +278,7 @@ Information security policies are established, documented, and maintained to gov
 3. **Policy Review and Update**
    - Formal review: Annually (minimum)
    - Updates: As needed based on regulatory changes or incident learnings
-   - Approval: By management and compliance officer
+   - Approval: By management and Compliance Manager
    - Communication: To all affected personnel
 
 4. **Related Policies**
@@ -285,7 +291,7 @@ Information security policies are established, documented, and maintained to gov
 **Operating Procedures:**
 
 **Quarterly Review Process:**
-1. Compliance officer reviews policy effectiveness
+1. Compliance Manager reviews policy effectiveness
 2. Any necessary updates identified
 3. Updates approved by management
 4. Updated policies communicated to all employees
@@ -343,7 +349,7 @@ Clear assignment of information security and data protection responsibilities en
 
 1. **Responsibility Matrix**
    - Executive level: Overall responsibility for control environment
-   - Compliance Officer: Regulatory compliance oversight
+   - Compliance Manager: Regulatory compliance oversight
    - IT Manager: Technical controls and system security
    - HR Manager: Personnel security and training
    - Department Heads: Departmental compliance
@@ -371,7 +377,7 @@ Clear assignment of information security and data protection responsibilities en
 
 **Onboarding Process:**
 1. New employee receives job description with security responsibilities
-2. Assigned to compliance officer for policy training
+2. Assigned to Compliance Manager for policy training
 3. Manager confirms understanding of responsibilities
 4. Employee signs acknowledgment of responsibilities
 5. Added to responsibility matrix and access control systems
@@ -434,7 +440,7 @@ Employees and contractors possess and maintain the knowledge and skills required
 **Control Design:**
 
 1. **Competence Requirements**
-   - Data Protection Officer (DPO) level: Advanced GDPR training (obtained)
+   - DPO-level certification: Advanced GDPR training (obtained by the Compliance Manager — a professional qualification, not designation as a DPO)
    - Compliance roles: Intermediate GDPR and security training
    - IT roles: Advanced technical security training
    - All employees: Mandatory GDPR and security awareness training
@@ -472,7 +478,7 @@ Employees and contractors possess and maintain the knowledge and skills required
 
 **New Employee Onboarding:**
 1. Security awareness training: Within first week
-2. Policy training: With compliance officer
+2. Policy training: With Compliance Manager
 3. Role-specific training: Within 30 days
 4. Knowledge assessment: Before full system access
 5. Ongoing coaching: From manager and peers
@@ -485,7 +491,7 @@ Employees and contractors possess and maintain the knowledge and skills required
 - Effectiveness evaluation: Conducted annually
 
 **Specialized Competencies:**
-- DPO certifications: Maintained for compliance officer
+- DPO certifications: Maintained for Compliance Manager
 - Incident response training: For designated personnel
 - Data handling procedures: For all data processing staff
 - Technical security: For IT personnel
@@ -580,7 +586,7 @@ System architecture and design incorporate security principles including layered
 2. Security architecture review before implementation
 3. Threat modeling: Identify potential attack vectors
 4. Security controls mapped to identified threats
-5. Approval by IT Manager and Compliance Officer
+5. Approval by IT Manager and Compliance Manager
 
 **Environment Management:**
 1. Development changes isolated from production
@@ -1713,9 +1719,10 @@ All control evidence is organized in the Cyberday compliance platform using stan
 ### Appendix E: Contact Information
 
 **For Questions About This Document:**
-- Compliance Officer: [Contact Information]
+- Compliance Manager: Kristian Boe Helweg Hansen — kbhh@dataandmore.com, +45 60 84 34 18
 - IT Manager: [Contact Information]
-- Data Protection Officer: [Contact Information]
+
+No Data Protection Officer is appointed; see **Key Compliance Roles** in Section 1.
 
 ---
 
