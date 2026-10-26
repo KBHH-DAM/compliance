@@ -145,7 +145,7 @@ English-only policy has to do the translation themselves.
 | DPA, *Organisatoriske sikkerhedsforanstaltninger* item 1 | Commitment made, not met | Met, by the clause plus the procedure it names |
 | ISAE 3000 C.2 | Policy/DPA mapping has an open row | Row closes, with the clause as the action taken |
 | ISAE 3000 C.1 | Policy approved, but silent on consequences | Unchanged in form; re-approval needed for the new version |
-| ISO 27001:2022 A.6.4 | *LOW / NOT COVERED* | Answered by the procedure, referenced from the policy |
+| ISO 27001:2022 A.6.4 | Applicable, no ISAE coverage, nothing satisfying it | Satisfied by the procedure, referenced from the policy |
 | ISO 27001:2022 A.5.4 (Management responsibilities) | Policy states commitment but no enforcement | Enforcement stated |
 
 ---

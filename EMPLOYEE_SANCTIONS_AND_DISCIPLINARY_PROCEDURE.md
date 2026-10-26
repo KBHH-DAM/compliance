@@ -26,8 +26,9 @@ It exists for three reasons, in this order:
    dataklassifikationer, ansvar og **sanktioner i tilfælde af overtrædelser**"*. Until this document
    exists, that sentence is not true, and ISAE 3000 control **C.2** is the row where an auditor finds
    the mismatch.
-2. **It closes a known control gap.** ISO 27001:2022 **A.6.4 Disciplinary process** is currently
-   recorded in our own mapping as *LOW / NOT COVERED*.
+2. **It is what satisfies a control nothing else does.** ISO 27001:2022 **A.6.4 Disciplinary
+   process** is one of the eleven Annex A controls with no ISAE coverage — applicable to the ISMS
+   but untested by this engagement. Until this document existed, nothing satisfied it.
 3. **It protects the employee as much as the company.** A ladder that is written down is a ladder
    that is applied the same way to everyone, and that cannot be skipped because someone is
    annoyed on a Tuesday.

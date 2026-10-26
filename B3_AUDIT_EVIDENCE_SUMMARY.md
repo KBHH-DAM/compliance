@@ -386,7 +386,7 @@ Finding: Web protection preventing access to malicious sites
 
 **Framework Alignment:**
 - **GDPR Article 32** - Security of processing ✅
-- **ISO 27001:2022 A.8.7** - Prevention of malware ✅
+- **ISO 27001:2022 A.8.7** - Protection against malware ✅
 
 ---
 
@@ -598,7 +598,7 @@ Control B.3 supports Article 32 requirements for:
 
 ### 7.2 ISO 27001:2022 Alignment
 
-**A.8.7 - Prevention of Malware:**
+**A.8.7 - Protection Against Malware:**
 
 Control B.3 directly implements ISO requirement for:
 - ✅ Detection and prevention mechanisms
@@ -608,7 +608,7 @@ Control B.3 directly implements ISO requirement for:
 
 **Supporting Controls:**
 - A.8.15 (Logging) - Malware activity logged
-- A.8.12 (Configuration Management) - Tool configurations controlled
+- A.8.9 (Configuration Management) - Tool configurations controlled
 - A.6.3 (Training) - User awareness of malware risks
 
 **Alignment Rating:** ✅ FULLY ALIGNED
@@ -814,10 +814,10 @@ Control B.3 (Malware Protection and Prevention) is designed appropriately and op
 - Recital 83 - Assessing the appropriate level of security
 
 **ISO 27001:2022 References:**
-- A.8.7 - Prevention of malware
+- A.8.7 - Protection against malware
 - A.8.15 - Logging
-- A.8.12 - Configuration management
-- A.6.3 - Information and digital literacy
+- A.8.9 - Configuration management
+- A.6.3 - Information security awareness, education and training
 
 **ISAE 3000 References:**
 - Category B - Technical Security & Systems Controls

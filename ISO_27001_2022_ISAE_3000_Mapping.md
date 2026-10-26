@@ -1,8 +1,8 @@
 # ISO 27001:2022 to ISAE 3000 Control Mapping
 
 **Prepared for:** Elumi  
-**Framework:** ISAE 3000 Type 1 Audit for ISO 27001:2022 Compliance  
-**Primary Reference:** ISO 27001:2022 (116 Controls across 15 categories)  
+**Framework:** ISAE 3000 Type 1 with reasonable assurance — ISO/IEC 27001:2022 alignment  
+**Primary Reference:** ISO/IEC 27001:2022 — 93 Annex A controls in 4 themes (A.5 Organisational, A.6 People, A.7 Physical, A.8 Technological)  
 **Secondary Framework:** SOC 2, GDPR, NIST CSF  
 **Date:** 2026-10-02
 
@@ -10,23 +10,38 @@
 
 ## Overview: ISO 27001:2022 Coverage
 
-ISO 27001:2022 defines **116 information security management controls** across **15 major categories**:
+ISO/IEC 27001:2022 Annex A defines **93 controls** organised into **4 themes**:
 
-1. **Governance (8)** - Policies, roles, segregation of duties
-2. **Asset Management (7)** - Inventory, acceptable use, return of assets
-3. **Access Management (8)** - Access control, identity, authentication
-4. **Supplier Relationships (6)** - Supplier agreements, supply chain
-5. **Information Protection (7)** - Classification, labeling, privacy
-6. **Physical Security (12)** - Perimeters, entry, facilities, equipment
-7. **Legal & Compliance (6)** - Requirements, IP rights, records
-8. **Human Resource Security (7)** - Screening, training, responsibilities
-9. **Threat & Vulnerability Management (2)** - Threat intelligence, vulnerability mgmt
-10. **System & Network Security (6)** - Malware protection, networks
-11. **Secure Configuration (4)** - Configuration management, privileged utilities
-12. **Application Security (7)** - SDLC, requirements, architecture
-13. **Information Security Event Management (8)** - Assessment, response, learning
-14. **Continuity Management (5)** - Disruption, readiness, capacity
-15. **Section 4: Foundation (23)** - Organization, context, scope, planning
+| Theme | Controls | Scope |
+|---|---|---|
+| **A.5 — Organisational** | 37 | Policies, roles, asset management, access control, supplier relationships, incident management, compliance |
+| **A.6 — People** | 8 | Screening, terms of employment, awareness and training, remote working, event reporting |
+| **A.7 — Physical** | 14 | Perimeters, entry, equipment, storage media, utilities, cabling, disposal |
+| **A.8 — Technological** | 34 | Endpoints, authentication, malware, vulnerabilities, configuration, logging, networks, cryptography, secure development, change management |
+
+The 2022 revision replaced the 14 clause groups (A.5–A.18) and 114 controls of
+ISO/IEC 27001:2013 with these 4 themes and 93 controls. **There is no A.9–A.18
+in the 2022 revision**, so any reference such as A.9.2, A.11.1, A.12.4, A.13.1,
+A.14.2 or A.17.1 is 2013 numbering and must be restated against the 2022 set.
+
+The numbered *categories* used in the sections below are this document's own
+functional grouping for mapping purposes — they are **not** part of the standard.
+Each category heading states how many Annex A controls that section assesses:
+
+1. **Governance** - Policies, roles, segregation of duties
+2. **Asset Management** - Inventory, acceptable use, return of assets
+3. **Access Management** - Access control, identity, authentication, supplier relationships
+4. **Information Protection** - Incident planning, endpoints, authentication
+5. **Physical Security** - Perimeters, entry, facilities, equipment
+6. **Legal & Compliance** - Requirements, IP rights, records
+7. **Human Resource Security** - Screening, training, responsibilities
+8. **System & Network Security** - Malware protection, networks
+9. **Secure Configuration** - Configuration management, privileged utilities
+10. **Application Security** - SDLC, requirements, architecture
+11. **Threat & Vulnerability Management** - Vulnerability management
+12. **Information Security Event Management** - Assessment, response, learning
+13. **Continuity Management** - Disruption, readiness, capacity
+14. **ISMS Foundation (Clause 4)** - Organization, context, scope — management-system requirements, not Annex A controls
 
 ---
 
@@ -95,7 +110,11 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Vulnerability management based on threats
 - ISAE requires: Vulnerability scanning and pen testing
 
-### ISO 27001 A.5.8 - Use of Cryptography
+### ISO 27001 A.8.24 - Use of Cryptography
+*Previously listed as "A.5.8 - Use of Cryptography". A.5.8 in the 2022 revision is
+"Information security in project management"; use of cryptography is A.8.24 (Technological
+theme). Retained in this category for continuity with the existing ISAE mapping.*
+
 **ISAE Control:** B.8  
 **Alignment:** HIGH  
 **Requirement:**
@@ -105,7 +124,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 
 ---
 
-## CATEGORY 2: ASSET MANAGEMENT (7 Controls)
+## CATEGORY 2: ASSET MANAGEMENT (6 Controls)
 
 ### ISO 27001 A.5.9 - Inventory of Information and Other Associated Assets
 **ISAE Control:** B.3, B.7  
@@ -147,12 +166,16 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - ISAE scope: Not specific procedural requirement
 
 ### ISO 27001 A.5.34 - Privacy and Protection of PII
-**ISAE Control:** All controls (privacy principle)  
+**ISAE Control:** H.1, H.2, A.2, A.3 (and the privacy principle across all controls)  
 **Alignment:** HIGH  
 **Requirement:**
-- Privacy requirements met
-- Data subject rights supported
-- ISAE requires: All controls aligned with privacy
+- Identification and compliance with requirements for the preservation of privacy and
+  protection of PII
+- ISAE requires: procedures for assisting the controller with data subject rights (H.1) and
+  the capability to action access, rectification, erasure, restriction and information
+  requests (H.2); processing only per controller instructions (A.2); and escalation of
+  instructions that may infringe data protection law (A.3)
+- This is the control that carries data subject rights, not A.5.18
 
 ---
 
@@ -183,16 +206,21 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Two-factor authentication for sensitive access
 - Password management
 
-### ISO 27001 A.5.18 - Rights of Access
-**ISAE Control:** H.2  
+### ISO 27001 A.5.18 - Access Rights
+**ISAE Control:** B.6, B.13  
 **Alignment:** HIGH  
 **Requirement:**
-- User rights defined and documented
-- Access rights appropriate to role
-- Support for data subject access rights
+- Provisioning, review and revocation of users' access rights
+- Access rights appropriate to role, justified by work-related need
+- ISAE requires: access limited to work-related need (B.6) and a formalised grant/removal
+  procedure with periodic reconsideration of rights (B.13)
+- *Corrected in the re-match against the request list: this control was previously mapped to
+  ISAE H.2. H.2 is assistance with **data subject** rights (GDPR Art. 15–22); A.5.18 is
+  users' **system access** rights. The two were conflated by the shared phrase "rights of
+  access". Data subject rights map to A.5.34 below.*
 
 ### ISO 27001 A.5.19 - Information Security in Supplier Relationships
-**ISAE Control:** F.1, F.2, F.6  
+**ISAE Control:** F.1, F.2, F.5, F.6  
 **Alignment:** HIGH  
 **Requirement:**
 - Security requirements in supplier contracts
@@ -235,7 +263,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Data location and residency requirements
 - Processor responsibilities in cloud
 
-### ISO 27001 A.5.24 - Planning and Preparing for Information Security Incident Handling
+### ISO 27001 A.5.24 - Information Security Incident Management Planning and Preparation
 **ISAE Control:** I.1, I.2  
 **Alignment:** HIGH  
 **Requirement:**
@@ -275,7 +303,11 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Malware protection and monitoring
 - Inventory and configuration control
 
-### ISO 27001 A.8.2 - User Authentication for External Connections
+### ISO 27001 A.8.5 - Secure Authentication (including remote access)
+*Previously listed as "A.8.2 - User Authentication for External Connections", which is not
+a 2022 control title (A.8.2 is Privileged access rights). Remote-working aspects are also
+covered by A.6.7 Remote working (Category 7).*
+
 **ISAE Control:** B.14  
 **Alignment:** HIGH  
 **Requirement:**
@@ -285,7 +317,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 
 ---
 
-## CATEGORY 5: PHYSICAL SECURITY (12 Controls)
+## CATEGORY 5: PHYSICAL SECURITY (11 Controls)
 
 ### ISO 27001 A.7.1 - Physical Security Perimeters
 **ISAE Control:** B.15  
@@ -296,12 +328,20 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Access control at perimeter
 
 ### ISO 27001 A.7.2 - Physical Entry
+*Consolidation note: the 2022 revision merged 2013 A.11.1.6 "Delivery and loading areas"
+into A.7.2 Physical entry, so the delivery and loading requirements below were previously
+carried as a separate section numbered A.7.7. A.7.7 in the 2022 revision is "Clear desk and
+clear screen", which this document does not yet assess — see the gap list in the coverage
+summary.*
+
 **ISAE Control:** B.15  
 **Alignment:** HIGH  
 **Requirement:**
 - Authorization required for physical access
 - Visitor management procedures
 - Badge and key control
+- Segregation of delivery and loading areas from secure areas
+- Control and inspection of incoming and outgoing materials
 
 ### ISO 27001 A.7.3 - Securing Offices, Rooms and Facilities
 **ISAE Control:** B.15  
@@ -335,15 +375,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Visitor escort requirements
 - ISAE scope: General practice, not specific control
 
-### ISO 27001 A.7.7 - Delivery and Loading Areas
-**ISAE Control:** B.15  
-**Alignment:** MEDIUM  
-**Requirement:**
-- Segregation of delivery areas from secure areas
-- Control of incoming/outgoing materials
-- Inspection procedures
-
-### ISO 27001 A.8.3 - Managing Removable Media
+### ISO 27001 A.7.10 - Storage Media
 **ISAE Control:** B.8, B.9  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -351,7 +383,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Encryption of removable media
 - Audit and tracking of media
 
-### ISO 27001 A.8.4 - Utility Supply
+### ISO 27001 A.7.11 - Supporting Utilities
 **ISAE Control:** B.1, E.1  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -359,7 +391,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Backup power for critical systems
 - Environmental monitoring
 
-### ISO 27001 A.8.5 - Cabling Security
+### ISO 27001 A.7.12 - Cabling Security
 **ISAE Control:** B.4, B.5  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -367,7 +399,13 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Segregation from power cables
 - Cable management practices
 
-### ISO 27001 A.8.6 - Acquisition, Installation, Replacement and Removal of Equipment
+### ISO 27001 A.7.13 / A.7.14 - Equipment Maintenance; Secure Disposal or Re-use of Equipment
+*Previously listed as "A.8.6 - Acquisition, Installation, Replacement and Removal of
+Equipment", which is not a 2022 control (A.8.6 is Capacity management). The 2013 controls
+A.11.2.4 and A.11.2.7 map to A.7.13 and A.7.14 respectively. The "installation control"
+element below relates to A.8.19 Installation of software on operational systems
+(Category 9) rather than to physical equipment.*
+
 **ISAE Control:** B.12, B.15  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -378,7 +416,7 @@ ISO 27001:2022 defines **116 information security management controls** across *
 
 ---
 
-## CATEGORY 6: LEGAL & COMPLIANCE (6 Controls)
+## CATEGORY 6: LEGAL & COMPLIANCE (3 Controls)
 
 ### ISO 27001 A.5.31 - Legal, Statutory, Regulatory and Contractual Requirements
 **ISAE Control:** A.1, A.2  
@@ -440,12 +478,14 @@ ISO 27001:2022 defines **116 information security management controls** across *
 - Proportionate, consistently applied, with a record
 - ISAE scope: organizational policy, not an operational control the auditor tests
 
-**Note on this row.** "Not covered" here describes the *mapping*, not D&M. No ISAE 3000 control
-asks for a disciplinary process, so there is no row for an auditor to test. A.6.4 nonetheless has
-to be satisfied, because the Danish Data Processing Agreement commits under *Organisatoriske
-sikkerhedsforanstaltninger* item 1 to policies defining "ansvar og sanktioner i tilfælde af
-overtrædelser". It is therefore answered by a D&M document rather than by an ISAE control, and
-should not be read as an open gap once that document is approved.
+**Note on this row.** A.6.4 is listed under *The 11 controls with no ISAE coverage* as applicable
+and untested, which is the correct treatment — see the reasoning there rather than here. What that
+list does not say is *what* satisfies it: the Danish Data Processing Agreement commits, under
+*Organisatoriske sikkerhedsforanstaltninger* item 1, to policies defining "ansvar og sanktioner i
+tilfælde af overtrædelser", so A.6.4 has to be met by a D&M document even though no auditor row
+asks for one. `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md` is that document, and the clause
+referencing it from the information security policy is what makes the DPA commitment true — see
+`INFOSEC_POLICY_SANCTIONS_CLAUSE.md`.
 
 ### ISO 27001 A.6.5 - Responsibilities after Termination or Change of Employment
 **ISAE Control:** C.5, C.6  
@@ -514,7 +554,7 @@ should not be read as an open gap once that document is approved.
 - Control of web access
 - ISAE scope: General practice, not specific control
 
-### ISO 27001 A.8.29 - Information Systems Resilience and Redundancy
+### ISO 27001 A.8.14 - Redundancy of Information Processing Facilities
 **ISAE Control:** B.1  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -594,7 +634,7 @@ should not be read as an open gap once that document is approved.
 - Code review processes
 - Vulnerability prevention
 
-### ISO 27001 A.8.30 - Development, Testing and Production Environments
+### ISO 27001 A.8.31 - Separation of Development, Test and Production Environments
 **ISAE Control:** B.10  
 **Alignment:** HIGH  
 **Requirement:**
@@ -602,7 +642,7 @@ should not be read as an open gap once that document is approved.
 - Data pseudonymization in dev/test
 - Access control per environment
 
-### ISO 27001 A.8.31 - Change of Platform
+### ISO 27001 A.8.32 - Change Management
 **ISAE Control:** B.12  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -610,7 +650,11 @@ should not be read as an open gap once that document is approved.
 - Testing of changes
 - Rollback procedures
 
-### ISO 27001 A.8.32 - Monitoring and Reviewing
+### ISO 27001 A.8.16 - Monitoring Activities
+*Previously listed as "A.8.32 - Monitoring and Reviewing". A.8.32 in the 2022 revision is
+Change management; monitoring is A.8.16. Related logging requirements fall under A.8.15
+Logging, which this document does not yet assess.*
+
 **ISAE Control:** B.7, B.11  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -620,7 +664,7 @@ should not be read as an open gap once that document is approved.
 
 ---
 
-## CATEGORY 11: THREAT & VULNERABILITY MANAGEMENT (2 Controls)
+## CATEGORY 11: THREAT & VULNERABILITY MANAGEMENT (1 Control — A.5.7 Threat intelligence is covered under Category 1)
 
 ### ISO 27001 A.8.8 - Management of Technical Vulnerabilities
 **ISAE Control:** B.11  
@@ -633,7 +677,7 @@ should not be read as an open gap once that document is approved.
 
 ---
 
-## CATEGORY 12: INFORMATION SECURITY EVENT MANAGEMENT (8 Controls)
+## CATEGORY 12: INFORMATION SECURITY EVENT MANAGEMENT (3 Controls — cross-referenced from Category 4)
 
 ### ISO 27001 A.5.25 - Assessment and Decision on Information Security Events
 **ISAE Control:** I.2, I.3  
@@ -651,7 +695,7 @@ should not be read as an open gap once that document is approved.
 
 ---
 
-## CATEGORY 13: CONTINUITY MANAGEMENT (5 Controls)
+## CATEGORY 13: CONTINUITY MANAGEMENT (3 Controls)
 
 ### ISO 27001 A.5.29 - Information Security During Disruption
 **ISAE Control:** —  
@@ -676,11 +720,11 @@ should not be read as an open gap once that document is approved.
 
 ---
 
-## CATEGORY 14: FOUNDATION (Section 4: 23 Controls)
+## CATEGORY 14: ISMS FOUNDATION (Clause 4 — management-system requirements, not Annex A controls)
 
-These controls are foundational to the ISMS but are primarily organizational governance, not operational security controls.
+These are requirements of ISO/IEC 27001:2022 **Clause 4**, not Annex A controls. They are foundational to the ISMS but are management-system requirements rather than operational security controls, and are therefore excluded from the 93-control Annex A counts below.
 
-### ISO 27001 A.4.1 - Organization and its Context
+### ISO 27001 Clause 4.1 - Understanding the Organization and its Context
 **ISAE Control:** A.1  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -688,7 +732,7 @@ These controls are foundational to the ISMS but are primarily organizational gov
 - Identification of requirements
 - Integration with business processes
 
-### ISO 27001 A.4.2 - Interested Parties
+### ISO 27001 Clause 4.2 - Understanding the Needs and Expectations of Interested Parties
 **ISAE Control:** —  
 **Alignment:** LOW  
 **Requirement:**
@@ -696,7 +740,7 @@ These controls are foundational to the ISMS but are primarily organizational gov
 - Understanding of needs
 - ISAE scope: Organizational governance
 
-### ISO 27001 A.4.3 - Scope of ISMS
+### ISO 27001 Clause 4.3 - Determining the Scope of the ISMS
 **ISAE Control:** A.1, E.1  
 **Alignment:** MEDIUM  
 **Requirement:**
@@ -704,55 +748,380 @@ These controls are foundational to the ISMS but are primarily organizational gov
 - Documented boundaries
 - Processing activities
 
-(Remaining A.4 controls are primarily governance, not operational controls)
+(Remaining Clause 5–10 requirements are management-system requirements, not Annex A controls)
+
+---
+
+## CATEGORY 15: SoA COMPLETION PASS — THE 22 PREVIOUSLY UNASSESSED CONTROLS
+
+ISO/IEC 27001:2022 clause 6.1.3(d) requires the Statement of Applicability to address **all
+93** Annex A controls. The 22 controls below had no entry in this document; they are assessed
+here against the same 45-control ISAE 3000 set and the same HIGH / MEDIUM / LOW alignment
+scale used above, so that the coverage figures now cover the full Annex A.
+
+**Scope of this assessment:** these entries map each Annex A control to the ISAE 3000
+control(s) that address it. They do **not** state whether the control is implemented at
+Elumi. A Statement of Applicability additionally needs, per control, an
+inclusion/exclusion decision, a justification, implementation status and an owner — those
+are management's to supply and are not asserted here.
+
+They are grouped by Annex A theme rather than by this document's functional categories, to
+keep the completion pass auditable as one block.
+
+---
+
+### Theme A.5 — Organisational (6 controls)
+
+### ISO 27001 A.5.8 - Information Security in Project Management
+**ISAE Control:** B.2, B.10, B.12
+**Alignment:** MEDIUM
+**Requirement:**
+- Information security integrated into project and change management
+- Security requirements identified at project initiation
+- ISAE requires: risk assessment driving technical measures (B.2), pseudonymised data in
+  development and testing (B.10), and change procedures (B.12) — but no explicit
+  project-management control
+- Applicable: Elumi develops software and runs a DPIA per release, so security in project
+  management is in scope
+
+### ISO 27001 A.5.14 - Information Transfer
+**ISAE Control:** B.8, E.1, E.2, G.1, G.2, G.3
+**Alignment:** HIGH
+**Requirement:**
+- Rules, procedures and agreements for transferring information
+- Protection of information in transit
+- ISAE requires: encryption for internet and email transfers (B.8), storage and processing
+  locations per the DPA (E.1, E.2), and documented third-country transfer basis (G.1–G.3)
+- Already cited as the 2022 control for ISAE E.1, E.2 and G.1 in the two mapping documents
+
+### ISO 27001 A.5.28 - Collection of Evidence
+**ISAE Control:** B.9, I.2, I.4
+**Alignment:** MEDIUM
+**Requirement:**
+- Procedures for identifying, collecting and preserving evidence of information security events
+- ISAE requires: logging of admin activity and security events (B.9), log review to identify
+  breaches (I.2), and documentation of breach nature, consequences and measures for the
+  supervisory authority report (I.4)
+- Gap: ISAE does not require forensic evidence-handling or chain-of-custody procedures
+
+### ISO 27001 A.5.35 - Independent Review of Information Security
+**ISAE Control:** The ISAE 3000 engagement itself; C.1
+**Alignment:** MEDIUM
+**Requirement:**
+- Independent review of the information security approach at planned intervals
+- ISAE position: **the ISAE 3000 Type 1 report is itself an independent external review** and
+  is the strongest available evidence for this control
+- Gap: a Type 1 report is point-in-time. A.5.35 expects reviews at planned intervals, so
+  recurring engagements (or a Type 2) are what sustain this control between reports. The
+  annual procedure assessments in A.1, B.1 and C.1 are management reviews, not independent ones
+
+### ISO 27001 A.5.36 - Compliance with Policies, Rules and Standards for Information Security
+**ISAE Control:** A.2, C.2, and the annual assessments in A.1, B.1, C.1, D.1, E.1, F.1, G.1, H.1, I.1
+**Alignment:** MEDIUM
+**Requirement:**
+- Regular review that information security policies and standards are complied with
+- ISAE requires: processing only per controller instructions (A.2), management verification
+  that the policy does not conflict with the DPAs (C.2), and annual assessment of every
+  documented procedure
+- Distinction: the ISAE annual assessments review whether *procedures need updating*, which
+  is not the same as reviewing whether personnel and processes *comply* with them. Treat the
+  compliance-monitoring element as only partly covered
+
+### ISO 27001 A.5.37 - Documented Operating Procedures
+**ISAE Control:** A.1, B.1, C.1, D.1, E.1, F.1, G.1, H.1, I.1
+**Alignment:** HIGH
+**Requirement:**
+- Operating procedures documented and made available to those who need them
+- ISAE requires **written procedures** for every control family: controller instructions (A.1),
+  safeguards (B.1), security policy (C.1), storage and deletion (D.1), storage locations (E.1),
+  sub-processors (F.1), third-country transfers (G.1), data subject rights (H.1) and breach
+  notification (I.1). This is the most densely covered control in Annex A for this engagement
+
+---
+
+### Theme A.6 — People (1 control)
+
+### ISO 27001 A.6.8 - Information Security Event Reporting
+**ISAE Control:** I.1, I.2, I.3, C.7
+**Alignment:** HIGH
+**Requirement:**
+- Mechanism for personnel to report observed or suspected information security events
+- ISAE requires: a breach notification procedure (I.1), staff awareness as a breach
+  identification control (I.2), notification to the controller within 24 hours (I.3), and
+  security awareness training (C.7)
+
+---
+
+### Theme A.7 — Physical (3 controls)
+
+### ISO 27001 A.7.7 - Clear Desk and Clear Screen
+**ISAE Control:** B.15 (indirect)
+**Alignment:** LOW/NOT COVERED
+**Requirement:**
+- Clear desk rules for papers and removable media; clear screen rules for information facilities
+- ISAE scope: general working practice, not a specific processor control. The A.7.6 "Working
+  in Secure Areas" entry above mentions a clean-desk policy in passing, but no ISAE control
+  tests it
+- Still **applicable** for the SoA — a clear-desk/clear-screen rule is expected in the ISMS
+  policy set even though no ISAE control covers it
+
+### ISO 27001 A.7.8 - Equipment Siting and Protection
+**ISAE Control:** B.15, F.4, F.6
+**Alignment:** MEDIUM
+**Requirement:**
+- Equipment sited and protected against environmental threats and unauthorised access
+- ISAE requires: physical access controls for premises and data centres (B.9 evidence via B.15)
+- Note: for Hetzner-hosted infrastructure this is largely a sub-processor control, evidenced
+  through F.4 (obligations passed down) and F.6 (sub-processor monitoring), not by Elumi directly.
+  On-premises equipment remains Elumi's own
+
+### ISO 27001 A.7.9 - Security of Assets Off-Premises
+**ISAE Control:** B.15, C.5
+**Alignment:** MEDIUM
+**Requirement:**
+- Protection of assets used or stored outside the organisation's premises
+- ISAE requires: physical access safeguards (B.15) and asset return on departure (C.5)
+- Gap: ISAE has no explicit off-premises or remote-working asset control. With remote working
+  in scope (A.6.7), laptops and mobile devices off-premises are a real exposure that no ISAE
+  control tests
+- This control is **no longer used** as the mapping for ISAE E.1/G.1 — those are data-residency
+  controls and map to A.5.23 + A.5.14
+
+---
+
+### Theme A.8 — Technological (12 controls)
+
+### ISO 27001 A.8.2 - Privileged Access Rights
+**ISAE Control:** B.6, B.9, B.13, B.14
+**Alignment:** HIGH
+**Requirement:**
+- Allocation and use of privileged access rights restricted and managed
+- ISAE requires: access limited to work-related need (B.6), logging of admin activities (B.9),
+  formalised grant/removal with periodic review (B.13), and two-factor authentication for
+  high-risk accounts (B.14)
+
+### ISO 27001 A.8.3 - Information Access Restriction
+**ISAE Control:** B.6, B.13
+**Alignment:** HIGH
+**Requirement:**
+- Access to information and other associated assets restricted per the access control policy
+- ISAE requires: access to personal data limited to users with a work-related need, with
+  periodic review (B.6, B.13)
+
+### ISO 27001 A.8.4 - Access to Source Code
+**ISAE Control:** B.6, B.13 (indirect)
+**Alignment:** MEDIUM
+**Requirement:**
+- Read and write access to source code, development tools and software libraries appropriately managed
+- ISAE requires: general access restriction (B.6, B.13), but has no source-code-specific control
+- Applicable: Elumi is a software developer, so repository and pipeline access is in scope and
+  should be covered by the SoA even though no ISAE control tests it
+
+### ISO 27001 A.8.11 - Data Masking
+**ISAE Control:** B.10
+**Alignment:** HIGH
+**Requirement:**
+- Data masking in line with the access control policy and applicable legislation
+- ISAE requires: personal data in development and testing pseudonymised or anonymised, or
+  processed under documented controller agreement (B.10) — a direct match, and the GDPR
+  Art. 32(1)(a) pseudonymisation measure
+
+### ISO 27001 A.8.12 - Data Leakage Prevention
+**ISAE Control:** B.4, B.5, B.8, B.9
+**Alignment:** MEDIUM
+**Requirement:**
+- Data leakage prevention measures applied to systems, networks and devices processing or storing sensitive information
+- ISAE requires: firewall protection (B.4), network segmentation (B.5), encryption of
+  transfers (B.8) and logging (B.9), which constrain exfiltration paths
+- Gap: no ISAE control requires DLP tooling, egress monitoring or content inspection as such
+
+### ISO 27001 A.8.13 - Information Backup
+**ISAE Control:** B.1, B.2 (only generically)
+**Alignment:** MEDIUM
+**Requirement:**
+- Backup copies maintained and tested in accordance with the agreed backup policy
+- **Finding: the 45-control ISAE 3000 set has no explicit backup or restore control.** B.1 and
+  B.2 cover safeguards and risk-based technical measures generically, which is the only hook
+- This is a substantive gap, not just a mapping gap: GDPR Art. 32(1)(c) requires the ability to
+  restore availability and access to personal data in a timely manner. Recommend adding backup
+  and restore-testing evidence to the engagement even though the ISAE control set does not
+  name it
+
+### ISO 27001 A.8.15 - Logging
+**ISAE Control:** B.9, B.7
+**Alignment:** HIGH
+**Requirement:**
+- Logs recording activities, exceptions, faults and other relevant events produced, stored,
+  protected and analysed
+- ISAE requires: logging of admin activities, security incidents, changes to logging itself,
+  rights changes and failed logins (B.9), plus monitoring and escalation (B.7) — a direct match
+
+### ISO 27001 A.8.17 - Clock Synchronisation
+**ISAE Control:** — (enabler for B.9)
+**Alignment:** LOW/NOT COVERED
+**Requirement:**
+- Clocks of information processing systems synchronised to approved time sources
+- ISAE scope: no ISAE control names clock synchronisation
+- Still **applicable** for the SoA: synchronised time is what makes the B.9 logs correlatable
+  and evidentially useful, so it underpins a control that *is* tested, and A.5.28 evidence
+  collection depends on it
+
+### ISO 27001 A.8.29 - Security Testing in Development and Acceptance
+**ISAE Control:** B.11, B.10, B.12
+**Alignment:** HIGH
+**Requirement:**
+- Security testing processes defined and implemented in the development life cycle
+- ISAE requires: regular vulnerability scans and penetration tests with weaknesses
+  addressed (B.11), controlled dev/test data (B.10) and tested changes (B.12)
+
+### ISO 27001 A.8.30 - Outsourced Development
+**ISAE Control:** F.1, F.2, F.4, F.6
+**Alignment:** n/a — **EXCLUDED from the Statement of Applicability**
+**Requirement:**
+- Direction, monitoring and review of outsourced system development activities
+- **Exclusion decision (2026-10-12): excluded. All development is in-house.** There is no
+  outsourced system development and no contracted developers, so the control has no subject
+  matter in scope. This is the SoA justification.
+- Had development been contracted out, the control would be included and evidenced through the
+  ISAE sub-processor controls: appointment procedure (F.1), authorisation (F.2), obligations
+  passed down (F.4) and risk assessment and monitoring (F.6)
+- Note for review: this exclusion depends on development staying in-house. If development is
+  ever outsourced, or contractors join the development team, A.8.30 becomes applicable and the
+  SoA needs revisiting
+
+### ISO 27001 A.8.33 - Test Information
+**ISAE Control:** B.10
+**Alignment:** HIGH
+**Requirement:**
+- Test information appropriately selected, protected and managed
+- ISAE requires: personal data in development and testing pseudonymised or anonymised (B.10) —
+  a direct match, assessed alongside A.8.11
+
+### ISO 27001 A.8.34 - Protection of Information Systems During Audit Testing
+**ISAE Control:** B.11, F.6
+**Alignment:** MEDIUM
+**Requirement:**
+- Audit tests and assurance activities planned and agreed between tester and management to
+  protect operational systems
+- ISAE requires: vulnerability scanning and penetration testing (B.11), which must be scoped
+  and scheduled so as not to disrupt production, and sub-processor audits and inspections (F.6)
+- Gap: ISAE does not require a documented agreement on audit-test scope and timing
 
 ---
 
 ## COVERAGE SUMMARY
 
-### By Category
+> **All 93 ISO/IEC 27001:2022 Annex A controls are now assessed.** Figures are computed from
+> the per-control **Alignment** verdicts recorded in this document and were re-derived
+> programmatically after the SoA completion pass (Category 15).
 
-| Category | Controls | Fully Aligned | Partially Aligned | Not Covered | Coverage |
-|----------|----------|---------------|-------------------|-------------|----------|
-| Governance | 8 | 5 | 2 | 1 | 88% |
-| Asset Management | 7 | 5 | 2 | 0 | 100% |
-| Access Management | 8 | 8 | 0 | 0 | 100% |
-| Supplier Relationships | 6 | 6 | 0 | 0 | 100% |
-| Information Protection | 7 | 5 | 2 | 0 | 100% |
-| Physical Security | 12 | 8 | 3 | 1 | 92% |
-| Legal & Compliance | 6 | 2 | 0 | 4 | 33% |
-| Human Resource | 7 | 6 | 1 | 0 | 100% |
-| Threat & Vulnerability | 2 | 1 | 1 | 0 | 100% |
-| System & Network | 6 | 5 | 1 | 0 | 100% |
-| Secure Configuration | 4 | 4 | 0 | 0 | 100% |
-| Application Security | 7 | 2 | 5 | 0 | 100% |
-| Security Event Mgmt | 8 | 4 | 4 | 0 | 100% |
-| Continuity | 5 | 0 | 0 | 5 | 0% |
-| Foundation (A.4) | 23 | 3 | 15 | 5 | 78% |
-| **TOTAL** | **116** | **74** | **36** | **16** | **95%** |
+### By theme
+
+| Theme | Annex A controls | Applicable | Fully aligned (HIGH) | Partially aligned (MEDIUM) | Not covered by ISAE | Excluded |
+|---|---|---|---|---|---|---|
+| A.5 — Organisational | 37 | 37 | 22 | 10 | 5 | 0 |
+| A.6 — People | 8 | 8 | 6 | 1 | 1 | 0 |
+| A.7 — Physical | 14 | 14 | 4 | 8 | 2 | 0 |
+| A.8 — Technological | 34 | 33 | 17 | 13 | 3 | 1 |
+| **TOTAL** | **93** | **92** | **49** | **32** | **11** | **1** |
+
+All 93 controls are assessed. One, **A.8.30 Outsourced development**, is excluded from the SoA
+because all development is in-house (decision of 2026-10-12), so 92 are applicable.
+
+### Headline figures
+
+- **81 of the 92 applicable Annex A controls (88%)** have an identified ISAE 3000 mapping
+  (HIGH or MEDIUM).
+- **49 controls (53%)** map directly to an ISAE control.
+- **32 controls (35%)** are partially covered — an ISAE control addresses part of the
+  requirement, and the residual element is named in each entry.
+- **11 controls (12%)** have no ISAE coverage. These are **not** automatically excludable from
+  the Statement of Applicability — see below.
+- **1 control is excluded:** A.8.30 Outsourced development, all development being in-house.
+
+### The 11 controls with no ISAE coverage
+
+| Control | Why no ISAE control covers it | SoA treatment |
+|---|---|---|
+| A.5.6 Contact with special interest groups | Not a processor operational control | Likely applicable, no ISAE evidence |
+| A.5.13 Labelling of information | No ISAE labelling requirement | Applicable if classification is used |
+| A.5.29 Information security during disruption | Business continuity, outside processor audit scope | Applicable — GDPR Art. 32(1)(b)/(c) |
+| A.5.30 ICT readiness for business continuity | As above | Applicable — GDPR Art. 32(1)(c) |
+| A.5.32 Intellectual property rights | Not a processor operational control | Applicable, low risk |
+| A.6.4 Disciplinary process | Organisational policy, not operational | Applicable — supports A.6.3 and A.5.36 |
+| A.7.6 Working in secure areas | General practice, no specific ISAE control | Applicable |
+| A.7.7 Clear desk and clear screen | General practice, no specific ISAE control | Applicable |
+| A.8.6 Capacity management | Infrastructure management, outside scope | Applicable — GDPR Art. 32(1)(b) availability |
+| A.8.17 Clock synchronisation | Not named by ISAE, but underpins B.9 logging | Applicable — enabler for logging and evidence |
+| A.8.23 Web filtering | General practice, no specific ISAE control | Applicable |
+
+**"Not covered by ISAE" is not a justification for exclusion.** The ISAE 3000 engagement and
+the ISO 27001 ISMS have different scopes: ISAE tests a processor's contractual obligations to
+controllers, while Annex A covers the whole ISMS. A control can be fully applicable and
+correctly implemented yet have no ISAE control testing it. Exclusion under clause 6.1.3(d)
+requires a risk-based justification, not the absence of an ISAE mapping.
+
+### Substantive gaps found during the completion pass
+
+Three findings are about the **ISAE control set itself**, not about the mapping:
+
+1. **No backup or restore control.** The 45-control ISAE set has no explicit backup control,
+   yet GDPR Art. 32(1)(c) requires the ability to restore availability and access to personal
+   data in a timely manner. A.8.13 maps only to the generic B.1/B.2 safeguards. **Recommend
+   adding backup and restore-testing evidence to the engagement.**
+2. **No off-premises asset control.** A.7.9 has no ISAE counterpart, while remote working
+   (A.6.7) is in scope — so laptops and mobile devices outside the premises are an exposure
+   that no ISAE control tests.
+3. **Availability generally is thin.** A.5.29, A.5.30, A.8.6 and A.8.13 all sit outside ISAE
+   coverage, which together leave the GDPR Art. 32(1)(b)–(c) availability and resilience
+   obligations largely unevidenced by this engagement.
+
+### What this does and does not establish
+
+These entries map Annex A controls to the ISAE controls that address them. They do **not**
+assert that any control is implemented at Elumi. Clause 6.1.3(d) requires the SoA to record,
+per control: the inclusion or exclusion decision, the justification, implementation status and
+an owner. **That remains outstanding and is management's to supply.**
+
+The one applicability question has been answered: **A.8.30 Outsourced development is excluded**,
+all development being in-house (2026-10-12). Every other control is applicable and needs its
+status and owner recorded.
 
 ---
 
 ## Key Findings
 
-### ✅ **EXCELLENT ALIGNMENT: 95% Coverage**
+### Coverage: 88% of the applicable Annex A controls mapped to an ISAE control
 
-**Fully Aligned (74 controls - 64%)**
-- ISO 27001:2022 operational security controls are comprehensively covered by ISAE 3000
-- All critical processor responsibilities have ISAE equivalents
-- Strong alignment on: access, supplier management, data protection, incident response
+**Fully aligned (49 controls — 53%)**
+- Core processor obligations map directly: documented procedures, access control, supplier
+  management, incident response, logging, HR security, cryptography, test data
+- A.5.37 Documented operating procedures is the most densely covered control in Annex A —
+  nine ISAE controls require written procedures
 
-**Partially Aligned (36 controls - 31%)**
-- Controls have supportive ISAE equivalents but not one-to-one mapping
-- Examples: Application security (ISO 8.25-8.32 → ISAE B.10), event management (ISO 5.25-5.27 → ISAE I.1-I.4)
-- Provides guidance rather than strict compliance requirement
+**Partially aligned (32 controls — 35%)**
+- An ISAE control addresses part of the requirement; each entry names what is left over
+- Examples: A.5.28 (evidence collection — no chain-of-custody requirement), A.8.12 (no DLP
+  tooling requirement), A.5.36 (procedure review is not compliance monitoring)
 
-**Not Covered (16 controls - 5%)**
-- Primarily organizational governance and infrastructure planning
-- Examples: Continuity planning, IP rights, interested parties, disciplinary process
-- These are out of ISAE processor audit scope
-- Out of ISAE scope does not mean absent at D&M: A.6.4 is answered by
-  `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE.md`, which the Danish DPA requires
+**Not covered by ISAE (11 controls — 12%)**
+- Listed above with SoA treatment. Mostly business continuity, general working practices and
+  organisational policy — applicable controls that this engagement simply does not test
+
+**Excluded (1 control)**
+- A.8.30 Outsourced development: no outsourced development and no contracted developers, so the
+  control has no subject matter in scope
+
+### Notable mapping outcomes
+
+- **A.5.35 Independent review of information security** is satisfied in part by the ISAE 3000
+  engagement itself, which is the strongest available evidence for it. A Type 1 report is
+  point-in-time, so recurring engagements (or a Type 2) are what sustain the control.
+- **A.8.11 Data masking** and **A.8.33 Test information** both map directly to ISAE B.10, which
+  is also the GDPR Art. 32(1)(a) pseudonymisation measure — one control objective satisfying
+  three framework requirements.
+- **A.7.8 Equipment siting** is largely a sub-processor control for Hetzner-hosted
+  infrastructure, evidenced through F.4 and F.6 rather than directly.
 
 ---
 
@@ -787,20 +1156,29 @@ These controls are foundational to the ISMS but are primarily organizational gov
    - Evidence of ISO compliance supports ISAE audit
 
 2. **Map ISO controls to ISAE controls**
-   - 95% coverage provides confidence
-   - Remaining 5% are organizational/governance items
+   - 81 of the 92 applicable Annex A controls (88%) have an identified ISAE mapping
+   - 11 controls have no ISAE coverage but remain applicable to the ISMS
 
 3. **Evidence cross-referencing**
    - ISO 27001 audit evidence can support ISAE requirements
    - Vice versa: ISAE evidence can demonstrate ISO compliance
 
 4. **Gap identification**
-   - 16 out-of-scope ISO controls are correctly not covered by ISAE
-   - These are organizational governance, not processor operational controls
+   - All 93 Annex A controls are assessed (clause 6.1.3(d) basis complete for *mapping*)
+   - 11 controls have no ISAE coverage — applicable to the ISMS but untested by this
+     engagement; absence of an ISAE mapping is not a justification for exclusion
+   - Three substantive gaps in the ISAE control set itself: no backup/restore control, no
+     off-premises asset control, and thin availability coverage overall (see Coverage Summary)
+   - **Outstanding:** per-control inclusion/exclusion decision, justification, implementation
+     status and owner — management's to supply
+   - A.8.30 Outsourced development is **excluded**, all development being in-house (2026-10-12)
 
 ---
 
-**Document Version:** 1.0  
-**Last Updated:** 2026-10-02  
+**Document Version:** 1.2  
+**Last Updated:** 2026-10-12  
+**Change in v1.1:** Annex A references restated against ISO/IEC 27001:2022 (2013 numbering removed); control-set facts and coverage figures recomputed on the 93-control / 4-theme basis.  
+**Change in v1.2:** The 22 previously unassessed Annex A controls assessed (Category 15); all 93 controls now covered; coverage recomputed at 82 of 93 (88%) mapped.  
+**Change in v1.3:** A.8.30 Outsourced development excluded from the SoA, all development being in-house; coverage restated as 81 of the 92 applicable controls (88%).  
 **Next Review:** 2027-10-02
 

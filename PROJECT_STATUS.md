@@ -13,7 +13,7 @@
 
 All comprehensive audit documentation has been prepared, reviewed, and pushed to GitHub. The organization is positioned for successful ISAE 3000 Type 1 audit execution with zero critical gaps identified.
 
-**Key Milestone:** 45 ISAE controls fully documented with 71% GDPR and 95% ISO 27001:2022 alignment.
+**Key Milestone:** 45 ISAE controls fully documented with 71% GDPR and 88% ISO/IEC 27001:2022 Annex A alignment (82 of 93 controls mapped; all 93 assessed).
 
 ---
 
@@ -24,9 +24,9 @@ All comprehensive audit documentation has been prepared, reviewed, and pushed to
 | Document | Status | Files | Notes |
 |----------|--------|-------|-------|
 | GDPR Mapping | ✅ Complete | ISAE_3000_GDPR_Mapping.md | 42 GDPR requirements → 45 ISAE controls |
-| ISO 27001:2022 Mapping | ✅ Complete | ISO_27001_2022_ISAE_3000_Mapping.md | 116 ISO controls → 95% alignment |
+| ISO 27001:2022 Mapping | ✅ Complete | ISO_27001_2022_ISAE_3000_Mapping.md | All 93 Annex A controls assessed → 88% mapped (82); SoA still needs status + owner per control |
 | Gap Analysis | ✅ Complete | GDPR_to_ISAE_Coverage_Checklist.md | 5 gaps identified → corrected to 0 |
-| Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 95% coverage |
+| Framework Comparison | ✅ Complete | FRAMEWORK_COMPARISON_Summary.txt | GDPR 71% vs ISO 88% Annex A coverage |
 | Coverage Summaries | ✅ Complete | *_Coverage_Summary.txt (3 files) | Visual metrics and breakdowns |
 | Quick References | ✅ Complete | *_Quick_Reference.txt (2 files) | Auditor lookup tables |
 
@@ -108,7 +108,7 @@ Status: All changes pushed ✅
 ### ✅ Completed
 
 - [x] GDPR compliance analysis (71% coverage)
-- [x] ISO 27001:2022 alignment (95% coverage)
+- [x] ISO 27001:2022 alignment (88% coverage — 82 of 93 Annex A controls mapped; all 93 assessed)
 - [x] All 45 ISAE controls documented
 - [x] Management Declaration updated
 - [x] Google Docs finalized with corrections
@@ -237,7 +237,7 @@ Status: All changes pushed ✅
    - B.4-B.7: Other technical controls
    - Scan reports, update logs, test results
 
-3. **Access Controls** (GDPR#Art32, ISO#A5.15-22, ISAE#B.6)
+3. **Access Controls** (GDPR#Art32, ISO#A5.15-18, ISAE#B.6)
    - User access policies
    - Role definitions
    - Access logs (samples)
@@ -378,7 +378,7 @@ Status: All changes pushed ✅
 
 ### Framework Coverage
 - **GDPR Coverage:** 71% (30 of 42 requirements)
-- **ISO 27001:2022 Coverage:** 95% (110 of 116 controls)
+- **ISO 27001:2022 Coverage:** 88% (82 of 93 Annex A controls mapped; all 93 assessed; 11 applicable but untested by ISAE)
 - **ISAE 3000 Coverage:** 100% (45 of 45 controls)
 - **Status:** EXCELLENT ✅
 
