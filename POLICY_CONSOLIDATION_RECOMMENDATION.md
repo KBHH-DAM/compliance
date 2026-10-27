@@ -270,7 +270,7 @@ subject. Confirmed so far (not a complete inventory — see below):
 | `I2 Procedure for Personal Data Breach.pdf` | **B4** in §2 (incident) |
 | `I4 Procedure_ Assisting Controllers with Breach Reports to Datatilsynet.pdf` | **B5** in §2 (breach assistance) |
 | `DAM__Staff_Handbook v5.pdf` | HR document 1 |
-| `C3 John_Carty_dan.pdf` | A named individual's screening record — a **personnel record**, not a policy |
+| A `C3`-prefixed screening record naming an individual | A **personnel record**, not a policy |
 
 ### What this changes
 
@@ -302,7 +302,7 @@ documents that appear in neither of the two folders reviewed first.
 
 ### Also worth noting
 
-- The pack mixes **policies with personnel records** (`C3 John_Carty_dan.pdf` is one person's
+- The pack mixes **policies with personnel records** (a `C3`-prefixed file is one person's
   screening evidence). Those should be separated — a submission pack is fine, but a named
   individual's file should not sit beside the policy set as a peer.
 - Several documents here are **re-exports of ISMS-folder documents under a control-prefixed name**
