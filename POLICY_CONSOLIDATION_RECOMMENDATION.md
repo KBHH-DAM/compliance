@@ -246,3 +246,67 @@ API. Before retiring any document, open it and confirm it holds no unique contro
 not captured in its target policy or in Cyberday. The seven duplicate pairs in §5 are identified
 from titles, dates and file sizes — confirm each one's authoritative copy before deleting
 anything.*
+
+---
+
+## 9. Addendum, 27 October 2026 — a fourth policy set exists, keyed to ISAE controls
+
+While chasing a reference in the HR review, a folder turned up that neither this plan nor
+[[HR_FOLDER_CONSOLIDATION]] had accounted for:
+
+**`4. ISAE3000_ISO27001` → `Load files`**
+([drive.google.com/drive/folders/19iimUpKkqoHRzmdOI5lBBH5_dwAjaBrC](https://drive.google.com/drive/folders/19iimUpKkqoHRzmdOI5lBBH5_dwAjaBrC))
+
+It is the ISAE 3000 submission pack: documents named by **ISAE control reference** rather than by
+subject. Confirmed so far (not a complete inventory — see below):
+
+| File | Corresponds to |
+|---|---|
+| `B3 B8 Encryption policy _ Report _ Cyberday.pdf` | **B3** in §2 (cryptography) |
+| `B3 Malware protection policy _ Report _ Cyberday.pdf` | **B3** in §2 (malware) |
+| `B3 Personnel security guidelines and acceptance procedure _ Report _ Cyberday.pdf` | Tier C personnel security |
+| `E1 F1 Data processing partners and data processing agreements _ Report _ Cyberday.pdf` | **B5** in §2 (supplier / sub-processor) |
+| `D1 D3 Erasure_policy_v5.pdf` | **B5** in §2 (erasure) |
+| `I2 Procedure for Personal Data Breach.pdf` | **B4** in §2 (incident) |
+| `I4 Procedure_ Assisting Controllers with Breach Reports to Datatilsynet.pdf` | **B5** in §2 (breach assistance) |
+| `DAM__Staff_Handbook v5.pdf` | HR document 1 |
+| `C3 John_Carty_dan.pdf` | A named individual's screening record — a **personnel record**, not a policy |
+
+### What this changes
+
+§2 of this plan proposed writing five topic-specific policies, B1–B5. **At least four of those
+subject areas already have a policy document** — exported from Cyberday and already lodged with the
+auditor. Writing B1–B5 from scratch would duplicate them.
+
+The reason this was missed is worth stating, because it is the same mistake in a new form: the
+organisation has **two parallel naming systems**. The ISMS folder names documents by subject
+("Network security", "Backup-Procedures"); this folder names the same kind of content by ISAE
+control ("B3 B8 Encryption policy", "E1 F1 Data processing partners"). Neither cross-references the
+other, so each looks complete from the inside and neither is.
+
+That is also why the sanctions note (§3 of [[HR_FOLDER_CONSOLIDATION]]) could cite
+"B6 B13 Access management and password policy §5.2" and "B2 Risk management policy §9" —
+documents that appear in neither of the two folders reviewed first.
+
+### Revised instruction for step 6
+
+**Do not draft B1–B5 yet.** Instead:
+
+1. **Inventory `Load files` completely**, including the non-PDF files and any subfolders. This was
+   not finished — the listing pages, and only the PDFs matching a couple of queries were read.
+2. **Map it against §2.** For each of B1–B5, decide: does a Cyberday export already cover it
+   (adopt it), does one partly cover it (extend it), or is it genuinely missing (write it)?
+3. **Pick one naming system.** Either subject-based with an ISAE mapping table, or control-based
+   with a subject index. Running both is what produced three folders that each look complete.
+4. Only then draft whatever is actually missing.
+
+### Also worth noting
+
+- The pack mixes **policies with personnel records** (`C3 John_Carty_dan.pdf` is one person's
+  screening evidence). Those should be separated — a submission pack is fine, but a named
+  individual's file should not sit beside the policy set as a peer.
+- Several documents here are **re-exports of ISMS-folder documents under a control-prefixed name**
+  (the erasure policy, the Datatilsynet procedure, the staff handbook). That is a fourth source of
+  the duplication this plan set out to reduce, and it is the one most likely to drift, because the
+  export is a point-in-time PDF of a document that keeps changing.
+
