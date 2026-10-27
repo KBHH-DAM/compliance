@@ -169,7 +169,7 @@ confirming the current group structure is stated correctly in v2 before it goes 
 
 ## 8. Sequencing
 
-1. **Archive `X Old/`** — 20 files out of scope in one move, no drafting.
+1. **Archive `X Old/`** — 20 files out of scope in one move, no drafting. **(Started 27 Oct 2026 — see §8a.)**
 2. **Delete the three redundant format copies in `Arbejdsmiljø/`.** Two minutes, nothing lost.
 3. **Move the misfiled items in §4** — the Kyocera NDA especially, since it is a customer contract sitting in an HR folder.
 4. **Collect v2 confidentiality signatures (§7).** The only item here that is a real compliance gap rather than tidying — do it in parallel with everything else.
@@ -178,6 +178,38 @@ confirming the current group structure is stated correctly in v2 before it goes 
 7. **Add document control to all ten** — owner, version, approval date, review interval — copying the pattern `Employee Confidentiality Agreement_v2` already uses.
 
 Steps 1–3 remove roughly 30 files without writing anything.
+
+---
+
+## 8a. Step 8.1 — status, 27 October 2026
+
+**Done:**
+
+- Archive folder **`HR-archive-2026`** created as a sibling of `HR`, inside
+  `3. ISMS compliance documents`:
+  [drive.google.com/drive/folders/1hVIlgAx1p3osadVz2Hd_Jr3qnwunFZk3](https://drive.google.com/drive/folders/1hVIlgAx1p3osadVz2Hd_Jr3qnwunFZk3)
+- Status note **`READ ME — archive status (not in force)`** written inside it, stating that nothing
+  in the archive is a current policy, why superseded versions are retained rather than deleted
+  (Danish statutory retention; ISAE 3000 and GDPR Art. 5(2) accountability), the known
+  supersessions per document, and which items in `X Old` are **misfiled rather than superseded**
+  and so need rehoming instead of archiving.
+
+**Remaining — one manual step:**
+
+Move `HR/X Old` into `HR-archive-2026`. The Google Drive connector could not perform this: it
+creates new items and edits what it created, but Google refuses `parentId` changes on
+pre-existing files and folders it did not create. This is a connector scope limit, not an access
+problem — the account holds `organizer` on the folder, which is the highest shared-drive role.
+
+In the Drive UI this is a drag of `X Old` into `HR-archive-2026`, or right-click → Organise →
+Move.
+
+**Deliberately not attempted:** copying the 20 files into the archive and trashing the originals.
+That would reset creation dates and discard revision history — the very history the archive exists
+to preserve — and would mean deleting employment records to accomplish a filing move.
+
+**After the move:** consider locking the archive with Drive's read-only lock, and rehome the
+misfiled items listed in the status note (§4) rather than leaving them archived.
 
 ---
 
