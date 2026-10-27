@@ -4,7 +4,7 @@
 **Scope:** Google Drive HR folder [`1_9T5utUueJ2...`](https://drive.google.com/drive/folders/1_9T5utUueJ2Lj3AF4V-tv8AbQh4x6sX1)
 **Companion to:** [[POLICY_CONSOLIDATION_RECOMMENDATION]] (ISMS folder)
 
-**41 files today → 10 live documents.** Breakdown: 16 files in the root, 5 in `Arbejdsmiljø/`,
+**41 files today → 11 live documents** (revised from 10 — see §8b). Breakdown: 16 files in the root, 5 in `Arbejdsmiljø/`,
 20 in `X Old/`.
 
 ---
@@ -55,7 +55,8 @@ to `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE`, not as a standalone document
 | # | Document | ISO 27001 A.6 | Absorbs |
 |---|---|---|---|
 | 1 | **DAM Staff Handbook v5** — employee-facing | A.6.2, A.6.3, A.6.7 | `Ethical Conduct and Human Rights Commitments` · `Obligation Act Compliance Policy` · `Management Pandemic policy.docx` |
-| 2 | **Employee Lifecycle Procedure** — HR-facing | A.6.1, A.6.3, A.6.5 | `C4 Onboarding and induction procedure` + `C5 C6 Offboarding and departure procedure` + `Hiring Policy Isae` (3 formats in `X Old`) |
+| 2 | **C4 Onboarding and induction procedure** — HR-facing | A.6.1, A.6.3 | Already absorbs the DMCS Developer Onboarding Guide, the screening procedure (C.3) and the Hiring Policy Checklist — see §8b |
+| 2b | **C5 C6 Offboarding and departure procedure** — HR-facing | A.5.11, A.6.5 | Keep separate — **recommendation revised, see §8b** |
 | 3 | **Employee Sanctions & Disciplinary Procedure** | A.6.4 | `Where sanctions are defined` (as its appendix) |
 
 **Why 1 and 2 stay apart.** Different audiences and different authors. The handbook tells an
@@ -63,9 +64,9 @@ employee what is expected of them; the lifecycle procedure tells HR and IT what 
 and who owns each. Merging them produces a document employees will not read and HR cannot work
 from. Keep the split; add an Annex A mapping table to each.
 
-**Why onboarding and offboarding merge.** They are the two halves of one lifecycle with the same
-owners and the same asset/access checklists in mirror image. Carry the `C4` / `C5` / `C6` control
-references into section headings so the ISAE 3000 request list still resolves.
+**Onboarding and offboarding: do not merge.** This reverses the first version of this plan. See
+§8b — both documents turned out to be mature, approved and already consolidated, and merging them
+would cost re-approval for no compliance gain.
 
 ### Signable templates (2) — do not merge
 
@@ -211,6 +212,75 @@ to preserve — and would mean deleting employment records to accomplish a filin
 **After the move:** consider locking the archive with Drive's read-only lock, and rehome the
 misfiled items listed in the status note (§4) rather than leaving them archived.
 
+**Confirmed 27 Oct 2026:** `X Old` is now inside `HR-archive-2026`, alongside the status note.
+
+---
+
+## 8b. Step 8.5 reversed — read C4 and C5/C6, do not merge them
+
+The first version of this plan recommended merging `C4 Onboarding and induction procedure`,
+`C5 C6 Offboarding and departure procedure` and the hiring policy into one Employee Lifecycle
+Procedure. That was based on titles, sizes and dates. **Having now read both documents in full,
+that recommendation is withdrawn.** Keep them as two documents.
+
+### Why
+
+1. **C4 is already a four-into-one consolidation.** It states that it replaces the DMCS Developer
+   Onboarding Guide, "whose ten technical standards are carried forward in full as the developer
+   section"; it contains the screening procedure answering C.3; and the full Hiring Policy
+   Checklist is appended to it verbatim. The merge this plan asked for has largely happened.
+2. **Both are version 1, dated, with next-review dates set.** C5/C6 is approved by Lars Taxgaard,
+   Partner, 18 Oct 2026, next review 18 Oct 2027. Merging resets an approval that already exists.
+3. **They already hand off to each other explicitly and correctly.** C4: "When someone leaves, the
+   offboarding procedure takes over." C5/C6 maps row C.4 back to C4. Neither duplicates the other.
+4. **Different owners on different clocks.** C5/C6 splits ownership across Service Owner, hiring
+   manager, Privacy Lead and Partner, with a five-case table setting when access is withdrawn
+   (worked notice vs. garden leave vs. dismissal for cause vs. contract end vs. internal move).
+   That detail does not survive being folded into an onboarding document.
+5. **Auditors request them separately.** C.3/C.4 and C.5/C.6 are distinct rows on the ISAE 3000
+   request list, and each document carries its own mapping table.
+
+**Target count moves from 10 to 11.** Consolidating mature, approved, cross-referenced documents
+is churn, not simplification.
+
+### Defects found — and step 8.1 made two of them urgent
+
+Archiving `X Old` was correct, but it turned two stale links in C4 into links pointing into a
+folder now explicitly marked "not in force". These need fixing before the next hire:
+
+| # | Defect | Fix |
+|---|---|---|
+| 1 | **C4 links to the superseded confidentiality agreement, twice** — in the pre-start checklist and in Day one step 1. The target is `Confidentiality Agreement Employee` (doc `1zOAtrla…`), now archived, which **lacks the Article III personal-data undertaking** | Repoint both to `Employee Confidentiality Agreement_v2` (doc `1_h00Hjuml…`) |
+| 2 | **C4 links to the superseded test-data consent form** — `Consent to use my data for test purposes` (doc `17HKZpKpZu…`), now archived | Repoint to `Consent to use my data for test purpose_v2` (doc `1VoXL5QPxiko…`) |
+| 3 | **C4's approval block is empty** — it ends "Approved by — name, role, date:" with nothing after it, while the appended hiring-policy section claims approval by Lars Taxgaard. An unapproved procedure in force is a finding in its own right | Approve and date it, or state which approval the appended block carries |
+| 4 | **Two sources of truth for the hiring checklist** — C4 calls a separate Hiring Policy (doc `1qM2kGBDwHeW…`) "the reference copy" while also containing the checklist in full. That doc is in neither the HR folder nor the ISMS folder as listed | Pick one. If C4 is authoritative, archive the separate copy; if not, cut the appended section |
+| 5 | **Retention period unset in both** — C4 has a literal `[retention period]` placeholder; C5/C6 lists it as an open point and says it must match C4 | One decision closes both |
+
+Defect 1 is the serious one. Followed literally, C4 has every new joiner sign a retired agreement
+that does not carry the GDPR Art. 28(3)(b) undertaking — the same gap as §7, reaching forward to
+future hires rather than only back at existing staff.
+
+### Open points the two documents already raise themselves
+
+C5/C6 lists five; C4 adds one. Worth closing together since they overlap:
+
+- Set the retention period for the induction and offboarding records (defect 5 above).
+- **Name the Service Owner and the Privacy Lead**, so both procedures name people rather than roles.
+- **Populate the register of appointments.** C5/C6 is blunt that without it neither the leaver list
+  nor the nil-return confirmation asserts anything.
+- Confirm whether anyone has in fact left in the period; if so, C5/C6 applies retrospectively.
+- Decide whether contractors and students get the same departure notice or a shortened one.
+- Decide who gives the induction when the hiring manager is the person being inducted.
+
+**None of these are merges.** The HR documents are in better shape than the file count suggested —
+the remaining work is approval, named owners, a populated register and five corrected
+cross-references, not consolidation.
+
+### Not done here
+
+C4 and C5/C6 could not be edited: the Drive connector cannot modify files it did not create, the
+same limit that blocked the move in §8a. Defects 1–5 need the Drive UI.
+
 ---
 
 ## 9. Before / after
@@ -218,7 +288,7 @@ misfiled items listed in the status note (§4) rather than leaving them archived
 | | Now | After |
 |---|---|---|
 | Files in the HR tree | 41 | 10 live documents + dated archive |
-| Policies/procedures to review | ~13 | 3 (+ whistleblower) |
+| Policies/procedures to review | ~13 | 4 (+ whistleblower) |
 | Misfiled commercial contracts | 3 | 0 |
 | Format duplicates | 14 files across 7 documents | 0 |
 | Confidentiality agreement versions in play | 3 | 1 |
