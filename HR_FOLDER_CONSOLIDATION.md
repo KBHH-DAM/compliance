@@ -4,7 +4,7 @@
 **Scope:** Google Drive HR folder [`1_9T5utUueJ2...`](https://drive.google.com/drive/folders/1_9T5utUueJ2Lj3AF4V-tv8AbQh4x6sX1)
 **Companion to:** [[POLICY_CONSOLIDATION_RECOMMENDATION]] (ISMS folder)
 
-**41 files today → 11 live documents** (revised from 10 — see §8b). Breakdown: 16 files in the root, 5 in `Arbejdsmiljø/`,
+**41 files today → 12 live documents** (revised from 10 — see §8b and §8c). Breakdown: 16 files in the root, 5 in `Arbejdsmiljø/`,
 20 in `X Old/`.
 
 ---
@@ -54,7 +54,7 @@ to `EMPLOYEE_SANCTIONS_AND_DISCIPLINARY_PROCEDURE`, not as a standalone document
 
 | # | Document | ISO 27001 A.6 | Absorbs |
 |---|---|---|---|
-| 1 | **DAM Staff Handbook v5** — employee-facing | A.6.2, A.6.3, A.6.7 | `Ethical Conduct and Human Rights Commitments` · `Obligation Act Compliance Policy` · `Management Pandemic policy.docx` |
+| 1 | **DAM Staff Handbook v5** — employee-facing | A.6.2, A.6.3, A.6.7 | **Nothing — revised, see §8c.** All three proposed absorptions were withdrawn after reading them |
 | 2 | **C4 Onboarding and induction procedure** — HR-facing | A.6.1, A.6.3 | Already absorbs the DMCS Developer Onboarding Guide, the screening procedure (C.3) and the Hiring Policy Checklist — see §8b |
 | 2b | **C5 C6 Offboarding and departure procedure** — HR-facing | A.5.11, A.6.5 | Keep separate — **recommendation revised, see §8b** |
 | 3 | **Employee Sanctions & Disciplinary Procedure** | A.6.4 | `Where sanctions are defined` (as its appendix) |
@@ -283,12 +283,93 @@ same limit that blocked the move in §8a. Defects 1–5 need the Drive UI.
 
 ---
 
+## 8c. Step 8.6 reversed — the handbook absorbs nothing
+
+This plan said to fold `Ethical Conduct and Human Rights Commitments`, `Obligation Act Compliance
+Policy` and `Management Pandemic policy.docx` into Staff Handbook v5. **All three are withdrawn.**
+Each was wrong for a different reason, and none was visible from the file listing.
+
+### 1. `Ethical Conduct and Human Rights Commitments` — not a policy
+
+It is a **cross-reference map**, not a policy. Every row of all three of its tables points
+somewhere else: "Excerpts from DAM__Staff_Handbook v5.pdf (Section: Dignity at Work)", "Excerpts
+from ISAE 3000 B2 F6 … Risk management policy.pdf". It states no obligation of its own.
+
+There is nothing to fold in — the content is **already** in the handbook, and this document is an
+index of it. **Retire it**, or keep it explicitly as an audit cross-reference appendix in the same
+way as `Where sanctions are defined`.
+
+This is the second such document found (the first being the sanctions note). The pattern is worth
+naming: someone has been producing "where is X defined" mapping documents and filing them beside
+real policies, which is exactly what makes the folder look as though it holds more policy than it
+does.
+
+Two things in it are worth keeping before it goes — its §3 records where documents actually live:
+the Cyberday ISMS report URL, and `G:\Fællesdrev\Clients\Denmark\` for the client DPA list. It
+also cites three ISAE evidence PDFs held in neither folder reviewed here, so **there is a further
+evidence folder not yet inventoried**.
+
+### 2. `Obligation Act Compliance Policy` — a real standalone policy, keep it
+
+Do **not** fold this into the handbook:
+
+- It implements the **German Verpflichtungsgesetz**, under which covered individuals are treated as
+  public officials for certain offences under §§ 331–337 of the German Criminal Code. That is a
+  distinct legal regime, not general staff conduct.
+- It **contains a signable declaration** (the *Verpflichtungserklärung*). By §1 of this plan,
+  signable templates do not merge.
+- It applies to a **subset** of people — those performing public service duties. Folding it into
+  the handbook would imply it binds everyone, which overstates it.
+- It names a **Compliance Officer** and an **Ethics and Compliance Committee**.
+
+**Two questions before it is relied on:**
+
+- Does the "dedicated Ethics and Compliance Committee" it claims actually exist, and is there a
+  register of signed Verpflichtungserklärungen? A policy asserting controls that do not exist is
+  worse than no policy, and it also claims alignment with ISO 37001.
+- It has **no document control at all** — no version, no approval date, no named owner, no next
+  review date — and was last modified December 2024, despite saying it "will be reviewed annually".
+
+### 3. `Management Pandemic policy.docx` — not an HR document
+
+Its actual title inside the file is **"Business Continuity Policy for Pandemic Preparedness"**. It
+covers essential-function identification, remote-work capability, supply-chain contingency and
+drills. That is business continuity, not HR.
+
+**Move it to the ISMS set**, as a pandemic / staff-unavailability scenario annex to **B4 Incident
+Management & Business Continuity Policy** in [[POLICY_CONSOLIDATION_RECOMMENDATION]]. It is
+otherwise generic boilerplate with no version or approval block and "approved by senior management"
+with no name or date — but it carries one piece of real operational content to preserve: the DM
+contact list, with CEO, CTO and Compliance Manager phone numbers and the support address.
+
+### Revised target: 12 documents
+
+| Revision | Count |
+|---|---|
+| Original plan | 10 |
+| §8b — C4 and C5/C6 stay separate | 11 |
+| §8c — Obligation Act stays standalone; pandemic policy leaves HR for the ISMS set | **12** |
+
+### What this actually means
+
+The count rose at every step because the first pass worked from titles, sizes and dates. Read
+properly, **the duplication in the HR folder was format copies and archive clutter, not
+overlapping policies.** Of 41 files, the genuine policy-level redundancy is two documents: the
+ethics cross-reference index, and the pandemic policy that belongs in another set.
+
+The real wins were the ones that needed no drafting: 20 files archived, 14 format duplicates across
+7 documents, and a handful of misfiled contracts and records. The remaining work is **approval,
+named owners, document control and corrected cross-references** — not merging. Three of the twelve
+documents have no version or approval block at all, and C4's is empty.
+
+---
+
 ## 9. Before / after
 
 | | Now | After |
 |---|---|---|
 | Files in the HR tree | 41 | 10 live documents + dated archive |
-| Policies/procedures to review | ~13 | 4 (+ whistleblower) |
+| Policies/procedures to review | ~13 | 5 (+ whistleblower) |
 | Misfiled commercial contracts | 3 | 0 |
 | Format duplicates | 14 files across 7 documents | 0 |
 | Confidentiality agreement versions in play | 3 | 1 |
