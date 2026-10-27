@@ -91,7 +91,7 @@ control will keep multiplying under this scheme.
 document that looks like one.
 
 It is an **end-user VPN setup guide** — Tunnelblick and OpenVPN install steps, SMS enrolment codes,
-Authelia sign-on, `ssh … .client.internal`, and a warning never to run the old and new VPN at once.
+single sign-on, internal ssh access, and a warning never to run the old and new VPN at once.
 Useful operational content, filed here with a `B14` prefix as evidence for the organizational
 measures control.
 
@@ -108,10 +108,10 @@ Joining the two earlier cases, that is three documents whose titles actively mis
 
 The pack interleaves the policy set with named individuals' personnel records:
 
-- `C3 John_Carty_dan.pdf` · `C3 Philip.pdf` · `C3 Philip Tennevi reference notes.pdf`
-- `C3 JC hiring.png` · `C3 PT hiring.png` · `C7 Skill tests - Sheet1.pdf`
+- Three `C3`-prefixed screening and reference records, each naming an individual employee in its
+  filename, plus two `C3` hiring screenshots and `C7 Skill tests`
 - `B13` screenshots ×5 · `D1` screenshot — access-control and erasure evidence
-- `A1` signed DPAs ×3 (Villa Dubrovnik, Aarhus Havn, a DocuSign one)
+- `A1` signed client DPAs ×3 (two named clients and one DocuSign copy)
 - `B12 ldap_users` · `E2 clients_export` ×2 — registers
 
 Fine for a submission pack, wrong as a filing system. Three named employees' screening records sit
