@@ -1,11 +1,15 @@
 # DESCRIPTION OF PROCESSING
 ## Data & More ApS - ISAE 3000 Type 1 Service Organization Description
 
-**Document Version:** 1.0  
+**Document Version:** 1.1  
 **Effective Date:** July 18, 2025  
-**Organization:** Data & More ApS  
+**Revised:** October 28, 2026 — scope perimeter aligned with `ISMS_SCOPE_STATEMENT.md`  
+**Organization:** Data & More ApS (CVR no. 38185659, Flæsketorvet 68, DK-1711 København V)  
 **Audit Scope:** ISAE 3000 (Revised) - Assurance on Controls at a Service Organization  
 **Audit Period:** January 1, 2025 - December 31, 2025  
+**Service Perimeter:** the automated data compliance platform **as delivered to European
+customers**. The company's North American business, served from the Calgary office, is **outside
+this description** — see Section 1.5.  
 
 ---
 
@@ -21,7 +25,8 @@ This Description of Processing outlines:
 - **Framework alignment** showing compliance with GDPR, ISO 27001:2022, and ISAE 3000 requirements
 
 **Key Facts:**
-- Organization Size: 27 employees (as of June 2025)
+- Organization Size: 27 employees (as of June 2025, the audit period; 29 as of June 2026)
+- Service Perimeter: European delivery of the platform; North American business excluded (§1.5)
 - Primary Service: Automated Data Compliance Solution
 - Deployment: SaaS (Hetzner EU hosting) or On-Premises (client datacenter)
 - Data Classification: Personal Identifiable Information (PII) / Compliance Data
@@ -35,8 +40,10 @@ This Description of Processing outlines:
 ### 1.1 Organization Structure and History
 
 **Founded:** October 2016  
-**Headquarters:** Denmark  
-**Employees:** 27 (as of June 2025)  
+**Registered office:** Flæsketorvet 68, DK-1711 København V, Denmark (CVR no. 38185659)  
+**Further offices:** Hamburg (Germany) and Hässleholm (Sweden). The Calgary (Canada) office
+serves the North American business that Section 1.5 places outside this description.  
+**Employees:** 27 (as of June 2025, the audit period); 29 as of June 2026  
 **Organizational Areas:**
 1. **Sales** - Customer acquisition and relationship management
 2. **Customer Success** - Client onboarding and consultancy
@@ -90,7 +97,11 @@ Client Access / Export
 **Data Storage Locations:**
 - Primary: Hetzner infrastructure (EU, Germany) - compliant with GDPR
 - Secondary: Client on-premises infrastructure (when applicable)
-- **Note:** No data transfers outside EU/EEA. All storage within EU or client-controlled facilities.
+- **Note:** No data transfers outside the EU/EEA **for the service described here**. All storage
+  of its customer data is within the EU or in client-controlled facilities. This statement is
+  bounded by the perimeter in Section 1.5: the excluded North American business holds its own
+  clients' data in a separate region outside the EU/EEA, and personnel access is segregated by
+  the VPN user-access model described there.
 
 **Data Retention:**
 - Retention periods defined in Data Processing Agreements with clients
@@ -122,6 +133,62 @@ Client Access / Export
 Data & More ApS has determined that it is **not required to designate a Data Protection Officer** under Article 37(1) GDPR. No DPO is appointed, and no role described in this document performs the statutory DPO function. Internal data protection oversight is carried out by the Compliance Manager as an ordinary management responsibility, not as a designated DPO.
 
 > **Audit note.** Record the *basis* for this determination in writing before fieldwork — specifically, why none of the three Article 37(1) conditions is met. Condition (c), large-scale processing of special categories, is the one that warrants an explicit answer, since DMCS scans unstructured client data in which special categories may be present; the relevant argument is that D&M acts as processor and does not determine the purposes or means of that processing. A one-page memo approved by management closes this.
+
+### 1.5 Service Perimeter and the North American Business
+
+This description covers the automated data compliance platform **as delivered to European
+customers**, in both delivery models (SaaS on Hetzner EU infrastructure, and on-premises in
+client-controlled environments). It is the same perimeter as the ISMS scope recorded in
+`ISMS_SCOPE_STATEMENT.md` §1.1 and §1.4(7), and the two documents are to be read as describing
+one and the same service.
+
+**What is outside this description.** Data & More ApS also serves its own **North American
+clients** from its Calgary office, with those clients' data held in a **separate regional
+environment outside the EU/EEA**. That business, its clients' data and its regional environment
+are **outside this description** and outside the ISMS scope. The grounds are:
+
+- a separate client population, served in a separate region on a separate environment from the
+  service described here;
+- access segregated by a **VPN user-access model** that scopes personnel to a region and to a
+  client population — Calgary personnel can reach their own clients' data in that region and
+  cannot reach the customer personal data of the described service;
+- no customer data of the described service is processed, stored or reachable in the North
+  American environment, and no North American client data is processed in the described
+  service's environment.
+
+**One legal entity.** Both businesses sit inside Data & More ApS, and all offices share one
+Microsoft tenant. So this description, like the ISMS, covers **part of the entity**, and the
+company name alone must not be read as the perimeter. Two consequences follow:
+
+1. The VPN user-access model is operated by the in-scope IT function, so the control that holds
+   the exclusion in place is itself inside the described service and testable as part of this
+   engagement — specifically Control B.4 (network security, segmentation and remote access),
+   Control B.6 (access control and authentication), Control B.13 (privileged access) and
+   Control E.1 (controlled access to personal data).
+2. Calgary personnel remain covered by the shared-tenant controls — identity and access
+   management, endpoint protection and security awareness — even though their client work is
+   not part of the described service.
+
+> **Audit note.** Three things need settling before fieldwork, and the first two decide whether
+> the perimeter above holds as written.
+>
+> (a) **Evidence for the segregation.** The VPN user-access configuration showing which client
+> populations each group can reach; evidence that no Calgary user or administrator can route
+> into the described service's region, including through platform administration, support
+> tooling or backups; and the access-review cycle that keeps it so. If any such path exists, the
+> exclusion does not hold, the Article 44-49 conclusion in Section 5 needs revisiting, and the
+> access requires a GDPR Chapter V transfer basis.
+>
+> (b) **The audit period.** The facts in this section describe the position as at the revision
+> date. Confirm whether the Calgary office and the North American environment existed during
+> **January–December 2025**, the period this description covers. If they did, the period
+> statements on storage locations (§1.3) and on international transfers (Section 7) were
+> incomplete as originally written, and the auditor should be told so rather than discovering
+> it; if they post-date the period, say so here and the original statements stand for the period.
+>
+> (c) **Office list.** The company website is not internally consistent on which offices exist
+> — its contact page and about page differ. Confirm the current list and which sites are
+> Data & More ApS premises, so §1.1 and `ISMS_SCOPE_STATEMENT.md` §1.2 c agree.
 
 ---
 
@@ -1623,7 +1690,10 @@ Management confirms the following:
 - ✓ Data Processing Agreements (Article 28): Standard Contractual Clauses in place
 - ✓ Breach Notification (Article 33): Procedures in standard DPA and Control I.4
 - ✓ Data Protection Impact Assessment (Article 35): DPIA process implemented for all releases
-- ✓ International Data Transfers (Article 44-49): Not applicable - all data in Hetzner EU or on-premises
+- ✓ International Data Transfers (Article 44-49): Not applicable to the described service - its
+  data is held in Hetzner EU or on-premises only. This conclusion depends on the perimeter and
+  the segregation controls in Section 1.5; it does not speak for the excluded North American
+  business
 
 **ISO 27001:2022 Alignment:**
 - ✓ 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88% coverage); all 93 are assessed, and 11 are applicable to the ISMS but not tested by this engagement
@@ -1728,16 +1798,17 @@ No Data Protection Officer is appointed; see **Key Compliance Roles** in Section
 
 ## SECTION 7: DOCUMENT CONTROL
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Effective Date:** July 18, 2025  
-**Last Updated:** [Current Date]  
-**Next Review Date:** July 18, 2026  
+**Last Updated:** October 28, 2026  
+**Next Review Date:** July 18, 2027  
 **Classification:** Audit Deliverable - Confidential
 
 **Change History:**
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
 | 1.0 | July 18, 2025 | Initial comprehensive description | Data & More Management |
+| 1.1 | October 28, 2026 | Service perimeter aligned with `ISMS_SCOPE_STATEMENT.md`: added §1.5 placing the North American business outside the description; entity details, offices and current headcount in §1.1; storage-location and Article 44-49 statements bounded to the described service. Three items flagged for resolution before fieldwork (§1.5 audit note). | Data & More Management |
 
 **Document Approval:**
 
