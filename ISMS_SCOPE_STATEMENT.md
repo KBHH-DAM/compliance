@@ -259,9 +259,12 @@ Stated explicitly so that no reader has to infer them:
   outside the EU/EEA (§4.1); and the North American business. That description has been revised
   to match (version 1.1): its new §1.5 carries the same perimeter and the same exclusion, its
   §1.1 carries the entity details and offices, and its storage-location and Article 44-49
-  statements are now bounded to the described service. Its own audit note asks whether the
-  Calgary office and the North American environment existed during the January–December 2025
-  audit period, since that decides whether the original period statements were complete. The
+  statements are now bounded to the described service. Management has since confirmed that the
+  Calgary office and the North American environment **existed throughout the January–December
+  2025 audit period**, so this perimeter applied during the period and not only now; that
+  description's §1.5(b) records that its version 1.0 statements were unbounded and therefore
+  incomplete read entity-wide, and that management and the auditor are to settle whether the
+  bounded wording suffices or the issued deliverable needs an addendum. The
   **ISAE report's own scope wording** still needs the exclusion before the next report is
   issued, and the `.odt` and `.pdf` renderings of that description are generated artefacts that
   lag the Markdown source.

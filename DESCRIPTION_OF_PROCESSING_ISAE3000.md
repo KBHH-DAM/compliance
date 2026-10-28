@@ -1,9 +1,10 @@
 # DESCRIPTION OF PROCESSING
 ## Data & More ApS - ISAE 3000 Type 1 Service Organization Description
 
-**Document Version:** 1.1  
+**Document Version:** 1.2  
 **Effective Date:** July 18, 2025  
-**Revised:** October 28, 2026 — scope perimeter aligned with `ISMS_SCOPE_STATEMENT.md`  
+**Revised:** October 28, 2026 — scope perimeter aligned with `ISMS_SCOPE_STATEMENT.md`;
+perimeter confirmed as applying throughout the audit period (§1.5(b))  
 **Organization:** Data & More ApS (CVR no. 38185659, Flæsketorvet 68, DK-1711 København V)  
 **Audit Scope:** ISAE 3000 (Revised) - Assurance on Controls at a Service Organization  
 **Audit Period:** January 1, 2025 - December 31, 2025  
@@ -101,7 +102,10 @@ Client Access / Export
   of its customer data is within the EU or in client-controlled facilities. This statement is
   bounded by the perimeter in Section 1.5: the excluded North American business holds its own
   clients' data in a separate region outside the EU/EEA, and personnel access is segregated by
-  the VPN user-access model described there.
+  the VPN user-access model described there. **That boundary applied throughout the audit period**
+  — the North American environment existed for all of January–December 2025 — so this note is a
+  clarification of the position during the period, not a change to it. Version 1.0 stated it
+  without the boundary; see the audit note in Section 1.5(b).
 
 **Data Retention:**
 - Retention periods defined in Data Processing Agreements with clients
@@ -179,12 +183,24 @@ company name alone must not be read as the perimeter. Two consequences follow:
 > exclusion does not hold, the Article 44-49 conclusion in Section 5 needs revisiting, and the
 > access requires a GDPR Chapter V transfer basis.
 >
-> (b) **The audit period.** The facts in this section describe the position as at the revision
-> date. Confirm whether the Calgary office and the North American environment existed during
-> **January–December 2025**, the period this description covers. If they did, the period
-> statements on storage locations (§1.3) and on international transfers (Section 7) were
-> incomplete as originally written, and the auditor should be told so rather than discovering
-> it; if they post-date the period, say so here and the original statements stand for the period.
+> (b) **The audit period — answered, and it needs disclosing.** Management confirms that the
+> Calgary office and the North American environment **existed throughout January–December 2025**,
+> the period this description covers. The perimeter in this section therefore applied during the
+> period as well as now; it is not a new arrangement.
+>
+> The consequence is that two statements in version 1.0 were written without that boundary and
+> were **incomplete as they stood**: the storage-location note in §1.3 ("No data transfers
+> outside EU/EEA") and the international-transfer conclusion in Section 5 ("Not applicable - all
+> data in Hetzner EU or on-premises"). Read as statements about the described service they hold,
+> and version 1.1 bounds them that way. Read as statements about Data & More ApS as a whole —
+> which is how a reader of version 1.0 would naturally have taken them, since no perimeter was
+> stated — they were not accurate for the period, because the company held North American
+> clients' data outside the EU/EEA throughout it.
+>
+> **Management and the auditor should settle, before fieldwork, whether the bounded wording in
+> this version is sufficient clarification or whether the issued deliverable needs an addendum.**
+> That is a decision for management with Baker Tilly, not a documentation change. What matters
+> here is that it is on the record and raised by the company rather than found in the field.
 >
 > (c) **Office list.** The company website is not internally consistent on which offices exist
 > — its contact page and about page differ. Confirm the current list and which sites are
@@ -1693,7 +1709,8 @@ Management confirms the following:
 - ✓ International Data Transfers (Article 44-49): Not applicable to the described service - its
   data is held in Hetzner EU or on-premises only. This conclusion depends on the perimeter and
   the segregation controls in Section 1.5; it does not speak for the excluded North American
-  business
+  business, which held its own clients' data outside the EU/EEA throughout the audit period. The
+  unbounded wording in version 1.0 is addressed in the audit note at Section 1.5(b)
 
 **ISO 27001:2022 Alignment:**
 - ✓ 82 of the 93 ISO/IEC 27001:2022 Annex A controls are supported by ISAE controls (88% coverage); all 93 are assessed, and 11 are applicable to the ISMS but not tested by this engagement
@@ -1798,7 +1815,7 @@ No Data Protection Officer is appointed; see **Key Compliance Roles** in Section
 
 ## SECTION 7: DOCUMENT CONTROL
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Effective Date:** July 18, 2025  
 **Last Updated:** October 28, 2026  
 **Next Review Date:** July 18, 2027  
@@ -1809,6 +1826,7 @@ No Data Protection Officer is appointed; see **Key Compliance Roles** in Section
 |---------|------|---------|--------|
 | 1.0 | July 18, 2025 | Initial comprehensive description | Data & More Management |
 | 1.1 | October 28, 2026 | Service perimeter aligned with `ISMS_SCOPE_STATEMENT.md`: added §1.5 placing the North American business outside the description; entity details, offices and current headcount in §1.1; storage-location and Article 44-49 statements bounded to the described service. Three items flagged for resolution before fieldwork (§1.5 audit note). | Data & More Management |
+| 1.2 | October 28, 2026 | Management confirmed that the Calgary office and the North American environment existed throughout the January–December 2025 audit period, so the §1.5 perimeter applied during the period. Recorded in §1.5(b) that the version 1.0 storage-location note (§1.3) and Article 44-49 conclusion (Section 5) were unbounded and therefore incomplete read entity-wide, and that management and Baker Tilly are to settle whether this clarification suffices or an addendum to the issued deliverable is needed. | Data & More Management |
 
 **Document Approval:**
 
