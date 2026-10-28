@@ -1,0 +1,2 @@
+case_id,date_received,received_via,reporter_category,concern_category,summary,handler,conflict_checked,acknowledged_date,ack_within_7_days,status,feedback_date,feedback_within_3_months,outcome,retaliation_check,retention_review_date,closed_date,notes
+EXAMPLE-000,YYYY-MM-DD,EXAMPLE,EXAMPLE,EXAMPLE,"EXAMPLE - delete before use",EXAMPLE,YYYY-MM-DD,YYYY-MM-DD,EXAMPLE,EXAMPLE,YYYY-MM-DD,EXAMPLE,EXAMPLE,EXAMPLE,YYYY-MM-DD,YYYY-MM-DD,"EXAMPLE - delete before use"
