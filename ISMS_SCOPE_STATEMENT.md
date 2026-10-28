@@ -256,11 +256,15 @@ Stated explicitly so that no reader has to infer them:
   Three things have moved on since that description was written and are carried here in their
   current form: headcount (27 as of June 2025 → 29 as of June 2026); the office footprint, which
   the ISAE description gives only as "Denmark" while this scope names four offices, one of them
-  outside the EU/EEA (§4.1); and the North American business, which that description does not
-  mention at all. Its "no transfers outside EU/EEA" wording holds only for the in-scope service,
-  as §1.4(4) now says. Before the next report is issued, that description — and the report's own
-  scope wording — should carry the §1.4(7) exclusion too, so the ISAE and ISO documents do not
-  describe different perimeters.
+  outside the EU/EEA (§4.1); and the North American business. That description has been revised
+  to match (version 1.1): its new §1.5 carries the same perimeter and the same exclusion, its
+  §1.1 carries the entity details and offices, and its storage-location and Article 44-49
+  statements are now bounded to the described service. Its own audit note asks whether the
+  Calgary office and the North American environment existed during the January–December 2025
+  audit period, since that decides whether the original period statements were complete. The
+  **ISAE report's own scope wording** still needs the exclusion before the next report is
+  issued, and the `.odt` and `.pdf` renderings of that description are generated artefacts that
+  lag the Markdown source.
 - **Statement of Applicability** — §1.4(6) defers all Annex A applicability decisions to the SoA,
   so the two documents cannot contradict each other.
 - **Cyberday ISMS themes** — the twelve active themes all map onto something inside the boundary:
